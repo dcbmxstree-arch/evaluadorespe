@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physics · Preuniversitario ESPE</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .quiz-option {
+      transition: all 0.2s ease;
+    }
+    .quiz-option:hover {
+      background-color: #f3f4f6;
+    }
+    input[type="radio"]:checked + span {
+      font-weight: 600;
+      color: #1e3a8a;
+    }
+    .shadow-espe {
+      box-shadow: 0 4px 6px -1px rgba(0, 51, 102, 0.1), 0 2px 4px -1px rgba(0, 51, 102, 0.06);
+    }
+  </style>
+</head>
+<body class="bg-gray-50 font-sans antialiased">
+
+  <div id="app" class="min-h-screen flex flex-col">
+    
+    <!-- Header -->
+    <header class="bg-[#003366] text-white py-4 shadow-md">
+      <div class="container mx-auto px-4 flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+          <i class="fas fa-atom text-2xl"></i>
+          <h1 class="text-2xl font-bold tracking-tight">Physics <span class="text-blue-200 font-normal">| ESPE</span></h1>
+        </div>
+        <div id="user-info" class="text-sm bg-blue-900 px-4 py-2 rounded-full hidden">
+          <i class="fas fa-user-graduate mr-2"></i>
+          <span id="display-nombre"></span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Contenido dinámico -->
+    <main class="flex-grow container mx-auto px-4 py-8">
+      <!-- Vista: Registro -->
+      <section id="view-registro" class="max-w-3xl mx-auto"></section>
+      <!-- Vista: Examen -->
+      <section id="view-examen" class="hidden max-w-4xl mx-auto"></section>
+      <!-- Vista: Resultados -->
+      <section id="view-resultados" class="hidden max-w-5xl mx-auto"></section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-200 text-gray-600 py-4 text-center text-sm">
+      <p>© 2025 Physics Preuniversitario · Preparación para el ingreso a la Universidad de las Fuerzas Armadas ESPE</p>
+    </footer>
+  </div>
+
+  <!-- Carga de datos -->
+  <script src="assets/data/preguntas.js"></script>
+  <script src="assets/data/cronograma.js"></script>
+  <script src="assets/data/perfiles_ingreso.js"></script>
+  
+  <!-- Lógica de la aplicación -->
+  <script src="assets/js/examEngine.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
