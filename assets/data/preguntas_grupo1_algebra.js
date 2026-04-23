@@ -11968,5 +11968,163 @@ const GRUPO1_ALGEBRA_01 = [
     opciones: ["{5, -5}", "{sqrt{24}}", "{5}", "{25}"],
     respuesta_correcta: 0,
     retroalimentacion: "x^2 - 24 = 5^0 = 1 ⇒ x^2 = 25 ⇒ x = ±5."
+  },
+
+
+
+
+
+
+
+
+  {
+    id: "g1_alg_19_061",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Resuelva la inecuación: 3^{x^2 - 5x + 6} < 1.",
+    opciones: ["(2, 3)", "(-∞, 2) ∪ (3, ∞)", "(0, 5)", "(-3, -2)"],
+    respuesta_correcta: 0,
+    retroalimentacion: "3^{x^2 - 5x + 6} < 3^0. Como base > 1: x^2 - 5x + 6 < 0 ⇒ (x-2)(x-3) < 0. Intervalo (2, 3)."
+  },
+  {
+    id: "g1_alg_19_062",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Determine el conjunto solución de: (0.5)^{x^2 - 4} ≥ 1.",
+    opciones: ["[-2, 2]", "(-∞, -2] ∪ [2, ∞)", "[-4, 4]", "[0, 4]"],
+    respuesta_correcta: 0,
+    retroalimentacion: "Base < 1 invierte la desigualdad: x^2 - 4 ≤ 0 ⇒ x^2 ≤ 4 ⇒ |x| ≤ 2. Solución: [-2, 2]."
+  },
+  {
+    id: "g1_alg_19_063",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Halle x en: 2^{x^2 - x} < 64.",
+    opciones: ["(-2, 3)", "(-3, 2)", "(-∞, -2) ∪ (3, ∞)", "(-2, 2)"],
+    respuesta_correcta: 0,
+    retroalimentacion: "x^2 - x < 6 ⇒ x^2 - x - 6 < 0 ⇒ (x-3)(x+2) < 0. Los puntos críticos son -2 y 3."
+  },
+  {
+    id: "g1_alg_19_064",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Resuelva: (1/4)^{x^2 + 2x} < (1/4)^{3}.",
+    opciones: ["(-∞, -3) ∪ (1, ∞)", "(-3, 1)", "(-∞, -1) ∪ (3, ∞)", "(-1, 3)"],
+    respuesta_correcta: 0,
+    retroalimentacion: "Base < 1: x^2 + 2x > 3 ⇒ x^2 + 2x - 3 > 0 ⇒ (x+3)(x-1) > 0. Solución: (-∞, -3) ∪ (1, ∞)."
+  },
+  {
+    id: "g1_alg_19_065",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Determine x: e^{x^2} > e^{x + 2}.",
+    opciones: ["(-∞, -1) ∪ (2, ∞)", "(-1, 2)", "(-∞, 1) ∪ (2, ∞)", "(2, ∞)"],
+    respuesta_correcta: 0,
+    retroalimentacion: "e > 1: x^2 > x + 2 ⇒ x^2 - x - 2 > 0 ⇒ (x-2)(x+1) > 0. Intervalos externos a -1 y 2."
+  },
+  {
+    id: "g1_alg_19_066",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Halle el conjunto solución: (2/3)^{x^2 - 1} \le 1.",
+    opciones: ["(-∞, -1] ∪ [1, ∞)", "[-1, 1]", "(-∞, 1]", "[1, ∞)"],
+    respuesta_correcta: 0,
+    retroalimentacion: "Base < 1: x^2 - 1 ≥ 0 ⇒ x^2 ≥ 1 ⇒ x \le -1 o x ≥ 1."
+  },
+  {
+    id: "g1_alg_19_067",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Resuelva: 10^{x^2 - 9} < 0.001.",
+    opciones: ["(-sqrt{6}, sqrt{6})", "(-3, 3)", "(-∞, -sqrt{6}) ∪ (sqrt{6}, ∞)", "∅"],
+    respuesta_correcta: 0,
+    retroalimentacion: "10^{x^2 - 9} < 10^{-3} ⇒ x^2 - 9 < -3 ⇒ x^2 < 6 ⇒ -sqrt{6} < x < sqrt{6}."
+  },
+  {
+    id: "g1_alg_19_068",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Determine el valor de x en: 7^{x^2 - 4x} ≥ 7^{-3}.",
+    opciones: ["(-∞, 1] ∪ [3, ∞)", "[1, 3]", "(-∞, -3] ∪ [-1, ∞)", "R"],
+    respuesta_correcta: 0,
+    retroalimentacion: "x^2 - 4x ≥ -3 ⇒ x^2 - 4x + 3 ≥ 0 ⇒ (x-1)(x-3) ≥ 0. Valores fuera del intervalo (1, 3)."
+  },
+  {
+    id: "g1_alg_19_069",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Resuelva la inecuación: (1/pi)^{x^2 - x} > (1/pi)^2.",
+    opciones: ["(-1, 2)", "(-∞, -1) ∪ (2, ∞)", "(0, 2)", "(-2, 1)"],
+    respuesta_correcta: 0,
+    retroalimentacion: "1/pi < 1: x^2 - x < 2 ⇒ x^2 - x - 2 < 0 ⇒ (x-2)(x+1) < 0. Intervalo (-1, 2)."
+  },
+  {
+    id: "g1_alg_19_070",
+    grupo: "Grupo 1",
+    grupo_id: 1,
+    carrera_id: [1, 2, 3, 4, 5, 6],
+    asignatura: "Álgebra",
+    unidad: "5. FUNCIÓN EXPONENCIAL Y LOGARÍTMICA",
+    subtema: "5.2 Propiedades, ecuaciones e inecuaciones",
+    dificultad: "alta",
+    tipo_pregunta: "ejercicio",
+    enunciado: "Halle el conjunto solución: 5^{x^2 - 2x} < 125.",
+    opciones: ["(-1, 3)", "(-∞, -1) ∪ (3, ∞)", "(1, 3)", "(-3, 1)"],
+    respuesta_correcta: 0,
+    retroalimentacion: "x^2 - 2x < 3 ⇒ x^2 - 2x - 3 < 0 ⇒ (x-3)(x+1) < 0. Puntos críticos en -1 y 3."
   }
 ];
