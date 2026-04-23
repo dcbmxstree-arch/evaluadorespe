@@ -1,6 +1,7 @@
 // =============================================
 // PERFILES DE INGRESO - PHYSICS PREUNIVERSITARIO
 // ESPE - Puntajes referenciales oficiales por carrera
+// Fórmula de ingreso: 70% nota colegio + 30% examen
 // =============================================
 
 const PERFILES_INGRESO = {
@@ -58,7 +59,7 @@ const PERFILES_INGRESO = {
   },
   "Pedagogía del Idioma Inglés": {
     grupo_id: 2,
-    puntaje_minimo: 850, // Estimado, no proporcionado en la lista
+    puntaje_minimo: 850,
     cupos_disponibles: null
   },
   "Turismo": {
@@ -73,7 +74,7 @@ const PERFILES_INGRESO = {
   },
   "Relaciones Internacionales": {
     grupo_id: 2,
-    puntaje_minimo: 870, // Estimado
+    puntaje_minimo: 870,
     cupos_disponibles: null
   },
 
@@ -97,7 +98,7 @@ const PERFILES_INGRESO = {
   },
   "Tecnología Superior en Aeronáutica (Piloto)": {
     grupo_id: 3,
-    puntaje_minimo: 781, // Asociado a Mecánica Aeronáutica
+    puntaje_minimo: 781,
     cupos_disponibles: null
   },
 
@@ -116,7 +117,7 @@ const PERFILES_INGRESO = {
   },
   "Ingeniería Ambiental": {
     grupo_id: 4,
-    puntaje_minimo: 850, // Estimado
+    puntaje_minimo: 850,
     cupos_disponibles: null
   },
   "Ingeniería Automotriz": {
@@ -141,7 +142,7 @@ const PERFILES_INGRESO = {
   },
   "Tecnologías Geoespaciales": {
     grupo_id: 4,
-    puntaje_minimo: 870, // Estimado
+    puntaje_minimo: 870,
     cupos_disponibles: null
   },
   "Tecnologías de la Información": {
@@ -192,20 +193,22 @@ const PERFILES_INGRESO = {
 };
 
 // ------------------------------------------------------------
-// Configuración del sistema de puntajes
+// Configuración del sistema de puntajes (FÓRMULA 70/30)
 // ------------------------------------------------------------
-const PUNTAJE_MAXIMO_EXAMEN = 1000;  // El examen Physics se califica sobre 1000
-const PUNTAJE_MAXIMO_COLEGIO = 500;  // 10/10 en el colegio equivale a 500 puntos
+const APORTE_MAXIMO_COLEGIO = 700;  // 10/10 en el colegio equivale a 700 puntos
+const APORTE_MAXIMO_EXAMEN = 300;   // Examen perfecto (1000/1000) equivale a 300 puntos
+const PUNTAJE_TOTAL_MAXIMO = 1000;  // Escala final
 
 /**
  * Calcula el puntaje ponderado total simulado para el ingreso a la ESPE.
+ * Nueva fórmula: 70% nota de colegio + 30% nota del examen.
  * @param {number} notaColegio - Nota de grado del colegio (0-10).
  * @param {number} puntajeExamen - Puntaje obtenido en el examen Physics (0-1000).
  * @returns {number} Puntaje total simulado (máximo 1000).
  */
 function calcularPuntajePonderado(notaColegio, puntajeExamen) {
-  const aporteColegio = (notaColegio / 10) * PUNTAJE_MAXIMO_COLEGIO;
-  const aporteExamen = puntajeExamen / 2;
+  const aporteColegio = (notaColegio / 10) * APORTE_MAXIMO_COLEGIO;
+  const aporteExamen = (puntajeExamen / 1000) * APORTE_MAXIMO_EXAMEN;
   return aporteColegio + aporteExamen;
 }
 
@@ -261,8 +264,9 @@ function evaluarEstadoIngreso(nombreCarrera, notaColegio, puntajeExamen) {
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
     PERFILES_INGRESO,
-    PUNTAJE_MAXIMO_EXAMEN,
-    PUNTAJE_MAXIMO_COLEGIO,
+    APORTE_MAXIMO_COLEGIO,
+    APORTE_MAXIMO_EXAMEN,
+    PUNTAJE_TOTAL_MAXIMO,
     calcularPuntajePonderado,
     getPuntajeMinimo,
     evaluarEstadoIngreso
