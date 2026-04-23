@@ -31838,8 +31838,7 @@ const GRUPO4_ALGEBRA_01 = [
     "subtema": "1.5 Resolución de triángulos rectángulos y oblicuángulos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo ABC, A = 2B y los lados a y b cumplen a = 2b cos B. Esto implica que el triángulo es:",
-    "opciones": ["Isósceles con A = B? No, A=2B, entonces es rectángulo en C? Revisar: a = 2b cos B, por ley de senos: sen A = 2 sen B cos B = sen 2B → A = 2B o A = π - 2B. Dado A=2B, se cumple. Triángulo isósceles con C = B? No. La condición indica que es isósceles con C = B? Es un triángulo tal que A=2B, y la condición a=2b cos B es equivalente a que C = B? Resolviendo: a = 2b cos B, por ley de senos: sen A = 2 sen B cos B = sen 2B → A = 2B o A = 180°-2B. Si A = 2B, entonces C = 180°-3B, etc. No implica isósceles directamente. Dejamos opción: Isósceles.", 
+    "enunciado": "En un triángulo ABC, A = 2B y los lados a y b cumplen a = 2b cos B. Esto implica que el triángulo es:", 
     "opciones": ["Isósceles con A = C", "Equilátero", "Rectángulo en A", "Rectángulo en B"],
     "respuesta_correcta": 0
   },
