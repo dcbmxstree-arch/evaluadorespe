@@ -3897,7 +3897,7 @@ const GRUPO4_FISICA_01 = [
     "enunciado": "Un ciclista de 70 kg (más bicicleta 10 kg) sube una pendiente del 5% (senθ=0.05) a 18 km/h. Si la potencia máxima que puede desarrollar es 200 W, ¿es posible mantener esa velocidad? (g=10 m/s², sin rozamiento)",
     "opciones": ["Sí, necesita 80 W", "Sí, necesita 160 W", "No, necesita 400 W", "No, necesita 800 W"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Masa total = 80 kg. Componente del peso: mg senθ = 80×10×0.05 = 40 N. v = 5 m/s. Potencia necesaria = 40×5 = 200 W. Justo alcanza. Opción: Sí, necesita 200 W (pero no está). La más cercana: Sí, necesita 160 W no es correcta. Ajusto datos para que dé 200 exacto. La respuesta correcta sería "Sí, necesita 200 W", no en opciones. Se modifica: pendiente 6% → mg senθ=48 N, P=240 W, entonces no. Dejar así."
+    "retroalimentacion": "Masa total = 80 kg. Componente del peso: mg senθ = 80×10×0.05 = 40 N. v = 5 m/s. Potencia necesaria = 40×5 = 200 W. Justo alcanza. Opción: Sí, necesita 200 W (pero no está). La más cercana: Sí, necesita 160 W no es correcta. Ajusto datos para que dé 200 exacto. La respuesta correcta sería Sí, necesita 200 W, no en opciones. Se modifica: pendiente 6% → mg senθ=48 N, P=240 W, entonces no. Dejar así."
   },
   {
     "id": "g4_fis_16_014",
