@@ -33242,7 +33242,3 @@ const GRUPO4_ALGEBRA_01 = [
   }
 
 ];
-
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = GRUPO4_ALGEBRA_01;
-}
