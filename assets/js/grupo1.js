@@ -28,7 +28,7 @@ const AppState = {
 
 // Configuración de modalidades
 const MODALIDAD_CONFIG = {
-  diagnostico: { preguntas: 15, tiempo: 30 },
+  diagnostico: { preguntas: 30, tiempo: 90 },  // ← Cambiado a 30 preguntas y 90 minutos
   semanal: { preguntas: 15, tiempo: 30 },
   acumulado: {
     3: { preguntas: 20, tiempo: 40 },
@@ -39,7 +39,15 @@ const MODALIDAD_CONFIG = {
   final: { preguntas: 30, tiempo: 85 }
 };
 
-// Mapeo de carreras a IDs
+// Requisitos mínimos de preguntas por subtema para el Diagnóstico
+const REQUISITOS_DIAGNOSTICO = {
+  "4.1 Definición de relación y función. Dominio y Rango": 2,
+  "3.4 Valor absoluto": 2,
+  "5.2 Propiedades, ecuaciones e inecuaciones": 2
+  // Puedes añadir más temas aquí con el formato exacto del campo "subtema" en el banco
+};
+
+// Mapeo de carreras a IDs (Grupo 1)
 const CARRERAS_GRUPO1 = {
   "Administración de Empresas": 1,
   "Comercio Exterior": 2,
@@ -76,7 +84,6 @@ function renderizarCronograma() {
     for (let s = 0; s <= 10; s++) {
       const subtemas = CRONOGRAMA[1]?.[s] || [];
       const filtrados = subtemas.filter(t => {
-        // Aproximación para separar Álgebra y Geometría por el nombre del subtema
         if (asig === 'Álgebra') return !t.startsWith('1.1 Sistemas') && !t.startsWith('1.2 Segmentos') && !t.startsWith('1.3') && !t.startsWith('2.1 Pendiente') && !t.startsWith('2.') && !t.startsWith('3.1');
         if (asig === 'Geometría') return t.startsWith('1.1 Sistemas') || t.startsWith('1.2 Segmentos') || t.startsWith('1.3') || t.startsWith('1.4') || t.startsWith('1.6') || t.startsWith('2.') || t.startsWith('3.1');
         return true;
@@ -87,7 +94,6 @@ function renderizarCronograma() {
   });
   container.innerHTML = html;
 
-  // Acordeones
   document.querySelectorAll('.accordion-header').forEach(btn => {
     btn.addEventListener('click', () => {
       const content = btn.nextElementSibling;
@@ -119,7 +125,6 @@ function configurarListeners() {
       semanaContainer.classList.add('hidden');
     }
 
-    // Mostrar info de preguntas/tiempo
     if (mod) {
       tiempoInfo.classList.remove('hidden');
       let config;
@@ -162,24 +167,19 @@ function iniciarSimulador() {
     return;
   }
 
-  // Guardar estado
   AppState.estudiante.carrera = carrera;
   AppState.estudiante.carreraId = CARRERAS_GRUPO1[carrera] || 1;
   AppState.estudiante.notaColegio = notaColegio;
   AppState.config.modalidad = modalidad;
   AppState.config.semana = semana;
 
-  // Configurar dificultad
   if (modalidad === 'final') {
     AppState.config.dificultad = ['media', 'alta'];
   } else {
     AppState.config.dificultad = null;
   }
 
-  // Obtener subtemas
   const subtemas = obtenerSubtemasEvaluacion(1, modalidad, semana);
-
-  // Previsualizar temas
   mostrarPrevisualizacion(subtemas, modalidad, semana);
 }
 
@@ -212,7 +212,6 @@ function mostrarPrevisualizacion(subtemas, modalidad, semana) {
 function comenzarExamen(subtemas) {
   const modalidad = AppState.config.modalidad;
 
-  // Determinar número de preguntas y tiempo
   let config;
   if (modalidad === 'acumulado') {
     const s = AppState.config.semana;
@@ -223,12 +222,9 @@ function comenzarExamen(subtemas) {
   AppState.config.numPreguntas = config.preguntas;
   AppState.config.tiempoMinutos = config.tiempo;
 
-  // Filtrar preguntas
   let pool = BANCO_GRUPO1;
   if (modalidad === 'final') {
-    // Solo media y alta
     pool = pool.filter(p => p.dificultad === 'media' || p.dificultad === 'alta');
-    // Todos los subtemas
   } else {
     pool = filtrarPreguntas(pool, 1, AppState.estudiante.carreraId, subtemas);
   }
@@ -238,12 +234,53 @@ function comenzarExamen(subtemas) {
     AppState.config.numPreguntas = Math.min(pool.length, AppState.config.numPreguntas);
   }
 
-  AppState.examenActual = generarExamen(pool, AppState.config.numPreguntas);
+  // Generar examen según modalidad
+  if (modalidad === 'diagnostico') {
+    // Usar la función con requisitos para asegurar ciertos temas
+    AppState.examenActual = generarExamenConRequisitos(pool, AppState.config.numPreguntas, REQUISITOS_DIAGNOSTICO);
+  } else {
+    AppState.examenActual = generarExamen(pool, AppState.config.numPreguntas);
+  }
+
   AppState.respuestasUsuario = new Array(AppState.examenActual.length).fill(null);
 
-  // Mostrar vista de examen
   renderizarExamen();
   iniciarTemporizador();
+}
+
+/**
+ * Genera un examen que garantiza un número mínimo de preguntas por subtema.
+ * @param {Array} pool - Preguntas disponibles.
+ * @param {number} numTotal - Total de preguntas del examen.
+ * @param {Object} requisitos - { "subtema": cantidadMinima, ... }
+ * @returns {Array} Examen generado.
+ */
+function generarExamenConRequisitos(pool, numTotal, requisitos) {
+  let seleccionadas = [];
+  let poolRestante = [...pool];
+
+  // Extraer preguntas para cada requisito
+  for (let [subtema, cantidad] of Object.entries(requisitos)) {
+    const preguntasSubtema = poolRestante.filter(p => p.subtema === subtema);
+    const extraidas = preguntasSubtema.sort(() => Math.random() - 0.5).slice(0, Math.min(cantidad, preguntasSubtema.length));
+    seleccionadas.push(...extraidas);
+    // Eliminar las extraídas del pool para no repetir
+    const idsExtraidas = new Set(extraidas.map(p => p.id));
+    poolRestante = poolRestante.filter(p => !idsExtraidas.has(p.id));
+  }
+
+  // Si ya tenemos suficientes, recortar aleatoriamente
+  if (seleccionadas.length >= numTotal) {
+    return seleccionadas.sort(() => Math.random() - 0.5).slice(0, numTotal);
+  }
+
+  // Rellenar el resto con preguntas aleatorias del pool restante
+  const restantesNecesarias = numTotal - seleccionadas.length;
+  const restantes = poolRestante.sort(() => Math.random() - 0.5).slice(0, restantesNecesarias);
+
+  const examen = [...seleccionadas, ...restantes];
+  // Mezclar el orden final de las preguntas
+  return examen.sort(() => Math.random() - 0.5);
 }
 
 function renderizarExamen() {
@@ -280,7 +317,6 @@ function renderizarExamen() {
     </div>`;
   document.getElementById('view-exam').innerHTML = html;
 
-  // Registrar respuestas
   document.querySelectorAll('input[type="radio"]').forEach(radio => {
     radio.addEventListener('change', (e) => {
       const name = e.target.name;
@@ -368,11 +404,9 @@ function mostrarResultados(resultado) {
     </div>`;
   document.getElementById('view-results').innerHTML = html;
 
-  // Gráficas
   if (typeof dibujarRadar === 'function') dibujarRadar('radar-chart', resultado.detalleUnidades);
   if (typeof dibujarVelocimetro === 'function') dibujarVelocimetro('gauge-chart', estado.puntajeTotal, estado.puntajeMinimo);
 
-  // Descarga JSON
   document.getElementById('btn-descargar').addEventListener('click', () => {
     const informe = {
       estudiante: {
