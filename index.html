@@ -4,70 +4,118 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Physics · Preuniversitario ESPE</title>
-  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Chart.js -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <style>
-    .quiz-option {
-      transition: all 0.2s ease;
-    }
-    .quiz-option:hover {
-      background-color: #f3f4f6;
-    }
-    input[type="radio"]:checked + span {
-      font-weight: 600;
-      color: #1e3a8a;
-    }
-    .shadow-espe {
-      box-shadow: 0 4px 6px -1px rgba(0, 51, 102, 0.1), 0 2px 4px -1px rgba(0, 51, 102, 0.06);
-    }
-  </style>
 </head>
-<body class="bg-gray-50 font-sans antialiased">
+<body class="bg-gray-50 min-h-screen flex flex-col">
 
-  <div id="app" class="min-h-screen flex flex-col">
-    
-    <!-- Header -->
-    <header class="bg-[#003366] text-white py-4 shadow-md">
-      <div class="container mx-auto px-4 flex items-center justify-between">
-        <div class="flex items-center space-x-3">
-          <i class="fas fa-atom text-2xl"></i>
-          <h1 class="text-2xl font-bold tracking-tight">Physics <span class="text-blue-200 font-normal">| ESPE</span></h1>
-        </div>
-        <div id="user-info" class="text-sm bg-blue-900 px-4 py-2 rounded-full hidden">
-          <i class="fas fa-user-graduate mr-2"></i>
-          <span id="display-nombre"></span>
+  <!-- Header -->
+  <header class="bg-[#003366] text-white py-4 shadow-md">
+    <div class="container mx-auto px-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <i class="fas fa-atom text-3xl"></i>
+        <div>
+          <h1 class="text-2xl font-bold tracking-tight">Physics</h1>
+          <p class="text-blue-200 text-sm">Preuniversitario</p>
         </div>
       </div>
-    </header>
+      <div class="hidden md:block">
+        <span class="bg-blue-900 px-4 py-2 rounded-full text-sm">
+          <i class="fas fa-university mr-2"></i> Preparación para la ESPE
+        </span>
+      </div>
+    </div>
+  </header>
 
-    <!-- Contenido dinámico -->
-    <main class="flex-grow container mx-auto px-4 py-8">
-      <!-- Vista: Registro -->
-      <section id="view-registro" class="max-w-3xl mx-auto"></section>
-      <!-- Vista: Examen -->
-      <section id="view-examen" class="hidden max-w-4xl mx-auto"></section>
-      <!-- Vista: Resultados -->
-      <section id="view-resultados" class="hidden max-w-5xl mx-auto"></section>
-    </main>
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-[#003366] to-blue-900 text-white py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-4">Simuladores de Ingreso <span class="text-yellow-300">ESPE</span></h2>
+      <p class="text-xl text-blue-100 max-w-2xl mx-auto">Evalúa tu nivel de conocimientos con pruebas diseñadas según los temarios oficiales de admisión. Descubre si tu puntaje actual te permitiría ingresar a la carrera de tus sueños.</p>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-200 text-gray-600 py-4 text-center text-sm">
+  <!-- Tarjetas de Grupos -->
+  <section class="container mx-auto px-4 py-12">
+    <h3 class="text-3xl font-bold text-center text-[#003366] mb-10">Selecciona tu Grupo de Carreras</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Grupo 1 -->
+      <a href="grupo1.html" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden">
+        <div class="bg-blue-600 p-6 text-white text-center">
+          <i class="fas fa-chart-line text-4xl mb-2"></i>
+          <h4 class="font-bold text-lg">Grupo 1</h4>
+        </div>
+        <div class="p-6">
+          <p class="text-sm text-gray-600">Ciencias Económicas y Administrativas</p>
+          <ul class="mt-3 text-xs text-gray-500 space-y-1">
+            <li>Administración de Empresas</li>
+            <li>Contabilidad y Auditoría</li>
+            <li>Economía</li>
+            <li>Mercadotecnia</li>
+          </ul>
+          <span class="mt-4 inline-block text-blue-600 font-semibold text-sm">Acceder <i class="fas fa-arrow-right ml-1"></i></span>
+        </div>
+      </a>
+
+      <!-- Grupo 2 -->
+      <a href="#" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden opacity-75">
+        <div class="bg-green-600 p-6 text-white text-center">
+          <i class="fas fa-heart text-4xl mb-2"></i>
+          <h4 class="font-bold text-lg">Grupo 2</h4>
+        </div>
+        <div class="p-6">
+          <p class="text-sm text-gray-600">Ciencias Humanas y Servicios</p>
+          <ul class="mt-3 text-xs text-gray-500 space-y-1">
+            <li>Educación Inicial</li>
+            <li>Turismo</li>
+            <li>Relaciones Internacionales</li>
+          </ul>
+          <span class="mt-4 inline-block text-gray-400 font-semibold text-sm">Próximamente</span>
+        </div>
+      </a>
+
+      <!-- Grupo 3 -->
+      <a href="#" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden opacity-75">
+        <div class="bg-red-600 p-6 text-white text-center">
+          <i class="fas fa-flask text-4xl mb-2"></i>
+          <h4 class="font-bold text-lg">Grupo 3</h4>
+        </div>
+        <div class="p-6">
+          <p class="text-sm text-gray-600">Ciencias de la Vida y Medicina</p>
+          <ul class="mt-3 text-xs text-gray-500 space-y-1">
+            <li>Medicina</li>
+            <li>Biotecnología</li>
+            <li>Agropecuaria</li>
+          </ul>
+          <span class="mt-4 inline-block text-gray-400 font-semibold text-sm">Próximamente</span>
+        </div>
+      </a>
+
+      <!-- Grupo 4 -->
+      <a href="#" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden opacity-75">
+        <div class="bg-purple-600 p-6 text-white text-center">
+          <i class="fas fa-cogs text-4xl mb-2"></i>
+          <h4 class="font-bold text-lg">Grupo 4</h4>
+        </div>
+        <div class="p-6">
+          <p class="text-sm text-gray-600">Ingenierías y Carreras Técnicas</p>
+          <ul class="mt-3 text-xs text-gray-500 space-y-1">
+            <li>Software</li>
+            <li>Civil</li>
+            <li>Mecatrónica</li>
+          </ul>
+          <span class="mt-4 inline-block text-gray-400 font-semibold text-sm">Próximamente</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-gray-300 py-6 mt-auto">
+    <div class="container mx-auto px-4 text-center text-sm">
       <p>© 2025 Physics Preuniversitario · Preparación para el ingreso a la Universidad de las Fuerzas Armadas ESPE</p>
-    </footer>
-  </div>
-
-  <!-- Carga de datos -->
-  <script src="assets/data/preguntas.js"></script>
-  <script src="assets/data/cronograma.js"></script>
-  <script src="assets/data/perfiles_ingreso.js"></script>
-  
-  <!-- Lógica de la aplicación -->
-  <script src="assets/js/examEngine.js"></script>
-  <script src="assets/js/charts.js"></script>
-  <script src="assets/js/main.js"></script>
+      <p class="mt-1 text-gray-500">Desarrollado con fines educativos. No afiliado oficialmente a la ESPE.</p>
+    </div>
+  </footer>
 </body>
 </html>
