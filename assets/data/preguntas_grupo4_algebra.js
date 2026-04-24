@@ -2454,7 +2454,7 @@ const GRUPO4_ALGEBRA_01 = [
     "enunciado": "Tres números forman una progresión geométrica. Si el segundo término se aumenta en 2, se obtiene una progresión aritmética. Halle los números sabiendo que el primer término es 4.",
     "opciones": ["4,6,9", "4,8,16", "4,4,4", "4,2,1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Sean 4, 4r, 4r². Luego 4, 4r+2, 4r² en PA: 2(4r+2) = 4 + 4r² → 8r+4 = 4+4r² → 8r=4r² → r=0 o r=2. r=2 → 4,8,16. Pero al aumentar el segundo en 2: 4,10,16 → 10 es media aritmética? (4+16)/2=10 sí. Pero la pregunta dice "se obtiene una progresión aritmética", eso se cumple. Entonces 4,8,16 es válido. Opción: 4,8,16."
+    "retroalimentacion": "Sean 4, 4r, 4r². Luego 4, 4r+2, 4r² en PA: 2(4r+2) = 4 + 4r² → 8r+4 = 4+4r² → 8r=4r² → r=0 o r=2. r=2 → 4,8,16. Pero al aumentar el segundo en 2: 4,10,16 → 10 es media aritmética? (4+16)/2=10 sí. Pero la pregunta dice se obtiene una progresión aritmética, eso se cumple. Entonces 4,8,16 es válido. Opción: 4,8,16."
   },
   {
     "id": "g4_alg_08_015",
