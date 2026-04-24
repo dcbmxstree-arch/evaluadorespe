@@ -1762,7 +1762,407 @@ const GRUPO4_ALGEBRA_01 = [
     "respuesta_correcta": 0,
     "retroalimentacion": "Es una equivalencia lógica, ambas son tautologías."
   },
-
+{
+    "id": "g4_alg_03_016",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Utilizando las leyes de De Morgan, ¿cuál es la negación simplificada de la expresión ¬p ∨ (q ∧ r)?",
+    "opciones": [
+      "p ∧ (¬q ∨ ¬r)",
+      "p ∨ (¬q ∧ ¬r)",
+      "¬p ∧ (q ∨ r)",
+      "p ∧ ¬q ∧ ¬r"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La negación es ¬[¬p ∨ (q ∧ r)]. Por De Morgan: ¬(¬p) ∧ ¬(q ∧ r) ≡ p ∧ (¬q ∨ ¬r)."
+  },
+  {
+    "id": "g4_alg_03_017",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique la siguiente expresión mediante leyes lógicas: [p ∧ (p → q)] → q",
+    "opciones": [
+      "Tautología",
+      "p ∧ q",
+      "p ∨ q",
+      "Contradicción"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Esta expresión representa el Modus Ponens. Al simplificar p ∧ (¬p ∨ q) obtenemos p ∧ q. Luego (p ∧ q) → q es una tautología por la ley de simplificación inversa."
+  },
+  {
+    "id": "g4_alg_03_018",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "¿A qué expresión es equivalente p ∨ (¬p ∧ q) según la ley de absorción generalizada?",
+    "opciones": [
+      "p ∨ q",
+      "p ∧ q",
+      "p",
+      "q"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Por distribución: (p ∨ ¬p) ∧ (p ∨ q) ≡ V ∧ (p ∨ q) ≡ p ∨ q."
+  },
+  {
+    "id": "g4_alg_03_019",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La ley de la contrapositiva establece que p → q es equivalente a:",
+    "opciones": [
+      "¬q → ¬p",
+      "¬p → ¬q",
+      "q → p",
+      "p ∧ ¬q"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La contrapositiva invierte los términos y los niega, manteniendo el mismo valor de verdad que el condicional original."
+  },
+  {
+    "id": "g4_alg_03_020",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique la expresión: ¬(p ∨ q) ∨ (¬p ∧ q)",
+    "opciones": [
+      "¬p",
+      "¬q",
+      "p ∧ ¬q",
+      "V"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "¬(p ∨ q) ∨ (¬p ∧ q) ≡ (¬p ∧ ¬q) ∨ (¬p ∧ q). Factorizando ¬p: ¬p ∧ (¬q ∨ q) ≡ ¬p ∧ V ≡ ¬p."
+  },
+  {
+    "id": "g4_alg_03_021",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Aplique la ley de distribución a la expresión p ∨ (q ∧ r):",
+    "opciones": [
+      "(p ∨ q) ∧ (p ∨ r)",
+      "(p ∧ q) ∨ (p ∧ r)",
+      "(p ∨ q) ∧ r",
+      "p ∧ (q ∨ r)"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La disyunción se distribuye sobre la conjunción afectando a ambos operandos internos."
+  },
+  {
+    "id": "g4_alg_03_022",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "¿A qué es equivalente el bicondicional p ↔ q usando solo condicionales?",
+    "opciones": [
+      "(p → q) ∧ (q → p)",
+      "(p → q) ∨ (q → p)",
+      "¬p → ¬q",
+      "p → (q → p)"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "El bicondicional indica que la implicación debe cumplirse en ambos sentidos (conjunción de condicionales)."
+  },
+  {
+    "id": "g4_alg_03_023",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La ley de identidad establece que p ∧ V es equivalente a:",
+    "opciones": [
+      "p",
+      "V",
+      "F",
+      "¬p"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "El valor de verdad de una conjunción con un elemento neutro (V) depende exclusivamente del valor de p."
+  },
+  {
+    "id": "g4_alg_03_024",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique al máximo la expresión: (p ∧ q) ∨ (p ∧ ¬q) ∨ (¬p ∧ q)",
+    "opciones": [
+      "p ∨ q",
+      "p ∧ q",
+      "p",
+      "V"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "(p ∧ q) ∨ (p ∧ ¬q) simplifica a p. Luego p ∨ (¬p ∧ q) simplifica a p ∨ q por absorción generalizada."
+  },
+  {
+    "id": "g4_alg_03_025",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La ley del Tercero Excluido se representa formalmente como:",
+    "opciones": [
+      "p ∨ ¬p ≡ V",
+      "p ∧ ¬p ≡ F",
+      "¬(¬p) ≡ p",
+      "p → p ≡ V"
+    ],
+    "豆respuesta_correcta": 0,
+    "retroalimentacion": "Esta ley indica que una proposición es verdadera o es falsa, no hay una tercera opción."
+  },
+  {
+    "id": "g4_alg_03_026",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Determine la equivalencia de ¬(p → q) utilizando leyes del condicional y De Morgan:",
+    "opciones": [
+      "p ∧ ¬q",
+      "¬p ∨ q",
+      "¬p ∧ q",
+      "p ∨ ¬q"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "p → q ≡ ¬p ∨ q. La negación es ¬(¬p ∨ q) ≡ p ∧ ¬q."
+  },
+  {
+    "id": "g4_alg_03_027",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La ley de absorción simple p ∧ (p ∨ q) es equivalente a:",
+    "opciones": [
+      "p",
+      "q",
+      "p ∧ q",
+      "V"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "En una conjunción donde uno de los términos es una disyunción que contiene a la misma variable, esta variable 'absorbe' al resto."
+  },
+  {
+    "id": "g4_alg_03_028",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique la expresión: [(p → q) ∧ ¬q] → ¬p",
+    "opciones": [
+      "Tautología",
+      "p",
+      "q",
+      "Contradicción"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Esta es la estructura del Modus Tollens, la cual es siempre verdadera (tautología)."
+  },
+  {
+    "id": "g4_alg_03_029",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "¿Qué ley permite afirmar que (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)?",
+    "opciones": [
+      "Ley Asociativa",
+      "Ley Conmutativa",
+      "Ley Distributiva",
+      "Ley de Idempotencia"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La ley asociativa permite reagrupar los términos de una misma operación sin alterar el resultado."
+  },
+  {
+    "id": "g4_alg_03_030",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique: ¬(¬p ∧ ¬q)",
+    "opciones": [
+      "p ∨ q",
+      "p ∧ q",
+      "¬p ∨ ¬q",
+      "V"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Por De Morgan: ¬(¬p) ∨ ¬(¬q) ≡ p ∨ q."
+  },
+  {
+    "id": "g4_alg_03_031",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La ley de Idempotencia para la disyunción establece que p ∨ p es:",
+    "opciones": [
+      "p",
+      "V",
+      "F",
+      "2p"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Operar una variable consigo misma bajo la disyunción o conjunción no altera su valor original."
+  },
+  {
+    "id": "g4_alg_03_032",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique: (p → q) ∧ (p → r)",
+    "opciones": [
+      "p → (q ∧ r)",
+      "p → (q ∨ r)",
+      "(p ∧ p) → (q ∧ r)",
+      "Tautología"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Por distribución del condicional respecto a la conjunción en el consecuente."
+  },
+  {
+    "id": "g4_alg_03_033",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La ley de dominación p ∨ V equivale a:",
+    "opciones": [
+      "V",
+      "p",
+      "F",
+      "¬p"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "En una disyunción, si un elemento es Verdadero, toda la expresión se vuelve Verdadera independientemente de los demás términos."
+  },
+  {
+    "id": "g4_alg_03_034",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique la expresión p ∧ (¬p ∨ p) utilizando leyes lógicas:",
+    "opciones": [
+      "p",
+      "V",
+      "F",
+      "¬p"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "(¬p ∨ p) es una tautología (V). Luego p ∧ V ≡ p por la ley de identidad."
+  },
+  {
+    "id": "g4_alg_03_035",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.3 Leyes del álgebra proposicional",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "¿Cuál es la simplificación de p ∧ (q ∨ ¬q) ∧ (r ∨ ¬r)?",
+    "opciones": [
+      "p",
+      "p ∧ q ∧ r",
+      "V",
+      "F"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Tanto (q ∨ ¬q) como (r ∨ ¬r) son tautologías (V). La expresión se reduce a p ∧ V ∧ V ≡ p."
+  },
+  
 
 
 
