@@ -4,7 +4,7 @@
 const BANCO_GRUPO4 = (typeof GRUPO4_ALGEBRA_01 !== 'undefined' ? GRUPO4_ALGEBRA_01 : [])
   .concat(typeof GRUPO4_FISICA_01 !== 'undefined' ? GRUPO4_FISICA_01 : []);
 
-// Configuración de modalidades (igual que en Grupo 1, con diagnóstico 30/90)
+// Configuración de modalidades (igual que en Grupo 1, diagnóstico 30/90)
 const MODALIDAD_CONFIG = {
   diagnostico: { preguntas: 30, tiempo: 90 },
   semanal: { preguntas: 15, tiempo: 30 },
@@ -17,7 +17,7 @@ const MODALIDAD_CONFIG = {
   final: { preguntas: 30, tiempo: 85 }
 };
 
-// Requisitos mínimos para diagnóstico (opcional, se puede ajustar o eliminar)
+// Requisitos mínimos para diagnóstico (opcional)
 const REQUISITOS_DIAGNOSTICO = {
   "4.1 Definición de relación y función. Dominio y Rango": 2,
   "3.4 Valor absoluto": 2,
@@ -26,7 +26,7 @@ const REQUISITOS_DIAGNOSTICO = {
 
 // Estado global
 const AppState = {
-  estudiante: { nombre: 'Estudiante', notaColegio: 8.5, carrera: '', carreraId: null },
+  estudiante: { nombre: 'Estudiante', notaColegio: 8.5, carrera: '', carreraId: 18 },
   config: { modalidad: '', semana: 1, numPreguntas: 15, tiempoMinutos: 30, dificultad: null },
   examenActual: [],
   respuestasUsuario: [],
@@ -34,26 +34,7 @@ const AppState = {
   tiempoRestante: 0
 };
 
-// Mapeo de carreras del Grupo 4 (IDs según perfiles_ingreso.js)
-const CARRERAS_GRUPO4 = {
-  "Ingeniería Civil": 23,
-  "Ingeniería en Software": 32,
-  "Ingeniería Mecánica": 27,
-  "Ingeniería Mecatrónica": 28,
-  "Ingeniería Electrónica": 20,
-  "Ingeniería Ambiental": 22,
-  "Petroquímica": 31,
-  "Telecomunicaciones": 34,
-  "Ingeniería Automotriz": 24,
-  "Ingeniería Geoespacial": 26,
-  "Tecnologías de la Información": 33,
-  "Electromecánica": 19,
-  "Tecnología Superior en Electromecánica": 36,
-  "Tecnología Superior en Automatización": 37,
-  "Tecnología Superior en Mecánica Aeronáutica": 38,
-  "Tecnología Superior en Mecánica Automotriz": 39,
-  "Tecnología Superior en Redes y Telecomunicaciones": 40
-};
+// Ya no necesitamos CARRERAS_GRUPO4 porque usaremos un carreraId fijo (18)
 
 document.addEventListener('DOMContentLoaded', () => {
   renderizarCronograma();
@@ -117,10 +98,19 @@ function iniciarSimulador() {
   const modalidad = document.getElementById('modalidad-select').value;
   const semana = parseInt(document.getElementById('semana-select').value) || 1;
 
-  if (!carrera || !modalidad) return alert('Complete todos los campos.');
+  if (!carrera || !modalidad) {
+    alert('Complete todos los campos.');
+    return;
+  }
+
+  // Validación: la carrera debe existir en PERFILES_INGRESO
+  if (!PERFILES_INGRESO[carrera]) {
+    alert(`La carrera "${carrera}" no está registrada en los perfiles de ingreso.`);
+    return;
+  }
 
   AppState.estudiante.carrera = carrera;
-  AppState.estudiante.carreraId = CARRERAS_GRUPO4[carrera] || 18;
+  AppState.estudiante.carreraId = 18; // ID fijo (dentro del rango 18-34 que tienen las preguntas)
   AppState.estudiante.notaColegio = notaColegio;
   AppState.config.modalidad = modalidad;
   AppState.config.semana = semana;
@@ -261,6 +251,17 @@ function mostrarResultados(resultado) {
   document.getElementById('view-results').classList.remove('hidden');
 
   const estado = evaluarEstadoIngreso(AppState.estudiante.carrera, AppState.estudiante.notaColegio, resultado.puntaje);
+
+  // Validación de seguridad
+  if (!estado || estado.puntajeTotal === undefined) {
+    document.getElementById('view-results').innerHTML = `
+      <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative">
+        <strong>Error:</strong> No se pudo calcular el puntaje de ingreso.<br>
+        Verifique que la carrera "${AppState.estudiante.carrera}" esté registrada correctamente.
+      </div>`;
+    return;
+  }
+
   let html = `<div class="bg-white rounded-xl shadow-lg p-8"><h2 class="text-2xl font-bold text-[#003366] mb-6">Resultados</h2><div class="grid grid-cols-1 md:grid-cols-2 gap-8"><div><div class="bg-gray-50 p-6 rounded-lg"><h3 class="text-lg font-semibold mb-4">Resumen del Examen</h3><p class="text-3xl font-bold text-[#003366]">${resultado.aciertos} / ${resultado.total}</p><p class="text-gray-600 mt-2">Puntaje Examen: <span class="font-bold">${resultado.puntaje}</span></p><p class="text-gray-600">Nota Colegio: ${AppState.estudiante.notaColegio.toFixed(1)} / 10</p><hr class="my-3"><p class="text-lg font-semibold">Puntaje Total Simulado: <span class="text-[#003366]">${estado.puntajeTotal.toFixed(0)} / 1000</span></p><p class="text-sm text-gray-500">Mínimo ${AppState.estudiante.carrera}: ${estado.puntajeMinimo}</p><div class="mt-4 p-3 rounded-lg ${estado.estado === 'FAVORABLE' ? 'bg-green-100 text-green-800' : (estado.estado === 'EN RIESGO' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800')}"><i class="fas fa-${estado.estado === 'FAVORABLE' ? 'check-circle' : 'exclamation-circle'} mr-2"></i>${estado.mensaje}</div></div><div class="mt-6 flex space-x-4"><button id="btn-descargar" class="bg-gray-700 text-white px-4 py-2 rounded-lg hover:bg-gray-800"><i class="fas fa-download mr-2"></i>Descargar JSON</button><button onclick="window.location.reload()" class="border border-[#003366] text-[#003366] px-4 py-2 rounded-lg hover:bg-gray-50">Nuevo Examen</button></div></div><div><h3 class="text-lg font-semibold mb-4">Desempeño por Unidad</h3><canvas id="radar-chart" width="400" height="400"></canvas></div></div><div class="mt-8 flex justify-center"><div style="width:250px;height:150px"><canvas id="gauge-chart"></canvas></div></div></div>`;
   document.getElementById('view-results').innerHTML = html;
 
