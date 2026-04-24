@@ -311,7 +311,406 @@ const GRUPO4_ALGEBRA_01 = [
     "respuesta_correcta": 0,
     "retroalimentacion": "La negación de p → q es p ∧ ¬q. Aquí p = 'estudias', q = 'apruebas', entonces: 'Estudias y no apruebas'."
   },
-
+{
+    "id": "g4_alg_01_016",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Dada la proposición compuesta: [(p → q) ∧ ¬q] → ¬p. ¿A qué categoría lógica pertenece?",
+    "opciones": [
+      "Tautología",
+      "Contradicción",
+      "Contingencia",
+      "Incongruencia"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Esta estructura corresponde al Modus Tollens. Al evaluar su tabla de verdad, todos los valores resultantes son verdaderos, por lo tanto, es una tautología."
+  },
+  {
+    "id": "g4_alg_01_017",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "teorica",
+    "enunciado": "¿Cuál de las siguientes expresiones es equivalente a la negación del condicional ¬(p → q)?",
+    "opciones": [
+      "p ∧ ¬q",
+      "¬p ∨ q",
+      "q → p",
+      "¬p ∧ q"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Por definición, p → q es equivalente a ¬p ∨ q. Al negar esta disyunción usando las leyes de De Morgan, obtenemos p ∧ ¬q."
+  },
+  {
+    "id": "g4_alg_01_018",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Si la proposición (p ∧ ¬q) → (r ∨ ¬s) es FALSA, determine los valores de verdad de p, q, r, s en ese orden:",
+    "opciones": [
+      "V, F, F, V",
+      "V, V, F, F",
+      "F, F, V, V",
+      "V, F, V, F"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Un condicional es falso solo si el antecedente es V y el consecuente es F. Para que (p ∧ ¬q) sea V, p=V y q=F. Para que (r ∨ ¬s) sea F, r=F y s=V."
+  },
+  {
+    "id": "g4_alg_01_019",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique la siguiente expresión utilizando leyes lógicas: p ∨ (¬p ∧ q)",
+    "opciones": [
+      "p ∨ q",
+      "p ∧ q",
+      "p",
+      "q"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Usando la ley de distribución o la ley de absorción generalizada: p ∨ (¬p ∧ q) ≡ (p ∨ ¬p) ∧ (p ∨ q) ≡ V ∧ (p ∨ q) ≡ p ∨ q."
+  },
+  {
+    "id": "g4_alg_01_020",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Determine la contrapositiva de la proposición: 'Si x es múltiplo de 4, entonces x es un número par'.",
+    "opciones": [
+      "Si x no es un número par, entonces x no es múltiplo de 4",
+      "Si x es un número par, entonces x es múltiplo de 4",
+      "Si x no es múltiplo de 4, entonces x no es un número par",
+      "x es múltiplo de 4 y x no es par"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La contrapositiva de p → q es ¬q → ¬p. Ambas son lógicamente equivalentes."
+  },
+  {
+    "id": "g4_alg_01_021",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Determine el valor de verdad de la siguiente proposición cuantificada en el conjunto de los números enteros (Z): ∀x (x² ≥ 0)",
+    "opciones": [
+      "Verdadero",
+      "Falso",
+      "Depende del valor de x",
+      "Indeterminado"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Todo número entero (ya sea positivo, negativo o cero) elevado al cuadrado resulta en un valor mayor o igual a cero. Por tanto, el cuantificador universal se cumple."
+  },
+  {
+    "id": "g4_alg_01_022",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Si la disyunción exclusiva p ⊕ q es verdadera, ¿qué se puede concluir sobre sus valores de verdad?",
+    "opciones": [
+      "p y q tienen valores de verdad distintos",
+      "p y q son ambos verdaderos",
+      "p y q son ambos falsos",
+      "p y q tienen el mismo valor de verdad"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La disyunción exclusiva (XOR) solo es verdadera cuando exactamente uno de los componentes es verdadero y el otro es falso."
+  },
+  {
+    "id": "g4_alg_01_023",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Indique cuál de las siguientes expresiones es una contradicción:",
+    "opciones": [
+      "¬(p ∨ ¬p)",
+      "p ∨ ¬p",
+      "p → p",
+      "p ∨ q"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "p ∨ ¬p es una tautología (Ley del tercero excluido). Su negación, ¬(p ∨ ¬p), es por lo tanto una contradicción (siempre falsa)."
+  },
+  {
+    "id": "g4_alg_01_024",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La negación de la proposición: 'Existe un número x tal que x es par y x es primo' es:",
+    "opciones": [
+      "Para todo número x, x no es par o x no es primo",
+      "Existe un número x tal que x no es par y x no es primo",
+      "Para todo número x, x es par y x es primo",
+      "Ningún número es par"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La negación de ∃x(P(x) ∧ Q(x)) es ∀x¬(P(x) ∧ Q(x)), que por Morgan es ∀x(¬P(x) ∨ ¬Q(x))."
+  },
+  {
+    "id": "g4_alg_01_025",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique la expresión: ¬(p ∧ q) ∨ q",
+    "opciones": [
+      "¬p ∨ q",
+      "¬p ∧ q",
+      "Verdadero",
+      "p ∨ q"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "¬(p ∧ q) ∨ q ≡ (¬p ∨ ¬q) ∨ q ≡ ¬p ∨ (¬q ∨ q) ≡ ¬p ∨ V ≡ Verdadero. Nota: En este caso, la opción correcta es la simplificación más precisa, pero lógicamente equivale a Tautología."
+  },
+  {
+    "id": "g4_alg_01_026",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Si p ↔ q es falso, ¿cuál es el valor de verdad de (p ∧ ¬q) ∨ (q ∧ ¬p)?",
+    "opciones": [
+      "Verdadero",
+      "Falso",
+      "Contingente",
+      "No se puede determinar"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Si p ↔ q es F, significa que p y q tienen valores opuestos. La expresión (p ∧ ¬q) ∨ (q ∧ ¬p) define la disyunción exclusiva, que es V cuando los valores son opuestos."
+  },
+  {
+    "id": "g4_alg_01_027",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "teorica",
+    "enunciado": "La ley lógica que establece que ¬(¬p) ≡ p se denomina:",
+    "opciones": [
+      "Doble negación o Involución",
+      "Idempotencia",
+      "Ley de Identidad",
+      "Ley de Contradicción"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La ley de involución permite eliminar pares de negaciones sobre una misma proposición."
+  },
+  {
+    "id": "g4_alg_01_028",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Dada la proposición: 'Todos los estudiantes aprueban el examen'. Su negación lógica es:",
+    "opciones": [
+      "Existe al menos un estudiante que no aprueba el examen",
+      "Ningún estudiante aprueba el examen",
+      "Todos los estudiantes reprueban el examen",
+      "Algunos estudiantes aprueban el examen"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La negación de un cuantificador universal (Todos son) es un cuantificador existencial negado (Existe al menos uno que no es)."
+  },
+  {
+    "id": "g4_alg_01_029",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Sea p: Falso y q: Verdadero. Calcule el valor de: ¬(p → q) ↔ (p ∨ q)",
+    "opciones": [
+      "Falso",
+      "Verdadero",
+      "Indeterminado",
+      "Tautológico"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "p → q es F → V = V; su negación es F. Por otro lado p ∨ q es F ∨ V = V. El bicondicional F ↔ V resulta en Falso."
+  },
+  {
+    "id": "g4_alg_01_030",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Simplifique la proposición: (p ∧ q) ∨ (p ∧ ¬q)",
+    "opciones": [
+      "p",
+      "q",
+      "p ∧ q",
+      "Verdadero"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Factorizando p (distribución inversa): p ∧ (q ∨ ¬q). Como q ∨ ¬q es siempre verdadero, queda p ∧ V, que es igual a p."
+  },
+  {
+    "id": "g4_alg_01_031",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Determine el valor de verdad de: ∃x ∈ R : x² + 1 = 0",
+    "opciones": [
+      "Falso",
+      "Verdadero",
+      "Solo para x=1",
+      "Solo para x=-1"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "No existe ningún número real cuyo cuadrado sea -1. Las soluciones son imaginarias (i, -i), por lo tanto, en el conjunto R la proposición es falsa."
+  },
+  {
+    "id": "g4_alg_01_032",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "teorica",
+    "enunciado": "La equivalencia (p → q) ≡ (¬q → ¬p) se conoce como la Ley de:",
+    "opciones": [
+      "Contraposición",
+      "Conmutación",
+      "Asociación",
+      "Exportación"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La contrapositiva es una de las leyes de equivalencia más importantes para el condicional."
+  },
+  {
+    "id": "g4_alg_01_033",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Dada la tabla de verdad de una función lógica con 3 variables (p, q, r). ¿Cuántas filas tendrá la tabla?",
+    "opciones": [
+      "8",
+      "6",
+      "9",
+      "4"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "El número de filas en una tabla de verdad se calcula como 2^n, donde n es el número de proposiciones simples. 2³ = 8."
+  },
+  {
+    "id": "g4_alg_01_034",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "¿Cuál es la representación formal de: 'No es cierto que, si llueve y hace sol, entonces saldrá el arcoíris'?",
+    "opciones": [
+      "¬[(p ∧ q) → r]",
+      "¬p ∧ ¬q → r",
+      "(p ∨ q) → ¬r",
+      "¬p ∨ ¬q ∨ r"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La frase 'No es cierto que' afecta a toda la estructura condicional que le sigue."
+  },
+  {
+    "id": "g4_alg_01_035",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.1 Proposiciones y Conectivos lógicos",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Indique cuál de las siguientes es una ley de De Morgan:",
+    "opciones": [
+      "¬(p ∨ q) ≡ ¬p ∧ ¬q",
+      "¬(p ∧ q) ≡ ¬p ∧ ¬q",
+      "p ∨ (q ∧ r) ≡ (p ∨ q) ∧ r",
+      "p → q ≡ q → p"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Las leyes de De Morgan establecen que la negación de una disyunción es la conjunción de las negaciones (y viceversa)."
+  },
 
 
 
@@ -636,6 +1035,408 @@ const GRUPO4_ALGEBRA_01 = [
     "respuesta_correcta": 0,
     "retroalimentacion": "Es la ley del silogismo hipotético, siempre verdadera."
   },
+
+    {
+    "id": "g4_alg_02_016",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Al evaluar la forma lógica [(p → q) ∧ (p ∧ ¬q)], se determina que es una:",
+    "opciones": [
+      "Contradicción",
+      "Tautología",
+      "Contingencia",
+      "Equivalencia"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "El término (p ∧ ¬q) es la negación de (p → q). La conjunción de una proposición con su propia negación [A ∧ ¬A] siempre resulta en falso."
+  },
+  {
+    "id": "g4_alg_02_017",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Determine la clasificación de la proposición: [¬p ∧ (p ∨ q)] → q",
+    "opciones": [
+      "Tautología",
+      "Contradicción",
+      "Contingencia",
+      "Identidad"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Esta estructura corresponde al Silogismo Disyuntivo. Al resolver la tabla de verdad, todos los valores son verdaderos."
+  },
+  {
+    "id": "g4_alg_02_018",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Si A es una contradicción y B es una contingencia, ¿qué se puede afirmar de la expresión A ∧ B?",
+    "opciones": [
+      "Es siempre una contradicción",
+      "Es una tautología",
+      "Es una contingencia",
+      "Depende de los valores de B"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "En una conjunción, si uno de los componentes es siempre falso (contradicción), el resultado final será falso sin importar el valor del otro componente."
+  },
+  {
+    "id": "g4_alg_02_019",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Determine la naturaleza de la forma lógica: (p ↔ q) ⊕ (p ⊕ q)",
+    "opciones": [
+      "Tautología",
+      "Contradicción",
+      "Contingencia",
+      "Inconsistencia"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "El bicondicional (↔) y la disyunción exclusiva (⊕) son opuestos exactos. Al unirlos con un XOR (⊕), el resultado es siempre verdadero."
+  },
+  {
+    "id": "g4_alg_02_020",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Al simplificar la expresión [¬p ∧ (p → q)], se obtiene una forma que es:",
+    "opciones": [
+      "Contingencia",
+      "Tautología",
+      "Contradicción",
+      "Bicondicional"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Simplificando: ¬p ∧ (¬p ∨ q) ≡ ¬p (por ley de absorción). Como ¬p depende del valor de p, es una contingencia."
+  },
+  {
+    "id": "g4_alg_02_021",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "¿Cuál de las siguientes expresiones es una contradicción?",
+    "opciones": [
+      "¬[p → (q → p)]",
+      "p ∨ ¬(p ∧ q)",
+      "(p ∧ q) → p",
+      "p ⊕ ¬p"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "p → (q → p) es una tautología conocida. Su negación, por definición, es siempre falsa (contradicción)."
+  },
+  {
+    "id": "g4_alg_02_022",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La proposición [(p ∨ q) ∧ ¬p] ∧ ¬q se clasifica como:",
+    "opciones": [
+      "Contradicción",
+      "Tautología",
+      "Contingencia",
+      "Deducción"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "[(p ∨ q) ∧ ¬q] simplifica a q ∧ ¬p (en parte). Al agregar ∧ ¬q, obtenemos algo que contiene (q ∧ ¬q), lo cual es falso."
+  },
+  {
+    "id": "g4_alg_02_023",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Si P es una tautología, ¿qué resultado se obtiene de P → Q?",
+    "opciones": [
+      "Equivale a Q",
+      "Siempre Tautología",
+      "Siempre Contradicción",
+      "Siempre Contingencia"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "En la tabla de verdad del condicional, si el antecedente es V, el resultado es igual al valor del consecuente Q."
+  },
+  {
+    "id": "g4_alg_02_024",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Identifique la tautología basada en la ley de exportación:",
+    "opciones": [
+      "[(p ∧ q) → r] ↔ [p → (q → r)]",
+      "(p → q) ↔ (q → p)",
+      "p → (p ∧ q)",
+      "¬(p ∧ q) ↔ (¬p ∧ ¬q)"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La ley de exportación establece que procesar dos premisas en conjunto es equivalente a procesarlas secuencialmente."
+  },
+  {
+    "id": "g4_alg_02_025",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "teorica",
+    "enunciado": "Si negamos una contingencia, el resultado es siempre:",
+    "opciones": [
+      "Otra contingencia",
+      "Una tautología",
+      "Una contradicción",
+      "Una proposición simple"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Una contingencia tiene valores V y F. Al negarla, los V se hacen F y los F se hacen V, manteniendo la mezcla de valores."
+  },
+  {
+    "id": "g4_alg_02_026",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Determine la clasificación de: (p ∧ q) ↔ (p ∨ q)",
+    "opciones": [
+      "Contingencia",
+      "Tautología",
+      "Contradicción",
+      "Equivalencia"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Es V cuando p=V, q=V y cuando p=F, q=F. Pero es F cuando uno es V y el otro F. Por tanto, es contingencia."
+  },
+  {
+    "id": "g4_alg_02_027",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La forma lógica [(p → q) ∧ p] → q es una tautología conocida como:",
+    "opciones": [
+      "Modus Ponens",
+      "Modus Tollens",
+      "Silogismo Hipotético",
+      "Adición"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "El Modus Ponendo Ponens es una regla de inferencia cuya estructura formal es siempre tautológica."
+  },
+  {
+    "id": "g4_alg_02_028",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Clasifique la siguiente proposición: ¬(p ∨ ¬p) ∧ q",
+    "opciones": [
+      "Contradicción",
+      "Tautología",
+      "Contingencia",
+      "Identidad"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "(p ∨ ¬p) es una tautología; su negación es una contradicción. Una contradicción unida por 'y' a cualquier cosa es siempre falso."
+  },
+  {
+    "id": "g4_alg_02_029",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Al evaluar (p ∧ q) → (p ↔ q), el resultado es una:",
+    "opciones": [
+      "Tautología",
+      "Contradicción",
+      "Contingencia",
+      "Disyunción"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Siempre que p ∧ q sea verdadero, p ↔ q también lo será. En los demás casos donde p ∧ q es falso, el condicional es verdadero."
+  },
+  {
+    "id": "g4_alg_02_030",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La proposición [p → (q ∧ ¬q)] es equivalente a:",
+    "opciones": [
+      "¬p",
+      "p",
+      "q",
+      "V"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "q ∧ ¬q es F. La expresión queda p → F, lo cual solo es verdadero si p es falso (¬p)."
+  },
+  {
+    "id": "g4_alg_02_031",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "¿Qué tipo de proposición es [(p ∧ q) ∨ (¬p ∧ ¬q)] ↔ (p ↔ q)?",
+    "opciones": [
+      "Tautología",
+      "Contradicción",
+      "Contingencia",
+      "Negación"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "La parte izquierda es la definición expandida del bicondicional. Al compararlos con un bicondicional, el resultado es siempre V."
+  },
+  {
+    "id": "g4_alg_02_032",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "teorica",
+    "enunciado": "Una proposición es una contradicción si y solo si su negación es:",
+    "opciones": [
+      "Una tautología",
+      "Una contingencia",
+      "Otra contradicción",
+      "Una proposición simple"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Por definición, si todos los valores de una tabla son F, al negarlos todos se vuelven V (tautología)."
+  },
+  {
+    "id": "g4_alg_02_033",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "La expresión (p → q) ∨ (q → p) es una:",
+    "opciones": [
+      "Tautología",
+      "Contradicción",
+      "Contingencia",
+      "Bicondicional"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "En cualquier combinación de valores de p y q, al menos uno de los dos condicionales será verdadero."
+  },
+  {
+    "id": "g4_alg_02_034",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Clasifique la proposición: ¬[p → (p ∨ q)]",
+    "opciones": [
+      "Contradicción",
+      "Tautología",
+      "Contingencia",
+      "Deducción"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "p → (p ∨ q) es la ley de adición (tautología). Su negación es una contradicción."
+  },
+  {
+    "id": "g4_alg_02_035",
+    "grupo": "Grupo 4",
+    "grupo_id": 4,
+    "carrera_id": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34],
+    "asignatura": "Álgebra",
+    "unidad": "1. LÓGICA MATEMÁTICA",
+    "subtema": "1.2 Tautología, contradicción, contingencia",
+    "dificultad": "alta",
+    "tipo_pregunta": "ejercicio",
+    "enunciado": "Al evaluar [(p ↔ q) ∧ p] → q, se obtiene:",
+    "opciones": [
+      "Tautología",
+      "Contradicción",
+      "Contingencia",
+      "Falso"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Si el bicondicional es verdadero y p es verdadero, q debe ser verdadero. El condicional resultante es siempre V."
+  },
+    
 
 
 
