@@ -1,10 +1,14 @@
 // grupo4.js - Lógica para el Grupo 4 (Álgebra + Física integrado)
+// con integración de preguntas complejas en diagnóstico y final
 
-// Unificar bancos de preguntas
+// Unificar bancos de preguntas normales (Álgebra + Física)
 const BANCO_GRUPO4 = (typeof GRUPO4_ALGEBRA_01 !== 'undefined' ? GRUPO4_ALGEBRA_01 : [])
   .concat(typeof GRUPO4_FISICA_01 !== 'undefined' ? GRUPO4_FISICA_01 : []);
 
-// Configuración de modalidades (igual que en Grupo 1, diagnóstico 30/90)
+// Banco de preguntas complejas (solo Álgebra)
+const COMPLEJAS = typeof GRUPO4_ALGEBRA_COMPLEJAS !== 'undefined' ? GRUPO4_ALGEBRA_COMPLEJAS : [];
+
+// Configuración de modalidades
 const MODALIDAD_CONFIG = {
   diagnostico: { preguntas: 30, tiempo: 90 },
   semanal: { preguntas: 15, tiempo: 30 },
@@ -17,7 +21,7 @@ const MODALIDAD_CONFIG = {
   final: { preguntas: 30, tiempo: 85 }
 };
 
-// Requisitos mínimos para diagnóstico (opcional)
+// Requisitos mínimos para diagnóstico (opcional, puede ajustarse)
 const REQUISITOS_DIAGNOSTICO = {
   "4.1 Definición de relación y función. Dominio y Rango": 2,
   "3.4 Valor absoluto": 2,
@@ -33,8 +37,6 @@ const AppState = {
   timerInterval: null,
   tiempoRestante: 0
 };
-
-// Ya no necesitamos CARRERAS_GRUPO4 porque usaremos un carreraId fijo (18)
 
 document.addEventListener('DOMContentLoaded', () => {
   renderizarCronograma();
@@ -64,7 +66,6 @@ function configurarListeners() {
     const mod = modalidadSelect.value;
     if (mod === 'semanal' || mod === 'acumulado') semanaContainer.classList.remove('hidden');
     else semanaContainer.classList.add('hidden');
-
     if (mod) {
       tiempoInfo.classList.remove('hidden');
       let config;
@@ -102,15 +103,13 @@ function iniciarSimulador() {
     alert('Complete todos los campos.');
     return;
   }
-
-  // Validación: la carrera debe existir en PERFILES_INGRESO
   if (!PERFILES_INGRESO[carrera]) {
     alert(`La carrera "${carrera}" no está registrada en los perfiles de ingreso.`);
     return;
   }
 
   AppState.estudiante.carrera = carrera;
-  AppState.estudiante.carreraId = 18; // ID fijo (dentro del rango 18-34 que tienen las preguntas)
+  AppState.estudiante.carreraId = 18;
   AppState.estudiante.notaColegio = notaColegio;
   AppState.config.modalidad = modalidad;
   AppState.config.semana = semana;
@@ -148,6 +147,13 @@ function mostrarPrevisualizacion(subtemas, modalidad, semana) {
   document.getElementById('btn-comenzar-examen').addEventListener('click', () => comenzarExamen(subtemas));
 }
 
+// Función auxiliar para obtener preguntas aleatorias de un banco (sin repetir)
+function obtenerPreguntasAleatorias(banco, cantidad) {
+  if (banco.length === 0) return [];
+  const shuffled = [...banco].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, Math.min(cantidad, shuffled.length));
+}
+
 function comenzarExamen(subtemas) {
   const modalidad = AppState.config.modalidad;
   let config;
@@ -156,35 +162,68 @@ function comenzarExamen(subtemas) {
   AppState.config.numPreguntas = config.preguntas;
   AppState.config.tiempoMinutos = config.tiempo;
 
+  // Filtrar pool normal (Álgebra + Física)
   let pool = BANCO_GRUPO4;
-  if (modalidad === 'final') pool = pool.filter(p => p.dificultad === 'media' || p.dificultad === 'alta');
-  else pool = filtrarPreguntas(pool, 4, AppState.estudiante.carreraId, subtemas);
-
-  if (pool.length < AppState.config.numPreguntas) {
-    alert(`Solo hay ${pool.length} preguntas disponibles. Se ajustará el número.`);
-    AppState.config.numPreguntas = Math.min(pool.length, AppState.config.numPreguntas);
+  if (modalidad === 'final') {
+    pool = pool.filter(p => p.dificultad === 'media' || p.dificultad === 'alta');
+  } else {
+    pool = filtrarPreguntas(pool, 4, AppState.estudiante.carreraId, subtemas);
   }
 
-  if (modalidad === 'diagnostico') AppState.examenActual = generarExamenConRequisitos(pool, AppState.config.numPreguntas, REQUISITOS_DIAGNOSTICO);
-  else AppState.examenActual = generarExamen(pool, AppState.config.numPreguntas);
+  // --- Integración de preguntas complejas ---
+  let preguntasFinal = [];
+  let preguntasNormales = [...pool];
 
+  if (modalidad === 'diagnostico') {
+    // Tomar 5 complejas al azar
+    const complejas = obtenerPreguntasAleatorias(COMPLEJAS, 5);
+    preguntasFinal.push(...complejas);
+    // Eliminar las complejas del pool normal (por si acaso, aunque los IDs son distintos, no es necesario)
+    // El resto se completa con preguntas normales (sin requisitos especiales, pero se pueden añadir requisitos si se desea)
+    const necesarias = AppState.config.numPreguntas - preguntasFinal.length;
+    if (necesarias > 0) {
+      const normales = pool.sort(() => Math.random() - 0.5).slice(0, necesarias);
+      preguntasFinal.push(...normales);
+    }
+  } 
+  else if (modalidad === 'final') {
+    // Tomar 6 complejas al azar
+    const complejas = obtenerPreguntasAleatorias(COMPLEJAS, 6);
+    preguntasFinal.push(...complejas);
+    const necesarias = AppState.config.numPreguntas - preguntasFinal.length;
+    if (necesarias > 0) {
+      const normales = pool.sort(() => Math.random() - 0.5).slice(0, necesarias);
+      preguntasFinal.push(...normales);
+    }
+  }
+  else {
+    // Semanal o acumulado: solo preguntas normales
+    if (modalidad === 'diagnostico' && false) {} // ya cubierto
+    else {
+      preguntasFinal = generarExamen(pool, AppState.config.numPreguntas);
+    }
+  }
+
+  // Si aún no se ha generado (caso semanal/acumulado), generamos examen normal
+  if (preguntasFinal.length === 0) {
+    preguntasFinal = generarExamen(pool, AppState.config.numPreguntas);
+  }
+
+  // Barajar opciones de todas las preguntas (por si acaso se usa directamente sin generarExamen)
+  preguntasFinal = preguntasFinal.map(p => barajarOpciones(p));
+
+  // Si falta alguna pregunta (por falta de pool), ajustar
+  if (preguntasFinal.length < AppState.config.numPreguntas) {
+    alert(`Solo hay ${preguntasFinal.length} preguntas disponibles. Se ajustará el número.`);
+    AppState.config.numPreguntas = preguntasFinal.length;
+  } else if (preguntasFinal.length > AppState.config.numPreguntas) {
+    preguntasFinal = preguntasFinal.slice(0, AppState.config.numPreguntas);
+  }
+
+  AppState.examenActual = preguntasFinal;
   AppState.respuestasUsuario = new Array(AppState.examenActual.length).fill(null);
   renderizarExamen();
   iniciarTemporizador();
-}
-
-function generarExamenConRequisitos(pool, numTotal, requisitos) {
-  let seleccionadas = [], poolRestante = [...pool];
-  for (let [subtema, cantidad] of Object.entries(requisitos)) {
-    const preguntasSubtema = poolRestante.filter(p => p.subtema === subtema);
-    const extraidas = preguntasSubtema.sort(() => Math.random() - 0.5).slice(0, Math.min(cantidad, preguntasSubtema.length));
-    seleccionadas.push(...extraidas);
-    const idsExtraidas = new Set(extraidas.map(p => p.id));
-    poolRestante = poolRestante.filter(p => !idsExtraidas.has(p.id));
-  }
-  if (seleccionadas.length >= numTotal) return seleccionadas.sort(() => Math.random() - 0.5).slice(0, numTotal);
-  const restantes = poolRestante.sort(() => Math.random() - 0.5).slice(0, numTotal - seleccionadas.length);
-  return [...seleccionadas, ...restantes].sort(() => Math.random() - 0.5);
 }
 
 function renderizarExamen() {
@@ -252,7 +291,6 @@ function mostrarResultados(resultado) {
 
   const estado = evaluarEstadoIngreso(AppState.estudiante.carrera, AppState.estudiante.notaColegio, resultado.puntaje);
 
-  // Validación de seguridad
   if (!estado || estado.puntajeTotal === undefined) {
     document.getElementById('view-results').innerHTML = `
       <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative">
