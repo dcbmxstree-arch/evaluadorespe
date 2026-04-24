@@ -1,5 +1,42 @@
 // examEngine.js
-// Motor genérico de exámenes: filtrado, generación y corrección.
+// Motor genérico de exámenes: filtrado, generación, corrección y barajado de opciones
+
+/**
+ * Función auxiliar para mezclar un array (Fisher-Yates)
+ * @param {Array} array
+ * @returns {Array} Nuevo array mezclado
+ */
+function shuffleArray(array) {
+  const newArray = [...array];
+  for (let i = newArray.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+  }
+  return newArray;
+}
+
+/**
+ * Baraja las opciones de una pregunta y actualiza el índice de la respuesta correcta.
+ * @param {Object} pregunta - Objeto pregunta original (con opciones y respuesta_correcta)
+ * @returns {Object} Nueva pregunta con opciones mezcladas y respuesta_correcta actualizada.
+ */
+function barajarOpciones(pregunta) {
+  // Crear una copia profunda
+  const nuevaPregunta = JSON.parse(JSON.stringify(pregunta));
+  const opcionesOriginales = nuevaPregunta.opciones;
+  const indiceCorrectoOriginal = nuevaPregunta.respuesta_correcta;
+  const opcionCorrectaTexto = opcionesOriginales[indiceCorrectoOriginal];
+
+  // Mezclar las opciones
+  const opcionesMezcladas = shuffleArray(opcionesOriginales);
+  // Encontrar el nuevo índice donde quedó la opción correcta
+  const nuevoIndiceCorrecto = opcionesMezcladas.findIndex(op => op === opcionCorrectaTexto);
+
+  nuevaPregunta.opciones = opcionesMezcladas;
+  nuevaPregunta.respuesta_correcta = nuevoIndiceCorrecto;
+
+  return nuevaPregunta;
+}
 
 /**
  * Filtra las preguntas según el grupo, carrera, semana(s) y dificultad.
@@ -25,20 +62,58 @@ function filtrarPreguntas(banco, grupoId, carreraId, subtemas, dificultad = null
 
 /**
  * Genera un examen aleatorio con un número dado de preguntas.
+ * Las opciones de cada pregunta se barajan automáticamente.
  * @param {Array} pool - Preguntas disponibles.
  * @param {number} num - Número de preguntas a seleccionar.
- * @returns {Array} Examen aleatorio.
+ * @returns {Array} Examen aleatorio con opciones mezcladas.
  */
 function generarExamen(pool, num) {
   if (pool.length === 0) return [];
   const shuffled = [...pool].sort(() => Math.random() - 0.5);
-  return shuffled.slice(0, Math.min(num, shuffled.length));
+  const seleccionadas = shuffled.slice(0, Math.min(num, shuffled.length));
+  // Barajar opciones de cada pregunta seleccionada
+  return seleccionadas.map(preg => barajarOpciones(preg));
+}
+
+/**
+ * Genera un examen con requisitos mínimos (para diagnóstico, por ejemplo).
+ * También baraja las opciones de cada pregunta.
+ * @param {Array} pool - Preguntas disponibles.
+ * @param {number} numTotal - Total de preguntas del examen.
+ * @param {Object} requisitos - { "subtema": cantidadMinima, ... }
+ * @returns {Array} Examen generado con opciones mezcladas.
+ */
+function generarExamenConRequisitos(pool, numTotal, requisitos) {
+  let seleccionadas = [];
+  let poolRestante = [...pool];
+
+  // Extraer preguntas para cada requisito
+  for (let [subtema, cantidad] of Object.entries(requisitos)) {
+    const preguntasSubtema = poolRestante.filter(p => p.subtema === subtema);
+    const extraidas = preguntasSubtema.sort(() => Math.random() - 0.5).slice(0, Math.min(cantidad, preguntasSubtema.length));
+    seleccionadas.push(...extraidas);
+    // Eliminar las extraídas del pool para no repetir
+    const idsExtraidas = new Set(extraidas.map(p => p.id));
+    poolRestante = poolRestante.filter(p => !idsExtraidas.has(p.id));
+  }
+
+  // Si ya tenemos suficientes, recortar aleatoriamente y barajar opciones
+  if (seleccionadas.length >= numTotal) {
+    const examen = seleccionadas.sort(() => Math.random() - 0.5).slice(0, numTotal);
+    return examen.map(preg => barajarOpciones(preg));
+  }
+
+  // Rellenar el resto con preguntas aleatorias del pool restante
+  const restantesNecesarias = numTotal - seleccionadas.length;
+  const restantes = poolRestante.sort(() => Math.random() - 0.5).slice(0, restantesNecesarias);
+  const examenCompleto = [...seleccionadas, ...restantes].sort(() => Math.random() - 0.5);
+  return examenCompleto.map(preg => barajarOpciones(preg));
 }
 
 /**
  * Corrige un examen y devuelve estadísticas.
- * @param {Array} examen - Preguntas del examen.
- * @param {Array} respuestas - Índices de respuesta del usuario.
+ * @param {Array} examen - Preguntas del examen (ya barajadas).
+ * @param {Array} respuestas - Índices de respuesta del usuario (según el orden presentado).
  * @returns {Object} Resultados con aciertos, puntaje y detalle por unidad.
  */
 function corregirExamen(examen, respuestas) {
