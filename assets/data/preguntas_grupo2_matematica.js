@@ -2072,7 +2072,7 @@
     "enunciado": "Calcule: $\sqrt{64} + \sqrt[3]{64}$",
     "opciones": ["12", "16", "10", "14"],
     "respuesta_correcta": 0,
-    "retroalimentacion": $\sqrt{64}=8$. $\sqrt[3]{64}=4$. $8+4=12$.
+    "retroalimentacion": "$\\sqrt{64}=8$. $\\sqrt[3]{64}=4$. $8+4=12$."
   },
   {
     "id": "g2_mat_05_013",
