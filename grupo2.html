@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physics · Grupo 2 | Ciencias Humanas y Servicios</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+    .accordion-content.open { max-height: 2000px; }
+    .quiz-option { transition: all 0.2s; }
+    .quiz-option:hover { background-color: #f3f4f6; }
+    input[type="radio"]:checked + span { font-weight: 600; color: #1e3a8a; }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col">
+
+  <header class="bg-[#003366] text-white py-3 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <a href="index.html" class="text-white hover:text-blue-200"><i class="fas fa-home text-xl"></i></a>
+        <i class="fas fa-atom text-2xl"></i>
+        <h1 class="text-xl font-bold">Physics <span class="text-blue-200 font-normal">| Grupo 2 · Ciencias Humanas y Servicios</span></h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="flex-grow container mx-auto px-4 py-6">
+    <div id="view-home" class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+      <div class="lg:col-span-2">
+        <h2 class="text-2xl font-bold text-[#003366] mb-4">📅 Cronograma Académico</h2>
+        <div id="cronograma-container" class="space-y-4"></div>
+      </div>
+
+      <div class="bg-white rounded-xl shadow-lg p-6 h-fit sticky top-20">
+        <h2 class="text-xl font-bold text-[#003366] mb-4">🎯 Simulador de Ingreso</h2>
+        <form id="form-simulador" class="space-y-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Carrera deseada</label>
+            <select id="carrera-select" class="w-full border rounded-lg p-2 focus:ring-2 focus:ring-[#003366]" required>
+              <option value="">Seleccione</option>
+              <option>Educación Inicial</option>
+              <option>Pedagogía de la Actividad Física y Deporte</option>
+              <option>Educación Básica</option>
+              <option>Pedagogía del Idioma Inglés</option>
+              <option>Turismo</option>
+              <option>Tecnología Superior en Seguridad y Prevención de Riesgos Laborales</option>
+              <option>Relaciones Internacionales</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Nota de Grado (Colegio) 0-10</label>
+            <input type="number" id="nota-colegio" min="0" max="10" step="0.1" value="8.5" class="w-full border rounded-lg p-2" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700">Modalidad</label>
+            <select id="modalidad-select" class="w-full border rounded-lg p-2" required>
+              <option value="">Seleccione</option>
+              <option value="diagnostico">Diagnóstico (todo el curso)</option>
+              <option value="semanal">Semanal</option>
+              <option value="acumulado">Acumulado (hasta semana N)</option>
+              <option value="final">Final (solo dificultad media/alta)</option>
+            </select>
+          </div>
+          <div id="semana-container" class="hidden">
+            <label class="block text-sm font-medium text-gray-700">Semana</label>
+            <select id="semana-select" class="w-full border rounded-lg p-2">
+              <option value="1">Semana 1</option><option value="2">Semana 2</option><option value="3">Semana 3</option>
+              <option value="4">Semana 4</option><option value="5">Semana 5</option><option value="6">Semana 6</option>
+              <option value="7">Semana 7</option><option value="8">Semana 8</option><option value="9">Semana 9</option>
+              <option value="10">Semana 10</option>
+            </select>
+          </div>
+          <div id="tiempo-info" class="text-sm text-gray-600 bg-gray-100 p-2 rounded hidden">
+            ⏱️ <span id="tiempo-examen">30 min</span> · 📝 <span id="num-preguntas">15 preguntas</span>
+          </div>
+          <button type="submit" class="w-full bg-[#003366] text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition">
+            Iniciar Examen <i class="fas fa-arrow-right ml-2"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div id="view-preview" class="hidden max-w-3xl mx-auto"></div>
+    <div id="view-exam" class="hidden max-w-4xl mx-auto"></div>
+    <div id="view-results" class="hidden max-w-5xl mx-auto"></div>
+  </main>
+
+  <footer class="bg-gray-200 text-gray-600 py-3 text-center text-sm">
+    <p>© 2025 Physics Preuniversitario · Preparación para el ingreso a la Universidad de las Fuerzas Armadas ESPE</p>
+  </footer>
+
+  <!-- Datos -->
+  <script src="assets/data/cronograma_grupo2.js"></script>
+  <script src="assets/data/preguntas_grupo2_matematica.js"></script>
+  <script src="assets/data/perfiles_ingreso.js"></script>
+  <script src="assets/js/examEngine.js"></script>
+  <script src="assets/js/charts.js"></script>
+  <script src="assets/js/grupo2.js"></script>
+</body>
+</html>
