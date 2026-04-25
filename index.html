@@ -17,7 +17,7 @@
       transition: max-height 0.4s ease-out;
     }
     .acordeon-contenido.open {
-      max-height: 500px; /* suficiente para el contenido */
+      max-height: 500px;
       transition: max-height 0.4s ease-in;
     }
     /* Botón flotante de WhatsApp */
@@ -53,11 +53,10 @@
     <i class="fab fa-whatsapp"></i>
   </a>
 
-  <!-- Header con logo (temporal: ícono + texto. Reemplazar por imagen si se tiene) -->
+  <!-- Header con logo temporal -->
   <header class="bg-[#003366] text-white py-4 shadow-md">
     <div class="container mx-auto px-4 flex items-center justify-between">
       <div class="flex items-center space-x-3">
-        <!-- Logo: aquí puedes poner tu imagen -->
         <i class="fas fa-atom text-3xl"></i>
         <!-- <img src="assets/img/logo-physics.png" alt="Physics" class="h-10"> -->
         <div>
@@ -133,15 +132,8 @@
 
     </div>
   </section>
-<section class="container mx-auto px-4 py-8">
-  <div class="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl shadow-lg p-6 text-white text-center">
-    <i class="fas fa-trophy text-4xl mb-2"></i>
-    <h2 class="text-2xl font-bold">¿Buscas un desafío mayor?</h2>
-    <p class="mt-2">Pon a prueba tu habilidad con los problemas más difíciles de Álgebra y Física.</p>
-    <a href="retos.html" class="inline-block mt-4 bg-yellow-500 text-gray-900 px-6 py-2 rounded-lg font-semibold hover:bg-yellow-400 transition">🎯 Ir a Retos</a>
-  </div>
-</section>
-  <!-- Tarjetas de Grupos (similares al original, pero con enlaces reales) -->
+
+  <!-- Tarjetas de Grupos -->
   <section class="container mx-auto px-4 py-12">
     <h3 class="text-3xl font-bold text-center text-[#003366] mb-10">Selecciona tu Grupo de Carreras</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -164,8 +156,8 @@
         </div>
       </a>
 
-      <!-- Grupo 2 (próximamente) -->
-      <div class="bg-white rounded-xl shadow-lg opacity-75">
+      <!-- Grupo 2 (ACTIVADO, sin opacidad) -->
+      <a href="grupo2.html" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden">
         <div class="bg-green-600 p-6 text-white text-center">
           <i class="fas fa-heart text-4xl mb-2"></i>
           <h4 class="font-bold text-lg">Grupo 2</h4>
@@ -177,11 +169,11 @@
             <li>Turismo</li>
             <li>Relaciones Internacionales</li>
           </ul>
-          <span class="mt-4 inline-block text-gray-400 font-semibold text-sm">Próximamente</span>
+          <span class="mt-4 inline-block text-green-600 font-semibold text-sm">Acceder <i class="fas fa-arrow-right ml-1"></i></span>
         </div>
-      </div>
+      </a>
 
-      <!-- Grupo 3 (próximamente) -->
+      <!-- Grupo 3 (Próximamente) -->
       <div class="bg-white rounded-xl shadow-lg opacity-75">
         <div class="bg-red-600 p-6 text-white text-center">
           <i class="fas fa-flask text-4xl mb-2"></i>
@@ -198,7 +190,7 @@
         </div>
       </div>
 
-      <!-- Grupo 4 -->
+      <!-- Grupo 4 (ACTIVADO) -->
       <a href="grupo4.html" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden">
         <div class="bg-purple-600 p-6 text-white text-center">
           <i class="fas fa-cogs text-4xl mb-2"></i>
