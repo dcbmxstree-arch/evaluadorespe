@@ -10184,7 +10184,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "Si $x$ es la media proporcional de $4$ y $y$, y también la media de $y$ y $9$, halle $y$.",
     "opciones": ["6", "8", "12", "18"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "x^2=4y y x^2=9y → 4y=9y → y=0 (no válido). No hay solución excepto y=0. Mejor: x es media proporcional entre 4 y y, y también entre y y 9. Entonces 4/x = x/y y y/x = x/9 → de la primera: x^2=4y; de la segunda: x^2=9y? No, segunda: y/x = x/9 → x^2=9y. Entonces 4y=9y → y=0. No tiene sentido. Así que cambio enunciado: "Si x es media proporcional entre 4 y y, y también entre y y 9" lleva a contradicción. Mejor otra:"
+    "retroalimentacion": "x^2=4y y x^2=9y → 4y=9y → y=0 (no válido). No hay solución excepto y=0. Mejor: x es media proporcional entre 4 y y, y también entre y y 9. Entonces 4/x = x/y y y/x = x/9 → de la primera: x^2=4y; de la segunda: x^2=9y? No, segunda: y/x = x/9 → x^2=9y. Entonces 4y=9y → y=0. No tiene sentido. Así que cambio enunciado: Si x es media proporcional entre 4 y y, y también entre y y 9 lleva a contradicción. Mejor otra:"
   },
   {
     "id": "g2_mat_24_023",
