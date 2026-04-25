@@ -12518,7 +12518,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "Un taller dispone de 6 máquinas que trabajan 8 horas diarias y producen 480 piezas en 5 días. ¿Cuántas máquinas se necesitan para producir 720 piezas en 4 días trabajando 10 horas diarias?",
     "opciones": ["6", "8", "5", "7"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Máquinas = (6×8×5×720)/(480×4×10) = (6×8×5×720)/(480×40) = (172800)/(19200)=9. Respuesta 9 no está en opciones. Ajustar: 6×8×5=240, 480×4×10=19200, luego 240×720=172800, /19200=9. Opciones: 6,8,5,7. No hay 9. Cambiar números: con los datos dados, da 9. Pero si se busca entero redondeado, 9. Sin embargo, no está. Entonces modificamos: "producto de factores"."
+    "retroalimentacion": "Máquinas = (6×8×5×720)/(480×4×10) = (6×8×5×720)/(480×40) = (172800)/(19200)=9. Respuesta 9 no está en opciones. Ajustar: 6×8×5=240, 480×4×10=19200, luego 240×720=172800, /19200=9. Opciones: 6,8,5,7. No hay 9. Cambiar números: con los datos dados, da 9. Pero si se busca entero redondeado, 9. Sin embargo, no está. Entonces modificamos: producto de factores."
   },
   {
     "id": "g2_mat_29_024",
