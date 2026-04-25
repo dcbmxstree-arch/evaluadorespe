@@ -3,14 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
   <title>Physics · Grupo 2 | Ciencias Humanas y Servicios</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Configuración y carga de MathJax -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']],
+        processEscapes: true
+      },
+      options: {
+        ignoreHtmlClass: 'tex2jax_ignore',
+        processHtmlClass: 'tex2jax_process'
+      },
+      startup: {
+        typeset: false
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
   <style>
-    .accordion-content { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
-    .accordion-content.open { max-height: 2000px; }
     .quiz-option { transition: all 0.2s; }
     .quiz-option:hover { background-color: #f3f4f6; }
     input[type="radio"]:checked + span { font-weight: 600; color: #1e3a8a; }
@@ -29,15 +44,16 @@
   </header>
 
   <main class="flex-grow container mx-auto px-4 py-6">
+    <!-- Vista del cronograma y formulario -->
     <div id="view-home" class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <div class="lg:col-span-2">
         <h2 class="text-2xl font-bold text-[#003366] mb-4">📅 Cronograma Académico</h2>
         <div id="cronograma-container" class="space-y-4"></div>
       </div>
-
       <div class="bg-white rounded-xl shadow-lg p-6 h-fit sticky top-20">
         <h2 class="text-xl font-bold text-[#003366] mb-4">🎯 Simulador de Ingreso</h2>
         <form id="form-simulador" class="space-y-4">
+          <!-- carreras reales del Grupo 2 -->
           <div>
             <label class="block text-sm font-medium text-gray-700">Carrera deseada</label>
             <select id="carrera-select" class="w-full border rounded-lg p-2 focus:ring-2 focus:ring-[#003366]" required>
@@ -77,28 +93,36 @@
           <div id="tiempo-info" class="text-sm text-gray-600 bg-gray-100 p-2 rounded hidden">
             ⏱️ <span id="tiempo-examen">30 min</span> · 📝 <span id="num-preguntas">15 preguntas</span>
           </div>
-          <button type="submit" class="w-full bg-[#003366] text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition">
-            Iniciar Examen <i class="fas fa-arrow-right ml-2"></i>
-          </button>
+          <button type="submit" class="w-full bg-[#003366] text-white py-3 rounded-lg font-semibold hover:bg-blue-800 transition">Iniciar Examen</button>
         </form>
       </div>
     </div>
-
     <div id="view-preview" class="hidden max-w-3xl mx-auto"></div>
     <div id="view-exam" class="hidden max-w-4xl mx-auto"></div>
     <div id="view-results" class="hidden max-w-5xl mx-auto"></div>
   </main>
 
   <footer class="bg-gray-200 text-gray-600 py-3 text-center text-sm">
-    <p>© 2025 Physics Preuniversitario · Preparación para el ingreso a la Universidad de las Fuerzas Armadas ESPE</p>
+    <p>© 2025 Physics Preuniversitario · Preparación ESPE</p>
   </footer>
 
-  <!-- Datos -->
   <script src="assets/data/cronograma_grupo2.js"></script>
   <script src="assets/data/preguntas_grupo2_matematica.js"></script>
   <script src="assets/data/perfiles_ingreso.js"></script>
   <script src="assets/js/examEngine.js"></script>
   <script src="assets/js/charts.js"></script>
   <script src="assets/js/grupo2.js"></script>
+  <!-- Forzar el renderizado de MathJax después de cargar el DOM y cada vez que se muestren nuevas preguntas -->
+  <script>
+    function renderMath() {
+      if (window.MathJax) {
+        MathJax.typesetPromise();
+      }
+    }
+    // Observar cambios en el DOM para renderizar automáticamente
+    const observer = new MutationObserver(() => renderMath());
+    observer.observe(document.body, { childList: true, subtree: true });
+    document.addEventListener('DOMContentLoaded', renderMath);
+  </script>
 </body>
 </html>
