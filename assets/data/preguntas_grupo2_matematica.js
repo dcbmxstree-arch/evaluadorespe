@@ -1336,7 +1336,7 @@
     "enunciado": "Resuelva: { [ (10 - 2) / 4 ] + [ (6 + 4) * 2 ] }",
     "opciones": ["22", "20", "24", "18"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "retroalimentacion": "(10-2)/4 = 8/4 = 2. (6+4)*2 = 10*2 = 20. 2 + 20 = 22."
+    "retroalimentacion": "(10-2)/4 = 8/4 = 2. (6+4)*2 = 10*2 = 20. 2 + 20 = 22."
   },
   {
     "id": "g2_mat_03_027",
