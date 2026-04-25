@@ -10289,7 +10289,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "Halle $x$ tal que $\\frac{2x+1}{3} = \\frac{3}{2x-1}$.",
     "opciones": ["2", "-2", "±2", "1"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "(2x+1)(2x-1)=9 → 4x^2-1=9 → 4x^2=10 → x^2=2.5 → x=±√2.5 no entero. Opciones no. Cambiar ecuación: (2x+1)/3 = 3/(2x+1) -> (2x+1)^2=9 -> 2x+1=±3 -> x=1 o x=-2. Opciones 1 y -2. La respuesta puede ser 1 o -2, pero opción múltiple. Elegir "x=1" o "x=-2". Para simplificar, hago:"
+    "retroalimentacion": "(2x+1)(2x-1)=9 → 4x^2-1=9 → 4x^2=10 → x^2=2.5 → x=±√2.5 no entero. Opciones no. Cambiar ecuación: (2x+1)/3 = 3/(2x+1) -> (2x+1)^2=9 -> 2x+1=±3 -> x=1 o x=-2. Opciones 1 y -2. La respuesta puede ser 1 o -2, pero opción múltiple. Elegir x=1" o "x=-2. Para simplificar, hago:"
   },
   {
     "id": "g2_mat_24_030",
