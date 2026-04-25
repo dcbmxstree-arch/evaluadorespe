@@ -257,7 +257,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si un sistema de numeración hipotético usado en un experimento psicológico fuera de Base 4, ¿cómo se representaría el número decimal 13 en dicho sistema?",
     "opciones": ["31", "13", "111", "21"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "13 dividido para 4 es 3 con residuo 1. Por lo tanto, en base 4 es 31 ($3 \\times 4^1 + 1 \\times 4^0 = 12 + 1 = 13$)."
+    "retroalimentacion": "13 dividido para 4 es 3 con residuo 1. Por lo tanto, en base 4 es 31 (3 \times 4^1 + 1 \times 4^0 = 12 + 1 = 13)."
   },
   {
     "id": "g2_mat_01_018",
@@ -287,7 +287,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Considere un sistema posicional de base 12 (duodecimal). ¿Qué valor tendría el número '1A' en nuestro sistema decimal, sabiendo que 'A' representa el valor 10?",
     "opciones": ["22", "12", "110", "120"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1 \\times 12^1 + 10 \\times 12^0 = 12 + 10 = 22$."
+    "retroalimentacion": "1 \times 12^1 + 10 \times 12^0 = 12 + 10 = 22."
   },
   {
     "id": "g2_mat_01_020",
@@ -317,7 +317,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un arqueólogo encuentra una tablilla con un número en base 60 que tiene dos posiciones: [2][10]. ¿Cuál es su equivalente decimal?",
     "opciones": ["210", "130", "120", "260"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$2 \\times 60^1 + 10 \\times 60^0 = 120 + 10 = 130$."
+    "retroalimentacion": "2 \times 60^1 + 10 \times 60^0 = 120 + 10 = 130."
   },
   {
     "id": "g2_mat_01_022",
@@ -347,7 +347,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si en un sistema de base 5 el número de estudiantes de un curso se escribe como '23', ¿cuántos estudiantes hay en realidad (en base 10)?",
     "opciones": ["23", "10", "13", "15"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$2 \\times 5^1 + 3 \\times 5^0 = 10 + 3 = 13$."
+    "retroalimentacion": "2 \times 5^1 + 3 \times 5^0 = 10 + 3 = 13."
   },
   {
     "id": "g2_mat_01_024",
@@ -437,7 +437,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "En una base de numeración 'n', el número mayor de una sola cifra es siempre:",
     "opciones": ["n", "n + 1", "n - 1", "10"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "En base 10 el mayor es 9; en base 2 el mayor es 1. Siempre es la base menos uno ($n-1$)."
+    "retroalimentacion": "En base 10 el mayor es 9; en base 2 el mayor es 1. Siempre es la base menos uno (n-1)."
   },
   {
     "id": "g2_mat_01_030",
@@ -485,7 +485,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿A qué conjunto numérico pertenecen los números que se utilizan para contar elementos de forma natural (1, 2, 3...)?",
     "opciones": ["Números Irracionales", "Números Naturales", "Números Negativos", "Números Fraccionarios"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Los números naturales ($\\mathbb{N}$) son los que surgen de la necesidad de contar objetos."
+    "retroalimentacion": "Los números naturales (\mathbb{N}) son los que surgen de la necesidad de contar objetos."
   },
   {
     "id": "g2_mat_02_002",
@@ -497,7 +497,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "El conjunto de los números enteros ($\\mathbb{Z}$) está formado por:",
+    "enunciado": "El conjunto de los números enteros (\mathbb{Z}) está formado por:",
     "opciones": ["Solo números positivos", "Solo el cero", "Naturales, sus opuestos (negativos) y el cero", "Solo fracciones"],
     "respuesta_correcta": 2,
     "retroalimentacion": "Los enteros incluyen los naturales, sus negativos y el elemento neutro (cero)."
@@ -530,7 +530,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Todo número que puede expresarse como el cociente de dos números enteros (con denominador distinto de cero) se llama:",
     "opciones": ["Irracional", "Racional", "Entero puro", "Incalculable"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Los números racionales ($\\mathbb{Q}$) son aquellos que pueden escribirse como una fracción $a/b$."
+    "retroalimentacion": "Los números racionales (\mathbb{Q}) son aquellos que pueden escribirse como una fracción a/b."
   },
   {
     "id": "g2_mat_02_005",
@@ -543,9 +543,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "¿Cuál es el símbolo que representa al conjunto de los números Reales?",
-    "opciones": ["$\\mathbb{N}$", "$\\mathbb{Q}$", "$\\mathbb{Z}$", "$\\mathbb{R}$"],
+    "opciones": ["\mathbb{N}", "\mathbb{Q}", "\mathbb{Z}", "\mathbb{R}"],
     "respuesta_correcta": 3,
-    "retroalimentacion": "La letra $\\mathbb{R}$ designa al conjunto que une a racionales e irracionales."
+    "retroalimentacion": "La letra \mathbb{R} designa al conjunto que une a racionales e irracionales."
   },
   {
     "id": "g2_mat_02_006",
@@ -560,7 +560,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si un número decimal tiene cifras infinitas que NO se repiten de forma periódica, se clasifica como:",
     "opciones": ["Entero", "Racional", "Irracional", "Natural"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Los irracionales tienen decimales infinitos no periódicos (como $\\pi$ o $\\sqrt{2}$)."
+    "retroalimentacion": "Los irracionales tienen decimales infinitos no periódicos (como \pi o \sqrt{2})."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -589,10 +589,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿A qué conjunto pertenece el resultado de la operación $\\sqrt{16}$?",
+    "enunciado": "¿A qué conjunto pertenece el resultado de la operación \sqrt{16}?",
     "opciones": ["Solo Irracionales", "Solo Racionales", "Naturales, Enteros y Racionales", "Solo Enteros negativos"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$\\sqrt{16} = 4$, que es un número natural, entero y racional a la vez."
+    "retroalimentacion": "\sqrt{16} = 4, que es un número natural, entero y racional a la vez."
   },
   {
     "id": "g2_mat_02_009",
@@ -607,7 +607,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si una prueba psicológica arroja un puntaje de -5 puntos debido a penalizaciones, ¿dentro de qué conjunto clasificamos este resultado?",
     "opciones": ["Números Naturales", "Números Enteros", "Números Irracionales", "No es un número"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Los puntajes negativos pertenecen al conjunto de los números enteros ($\\mathbb{Z}$)."
+    "retroalimentacion": "Los puntajes negativos pertenecen al conjunto de los números enteros (\mathbb{Z})."
   },
   {
     "id": "g2_mat_02_010",
@@ -634,10 +634,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "El número $\\pi$ (Pi) es esencial para calcular áreas. En la clasificación numérica, $\\pi$ es un ejemplo clásico de:",
+    "enunciado": "El número \pi (Pi) es esencial para calcular áreas. En la clasificación numérica, \pi es un ejemplo clásico de:",
     "opciones": ["Número Entero", "Número Racional Periódico", "Número Irracional", "Número Natural"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$\\pi$ tiene infinitas cifras decimales no periódicas, por lo que es irracional."
+    "retroalimentacion": "\pi tiene infinitas cifras decimales no periódicas, por lo que es irracional."
   },
   {
     "id": "g2_mat_02_012",
@@ -652,7 +652,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "La afirmación 'Todo número natural es también un número entero' es:",
     "opciones": ["Verdadera", "Falsa", "Solo en algunos casos", "Solo para números mayores a 100"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Los naturales son un subconjunto de los enteros ($\\mathbb{N} \\subset \\mathbb{Z}$)."
+    "retroalimentacion": "Los naturales son un subconjunto de los enteros (\mathbb{N} \subset \mathbb{Z})."
   },
   {
     "id": "g2_mat_02_013",
@@ -682,7 +682,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si dividimos el perímetro de cualquier círculo por su diámetro, el resultado pertenece a:",
     "opciones": ["Los Naturales", "Los Racionales", "Los Irracionales", "Los Enteros"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Esa división da como resultado $\\pi$, que es irracional."
+    "retroalimentacion": "Esa división da como resultado \pi, que es irracional."
   },
   {
     "id": "g2_mat_02_015",
@@ -694,7 +694,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Cuál es la principal diferencia entre $\\mathbb{Q}$ (racionales) e $\\mathbb{I}$ (irracionales)?",
+    "enunciado": "¿Cuál es la principal diferencia entre \mathbb{Q} (racionales) e \mathbb{I} (irracionales)?",
     "opciones": ["Los irracionales son negativos", "Los racionales se pueden expresar como fracción y los irracionales no", "Los racionales no tienen decimales", "No hay diferencia"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Los racionales provienen de una razón/fracción, los irracionales no pueden formarse así."
@@ -709,7 +709,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "El número $0.333...$ (periódico puro) pertenece al conjunto de:",
+    "enunciado": "El número 0.333... (periódico puro) pertenece al conjunto de:",
     "opciones": ["Irracionales", "Racionales", "Enteros", "Naturales"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Los decimales periódicos son racionales porque pueden convertirse en fracción (en este caso, 1/3)."
@@ -741,10 +741,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Analice la siguiente operación: $x = \\sqrt{2} \\cdot \\sqrt{2}$. ¿A qué conjunto pertenece $x$?",
+    "enunciado": "Analice la siguiente operación: x = \sqrt{2} \cdot \sqrt{2}. ¿A qué conjunto pertenece x?",
     "opciones": ["Irracionales", "Naturales, Enteros y Racionales", "Racionales pero no Enteros", "Solo a los Reales negativos"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$\\sqrt{2} \\cdot \\sqrt{2} = (\\sqrt{2})^2 = 2$. El 2 es natural, entero y racional."
+    "retroalimentacion": "\sqrt{2} \cdot \sqrt{2} = (\sqrt{2})^2 = 2. El 2 es natural, entero y racional."
   },
   {
     "id": "g2_mat_02_019",
@@ -757,9 +757,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
     "enunciado": "¿Cuál de las siguientes proposiciones es FALSA sobre los conjuntos numéricos?",
-    "opciones": ["$\\mathbb{Z} \\subset \\mathbb{Q}$", "$\\mathbb{Q} \\cup \\mathbb{I} = \\mathbb{R}$", "$\\mathbb{Q} \\cap \\mathbb{I} = \\{0\\}$", "$\\mathbb{N} \\subset \\mathbb{R}$"],
+    "opciones": ["\mathbb{Z} \subset \mathbb{Q}", "\mathbb{Q} \cup \mathbb{I} = \mathbb{R}", "\mathbb{Q} \cap \mathbb{I} = \{0\}", "\mathbb{N} \subset \mathbb{R}"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "La intersección de racionales e irracionales es el conjunto vacío ($\\emptyset$), no el cero. Un número no puede ser ambos a la vez."
+    "retroalimentacion": "La intersección de racionales e irracionales es el conjunto vacío (\emptyset), no el cero. Un número no puede ser ambos a la vez."
   },
   {
     "id": "g2_mat_02_020",
@@ -789,7 +789,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿A qué conjunto pertenece el número real e (número de Euler, aprox 2.71828...)?",
     "opciones": ["Racionales", "Irracionales", "Enteros", "Fraccionarios exactos"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Al igual que $\\pi$, $e$ es un número trascendente e irracional."
+    "retroalimentacion": "Al igual que \pi, e es un número trascendente e irracional."
   },
   {
     "id": "g2_mat_02_022",
@@ -802,7 +802,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
     "enunciado": "Si un psicólogo mide el tiempo de reacción de un paciente con precisión de milisegundos, los valores obtenidos pertenecen principalmente a:",
-    "opciones": ["$\\mathbb{Z}$", "$\\mathbb{Q}$", "$\\mathbb{I}$", "$\\mathbb{N}$"],
+    "opciones": ["\mathbb{Z}", "\mathbb{Q}", "\mathbb{I}", "\mathbb{N}"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Cualquier medida finita con decimales (como 1.250 s) es un número racional."
   },
@@ -817,7 +817,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Indique cuál de estos números NO puede representarse en la recta numérica de los números Reales:",
-    "opciones": ["$\\sqrt{3}$", "$-10/3$", "$\\pi$", "$\\sqrt{-4}$"],
+    "opciones": ["\sqrt{3}", "-10/3", "\pi", "\sqrt{-4}"],
     "respuesta_correcta": 3,
     "retroalimentacion": "Las raíces cuadradas de números negativos son números complejos/imaginarios, no pertenecen a los Reales."
   },
@@ -832,7 +832,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
     "enunciado": "En la teoría de conjuntos, ¿qué operación de conjuntos define a los números Reales?",
-    "opciones": ["$\\mathbb{Q} \\cap \\mathbb{I}$", "$\\mathbb{Q} - \\mathbb{Z}$", "$\\mathbb{Q} \\cup \\mathbb{I}$", "$\\mathbb{Z} + \\mathbb{N}$"],
+    "opciones": ["\mathbb{Q} \cap \mathbb{I}", "\mathbb{Q} - \mathbb{Z}", "\mathbb{Q} \cup \mathbb{I}", "\mathbb{Z} + \mathbb{N}"],
     "respuesta_correcta": 2,
     "retroalimentacion": "Los Reales son la unión de los racionales y los irracionales."
   },
@@ -846,7 +846,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $a$ es un número entero y $b$ es un número natural, ¿qué conjunto describe mejor a $a/b$ siempre que $a$ no sea múltiplo de $b$?",
+    "enunciado": "Si a es un número entero y b es un número natural, ¿qué conjunto describe mejor a a/b siempre que a no sea múltiplo de b?",
     "opciones": ["Enteros", "Racionales no enteros", "Irracionales", "Naturales"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Al no ser división exacta, genera un número racional fraccionario."
@@ -861,7 +861,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "Considere el número $2.1010010001...$ donde la cantidad de ceros aumenta. ¿A qué conjunto pertenece?",
+    "enunciado": "Considere el número 2.1010010001... donde la cantidad de ceros aumenta. ¿A qué conjunto pertenece?",
     "opciones": ["Racionales periódicos", "Irracionales", "Naturales", "Enteros"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Aunque hay un patrón, no es una repetición periódica, por lo tanto es irracional."
@@ -894,7 +894,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿Qué conjunto numérico permitió históricamente resolver el problema de medir la diagonal de un cuadrado de lado 1?",
     "opciones": ["Los Naturales", "Los Racionales", "Los Irracionales", "Los Enteros"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "La diagonal mide $\\sqrt{2}$, lo que obligó a los griegos a reconocer la existencia de los irracionales."
+    "retroalimentacion": "La diagonal mide \sqrt{2}, lo que obligó a los griegos a reconocer la existencia de los irracionales."
   },
   {
     "id": "g2_mat_02_029",
@@ -921,7 +921,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.2 Clasificación de números",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "Si definimos un conjunto como $\\{x | x \\in \\mathbb{R} \\text{ y } x \\notin \\mathbb{Q}\\}$, ¿de qué conjunto estamos hablando?",
+    "enunciado": "Si definimos un conjunto como \{x | x \in \mathbb{R} \text{ y } x \notin \mathbb{Q}\}, ¿de qué conjunto estamos hablando?",
     "opciones": ["Números Naturales", "Números Enteros", "Números Irracionales", "Números Complejos"],
     "respuesta_correcta": 2,
     "retroalimentacion": "Es la definición formal de los números irracionales: reales que no son racionales."
@@ -982,7 +982,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Qué signo de relación hace que la expresión ' -5 ___ -8 ' sea verdadera?",
-    "opciones": ["<", ">", "=", "$\\leq$"],
+    "opciones": ["<", ">", "=", "\leq"],
     "respuesta_correcta": 1,
     "retroalimentacion": "En la recta numérica, -5 está a la derecha de -8, por lo tanto -5 > -8."
   },
@@ -997,7 +997,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "¿Cuál es el signo de operación que representa la diferencia entre dos cantidades?",
-    "opciones": ["+", "$\\div$", "$\\times$", "-"],
+    "opciones": ["+", "\div", "\times", "-"],
     "respuesta_correcta": 3,
     "retroalimentacion": "El signo '-' representa la sustracción o diferencia."
   },
@@ -1058,11 +1058,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.3 Signos de agrupación, operación y relación",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "Si un psicólogo determina que el nivel de ansiedad de un paciente 'A' es $\\neq$ al nivel del paciente 'B', ¿qué está afirmando?",
+    "enunciado": "Si un psicólogo determina que el nivel de ansiedad de un paciente 'A' es \neq al nivel del paciente 'B', ¿qué está afirmando?",
     "opciones": ["Que son iguales", "Que el paciente A tiene más ansiedad", "Que los niveles son distintos", "Que no se pueden medir"],
     "index_respuesta": 2,
     "respuesta_correcta": 2,
-    "retroalimentacion": "El signo $\\neq$ representa 'diferente' o 'no igual'."
+    "retroalimentacion": "El signo \neq representa 'diferente' o 'no igual'."
   },
   {
     "id": "g2_mat_03_009",
@@ -1075,7 +1075,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuál de las siguientes relaciones de orden es INCORRECTA?",
-    "opciones": ["$|-5| = 5$", "$-10 < -2$", "$-3 > 0$", "$0 > -1$"],
+    "opciones": ["|-5| = 5", "-10 < -2", "-3 > 0", "0 > -1"],
     "respuesta_correcta": 2,
     "retroalimentacion": "-3 es menor que 0, por lo que -3 > 0 es falso."
   },
@@ -1104,7 +1104,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.3 Signos de agrupación, operación y relación",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "El signo de relación $\\geq$ se lee como:",
+    "enunciado": "El signo de relación \geq se lee como:",
     "opciones": ["Mayor que", "Menor o igual que", "Mayor o igual que", "Exactamente igual a"],
     "respuesta_correcta": 2,
     "retroalimentacion": "El símbolo combina 'mayor que' y 'el igual'."
@@ -1134,7 +1134,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.3 Signos de agrupación, operación y relación",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "En un informe escolar, si se indica que 'Inasistencias $\\leq$ 3', ¿qué se está comunicando?",
+    "enunciado": "En un informe escolar, si se indica que 'Inasistencias \leq 3', ¿qué se está comunicando?",
     "opciones": ["Que tuvo más de 3 faltas", "Que tuvo 3 o menos faltas", "Que tuvo exactamente 3 faltas", "Que no tuvo faltas"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Menor o igual incluye el valor límite (3)."
@@ -1349,7 +1349,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si el presupuesto escolar (P) debe ser al menos el doble del gasto en materiales (m) más un fondo de reserva (r), ¿cómo se expresa esta relación?",
-    "opciones": ["$P \\leq 2m + r$", "$P = 2m + r$", "$P \\geq 2m + r$", "$P > 2(m + r)$"],
+    "opciones": ["P \leq 2m + r", "P = 2m + r", "P \geq 2m + r", "P > 2(m + r)"],
     "respuesta_correcta": 2,
     "retroalimentacion": "'Al menos' indica mayor o igual que."
   },
@@ -1393,7 +1393,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.3 Signos de agrupación, operación y relación",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Cuál es la función del signo de relación 'aproximadamente igual a' ($\\approx$) en las ciencias sociales?",
+    "enunciado": "¿Cuál es la función del signo de relación 'aproximadamente igual a' (\approx) en las ciencias sociales?",
     "opciones": ["Indicar que un resultado es exacto", "Indicar que un valor ha sido redondeado o que la relación no es perfecta pero es cercana", "Sustituir al signo igual por error", "Indicar que el número es irracional únicamente"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Se usa para mostrar cercanía en valores que no son idénticos o han sido simplificados."
@@ -1429,7 +1429,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Según la ley de los signos para la multiplicación, ¿cuál es el resultado de multiplicar dos números negativos?",
     "opciones": ["Un número negativo", "Cero", "Un número positivo", "No se puede realizar"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Menos por menos da más ($(-) \\times (-) = (+)$)."
+    "retroalimentacion": "Menos por menos da más ((-) \times (-) = (+))."
   },
   {
     "id": "g2_mat_04_002",
@@ -1441,10 +1441,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el resultado de: $-15 + 7$",
+    "enunciado": "Calcule el resultado de: -15 + 7",
     "opciones": ["22", "-22", "8", "-8"],
     "respuesta_correcta": 3,
-    "retroalimentacion": "En la suma de signos distintos, se resta el menor del mayor y se conserva el signo del número con mayor valor absoluto: $15 - 7 = 8$, signo negativo."
+    "retroalimentacion": "En la suma de signos distintos, se resta el menor del mayor y se conserva el signo del número con mayor valor absoluto: 15 - 7 = 8, signo negativo."
   },
   {
     "id": "g2_mat_04_003",
@@ -1456,10 +1456,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva la siguiente operación: $(-4) \\times (-3) \\times (-1)$",
+    "enunciado": "Resuelva la siguiente operación: (-4) \times (-3) \times (-1)",
     "opciones": ["12", "-12", "7", "-7"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(-4) \\times (-3) = 12$. Luego $12 \\times (-1) = -12$."
+    "retroalimentacion": "(-4) \times (-3) = 12. Luego 12 \times (-1) = -12."
   },
   {
     "id": "g2_mat_04_004",
@@ -1486,11 +1486,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el resultado de $20 \\div (-5)$?",
+    "enunciado": "¿Cuál es el resultado de 20 \div (-5)?",
     "opciones": ["4", "-4", "15", "-25"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "Más dividido para menos da menos ($(+) \\div (-) = (-)$)."
+    "retroalimentacion": "Más dividido para menos da menos ((+) \div (-) = (-))."
   },
   {
     "id": "g2_mat_04_006",
@@ -1502,10 +1502,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe: $3 + 5 \\times 2$",
+    "enunciado": "Efectúe: 3 + 5 \times 2",
     "opciones": ["16", "13", "10", "11"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Primero la multiplicación: $5 \\times 2 = 10$. Luego la suma: $3 + 10 = 13$."
+    "retroalimentacion": "Primero la multiplicación: 5 \times 2 = 10. Luego la suma: 3 + 10 = 13."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -1519,10 +1519,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $12 - 4 \\times (2 + 1)$",
+    "enunciado": "Resuelva: 12 - 4 \times (2 + 1)",
     "opciones": ["24", "0", "8", "16"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Paréntesis: $(2+1)=3$. Multiplicación: $4 \\times 3=12$. Resta: $12-12=0$."
+    "retroalimentacion": "Paréntesis: (2+1)=3. Multiplicación: 4 \times 3=12. Resta: 12-12=0."
   },
   {
     "id": "g2_mat_04_008",
@@ -1534,10 +1534,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una persona tiene un saldo de -$50 en su cuenta bancaria. Si realiza un depósito de $120 y luego le cobran una comisión de $10, ¿cuál es su saldo final?",
-    "opciones": ["$80", "$60", "$70", "$160"],
+    "enunciado": "Una persona tiene un saldo de -50 en su cuenta bancaria. Si realiza un depósito de 120 y luego le cobran una comisión de 10, ¿cuál es su saldo final?",
+    "opciones": ["80", "60", "70", "160"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$-50 + 120 = 70$. Luego $70 - 10 = 60$."
+    "retroalimentacion": "-50 + 120 = 70. Luego 70 - 10 = 60."
   },
   {
     "id": "g2_mat_04_009",
@@ -1549,10 +1549,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $(-8 + 2) \\div (-3)$",
+    "enunciado": "Calcule: (-8 + 2) \div (-3)",
     "opciones": ["-2", "2", "-3", "3"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Paréntesis: $-8 + 2 = -6$. División: $-6 \\div -3 = 2$."
+    "retroalimentacion": "Paréntesis: -8 + 2 = -6. División: -6 \div -3 = 2."
   },
   {
     "id": "g2_mat_04_010",
@@ -1579,10 +1579,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $15 \\div 3 \\times 2$",
+    "enunciado": "Resuelva: 15 \div 3 \times 2",
     "opciones": ["2.5", "10", "15", "5"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Cuando hay operaciones de la misma jerarquía (división y multiplicación), se resuelven de izquierda a derecha: $15 \\div 3 = 5$, luego $5 \\times 2 = 10$."
+    "retroalimentacion": "Cuando hay operaciones de la misma jerarquía (división y multiplicación), se resuelven de izquierda a derecha: 15 \div 3 = 5, luego 5 \times 2 = 10."
   },
   {
     "id": "g2_mat_04_012",
@@ -1594,10 +1594,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe la operación: $2 \\times [ -3 - ( -5 ) ]$",
+    "enunciado": "Efectúe la operación: 2 \times [ -3 - ( -5 ) ]",
     "opciones": ["-16", "4", "16", "-4"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "El choque de signos $-(-5)$ se vuelve $+5$. Entonces $[-3 + 5] = 2$. Luego $2 \\times 2 = 4$."
+    "retroalimentacion": "El choque de signos -(-5) se vuelve +5. Entonces [-3 + 5] = 2. Luego 2 \times 2 = 4."
   },
   {
     "id": "g2_mat_04_013",
@@ -1612,7 +1612,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si la temperatura en Quito baja 3 grados cada hora durante 4 horas, y la temperatura inicial era de 18°C, ¿cuál es la temperatura final?",
     "opciones": ["6°C", "12°C", "15°C", "10°C"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Cambio total: $4 \\times (-3) = -12$. Final: $18 - 12 = 6$°C."
+    "retroalimentacion": "Cambio total: 4 \times (-3) = -12. Final: 18 - 12 = 6°C."
   },
   {
     "id": "g2_mat_04_014",
@@ -1624,10 +1624,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $(-10) \\div 2 + (-3) \\times (-4)$",
+    "enunciado": "Calcule: (-10) \div 2 + (-3) \times (-4)",
     "opciones": ["-17", "7", "17", "-7"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(-10) \\div 2 = -5$. $(-3) \\times (-4) = 12$. Luego $-5 + 12 = 7$."
+    "retroalimentacion": "(-10) \div 2 = -5. (-3) \times (-4) = 12. Luego -5 + 12 = 7."
   },
   {
     "id": "g2_mat_04_015",
@@ -1639,10 +1639,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "En la expresión $a - b$, ¿qué sucede si $b$ es un número negativo?",
+    "enunciado": "En la expresión a - b, ¿qué sucede si b es un número negativo?",
     "opciones": ["Se realiza una resta normal", "Se convierte en una suma", "El resultado es siempre cero", "No se puede resolver"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$a - (-b) = a + b$. Restar un negativo equivale a sumar su valor absoluto."
+    "retroalimentacion": "a - (-b) = a + b. Restar un negativo equivale a sumar su valor absoluto."
   },
   {
     "id": "g2_mat_04_016",
@@ -1654,10 +1654,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $5 + 3 \\times [ 2 - ( 5 - 1 ) ]$",
+    "enunciado": "Resuelva: 5 + 3 \times [ 2 - ( 5 - 1 ) ]",
     "opciones": ["-1", "11", "-11", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(5-1)=4$. $[2-4]=-2$. Multiplicación: $3 \\times (-2)=-6$. Suma: $5-6=-1$."
+    "retroalimentacion": "(5-1)=4. [2-4]=-2. Multiplicación: 3 \times (-2)=-6. Suma: 5-6=-1."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -1671,10 +1671,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $(-2) \\times \\{ [ -5 + 3 \\times ( -2 ) ] \\div ( -11 ) \\}$",
+    "enunciado": "Simplifique: (-2) \times \{ [ -5 + 3 \times ( -2 ) ] \div ( -11 ) \}",
     "opciones": ["-2", "2", "-1", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Multiplicación interna: $3 \\times (-2) = -6$. Suma en corchete: $[-5 - 6] = -11$. División en llaves: $(-11) \\div (-11) = 1$. Final: $(-2) \\times 1 = -2$."
+    "retroalimentacion": "Multiplicación interna: 3 \times (-2) = -6. Suma en corchete: [-5 - 6] = -11. División en llaves: (-11) \div (-11) = 1. Final: (-2) \times 1 = -2."
   },
   {
     "id": "g2_mat_04_018",
@@ -1686,10 +1686,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de $x$: $x = - ( - ( 5 - 10 ) ) + ( -3 )^2$",
+    "enunciado": "Calcule el valor de x: x = - ( - ( 5 - 10 ) ) + ( -3 )^2",
     "opciones": ["4", "14", "5", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(5-10)=-5$. $-(-5)=5$. $-(5)=-5$. $(-3)^2 = 9$. Resultado: $-5 + 9 = 4$."
+    "retroalimentacion": "(5-10)=-5. -(-5)=5. -(5)=-5. (-3)^2 = 9. Resultado: -5 + 9 = 4."
   },
   {
     "id": "g2_mat_04_019",
@@ -1704,7 +1704,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "En un examen de psicología, cada acierto suma 4 puntos y cada error resta 2. Si un estudiante respondió 30 preguntas, tuvo 18 aciertos y el resto errores, ¿cuál es su puntaje?",
     "opciones": ["48", "60", "72", "36"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Aciertos: $18 \\times 4 = 72$. Errores: $12 \\times (-2) = -24$. Total: $72 - 24 = 48$."
+    "retroalimentacion": "Aciertos: 18 \times 4 = 72. Errores: 12 \times (-2) = -24. Total: 72 - 24 = 48."
   },
   {
     "id": "g2_mat_04_020",
@@ -1716,10 +1716,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe: $100 \\div \\{ 10 \\times [ -2 - ( -4 ) ] \\} + 5$",
+    "enunciado": "Efectúe: 100 \div \{ 10 \times [ -2 - ( -4 ) ] \} + 5",
     "opciones": ["10", "0", "15", "5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$[-2 + 4] = 2$. $10 \\times 2 = 20$. $100 \\div 20 = 5$. $5 + 5 = 10$."
+    "retroalimentacion": "[-2 + 4] = 2. 10 \times 2 = 20. 100 \div 20 = 5. 5 + 5 = 10."
   },
   {
     "id": "g2_mat_04_021",
@@ -1731,10 +1731,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $(-1)^{20} \\times (-1)^{21} + 1$",
+    "enunciado": "Calcule: (-1)^{20} \times (-1)^{21} + 1",
     "opciones": ["2", "0", "1", "-1"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Base negativa a exponente par es $(+1)$, impar es $(-1)$. $(1) \\times (-1) = -1$. $-1 + 1 = 0$."
+    "retroalimentacion": "Base negativa a exponente par es (+1), impar es (-1). (1) \times (-1) = -1. -1 + 1 = 0."
   },
   {
     "id": "g2_mat_04_022",
@@ -1746,10 +1746,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de: $\\frac{-24}{2 \\times 3} - \\frac{-15}{-5}$",
+    "enunciado": "Determine el valor de: \frac{-24}{2 \times 3} - \frac{-15}{-5}",
     "opciones": ["-7", "-1", "-4", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$-24/6 = -4$. $-15/-5 = 3$. Entonces $-4 - (3) = -7$."
+    "retroalimentacion": "-24/6 = -4. -15/-5 = 3. Entonces -4 - (3) = -7."
   },
   {
     "id": "g2_mat_04_023",
@@ -1761,10 +1761,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Por qué en la expresión $-5^2$ el resultado es $-25$ y no $25$?",
+    "enunciado": "¿Por qué en la expresión -5^2 el resultado es -25 y no 25?",
     "opciones": ["Porque el cuadrado de un negativo es negativo", "Porque el exponente solo afecta al 5, no al signo menos (falta de paréntesis)", "Porque es una regla especial para el 5", "Porque se sumó en lugar de multiplicar"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Sin paréntesis, la potencia tiene prioridad sobre el signo negativo. Para que sea 25, debería escribirse $(-5)^2$."
+    "retroalimentacion": "Sin paréntesis, la potencia tiene prioridad sobre el signo negativo. Para que sea 25, debería escribirse (-5)^2."
   },
   {
     "id": "g2_mat_04_024",
@@ -1776,10 +1776,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $[ ( -3 + 1 ) \\times ( -2 ) ]^3$",
+    "enunciado": "Resuelva: [ ( -3 + 1 ) \times ( -2 ) ]^3",
     "opciones": ["-64", "64", "12", "-12"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(-3+1)=-2$. $(-2) \\times (-2) = 4$. $4^3 = 64$."
+    "retroalimentacion": "(-3+1)=-2. (-2) \times (-2) = 4. 4^3 = 64."
   },
   {
     "id": "g2_mat_04_025",
@@ -1791,10 +1791,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $a = -2, b = 3, c = -1$, calcule: $a^2 - b \\times c$",
+    "enunciado": "Si a = -2, b = 3, c = -1, calcule: a^2 - b \times c",
     "opciones": ["1", "7", "-1", "5"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(-2)^2 = 4$. $3 \\times (-1) = -3$. $4 - (-3) = 4 + 3 = 7$."
+    "retroalimentacion": "(-2)^2 = 4. 3 \times (-1) = -3. 4 - (-3) = 4 + 3 = 7."
   },
   {
     "id": "g2_mat_04_026",
@@ -1806,10 +1806,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe: $\\{ [ -10 \\div ( -2 ) ] + [ -5 \\times 2 ] \\} \\times 0.5$",
+    "enunciado": "Efectúe: \{ [ -10 \div ( -2 ) ] + [ -5 \times 2 ] \} \times 0.5",
     "opciones": ["2.5", "-2.5", "0", "5"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$5 + (-10) = -5$. $-5 \\times 0.5 = -2.5$."
+    "retroalimentacion": "5 + (-10) = -5. -5 \times 0.5 = -2.5."
   },
   {
     "id": "g2_mat_04_027",
@@ -1821,10 +1821,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "En un modelo educativo, si la deserción escolar $D$ se calcula como $D = P - (G + R)$, ¿qué significa matemáticamente el signo menos antes del paréntesis?",
-    "opciones": ["Que $G$ y $R$ se deben sumar al total", "Que tanto $G$ como $R$ restan al valor inicial $P$ una vez sumados entre sí", "Que solo $G$ resta", "Que el resultado será siempre negativo"],
+    "enunciado": "En un modelo educativo, si la deserción escolar D se calcula como D = P - (G + R), ¿qué significa matemáticamente el signo menos antes del paréntesis?",
+    "opciones": ["Que G y R se deben sumar al total", "Que tanto G como R restan al valor inicial P una vez sumados entre sí", "Que solo G resta", "Que el resultado será siempre negativo"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "El signo negativo afecta a toda la suma interna, restando el conjunto de $G$ y $R$ de $P$."
+    "retroalimentacion": "El signo negativo afecta a toda la suma interna, restando el conjunto de G y R de P."
   },
   {
     "id": "g2_mat_04_028",
@@ -1836,10 +1836,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $ \\frac{ ( -2 )^3 + 8 }{ 5 \\times ( -4 ) } $",
+    "enunciado": "Resuelva:  \frac{ ( -2 )^3 + 8 }{ 5 \times ( -4 ) } ",
     "opciones": ["0", "1", "-0.4", "0.4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(-2)^3 = -8$. $-8 + 8 = 0$. $0$ dividido por cualquier número (no cero) es $0$."
+    "retroalimentacion": "(-2)^3 = -8. -8 + 8 = 0. 0 dividido por cualquier número (no cero) es 0."
   },
   {
     "id": "g2_mat_04_029",
@@ -1851,10 +1851,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.4 Leyes de los signos y orden de operaciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el resultado de: $ - [ 4 - ( 5 - 10 ) ] - [ - ( 2 - 8 ) ] $",
+    "enunciado": "Determine el resultado de:  - [ 4 - ( 5 - 10 ) ] - [ - ( 2 - 8 ) ] ",
     "opciones": ["-3", "-15", "3", "15"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Primer bloque: $[4 - (-5)] = 9$, con el menos afuera es $-9$. Segundo bloque: $-(2-8) = -(-6) = 6$. Final: $-9 - 6 = -15$."
+    "retroalimentacion": "Primer bloque: [4 - (-5)] = 9, con el menos afuera es -9. Segundo bloque: -(2-8) = -(-6) = 6. Final: -9 - 6 = -15."
   },
   {
     "id": "g2_mat_04_030",
@@ -1901,7 +1901,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "En la expresión $5^3$, ¿cómo se denomina al número 5?",
+    "enunciado": "En la expresión 5^3, ¿cómo se denomina al número 5?",
     "opciones": ["Exponente", "Base", "Potencia", "Raíz"],
     "respuesta_correcta": 1,
     "retroalimentacion": "El número que se multiplica por sí mismo se llama base."
@@ -1919,7 +1919,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿Cuál es el valor de cualquier número real (diferente de cero) elevado al exponente 0?",
     "opciones": ["El mismo número", "Cero", "Uno", "Infinito"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Por propiedad de la potenciación, $a^0 = 1$ para todo $a \\neq 0$."
+    "retroalimentacion": "Por propiedad de la potenciación, a^0 = 1 para todo a \neq 0."
   },
   {
     "id": "g2_mat_05_003",
@@ -1931,10 +1931,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el resultado de $\\sqrt{81}$:",
+    "enunciado": "Calcule el resultado de \sqrt{81}:",
     "opciones": ["7", "8", "9", "81"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "La raíz cuadrada busca un número que multiplicado por sí mismo dé el radicando: $9 \\times 9 = 81$."
+    "retroalimentacion": "La raíz cuadrada busca un número que multiplicado por sí mismo dé el radicando: 9 \times 9 = 81."
   },
   {
     "id": "g2_mat_05_004",
@@ -1946,10 +1946,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el resultado de $(-2)^4$?",
+    "enunciado": "¿Cuál es el resultado de (-2)^4?",
     "opciones": ["-8", "8", "16", "-16"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Base negativa elevada a un exponente par siempre da un resultado positivo: $(-2) \\times (-2) \\times (-2) \\times (-2) = 16$."
+    "retroalimentacion": "Base negativa elevada a un exponente par siempre da un resultado positivo: (-2) \times (-2) \times (-2) \times (-2) = 16."
   },
   {
     "id": "g2_mat_05_005",
@@ -1976,10 +1976,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $3^1 + 3^2$",
+    "enunciado": "Calcule: 3^1 + 3^2",
     "opciones": ["6", "12", "9", "27"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$3 + 9 = 12$."
+    "retroalimentacion": "3 + 9 = 12."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -1993,10 +1993,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique usando propiedades: $2^3 \\times 2^2$",
-    "opciones": ["$2^6$", "$2^5$ (32)", "$2^1$", "$4^5$"],
+    "enunciado": "Simplifique usando propiedades: 2^3 \times 2^2",
+    "opciones": ["2^6", "2^5 (32)", "2^1", "4^5"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "En multiplicación de bases iguales, se suman los exponentes: $2^{3+2} = 2^5 = 32$."
+    "retroalimentacion": "En multiplicación de bases iguales, se suman los exponentes: 2^{3+2} = 2^5 = 32."
   },
   {
     "id": "g2_mat_05_008",
@@ -2008,11 +2008,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $\\sqrt[3]{-27}$",
+    "enunciado": "Resuelva: \sqrt[3]{-27}",
     "opciones": ["3", "-3", "9", "No existe"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "Las raíces de índice impar de números negativos sí existen en los reales: $(-3) \\times (-3) \\times (-3) = -27$."
+    "retroalimentacion": "Las raíces de índice impar de números negativos sí existen en los reales: (-3) \times (-3) \times (-3) = -27."
   },
   {
     "id": "g2_mat_05_009",
@@ -2024,10 +2024,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $(3^2)^3$",
-    "opciones": ["$3^5$", "$3^6$", "$3^8$", "18"],
+    "enunciado": "Simplifique: (3^2)^3",
+    "opciones": ["3^5", "3^6", "3^8", "18"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Potencia de una potencia: se multiplican los exponentes ($2 \\times 3 = 6$)."
+    "retroalimentacion": "Potencia de una potencia: se multiplican los exponentes (2 \times 3 = 6)."
   },
   {
     "id": "g2_mat_05_010",
@@ -2039,10 +2039,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el resultado de $\\frac{5^8}{5^6}$?",
-    "opciones": ["$5^{14}$", "10", "25", "5"],
+    "enunciado": "¿Cuál es el resultado de \frac{5^8}{5^6}?",
+    "opciones": ["5^{14}", "10", "25", "5"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "En división de bases iguales, se restan los exponentes: $5^{8-6} = 5^2 = 25$."
+    "retroalimentacion": "En división de bases iguales, se restan los exponentes: 5^{8-6} = 5^2 = 25."
   },
   {
     "id": "g2_mat_05_011",
@@ -2054,7 +2054,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Qué sucede con el signo de $(-3)^3$?",
+    "enunciado": "¿Qué sucede con el signo de (-3)^3?",
     "opciones": ["Es positivo", "Es negativo", "Se vuelve cero", "Es indefinido"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Base negativa a exponente impar conserva el signo negativo."
@@ -2069,10 +2069,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $\\sqrt{64} + \\sqrt[3]{64}$",
+    "enunciado": "Calcule: \sqrt{64} + \sqrt[3]{64}",
     "opciones": ["12", "16", "10", "14"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{64}=8$. $\\\sqrt[3]{64}=4$. $8+4=12$."
+    "retroalimentacion": "\\sqrt{64}=8. \\sqrt[3]{64}=4. 8+4=12."
   },
   {
     "id": "g2_mat_05_013",
@@ -2084,10 +2084,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el área de un patio escolar cuadrado es de 144 $m^2$, ¿cuánto mide su lado?",
+    "enunciado": "Si el área de un patio escolar cuadrado es de 144 m^2, ¿cuánto mide su lado?",
     "opciones": ["10 m", "14 m", "12 m", "72 m"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Lado = $\\sqrt{Área}$. $\\sqrt{144} = 12$."
+    "retroalimentacion": "Lado = \sqrt{Área}. \sqrt{144} = 12."
   },
   {
     "id": "g2_mat_05_014",
@@ -2099,7 +2099,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Se puede calcular $\\sqrt{-16}$ en el conjunto de los números Reales?",
+    "enunciado": "¿Se puede calcular \sqrt{-16} en el conjunto de los números Reales?",
     "opciones": ["Sí, es -4", "Sí, es 4", "No, porque no hay un número real que al cuadrado dé negativo", "Solo si el índice es impar"],
     "respuesta_correcta": 2,
     "retroalimentacion": "Las raíces de índice par de números negativos no son reales."
@@ -2114,10 +2114,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Exprese como una sola potencia: $\\frac{x^{10}}{x^3 \\cdot x^2}$",
-    "opciones": ["$x^{15}$", "$x^5$", "$x^0$", "$x^{20}$"],
+    "enunciado": "Exprese como una sola potencia: \frac{x^{10}}{x^3 \cdot x^2}",
+    "opciones": ["x^{15}", "x^5", "x^0", "x^{20}"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Denominador: $x^{3+2}=x^5$. División: $x^{10-5}=x^5$."
+    "retroalimentacion": "Denominador: x^{3+2}=x^5. División: x^{10-5}=x^5."
   },
   {
     "id": "g2_mat_05_016",
@@ -2129,10 +2129,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $10^3 / 100$",
+    "enunciado": "Calcule: 10^3 / 100",
     "opciones": ["1", "100", "10", "1000"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "1000 / 100 = 10. O bien, $10^3 / 10^2 = 10^1$."
+    "retroalimentacion": "1000 / 100 = 10. O bien, 10^3 / 10^2 = 10^1."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -2146,10 +2146,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $[ (-2)^2 \\cdot (-2)^3 ] / (-2)^4$",
+    "enunciado": "Resuelva: [ (-2)^2 \cdot (-2)^3 ] / (-2)^4",
     "opciones": ["-2", "2", "4", "-4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Numerador: $(-2)^5$. División: $(-2)^{5-4} = (-2)^1 = -2$."
+    "retroalimentacion": "Numerador: (-2)^5. División: (-2)^{5-4} = (-2)^1 = -2."
   },
   {
     "id": "g2_mat_05_018",
@@ -2161,10 +2161,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Encuentre el valor de $x$ en la expresión: $\\sqrt[x]{32} = 2$",
+    "enunciado": "Encuentre el valor de x en la expresión: \sqrt[x]{32} = 2",
     "opciones": ["2", "4", "5", "16"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$2^5 = 32$, por lo tanto el índice $x$ es 5."
+    "retroalimentacion": "2^5 = 32, por lo tanto el índice x es 5."
   },
   {
     "id": "g2_mat_05_019",
@@ -2176,10 +2176,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique la expresión: $\\sqrt{2^6 \\cdot 3^2}$",
+    "enunciado": "Simplifique la expresión: \sqrt{2^6 \cdot 3^2}",
     "opciones": ["24", "18", "12", "72"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\sqrt{2^6} \\cdot \\sqrt{3^2} = 2^{6/2} \\cdot 3^{2/2} = 2^3 \\cdot 3^1 = 8 \\cdot 3 = 24$."
+    "retroalimentacion": "\sqrt{2^6} \cdot \sqrt{3^2} = 2^{6/2} \cdot 3^{2/2} = 2^3 \cdot 3^1 = 8 \cdot 3 = 24."
   },
   {
     "id": "g2_mat_05_020",
@@ -2191,10 +2191,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $-(3^2) + (-3)^2$",
+    "enunciado": "Calcule: -(3^2) + (-3)^2",
     "opciones": ["18", "-18", "0", "81"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$-(3^2) = -9$. $(-3)^2 = 9$. Entonces $-9 + 9 = 0$."
+    "retroalimentacion": "-(3^2) = -9. (-3)^2 = 9. Entonces -9 + 9 = 0."
   },
   {
     "id": "g2_mat_05_021",
@@ -2206,10 +2206,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Cuál es el resultado de elevar una fracción $(a/b)$ a un exponente negativo $-n$?",
-    "opciones": ["La fracción se vuelve negativa", "Se invierte la fracción $(b/a)$ y el exponente se vuelve positivo", "El resultado es siempre cero", "No tiene solución"],
+    "enunciado": "¿Cuál es el resultado de elevar una fracción (a/b) a un exponente negativo -n?",
+    "opciones": ["La fracción se vuelve negativa", "Se invierte la fracción (b/a) y el exponente se vuelve positivo", "El resultado es siempre cero", "No tiene solución"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Propiedad del exponente negativo: $(a/b)^{-n} = (b/a)^n$."
+    "retroalimentacion": "Propiedad del exponente negativo: (a/b)^{-n} = (b/a)^n."
   },
   {
     "id": "g2_mat_05_022",
@@ -2221,10 +2221,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de: $\\sqrt[3]{2^4 \\cdot 2^2}$",
+    "enunciado": "Halle el valor de: \sqrt[3]{2^4 \cdot 2^2}",
     "opciones": ["2", "4", "8", "16"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$\\sqrt[3]{2^6} = 2^{6/3} = 2^2 = 4$."
+    "retroalimentacion": "\sqrt[3]{2^6} = 2^{6/3} = 2^2 = 4."
   },
   {
     "id": "g2_mat_05_023",
@@ -2239,7 +2239,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si un rumor en una facultad universitaria se triplica cada hora, y empieza con una persona, ¿cuántas personas lo conocerán después de 5 horas?",
     "opciones": ["15", "81", "243", "125"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Se modela como $3^5$. $3 \\times 3 \\times 3 \\times 3 \\times 3 = 243$."
+    "retroalimentacion": "Se modela como 3^5. 3 \times 3 \times 3 \times 3 \times 3 = 243."
   },
   {
     "id": "g2_mat_05_024",
@@ -2251,10 +2251,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $\\frac{ (a^2 \\cdot b)^3 }{ a^5 \\cdot b^2 }$",
-    "opciones": ["$a \\cdot b$", "$a^6 \\cdot b$", "$a^{11} \\cdot b^5$", "$b/a$"],
+    "enunciado": "Simplifique: \frac{ (a^2 \cdot b)^3 }{ a^5 \cdot b^2 }",
+    "opciones": ["a \cdot b", "a^6 \cdot b", "a^{11} \cdot b^5", "b/a"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Numerador: $a^6 \\cdot b^3$. División: $a^{6-5} \\cdot b^{3-2} = a^1 \\cdot b^1$."
+    "retroalimentacion": "Numerador: a^6 \cdot b^3. División: a^{6-5} \cdot b^{3-2} = a^1 \cdot b^1."
   },
   {
     "id": "g2_mat_05_025",
@@ -2266,11 +2266,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $\\sqrt{ \\sqrt{16} } + 2^0$",
+    "enunciado": "Calcule: \sqrt{ \sqrt{16} } + 2^0",
     "opciones": ["5", "3", "4", "2"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "$\\sqrt{16} = 4$. $\\sqrt{4} = 2$. $2^0 = 1$. Entonces $2 + 1 = 3$."
+    "retroalimentacion": "\sqrt{16} = 4. \sqrt{4} = 2. 2^0 = 1. Entonces 2 + 1 = 3."
   },
   {
     "id": "g2_mat_05_026",
@@ -2282,10 +2282,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el resultado de: $ (1/2)^{-2} + (1/3)^{-1} $",
+    "enunciado": "Determine el resultado de:  (1/2)^{-2} + (1/3)^{-1} ",
     "opciones": ["5", "7", "4", "1"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(2/1)^2 + (3/1)^1 = 4 + 3 = 7$."
+    "retroalimentacion": "(2/1)^2 + (3/1)^1 = 4 + 3 = 7."
   },
   {
     "id": "g2_mat_05_027",
@@ -2297,10 +2297,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $\\sqrt[4]{x^8 \\cdot y^{12}}$",
-    "opciones": ["$x^2 \\cdot y^3$", "$x^4 \\cdot y^8$", "$x \\cdot y$", "$x^2 \\cdot y^4$"],
+    "enunciado": "Simplifique: \sqrt[4]{x^8 \cdot y^{12}}",
+    "opciones": ["x^2 \cdot y^3", "x^4 \cdot y^8", "x \cdot y", "x^2 \cdot y^4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Se divide cada exponente por el índice de la raíz: $8/4=2$ y $12/4=3$."
+    "retroalimentacion": "Se divide cada exponente por el índice de la raíz: 8/4=2 y 12/4=3."
   },
   {
     "id": "g2_mat_05_028",
@@ -2312,10 +2312,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el valor de $A = (-1)^{100} - (-1)^{99}$?",
+    "enunciado": "¿Cuál es el valor de A = (-1)^{100} - (-1)^{99}?",
     "opciones": ["0", "2", "-2", "1"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$1 - (-1) = 1 + 1 = 2$."
+    "retroalimentacion": "1 - (-1) = 1 + 1 = 2."
   },
   {
     "id": "g2_mat_05_029",
@@ -2330,7 +2330,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "La propiedad distributiva de la potenciación es válida respecto a:",
     "opciones": ["La suma y la resta", "La multiplicación y la división", "Solo a la suma", "A ninguna operación"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(a \\cdot b)^n = a^n \\cdot b^n$. No aplica para suma: $(a+b)^n \\neq a^n + b^n$."
+    "retroalimentacion": "(a \cdot b)^n = a^n \cdot b^n. No aplica para suma: (a+b)^n \neq a^n + b^n."
   },
   {
     "id": "g2_mat_05_030",
@@ -2342,10 +2342,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "1.5 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $2^2 \\cdot 2^3 - \\sqrt[3]{8} \\cdot 5$",
+    "enunciado": "Calcule: 2^2 \cdot 2^3 - \sqrt[3]{8} \cdot 5",
     "opciones": ["22", "10", "20", "30"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2^5 = 32$. $\\sqrt[3]{8} = 2$. $2 \\times 5 = 10$. $32 - 10 = 22$."
+    "retroalimentacion": "2^5 = 32. \sqrt[3]{8} = 2. 2 \times 5 = 10. 32 - 10 = 22."
   },
 
 
@@ -2470,10 +2470,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Convierta la fracción mixta $2 \\frac{3}{5}$ a fracción impropia:",
+    "enunciado": "Convierta la fracción mixta 2 \frac{3}{5} a fracción impropia:",
     "opciones": ["6/5", "13/5", "11/5", "10/5"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(2 \\times 5) + 3 = 13$. El denominador se mantiene: 13/5."
+    "retroalimentacion": "(2 \times 5) + 3 = 13. El denominador se mantiene: 13/5."
   },
   {
     "id": "g2_mat_06_011",
@@ -2548,7 +2548,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Simplifique la fracción 48/60 hasta su mínima expresión:",
     "opciones": ["24/30", "12/15", "4/5", "8/10"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Dividiendo ambos para 12: $48/12 = 4$ y $60/12 = 5$."
+    "retroalimentacion": "Dividiendo ambos para 12: 48/12 = 4 y 60/12 = 5."
   },
   {
     "id": "g2_mat_06_013",
@@ -2593,7 +2593,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿Qué número se encuentra exactamente a la mitad entre 0.1 y 0.2?",
     "opciones": ["0.11", "0.15", "0.5", "0.12"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(0.1 + 0.2) / 2 = 0.3 / 2 = 0.15$."
+    "retroalimentacion": "(0.1 + 0.2) / 2 = 0.3 / 2 = 0.15."
   },
   {
     "id": "g2_mat_06_016",
@@ -2608,7 +2608,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Exprese 7/4 como número decimal:",
     "opciones": ["1.25", "1.75", "1.50", "0.74"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$7 \\div 4 = 1.75$."
+    "retroalimentacion": "7 \div 4 = 1.75."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -2622,10 +2622,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un estudio sociológico, se determina que $2/9$ de la población vive en zonas rurales. Si la población total es de 18,000 personas, ¿cuántos viven en zonas rurales?",
+    "enunciado": "En un estudio sociológico, se determina que 2/9 de la población vive en zonas rurales. Si la población total es de 18,000 personas, ¿cuántos viven en zonas rurales?",
     "opciones": ["2,000", "4,000", "9,000", "6,000"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(18,000 / 9) \\times 2 = 2,000 \\times 2 = 4,000$."
+    "retroalimentacion": "(18,000 / 9) \times 2 = 2,000 \times 2 = 4,000."
   },
   {
     "id": "g2_mat_06_018",
@@ -2637,10 +2637,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Qué fracción representa el decimal periódico $0.333...$?",
+    "enunciado": "¿Qué fracción representa el decimal periódico 0.333...?",
     "opciones": ["3/10", "1/3", "33/100", "1/30"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$x = 0.333... \\rightarrow 10x = 3.333... \\rightarrow 9x = 3 \\rightarrow x = 3/9 = 1/3$."
+    "retroalimentacion": "x = 0.333... \rightarrow 10x = 3.333... \rightarrow 9x = 3 \rightarrow x = 3/9 = 1/3."
   },
   {
     "id": "g2_mat_06_019",
@@ -2652,7 +2652,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $A = 5/8$ y $B = 0.62$, ¿cuál es la relación correcta?",
+    "enunciado": "Si A = 5/8 y B = 0.62, ¿cuál es la relación correcta?",
     "opciones": ["A < B", "A > B", "A = B", "A + B = 1"],
     "respuesta_correcta": 1,
     "retroalimentacion": "5/8 = 0.625. Por lo tanto 0.625 > 0.62."
@@ -2697,11 +2697,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una botella de agua tiene $1 \\frac{1}{2}$ litros. Si se sirven 3 vasos de $1/4$ de litro cada uno, ¿cuánta agua queda?",
+    "enunciado": "Una botella de agua tiene 1 \frac{1}{2} litros. Si se sirven 3 vasos de 1/4 de litro cada uno, ¿cuánta agua queda?",
     "opciones": ["1 litro", "3/4 de litro", "1/2 litro", "1/4 de litro"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "Total: 1.5 L. Servido: $3 \\times 0.25 = 0.75 L$. Queda: $1.5 - 0.75 = 0.75 L$ (3/4)."
+    "retroalimentacion": "Total: 1.5 L. Servido: 3 \times 0.25 = 0.75 L. Queda: 1.5 - 0.75 = 0.75 L (3/4)."
   },
   {
     "id": "g2_mat_06_023",
@@ -2743,10 +2743,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $(1/2 + 0.5) / 2$",
+    "enunciado": "Calcule: (1/2 + 0.5) / 2",
     "opciones": ["1", "0.5", "0.25", "2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "1/2 + 0.5 = 0.5 + 0.5 = 1. Luego $1 / 2 = 0.5$."
+    "retroalimentacion": "1/2 + 0.5 = 0.5 + 0.5 = 1. Luego 1 / 2 = 0.5."
   },
   {
     "id": "g2_mat_06_026",
@@ -2761,7 +2761,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un terreno se divide en 12 partes. Si se venden 2/3 del terreno, ¿cuántas partes quedan?",
     "opciones": ["8", "4", "6", "2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Vendido: $(12/3) \\times 2 = 8$ partes. Quedan: $12 - 8 = 4$ partes."
+    "retroalimentacion": "Vendido: (12/3) \times 2 = 8 partes. Quedan: 12 - 8 = 4 partes."
   },
   {
     "id": "g2_mat_06_027",
@@ -2803,10 +2803,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la fracción generatriz de $0.1666...$",
+    "enunciado": "Halle la fracción generatriz de 0.1666...",
     "opciones": ["16/100", "1/6", "1/60", "16/99"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Es un periódico mixto. Siguiendo el método: $(16-1)/90 = 15/90 = 1/6$."
+    "retroalimentacion": "Es un periódico mixto. Siguiendo el método: (16-1)/90 = 15/90 = 1/6."
   },
   {
     "id": "g2_mat_06_030",
@@ -2818,10 +2818,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.1 Concepto y clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x = 0.8$ y $y = 4/5$, ¿cuál es el valor de $x - y$?",
+    "enunciado": "Si x = 0.8 y y = 4/5, ¿cuál es el valor de x - y?",
     "opciones": ["0.1", "0", "0.2", "-0.2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "4/5 = 0.8. Por lo tanto $0.8 - 0.8 = 0$."
+    "retroalimentacion": "4/5 = 0.8. Por lo tanto 0.8 - 0.8 = 0."
   },
 
 
@@ -2850,7 +2850,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule la suma de fracciones homogéneas: $2/7 + 3/7$",
+    "enunciado": "Calcule la suma de fracciones homogéneas: 2/7 + 3/7",
     "opciones": ["5/14", "5/7", "6/7", "1/7"],
     "respuesta_correcta": 1,
     "retroalimentacion": "En fracciones con el mismo denominador, se suman los numeradores y se mantiene el denominador."
@@ -2865,10 +2865,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva la siguiente operación decimal: $12.5 + 4.12$",
+    "enunciado": "Resuelva la siguiente operación decimal: 12.5 + 4.12",
     "opciones": ["16.17", "16.62", "53.7", "16.27"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Al alinearlos por la coma: $12.50 + 4.12 = 16.62$."
+    "retroalimentacion": "Al alinearlos por la coma: 12.50 + 4.12 = 16.62."
   },
   {
     "id": "g2_mat_07_003",
@@ -2880,10 +2880,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe: $1 - 1/4$",
+    "enunciado": "Efectúe: 1 - 1/4",
     "opciones": ["1/4", "3/4", "0", "1.4"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Pensando en la unidad como 4/4, tenemos: $4/4 - 1/4 = 3/4$."
+    "retroalimentacion": "Pensando en la unidad como 4/4, tenemos: 4/4 - 1/4 = 3/4."
   },
   {
     "id": "g2_mat_07_004",
@@ -2910,10 +2910,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Reste: $0.75 - 0.2$",
+    "enunciado": "Reste: 0.75 - 0.2",
     "opciones": ["0.73", "0.55", "0.5", "0.25"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Es equivalente a $0.75 - 0.20 = 0.55$."
+    "retroalimentacion": "Es equivalente a 0.75 - 0.20 = 0.55."
   },
   {
     "id": "g2_mat_07_006",
@@ -2925,10 +2925,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $1/2 + 1/4$",
+    "enunciado": "Calcule: 1/2 + 1/4",
     "opciones": ["2/6", "3/4", "1/6", "1"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Convirtiendo 1/2 a 2/4: $2/4 + 1/4 = 3/4$."
+    "retroalimentacion": "Convirtiendo 1/2 a 2/4: 2/4 + 1/4 = 3/4."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -2942,10 +2942,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $3/5 + 1/2$",
+    "enunciado": "Resuelva: 3/5 + 1/2",
     "opciones": ["4/7", "11/10", "4/10", "2/3"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "MCM de 5 y 2 es 10. $(6/10) + (5/10) = 11/10$."
+    "retroalimentacion": "MCM de 5 y 2 es 10. (6/10) + (5/10) = 11/10."
   },
   {
     "id": "g2_mat_07_008",
@@ -2960,7 +2960,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un investigador gasta 2.5 horas en entrevistas y 1.75 horas en tabular datos. ¿Cuánto tiempo total empleó?",
     "opciones": ["4.25 horas", "3.25 horas", "4.15 horas", "3.75 horas"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2.50 + 1.75 = 4.25$."
+    "retroalimentacion": "2.50 + 1.75 = 4.25."
   },
   {
     "id": "g2_mat_07_009",
@@ -2972,11 +2972,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $5/6 - 1/3$",
+    "enunciado": "Calcule: 5/6 - 1/3",
     "opciones": ["4/3", "1/2", "3/6", "4/6"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "1/3 es igual a 2/6. Entonces $5/6 - 2/6 = 3/6$, que simplificado es 1/2."
+    "retroalimentacion": "1/3 es igual a 2/6. Entonces 5/6 - 2/6 = 3/6, que simplificado es 1/2."
   },
   {
     "id": "g2_mat_07_010",
@@ -2988,10 +2988,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe: $15.8 - (4.2 + 3.15)$",
+    "enunciado": "Efectúe: 15.8 - (4.2 + 3.15)",
     "opciones": ["8.45", "11.6", "7.35", "10.45"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Suma interna: $4.20 + 3.15 = 7.35$. Resta: $15.80 - 7.35 = 8.45$."
+    "retroalimentacion": "Suma interna: 4.20 + 3.15 = 7.35. Resta: 15.80 - 7.35 = 8.45."
   },
   {
     "id": "g2_mat_07_011",
@@ -3003,10 +3003,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Sume las siguientes fracciones mixtas: $1 \\frac{1}{2} + 2 \\frac{1}{4}$",
+    "enunciado": "Sume las siguientes fracciones mixtas: 1 \frac{1}{2} + 2 \frac{1}{4}",
     "opciones": ["3 1/2", "3 3/4", "3 2/6", "4"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Suma de enteros: $1+2=3$. Suma de fracciones: $1/2 + 1/4 = 3/4$. Resultado: $3 \\frac{3}{4}$."
+    "retroalimentacion": "Suma de enteros: 1+2=3. Suma de fracciones: 1/2 + 1/4 = 3/4. Resultado: 3 \frac{3}{4}."
   },
   {
     "id": "g2_mat_07_012",
@@ -3018,7 +3018,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $0.1 + 0.01 + 0.001$",
+    "enunciado": "Calcule: 0.1 + 0.01 + 0.001",
     "opciones": ["0.3", "0.111", "0.011", "1.11"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Se alinean las posiciones decimales: décimas, centésimas y milésimas."
@@ -3036,7 +3036,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "En una encuesta, 1/5 de los estudiantes prefieren la modalidad virtual y 2/3 la presencial. ¿Qué fracción prefiere estas dos modalidades en total?",
     "opciones": ["3/8", "13/15", "3/15", "1/2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "MCM(5,3) = 15. $(3/15) + (10/15) = 13/15$."
+    "retroalimentacion": "MCM(5,3) = 15. (3/15) + (10/15) = 13/15."
   },
   {
     "id": "g2_mat_07_014",
@@ -3048,10 +3048,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si de una deuda de $100 se pagan $45.60, ¿cuánto queda por pagar?",
-    "opciones": ["$54.40", "$55.40", "$64.40", "$54.60"],
+    "enunciado": "Si de una deuda de 100 se pagan 45.60, ¿cuánto queda por pagar?",
+    "opciones": ["54.40", "55.40", "64.40", "54.60"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$100.00 - 45.60 = 54.40$."
+    "retroalimentacion": "100.00 - 45.60 = 54.40."
   },
   {
     "id": "g2_mat_07_015",
@@ -3063,10 +3063,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $7/4 - 1/2 - 1/8$",
+    "enunciado": "Resuelva: 7/4 - 1/2 - 1/8",
     "opciones": ["9/8", "5/4", "3/8", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "MCM = 8. $(14/8) - (4/8) - (1/8) = 9/8$."
+    "retroalimentacion": "MCM = 8. (14/8) - (4/8) - (1/8) = 9/8."
   },
   {
     "id": "g2_mat_07_016",
@@ -3081,7 +3081,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿Qué sucede si al restar dos decimales el sustraendo es mayor que el minuendo?",
     "opciones": ["No se puede realizar", "El resultado es cero", "El resultado es un número negativo", "Se deben sumar en su lugar"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Al igual que con los enteros, el resultado adquiere signo negativo (ej. $2.5 - 3.0 = -0.5$)."
+    "retroalimentacion": "Al igual que con los enteros, el resultado adquiere signo negativo (ej. 2.5 - 3.0 = -0.5)."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -3095,11 +3095,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de: $1/2 + 0.75 - 1/8$",
+    "enunciado": "Calcule el valor de: 1/2 + 0.75 - 1/8",
     "opciones": ["1.125", "1.25", "0.875", "1.5"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "En decimales: $0.5 + 0.75 - 0.125 = 1.125$. En fracciones: $4/8 + 6/8 - 1/8 = 9/8$."
+    "retroalimentacion": "En decimales: 0.5 + 0.75 - 0.125 = 1.125. En fracciones: 4/8 + 6/8 - 1/8 = 9/8."
   },
   {
     "id": "g2_mat_07_018",
@@ -3114,7 +3114,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Una pared se pinta en tres etapas. El lunes 2/7, el martes 1/3. ¿Qué fracción falta por pintar?",
     "opciones": ["13/21", "8/21", "3/10", "1/2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Suma: $(6/21) + (7/21) = 13/21$. Resta de la unidad: $21/21 - 13/21 = 8/21$."
+    "retroalimentacion": "Suma: (6/21) + (7/21) = 13/21. Resta de la unidad: 21/21 - 13/21 = 8/21."
   },
   {
     "id": "g2_mat_07_019",
@@ -3126,10 +3126,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el resultado de: $2.45 - [ 0.5 + ( 1.2 - 0.85 ) ]$",
+    "enunciado": "Determine el resultado de: 2.45 - [ 0.5 + ( 1.2 - 0.85 ) ]",
     "opciones": ["1.6", "1.15", "1.3", "1.5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(1.20 - 0.85) = 0.35$. $[0.50 + 0.35] = 0.85$. $2.45 - 0.85 = 1.60$."
+    "retroalimentacion": "(1.20 - 0.85) = 0.35. [0.50 + 0.35] = 0.85. 2.45 - 0.85 = 1.60."
   },
   {
     "id": "g2_mat_07_020",
@@ -3141,10 +3141,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $ \\frac{1}{2} - ( \\frac{1}{3} - \\frac{1}{4} ) $",
+    "enunciado": "Resuelva:  \frac{1}{2} - ( \frac{1}{3} - \frac{1}{4} ) ",
     "opciones": ["5/12", "1/12", "7/12", "1/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Paréntesis: $(4/12 - 3/12) = 1/12$. Operación: $6/12 - 1/12 = 5/12$."
+    "retroalimentacion": "Paréntesis: (4/12 - 3/12) = 1/12. Operación: 6/12 - 1/12 = 5/12."
   },
   {
     "id": "g2_mat_07_021",
@@ -3156,10 +3156,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x = 3.5$ y $y = 2 \\frac{3}{4}$, calcule $x + y$ en formato decimal.",
+    "enunciado": "Si x = 3.5 y y = 2 \frac{3}{4}, calcule x + y en formato decimal.",
     "opciones": ["6.25", "5.75", "6.5", "5.25"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2 \\frac{3}{4} = 2.75$. Luego $3.50 + 2.75 = 6.25$."
+    "retroalimentacion": "2 \frac{3}{4} = 2.75. Luego 3.50 + 2.75 = 6.25."
   },
   {
     "id": "g2_mat_07_022",
@@ -3174,7 +3174,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un tanque de combustible está al 1/8 de su capacidad. Se le agregan 0.5 de su capacidad total y luego se consume 1/4. ¿En qué fracción de su capacidad quedó?",
     "opciones": ["1/8", "3/8", "1/2", "5/8"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$1/8 + 4/8 (0.5) - 2/8 (1/4) = 3/8$."
+    "retroalimentacion": "1/8 + 4/8 (0.5) - 2/8 (1/4) = 3/8."
   },
   {
     "id": "g2_mat_07_023",
@@ -3186,10 +3186,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $10 - (2.3 + 1/2 + 3.45)$",
+    "enunciado": "Calcule: 10 - (2.3 + 1/2 + 3.45)",
     "opciones": ["4.75", "3.75", "4.25", "3.25"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$2.3 + 0.5 + 3.45 = 6.25$. $10 - 6.25 = 3.75$."
+    "retroalimentacion": "2.3 + 0.5 + 3.45 = 6.25. 10 - 6.25 = 3.75."
   },
   {
     "id": "g2_mat_07_024",
@@ -3201,10 +3201,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el resultado de: $ \\frac{5}{12} + \\frac{7}{18} $",
+    "enunciado": "Halle el resultado de:  \frac{5}{12} + \frac{7}{18} ",
     "opciones": ["12/30", "29/36", "1/2", "31/36"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "MCM(12, 18) = 36. $(15/36) + (14/36) = 29/36$."
+    "retroalimentacion": "MCM(12, 18) = 36. (15/36) + (14/36) = 29/36."
   },
   {
     "id": "g2_mat_07_025",
@@ -3231,11 +3231,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ ( \\frac{4}{5} - 0.2 ) + ( \\frac{1}{4} - 0.1 ) $",
+    "enunciado": "Calcule:  ( \frac{4}{5} - 0.2 ) + ( \frac{1}{4} - 0.1 ) ",
     "opciones": ["0.75", "0.6", "0.9", "1"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(0.8 - 0.2) + (0.25 - 0.1) = 0.6 + 0.15 = 0.75$."
+    "retroalimentacion": "(0.8 - 0.2) + (0.25 - 0.1) = 0.6 + 0.15 = 0.75."
   },
   {
     "id": "g2_mat_07_027",
@@ -3247,10 +3247,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Reste: $ \\frac{11}{3} - 2.5 $",
+    "enunciado": "Reste:  \frac{11}{3} - 2.5 ",
     "opciones": ["1.166...", "1.1", "1.5", "1.25"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3.666... - 2.5 = 1.166...$ (o en fracción $11/3 - 5/2 = (22-15)/6 = 7/6$)."
+    "retroalimentacion": "3.666... - 2.5 = 1.166... (o en fracción 11/3 - 5/2 = (22-15)/6 = 7/6)."
   },
   {
     "id": "g2_mat_07_028",
@@ -3262,11 +3262,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una persona camina $1/2$ km en la mañana, $3/4$ km al mediodía y $1/8$ km en la noche. ¿Cuánto caminó en total?",
+    "enunciado": "Una persona camina 1/2 km en la mañana, 3/4 km al mediodía y 1/8 km en la noche. ¿Cuánto caminó en total?",
     "opciones": ["1 3/8 km", "1 1/4 km", "1 1/2 km", "1 5/8 km"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$4/8 + 6/8 + 1/8 = 11/8 = 1 \\frac{3}{8}$ km."
+    "retroalimentacion": "4/8 + 6/8 + 1/8 = 11/8 = 1 \frac{3}{8} km."
   },
   {
     "id": "g2_mat_07_029",
@@ -3278,10 +3278,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ 0.999 + 0.001 - 0.5 $",
+    "enunciado": "Calcule:  0.999 + 0.001 - 0.5 ",
     "opciones": ["0.5", "0.499", "0.501", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1.000 - 0.5 = 0.5$."
+    "retroalimentacion": "1.000 - 0.5 = 0.5."
   },
   {
     "id": "g2_mat_07_030",
@@ -3293,10 +3293,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.2 Suma y resta",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el resultado de una resta es $-3/5$ y el minuendo es $1/5$, ¿cuál es el sustraendo?",
+    "enunciado": "Si el resultado de una resta es -3/5 y el minuendo es 1/5, ¿cuál es el sustraendo?",
     "opciones": ["4/5", "-4/5", "2/5", "-2/5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1/5 - x = -3/5 \\rightarrow 1/5 + 3/5 = x \\rightarrow x = 4/5$."
+    "retroalimentacion": "1/5 - x = -3/5 \rightarrow 1/5 + 3/5 = x \rightarrow x = 4/5."
   },
 
 
@@ -3328,10 +3328,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva la multiplicación de fracciones: $2/3 \\times 4/5$",
+    "enunciado": "Resuelva la multiplicación de fracciones: 2/3 \times 4/5",
     "opciones": ["6/8", "8/15", "10/12", "6/15"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "En la multiplicación se opera numerador con numerador ($2 \\times 4 = 8$) y denominador con denominador ($3 \\times 5 = 15$)."
+    "retroalimentacion": "En la multiplicación se opera numerador con numerador (2 \times 4 = 8) y denominador con denominador (3 \times 5 = 15)."
   },
   {
     "id": "g2_mat_08_002",
@@ -3343,11 +3343,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el producto decimal: $0.5 \\times 0.2$",
+    "enunciado": "Calcule el producto decimal: 0.5 \times 0.2",
     "opciones": ["1.0", "0.1", "0.01", "0.10"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "$5 \\times 2 = 10$. Como hay dos cifras decimales en total, el resultado es 0.10 o 0.1."
+    "retroalimentacion": "5 \times 2 = 10. Como hay dos cifras decimales en total, el resultado es 0.10 o 0.1."
   },
   {
     "id": "g2_mat_08_003",
@@ -3374,10 +3374,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe: $1/2 \\div 3$",
+    "enunciado": "Efectúe: 1/2 \div 3",
     "opciones": ["3/2", "1/6", "1/5", "6/1"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$1/2 \\times 1/3 = 1/6$."
+    "retroalimentacion": "1/2 \times 1/3 = 1/6."
   },
   {
     "id": "g2_mat_08_005",
@@ -3389,10 +3389,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el cociente: $4.8 \\div 2$",
+    "enunciado": "Calcule el cociente: 4.8 \div 2",
     "opciones": ["2.4", "2.04", "0.24", "24"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Se divide como si fueran enteros y se mantiene la posición de la coma: $48 \\div 2 = 24 \\rightarrow 2.4$."
+    "retroalimentacion": "Se divide como si fueran enteros y se mantiene la posición de la coma: 48 \div 2 = 24 \rightarrow 2.4."
   },
   {
     "id": "g2_mat_08_006",
@@ -3404,7 +3404,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el resultado de: $3/4 \\times 1$",
+    "enunciado": "Determine el resultado de: 3/4 \times 1",
     "opciones": ["1", "4/3", "3/4", "0"],
     "respuesta_correcta": 2,
     "retroalimentacion": "Cualquier número multiplicado por 1 da el mismo número (elemento neutro)."
@@ -3421,10 +3421,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $5/8 \\div 2/3$",
+    "enunciado": "Resuelva: 5/8 \div 2/3",
     "opciones": ["10/24", "15/16", "7/11", "16/15"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$5/8 \\times 3/2 = 15/16$."
+    "retroalimentacion": "5/8 \times 3/2 = 15/16."
   },
   {
     "id": "g2_mat_08_008",
@@ -3436,10 +3436,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si una docena de cuadernos cuesta $15.60, ¿cuál es el precio de cada cuaderno?",
-    "opciones": ["$1.20", "$1.30", "$1.50", "$1.25"],
+    "enunciado": "Si una docena de cuadernos cuesta 15.60, ¿cuál es el precio de cada cuaderno?",
+    "opciones": ["1.20", "1.30", "1.50", "1.25"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$15.60 \\div 12 = 1.30$."
+    "retroalimentacion": "15.60 \div 12 = 1.30."
   },
   {
     "id": "g2_mat_08_009",
@@ -3451,7 +3451,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe: $ \\frac{3}{5} \\times \\frac{10}{9} $",
+    "enunciado": "Efectúe:  \frac{3}{5} \times \frac{10}{9} ",
     "opciones": ["30/45", "2/3", "1/2", "27/50"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
@@ -3467,10 +3467,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $1.25 \\times 4$",
+    "enunciado": "Calcule: 1.25 \times 4",
     "opciones": ["4.25", "5.0", "4.100", "5.25"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Equivale a sumar 1.25 cuatro veces: $1.25 + 1.25 = 2.5$; $2.5 + 2.5 = 5$."
+    "retroalimentacion": "Equivale a sumar 1.25 cuatro veces: 1.25 + 1.25 = 2.5; 2.5 + 2.5 = 5."
   },
   {
     "id": "g2_mat_08_011",
@@ -3482,7 +3482,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el resultado de dividir $1/2$ entre $1/2$?",
+    "enunciado": "¿Cuál es el resultado de dividir 1/2 entre 1/2?",
     "opciones": ["1/4", "1", "0", "1/2"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Todo número dividido por sí mismo (excepto cero) es igual a 1."
@@ -3497,10 +3497,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $0.75 \\div 0.5$",
+    "enunciado": "Resuelva: 0.75 \div 0.5",
     "opciones": ["1.5", "0.15", "1.25", "0.375"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Equivale a $7.5 \\div 5 = 1.5$."
+    "retroalimentacion": "Equivale a 7.5 \div 5 = 1.5."
   },
   {
     "id": "g2_mat_08_013",
@@ -3512,10 +3512,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un estudiante camina $2 \\frac{1}{2}$ km al día. ¿Cuántos km camina en una semana escolar (5 días)?",
+    "enunciado": "Un estudiante camina 2 \frac{1}{2} km al día. ¿Cuántos km camina en una semana escolar (5 días)?",
     "opciones": ["10 km", "12.5 km", "7.5 km", "15 km"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$2.5 \\times 5 = 12.5$ km."
+    "retroalimentacion": "2.5 \times 5 = 12.5 km."
   },
   {
     "id": "g2_mat_08_014",
@@ -3542,10 +3542,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ (1/2) \\times (1/2) \\times (1/2) $",
+    "enunciado": "Calcule:  (1/2) \times (1/2) \times (1/2) ",
     "opciones": ["3/2", "1/6", "1/8", "3/6"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Numeradores: $1 \\times 1 \\times 1 = 1$. Denominadores: $2 \\times 2 \\times 2 = 8$."
+    "retroalimentacion": "Numeradores: 1 \times 1 \times 1 = 1. Denominadores: 2 \times 2 \times 2 = 8."
   },
   {
     "id": "g2_mat_08_016",
@@ -3557,7 +3557,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Encuentre el resultado de: $10 \\div 0.1$",
+    "enunciado": "Encuentre el resultado de: 10 \div 0.1",
     "opciones": ["1", "10", "100", "0.1"],
     "respuesta_correcta": 2,
     "retroalimentacion": "Dividir por 0.1 es equivalente a multiplicar por 10."
@@ -3574,10 +3574,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ ( \\frac{3}{4} \\div \\frac{1}{2} ) \\times \\frac{2}{3} $",
+    "enunciado": "Calcule:  ( \frac{3}{4} \div \frac{1}{2} ) \times \frac{2}{3} ",
     "opciones": ["1", "1/2", "2", "3/4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Paréntesis: $3/4 \\times 2/1 = 6/4 = 3/2$. Luego: $3/2 \\times 2/3 = 6/6 = 1$."
+    "retroalimentacion": "Paréntesis: 3/4 \times 2/1 = 6/4 = 3/2. Luego: 3/2 \times 2/3 = 6/6 = 1."
   },
   {
     "id": "g2_mat_08_018",
@@ -3592,7 +3592,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un fármaco líquido de 0.75 litros debe ser envasado en frascos de 0.05 litros. ¿Cuántos frascos se necesitan?",
     "opciones": ["15", "10", "20", "25"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$0.75 \\div 0.05 = 75 \\div 5 = 15$."
+    "retroalimentacion": "0.75 \div 0.05 = 75 \div 5 = 15."
   },
   {
     "id": "g2_mat_08_019",
@@ -3604,11 +3604,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $ 2.5 \\times ( 1/5 \\div 0.2 ) $",
+    "enunciado": "Resuelva:  2.5 \times ( 1/5 \div 0.2 ) ",
     "opciones": ["2.5", "1", "0.5", "5"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1/5 = 0.2$. Entonces $0.2 \\div 0.2 = 1$. Finalmente $2.5 \\times 1 = 2.5$."
+    "retroalimentacion": "1/5 = 0.2. Entonces 0.2 \div 0.2 = 1. Finalmente 2.5 \times 1 = 2.5."
   },
   {
     "id": "g2_mat_08_020",
@@ -3620,11 +3620,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el área de un consultorio rectangular que mide $4.5$ m de largo y $3 \\frac{1}{4}$ m de ancho.",
-    "opciones": ["14.625 $m^2$", "13.5 $m^2$", "15.25 $m^2$", "14.25 $m^2$"],
+    "enunciado": "Determine el área de un consultorio rectangular que mide 4.5 m de largo y 3 \frac{1}{4} m de ancho.",
+    "opciones": ["14.625 m^2", "13.5 m^2", "15.25 m^2", "14.25 m^2"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3 \\frac{1}{4} = 3.25$. Área $= 4.5 \\times 3.25 = 14.625$."
+    "retroalimentacion": "3 \frac{1}{4} = 3.25. Área = 4.5 \times 3.25 = 14.625."
   },
   {
     "id": "g2_mat_08_021",
@@ -3636,11 +3636,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el resultado de: $ \\frac{2/3}{4/9} $",
+    "enunciado": "Halle el resultado de:  \frac{2/3}{4/9} ",
     "opciones": ["8/27", "3/2", "1/2", "6/4"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "División de fracciones: $2/3 \\times 9/4 = 18/12$. Simplificando para 6: 3/2."
+    "retroalimentacion": "División de fracciones: 2/3 \times 9/4 = 18/12. Simplificando para 6: 3/2."
   },
   {
     "id": "g2_mat_08_022",
@@ -3652,11 +3652,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un proyecto social tiene un presupuesto de $5,000. Si se gasta 0.35 en infraestructura y de lo que queda se gasta 1/2 en salarios, ¿cuánto dinero sobra?",
-    "opciones": ["$1,625", "$3,250", "$1,750", "$2,500"],
+    "enunciado": "Un proyecto social tiene un presupuesto de 5,000. Si se gasta 0.35 en infraestructura y de lo que queda se gasta 1/2 en salarios, ¿cuánto dinero sobra?",
+    "opciones": ["1,625", "3,250", "1,750", "2,500"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "Infraestructura: $5000 \\times 0.35 = 1750$. Quedan: $3250$. Salarios: $3250 / 2 = 1625$. Sobra: $1625$."
+    "retroalimentacion": "Infraestructura: 5000 \times 0.35 = 1750. Quedan: 3250. Salarios: 3250 / 2 = 1625. Sobra: 1625."
   },
   {
     "id": "g2_mat_08_023",
@@ -3668,10 +3668,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ (0.1)^3 \\div 0.01 $",
+    "enunciado": "Calcule:  (0.1)^3 \div 0.01 ",
     "opciones": ["0.1", "0.01", "0.001", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Potencia: 0.001. División: $0.001 \\div 0.01 = 0.1$."
+    "retroalimentacion": "Potencia: 0.001. División: 0.001 \div 0.01 = 0.1."
   },
   {
     "id": "g2_mat_08_024",
@@ -3683,10 +3683,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $ \\frac{ 1/2 \\times 4/5 }{ 2/10 } $",
+    "enunciado": "Simplifique:  \frac{ 1/2 \times 4/5 }{ 2/10 } ",
     "opciones": ["2", "1/2", "1", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Numerador: 4/10 = 2/5. Denominador: 2/10 = 1/5. Operación: $2/5 \\div 1/5 = 2$."
+    "retroalimentacion": "Numerador: 4/10 = 2/5. Denominador: 2/10 = 1/5. Operación: 2/5 \div 1/5 = 2."
   },
   {
     "id": "g2_mat_08_025",
@@ -3713,10 +3713,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de $x$ en: $0.2 x = 10$",
+    "enunciado": "Calcule el valor de x en: 0.2 x = 10",
     "opciones": ["2", "5", "50", "100"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$x = 10 \\div 0.2 = 100 \\div 2 = 50$."
+    "retroalimentacion": "x = 10 \div 0.2 = 100 \div 2 = 50."
   },
   {
     "id": "g2_mat_08_027",
@@ -3728,10 +3728,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $ \\frac{3}{10} \\times 0.5 \\times 20 $",
+    "enunciado": "Resuelva:  \frac{3}{10} \times 0.5 \times 20 ",
     "opciones": ["3", "6", "1.5", "30"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\frac{3}{10} \\times 20 = 6$. Luego $6 \\times 0.5 = 3$."
+    "retroalimentacion": "\frac{3}{10} \times 20 = 6. Luego 6 \times 0.5 = 3."
   },
   {
     "id": "g2_mat_08_028",
@@ -3743,11 +3743,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una pizza se divide en 8 porciones. Si 3 personas comen $1/2$ de pizza cada una, ¿cuántas porciones sobran?",
+    "enunciado": "Una pizza se divide en 8 porciones. Si 3 personas comen 1/2 de pizza cada una, ¿cuántas porciones sobran?",
     "opciones": ["Sobran 4 porciones", "Faltan porciones", "Sobra 1 porción", "Sobran 2 porciones"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "$3 \\times 1/2 = 1.5$ pizzas. Si solo hay 1 pizza (8 porciones), faltan 4 porciones."
+    "retroalimentacion": "3 \times 1/2 = 1.5 pizzas. Si solo hay 1 pizza (8 porciones), faltan 4 porciones."
   },
   {
     "id": "g2_mat_08_029",
@@ -3759,11 +3759,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ ( \\frac{1}{3} \\div 2 ) + ( 2 \\div \\frac{1}{3} ) $",
+    "enunciado": "Calcule:  ( \frac{1}{3} \div 2 ) + ( 2 \div \frac{1}{3} ) ",
     "opciones": ["6 1/6", "4/3", "6", "1/6"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(1/3 \\times 1/2) + (2 \\times 3) = 1/6 + 6 = 6 \\frac{1}{6}$."
+    "retroalimentacion": "(1/3 \times 1/2) + (2 \times 3) = 1/6 + 6 = 6 \frac{1}{6}."
   },
   {
     "id": "g2_mat_08_030",
@@ -3775,10 +3775,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.3 Multiplicación y división",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $ \\frac{ 0.4 \\times 0.5 }{ 0.02 } $",
+    "enunciado": "Simplifique:  \frac{ 0.4 \times 0.5 }{ 0.02 } ",
     "opciones": ["10", "1", "100", "0.1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Numerador: 0.20. Operación: $0.2 \\div 0.02 = 10$."
+    "retroalimentacion": "Numerador: 0.20. Operación: 0.2 \div 0.02 = 10."
   },
 
 
@@ -3809,10 +3809,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el cuadrado de la fracción: $(2/3)^2$",
+    "enunciado": "Calcule el cuadrado de la fracción: (2/3)^2",
     "opciones": ["4/3", "4/9", "2/9", "6/9"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Se eleva tanto el numerador como el denominador al cuadrado: $2^2 = 4$ y $3^2 = 9$."
+    "retroalimentacion": "Se eleva tanto el numerador como el denominador al cuadrado: 2^2 = 4 y 3^2 = 9."
   },
   {
     "id": "g2_mat_09_002",
@@ -3824,10 +3824,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la raíz cuadrada de: $\\\sqrt{16/25}$",
+    "enunciado": "Halle la raíz cuadrada de: \\sqrt{16/25}",
     "opciones": ["4/25", "16/5", "4/5", "8/5"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$\\\sqrt{16} = 4$ y $\\\sqrt{25} = 5$."
+    "retroalimentacion": "\\sqrt{16} = 4 y \\sqrt{25} = 5."
   },
   {
     "id": "g2_mat_09_003",
@@ -3839,10 +3839,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de $(0.1)^2$",
+    "enunciado": "Calcule el valor de (0.1)^2",
     "opciones": ["0.2", "0.01", "0.11", "0.001"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$0.1 \\\times 0.1 = 0.01$. Al elevar al cuadrado, el número de decimales se duplica."
+    "retroalimentacion": "0.1 \\times 0.1 = 0.01. Al elevar al cuadrado, el número de decimales se duplica."
   },
   {
     "id": "g2_mat_09_004",
@@ -3869,10 +3869,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $(1/2)^3$",
+    "enunciado": "Calcule: (1/2)^3",
     "opciones": ["1/6", "1/8", "3/2", "1/4"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$1^3 = 1$ y $2^3 = 8$."
+    "retroalimentacion": "1^3 = 1 y 2^3 = 8."
   },
   {
     "id": "g2_mat_09_006",
@@ -3884,10 +3884,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la raíz cúbica de $1/27$",
+    "enunciado": "Halle la raíz cúbica de 1/27",
     "opciones": ["1/3", "1/9", "3", "1/81"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Como $3 \\\times 3 \\\times 3 = 27$, la raíz cúbica de 27 es 3."
+    "retroalimentacion": "Como 3 \\times 3 \\times 3 = 27, la raíz cúbica de 27 es 3."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -3901,7 +3901,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $(3/4)^{-2}$",
+    "enunciado": "Resuelva: (3/4)^{-2}",
     "opciones": ["-9/16", "16/9", "9/16", "-16/9"],
     "respuesta_correcta": 1,
     "retroalimentacion": "El exponente negativo invierte la fracción a 4/3 y luego se eleva al cuadrado: 16/9."
@@ -3919,7 +3919,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Calcule la raíz cuadrada de 0.09",
     "opciones": ["0.03", "0.3", "3", "0.003"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$0.3 \\\times 0.3 = 0.09$. Al sacar raíz, el número de decimales se reduce a la mitad."
+    "retroalimentacion": "0.3 \\times 0.3 = 0.09. Al sacar raíz, el número de decimales se reduce a la mitad."
   },
   {
     "id": "g2_mat_09_009",
@@ -3931,11 +3931,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $\\\sqrt{1/4 + 2}$",
-    "opciones": ["3/2", "1/2 + \\\sqrt{2}", "5/4", "9/4"],
+    "enunciado": "Simplifique: \\sqrt{1/4 + 2}",
+    "opciones": ["3/2", "1/2 + \\sqrt{2}", "5/4", "9/4"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1/4 + 8/4 = 9/4$. La raíz de $9/4$ es $3/2$."
+    "retroalimentacion": "1/4 + 8/4 = 9/4. La raíz de 9/4 es 3/2."
   },
   {
     "id": "g2_mat_09_010",
@@ -3950,7 +3950,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿Qué sucede con el valor de una fracción propia (entre 0 y 1) cuando se eleva al cuadrado?",
     "opciones": ["Aumenta", "Disminuye", "Se mantiene igual", "Se vuelve negativa"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Al multiplicar una parte por una parte, el resultado es una parte más pequeña (ej. $0.5^2 = 0.25$)."
+    "retroalimentacion": "Al multiplicar una parte por una parte, el resultado es una parte más pequeña (ej. 0.5^2 = 0.25)."
   },
   {
     "id": "g2_mat_09_011",
@@ -3962,10 +3962,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $(0.2)^3$",
+    "enunciado": "Calcule: (0.2)^3",
     "opciones": ["0.6", "0.08", "0.008", "0.04"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$2^3 = 8$. Como hay 1 decimal, al cubo debe haber 3 decimales: 0.008."
+    "retroalimentacion": "2^3 = 8. Como hay 1 decimal, al cubo debe haber 3 decimales: 0.008."
   },
   {
     "id": "g2_mat_09_012",
@@ -3977,10 +3977,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $\\\sqrt{0.25} + (1/2)^2$",
+    "enunciado": "Halle el valor de \\sqrt{0.25} + (1/2)^2",
     "opciones": ["0.75", "1", "0.50", "0.30"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{0.25} = 0.5$. $(1/2)^2 = 0.25$. Suma: $0.5 + 0.25 = 0.75$."
+    "retroalimentacion": "\\sqrt{0.25} = 0.5. (1/2)^2 = 0.25. Suma: 0.5 + 0.25 = 0.75."
   },
   {
     "id": "g2_mat_09_013",
@@ -3992,7 +3992,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $[ (2/5)^2 ]^0$",
+    "enunciado": "Resuelva: [ (2/5)^2 ]^0",
     "opciones": ["4/25", "1", "0", "2/5"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Cualquier potencia elevada a 0 resulta en 1."
@@ -4007,10 +4007,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el área de un terreno cuadrado es $0.49 \\\text{ km}^2$, ¿cuánto mide cada lado?",
+    "enunciado": "Si el área de un terreno cuadrado es 0.49 \\text{ km}^2, ¿cuánto mide cada lado?",
     "opciones": ["0.07 km", "0.7 km", "7 km", "0.245 km"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Lado = $\\\sqrt{Area}$. $\\\sqrt{0.49} = 0.7$ km."
+    "retroalimentacion": "Lado = \\sqrt{Area}. \\sqrt{0.49} = 0.7 km."
   },
   {
     "id": "g2_mat_09_015",
@@ -4022,11 +4022,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $(10/2)^2$",
+    "enunciado": "Simplifique: (10/2)^2",
     "opciones": ["100/4", "25", "10", "50"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "$10/2 = 5$. $5^2 = 25$."
+    "retroalimentacion": "10/2 = 5. 5^2 = 25."
   },
   {
     "id": "g2_mat_09_016",
@@ -4038,10 +4038,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la raíz cuarta de $16/81$",
+    "enunciado": "Halle la raíz cuarta de 16/81",
     "opciones": ["2/3", "4/9", "8/27", "1/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt[4]{16} = 2$ (porque $2^4=16$) y $\\\sqrt[4]{81} = 3$ (porque $3^4=81$)."
+    "retroalimentacion": "\\sqrt[4]{16} = 2 (porque 2^4=16) y \\sqrt[4]{81} = 3 (porque 3^4=81)."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -4055,10 +4055,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de: $\\\sqrt{ (1/2)^2 + 3/4 }$",
+    "enunciado": "Calcule el valor de: \\sqrt{ (1/2)^2 + 3/4 }",
     "opciones": ["1", "1/2", "2", "3/4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Interno: $1/4 + 3/4 = 1$. $\\\sqrt{1} = 1$."
+    "retroalimentacion": "Interno: 1/4 + 3/4 = 1. \\sqrt{1} = 1."
   },
   {
     "id": "g2_mat_09_018",
@@ -4070,10 +4070,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un análisis estadístico se usa la expresión $(0.5)^2 \\\times (0.2)^2$. Halle el resultado.",
+    "enunciado": "En un análisis estadístico se usa la expresión (0.5)^2 \\times (0.2)^2. Halle el resultado.",
     "opciones": ["0.1", "0.01", "0.001", "0.05"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$0.25 \\\times 0.04 = 0.01$."
+    "retroalimentacion": "0.25 \\times 0.04 = 0.01."
   },
   {
     "id": "g2_mat_09_019",
@@ -4085,10 +4085,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $(2/3)^3 \\\div (2/3)^2$",
+    "enunciado": "Resuelva: (2/3)^3 \\div (2/3)^2",
     "opciones": ["2/3", "4/9", "1", "8/27"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Por división de potencias de igual base, se restan los exponentes: $3 - 2 = 1$. Resultado: $2/3$."
+    "retroalimentacion": "Por división de potencias de igual base, se restan los exponentes: 3 - 2 = 1. Resultado: 2/3."
   },
   {
     "id": "g2_mat_09_020",
@@ -4100,10 +4100,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el resultado de: $\\\sqrt[3]{0.001}$",
+    "enunciado": "Halle el resultado de: \\sqrt[3]{0.001}",
     "opciones": ["0.01", "0.1", "0.001", "1"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Como hay tres decimales, la raíz cúbica tendrá un solo decimal: $0.1$."
+    "retroalimentacion": "Como hay tres decimales, la raíz cúbica tendrá un solo decimal: 0.1."
   },
   {
     "id": "g2_mat_09_021",
@@ -4115,10 +4115,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de $x$ si $\\\sqrt{x/4} = 1/2$",
+    "enunciado": "Determine el valor de x si \\sqrt{x/4} = 1/2",
     "opciones": ["1", "4", "2", "0"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Elevando al cuadrado ambos lados: $x/4 = 1/4 \\\rightarrow x = 1$."
+    "retroalimentacion": "Elevando al cuadrado ambos lados: x/4 = 1/4 \\rightarrow x = 1."
   },
   {
     "id": "g2_mat_09_022",
@@ -4130,10 +4130,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $(0.5)^{-3}$",
+    "enunciado": "Calcule: (0.5)^{-3}",
     "opciones": ["8", "0.125", "4", "-8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$0.5 = 1/2$. El inverso es 2. $2^3 = 8$."
+    "retroalimentacion": "0.5 = 1/2. El inverso es 2. 2^3 = 8."
   },
   {
     "id": "g2_mat_09_023",
@@ -4145,10 +4145,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $\\\frac{ (1/3)^2 }{ (1/3)^4 }$",
+    "enunciado": "Resuelva: \\frac{ (1/3)^2 }{ (1/3)^4 }",
     "opciones": ["1/9", "9", "3", "1/3"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(1/3)^{2-4} = (1/3)^{-2} = 3^2 = 9$."
+    "retroalimentacion": "(1/3)^{2-4} = (1/3)^{-2} = 3^2 = 9."
   },
   {
     "id": "g2_mat_09_024",
@@ -4175,10 +4175,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $\\\sqrt{ 0.81 \\\div 0.01 }$",
+    "enunciado": "Calcule: \\sqrt{ 0.81 \\div 0.01 }",
     "opciones": ["9", "0.9", "81", "0.3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$0.81 \\\div 0.01 = 81$. $\\\sqrt{81} = 9$."
+    "retroalimentacion": "0.81 \\div 0.01 = 81. \\sqrt{81} = 9."
   },
   {
     "id": "g2_mat_09_026",
@@ -4190,10 +4190,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el resultado de $(3/2)^2 \\\times 4/9$",
+    "enunciado": "Halle el resultado de (3/2)^2 \\times 4/9",
     "opciones": ["1", "9/4", "16/81", "2/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$9/4 \\\times 4/9 = 36/36 = 1$."
+    "retroalimentacion": "9/4 \\times 4/9 = 36/36 = 1."
   },
   {
     "id": "g2_mat_09_027",
@@ -4205,10 +4205,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de $\\\sqrt{ \\\sqrt{1/16} }$",
+    "enunciado": "Determine el valor de \\sqrt{ \\sqrt{1/16} }",
     "opciones": ["1/2", "1/4", "1/8", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{1/16} = 1/4$. Luego $\\\sqrt{1/4} = 1/2$."
+    "retroalimentacion": "\\sqrt{1/16} = 1/4. Luego \\sqrt{1/4} = 1/2."
   },
   {
     "id": "g2_mat_09_028",
@@ -4220,10 +4220,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $0.1 + (0.1)^2 + (0.1)^3$",
+    "enunciado": "Calcule: 0.1 + (0.1)^2 + (0.1)^3",
     "opciones": ["0.111", "0.3", "0.123", "1.11"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$0.1 + 0.01 + 0.001 = 0.111$."
+    "retroalimentacion": "0.1 + 0.01 + 0.001 = 0.111."
   },
   {
     "id": "g2_mat_09_029",
@@ -4235,11 +4235,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "2.4 Potenciación y radicación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $(2/3)^{-1} + (1/2)^2$",
+    "enunciado": "Simplifique: (2/3)^{-1} + (1/2)^2",
     "opciones": ["7/4", "1.75", "11/4", "3/2"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3/2 + 1/4 = 6/4 + 1/4 = 7/4 = 1.75$."
+    "retroalimentacion": "3/2 + 1/4 = 6/4 + 1/4 = 7/4 = 1.75."
   },
   {
     "id": "g2_mat_09_030",
@@ -4254,7 +4254,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿Qué número elevado al cuadrado da como resultado 0.0004?",
     "opciones": ["0.02", "0.2", "0.002", "0.04"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{0.0004}$. Como hay 4 decimales, la raíz tiene 2. $\\\sqrt{4} = 2$. Resultado: 0.02."
+    "retroalimentacion": "\\sqrt{0.0004}. Como hay 4 decimales, la raíz tiene 2. \\sqrt{4} = 2. Resultado: 0.02."
   },
 
 
@@ -4286,7 +4286,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "Una razón es el cociente entre dos cantidades. En la razón $a/b$, el término 'a' se denomina:",
+    "enunciado": "Una razón es el cociente entre dos cantidades. En la razón a/b, el término 'a' se denomina:",
     "opciones": ["Consecuente", "Anticipado", "Antecedente", "Divisor"],
     "respuesta_correcta": 2,
     "retroalimentacion": "En una razón, el numerador se llama antecedente y el denominador consecuente."
@@ -4304,7 +4304,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "En un aula hay 20 hombres y 30 mujeres. ¿Cuál es la razón de hombres a mujeres?",
     "opciones": ["3:2", "2:3", "2:5", "3:5"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$20/30$ simplificado es $2/3$ o $2:3$."
+    "retroalimentacion": "20/30 simplificado es 2/3 o 2:3."
   },
   {
     "id": "g2_mat_10_003",
@@ -4316,7 +4316,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine si la siguiente igualdad es una proporción: $2/5 = 4/10$",
+    "enunciado": "Determine si la siguiente igualdad es una proporción: 2/5 = 4/10",
     "opciones": ["No, son diferentes", "Sí, son equivalentes", "Solo si se suma 2", "Depende del contexto"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Al simplificar 4/10 obtenemos 2/5, por lo tanto forman una proporción."
@@ -4331,10 +4331,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $x$ en la proporción: $x/10 = 3/5$",
+    "enunciado": "Halle el valor de x en la proporción: x/10 = 3/5",
     "opciones": ["6", "15", "5", "8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x = (10 \\times 3) / 5 = 30 / 5 = 6$."
+    "retroalimentacion": "x = (10 \times 3) / 5 = 30 / 5 = 6."
   },
   {
     "id": "g2_mat_10_005",
@@ -4349,7 +4349,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "La propiedad fundamental de las proporciones establece que:",
     "opciones": ["La suma de medios es igual a la suma de extremos", "El producto de extremos es igual al producto de medios", "Los antecedentes deben ser iguales", "Los consecuentes deben ser mayores"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Si $a/b = c/d$, entonces $a \\times d = b \\times c$."
+    "retroalimentacion": "Si a/b = c/d, entonces a \times d = b \times c."
   },
   {
     "id": "g2_mat_10_006",
@@ -4361,7 +4361,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si en un mapa la escala es $1:100$, ¿qué significa?",
+    "enunciado": "Si en un mapa la escala es 1:100, ¿qué significa?",
     "opciones": ["1 cm equivale a 1 km", "1 unidad en el mapa representa 100 unidades reales", "El mapa es 100 veces más grande que la realidad", "Hay 100 mapas por cada unidad"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Es una razón de semejanza donde el dibujo es 100 veces menor que el objeto real."
@@ -4378,10 +4378,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una mezcla de cemento y arena está en razón $2:5$. Si se usan 10 sacos de cemento, ¿cuántos de arena se necesitan?",
+    "enunciado": "Una mezcla de cemento y arena está en razón 2:5. Si se usan 10 sacos de cemento, ¿cuántos de arena se necesitan?",
     "opciones": ["20", "25", "15", "50"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$2/5 = 10/x \\rightarrow 2x = 50 \\rightarrow x = 25$."
+    "retroalimentacion": "2/5 = 10/x \rightarrow 2x = 50 \rightarrow x = 25."
   },
   {
     "id": "g2_mat_10_008",
@@ -4396,7 +4396,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Halle la cuarta proporcional de 3, 6 y 5.",
     "opciones": ["10", "8", "15", "12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3/6 = 5/x \\rightarrow 3x = 30 \\rightarrow x = 10$."
+    "retroalimentacion": "3/6 = 5/x \rightarrow 3x = 30 \rightarrow x = 10."
   },
   {
     "id": "g2_mat_10_009",
@@ -4408,10 +4408,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En una empresa la razón entre empleados administrativos y operativos es $1/4$. Si hay 120 operativos, ¿cuántos administrativos hay?",
+    "enunciado": "En una empresa la razón entre empleados administrativos y operativos es 1/4. Si hay 120 operativos, ¿cuántos administrativos hay?",
     "opciones": ["30", "480", "40", "60"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1/4 = x/120 \\rightarrow 4x = 120 \\rightarrow x = 30$."
+    "retroalimentacion": "1/4 = x/120 \rightarrow 4x = 120 \rightarrow x = 30."
   },
   {
     "id": "g2_mat_10_010",
@@ -4423,10 +4423,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva para $x$: $1.2 / 3 = x / 15$",
+    "enunciado": "Resuelva para x: 1.2 / 3 = x / 15",
     "opciones": ["6", "4.5", "5", "6.2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x = (1.2 \\times 15) / 3 = 18 / 3 = 6$."
+    "retroalimentacion": "x = (1.2 \times 15) / 3 = 18 / 3 = 6."
   },
   {
     "id": "g2_mat_10_011",
@@ -4438,10 +4438,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La razón de dos números es $3:8$ y su suma es 55. Halle el número menor.",
+    "enunciado": "La razón de dos números es 3:8 y su suma es 55. Halle el número menor.",
     "opciones": ["15", "40", "20", "25"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3k + 8k = 55 \\rightarrow 11k = 55 \\rightarrow k=5$. El menor es $3(5)=15$."
+    "retroalimentacion": "3k + 8k = 55 \rightarrow 11k = 55 \rightarrow k=5. El menor es 3(5)=15."
   },
   {
     "id": "g2_mat_10_012",
@@ -4453,10 +4453,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si 4 libros cuestan $60, ¿cuánto cuestan 10 libros?",
-    "opciones": ["$150", "$120", "$200", "$180"],
+    "enunciado": "Si 4 libros cuestan 60, ¿cuánto cuestan 10 libros?",
+    "opciones": ["150", "120", "200", "180"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$4/60 = 10/x \\rightarrow 4x = 600 \\rightarrow x = 150$."
+    "retroalimentacion": "4/60 = 10/x \rightarrow 4x = 600 \rightarrow x = 150."
   },
   {
     "id": "g2_mat_10_013",
@@ -4468,10 +4468,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La edad de un padre y su hijo están en razón $7:2$. Si el hijo tiene 10 años, ¿qué edad tiene el padre?",
+    "enunciado": "La edad de un padre y su hijo están en razón 7:2. Si el hijo tiene 10 años, ¿qué edad tiene el padre?",
     "opciones": ["35 años", "40 años", "45 años", "30 años"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$7/2 = x/10 \\rightarrow 2x = 70 \\rightarrow x = 35$."
+    "retroalimentacion": "7/2 = x/10 \rightarrow 2x = 70 \rightarrow x = 35."
   },
   {
     "id": "g2_mat_10_014",
@@ -4483,10 +4483,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Efectúe el cálculo de $y$ en: $1/y = 5/20$",
+    "enunciado": "Efectúe el cálculo de y en: 1/y = 5/20",
     "opciones": ["4", "5", "10", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$5y = 20 \\rightarrow y = 4$."
+    "retroalimentacion": "5y = 20 \rightarrow y = 4."
   },
   {
     "id": "g2_mat_10_015",
@@ -4501,7 +4501,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "En una proporción, si los medios son iguales, se denomina:",
     "opciones": ["Proporción aritmética", "Proporción continua", "Proporción discreta", "Razón simple"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "En $a/b = b/c$, $b$ es la media proporcional y se llama proporción continua."
+    "retroalimentacion": "En a/b = b/c, b es la media proporcional y se llama proporción continua."
   },
   {
     "id": "g2_mat_10_016",
@@ -4513,10 +4513,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La razón de dos números es $5/4$. Si el mayor es 100, ¿cuál es el menor?",
+    "enunciado": "La razón de dos números es 5/4. Si el mayor es 100, ¿cuál es el menor?",
     "opciones": ["80", "125", "90", "75"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$5/4 = 100/x \\rightarrow 5x = 400 \\rightarrow x = 80$."
+    "retroalimentacion": "5/4 = 100/x \rightarrow 5x = 400 \rightarrow x = 80."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -4530,10 +4530,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En una escala de $1:50,000$, una distancia en el mapa de $4$ cm representa en la realidad:",
+    "enunciado": "En una escala de 1:50,000, una distancia en el mapa de 4 cm representa en la realidad:",
     "opciones": ["2 km", "20 km", "200 m", "5 km"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$4 \\times 50,000 = 200,000$ cm $= 2,000$ m $= 2$ km."
+    "retroalimentacion": "4 \times 50,000 = 200,000 cm = 2,000 m = 2 km."
   },
   {
     "id": "g2_mat_10_018",
@@ -4549,7 +4549,7 @@ const GRUPO2_MATEMATICA_01 =[
     "opciones": ["6", "6.5", "13", "5"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$4/x = x/9 \\rightarrow x^2 = 36 \\rightarrow x = 6$."
+    "retroalimentacion": "4/x = x/9 \rightarrow x^2 = 36 \rightarrow x = 6."
   },
   {
     "id": "g2_mat_10_019",
@@ -4561,10 +4561,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Tres números están en razón $2:3:5$. Si su suma es 200, halle el mayor de ellos.",
+    "enunciado": "Tres números están en razón 2:3:5. Si su suma es 200, halle el mayor de ellos.",
     "opciones": ["100", "40", "60", "120"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2k+3k+5k=200 \\rightarrow 10k=200 \\rightarrow k=20$. Mayor: $5(20)=100$."
+    "retroalimentacion": "2k+3k+5k=200 \rightarrow 10k=200 \rightarrow k=20. Mayor: 5(20)=100."
   },
   {
     "id": "g2_mat_10_020",
@@ -4576,11 +4576,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine $x$ en: $(x+1)/4 = 9/x$ (Considere $x$ positivo).",
+    "enunciado": "Determine x en: (x+1)/4 = 9/x (Considere x positivo).",
     "opciones": ["5.5", "5", "6", "4"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "$x(x+1) = 36 \\rightarrow x^2 + x - 36 = 0$. Probando opciones: $5(6)=30 \\neq 36$. (Resolviendo: $x \\approx 5.5$). *Ajuste pregunta:* Para valor entero, use $(x-1)/5=4/x \\rightarrow x=5$."
+    "retroalimentacion": "x(x+1) = 36 \rightarrow x^2 + x - 36 = 0. Probando opciones: 5(6)=30 \neq 36. (Resolviendo: x \approx 5.5). *Ajuste pregunta:* Para valor entero, use (x-1)/5=4/x \rightarrow x=5."
   },
   {
     "id": "g2_mat_10_021",
@@ -4592,11 +4592,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un examen la razón de aprobados a reprobados es de $5:2$. Si hubo 21 reprobados más que aprobados... (datos erróneos, corregir: 'Si hubo 21 reprobados')... ¿Cuántos estudiantes hay en total?",
+    "enunciado": "En un examen la razón de aprobados a reprobados es de 5:2. Si hubo 21 reprobados más que aprobados... (datos erróneos, corregir: 'Si hubo 21 reprobados')... ¿Cuántos estudiantes hay en total?",
     "opciones": ["73.5", "70", "49", "52"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "Reprobados: $2k=21 \\rightarrow k=10.5$. Total: $7k = 7 \\times 10.5 = 73.5$. (Usar 14 reprobados para números enteros: $7k = 49$)."
+    "retroalimentacion": "Reprobados: 2k=21 \rightarrow k=10.5. Total: 7k = 7 \times 10.5 = 73.5. (Usar 14 reprobados para números enteros: 7k = 49)."
   },
   {
     "id": "g2_mat_10_022",
@@ -4608,10 +4608,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La razón de dos números es $2/3$. Si se aumenta 10 a cada uno, la nueva razón es $3/4$. Halle los números originales.",
+    "enunciado": "La razón de dos números es 2/3. Si se aumenta 10 a cada uno, la nueva razón es 3/4. Halle los números originales.",
     "opciones": ["20 y 30", "10 y 15", "40 y 60", "14 y 21"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(2k+10)/(3k+10) = 3/4 \\rightarrow 8k+40 = 9k+30 \\rightarrow k=10$. Números: 20 y 30."
+    "retroalimentacion": "(2k+10)/(3k+10) = 3/4 \rightarrow 8k+40 = 9k+30 \rightarrow k=10. Números: 20 y 30."
   },
   {
     "id": "g2_mat_10_023",
@@ -4623,10 +4623,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $a/b = 2/3$ y $b/c = 4/5$, halle la razón $a/c$.",
+    "enunciado": "Si a/b = 2/3 y b/c = 4/5, halle la razón a/c.",
     "opciones": ["8/15", "6/15", "2/5", "1/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(a/b) \\times (b/c) = (2/3) \\times (4/5) = 8/15$."
+    "retroalimentacion": "(a/b) \times (b/c) = (2/3) \times (4/5) = 8/15."
   },
   {
     "id": "g2_mat_10_024",
@@ -4638,11 +4638,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un televisor de 40 pulgadas tiene una relación de aspecto (razón largo:ancho) de $16:9$. Si el largo mide aproximadamente 88.5 cm, ¿cuánto mide el ancho?",
+    "enunciado": "Un televisor de 40 pulgadas tiene una relación de aspecto (razón largo:ancho) de 16:9. Si el largo mide aproximadamente 88.5 cm, ¿cuánto mide el ancho?",
     "opciones": ["49.8 cm", "55.2 cm", "40 cm", "45.5 cm"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$16/9 = 88.5/x \\rightarrow x = (9 \\times 88.5)/16 \\approx 49.8$ cm."
+    "retroalimentacion": "16/9 = 88.5/x \rightarrow x = (9 \times 88.5)/16 \approx 49.8 cm."
   },
   {
     "id": "g2_mat_10_025",
@@ -4654,10 +4654,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "En la expresión $a/b = c/d$, ¿cuáles son los términos 'extremos'?",
+    "enunciado": "En la expresión a/b = c/d, ¿cuáles son los términos 'extremos'?",
     "opciones": ["b y c", "a y d", "a y c", "b y d"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Los extremos son el primero y el último término de la proporción escrita linealmente ($a:b::c:d$)."
+    "retroalimentacion": "Los extremos son el primero y el último término de la proporción escrita linealmente (a:b::c:d)."
   },
   {
     "id": "g2_mat_10_026",
@@ -4669,10 +4669,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La suma de tres números es 180. La razón entre el primero y el segundo es $2:3$, y entre el segundo y el tercero es $3:4$. Halle el segundo número.",
+    "enunciado": "La suma de tres números es 180. La razón entre el primero y el segundo es 2:3, y entre el segundo y el tercero es 3:4. Halle el segundo número.",
     "opciones": ["60", "40", "80", "90"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2k+3k+4k=180 \\rightarrow 9k=180 \\rightarrow k=20$. Segundo: $3(20)=60$."
+    "retroalimentacion": "2k+3k+4k=180 \rightarrow 9k=180 \rightarrow k=20. Segundo: 3(20)=60."
   },
   {
     "id": "g2_mat_10_027",
@@ -4684,10 +4684,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x$ es a $y$ como 5 es a 3, y $x^2 - y^2 = 64$, halle $x$.",
+    "enunciado": "Si x es a y como 5 es a 3, y x^2 - y^2 = 64, halle x.",
     "opciones": ["10", "8", "6", "12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x=5k, y=3k \\rightarrow 25k^2 - 9k^2 = 64 \\rightarrow 16k^2 = 64 \\rightarrow k=2$. $x=10$."
+    "retroalimentacion": "x=5k, y=3k \rightarrow 25k^2 - 9k^2 = 64 \rightarrow 16k^2 = 64 \rightarrow k=2. x=10."
   },
   {
     "id": "g2_mat_10_028",
@@ -4699,11 +4699,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un mapa a escala $1:1,000,000$, un área de $1$ cm² representa en la realidad:",
+    "enunciado": "En un mapa a escala 1:1,000,000, un área de 1 cm² representa en la realidad:",
     "opciones": ["10 km²", "100 km²", "1 km²", "1,000 km²"],
     "index_respuesta": 1,
     "respuesta_correcta": 1,
-    "retroalimentacion": "$1\\text{ cm} \\times 1,000,000 = 10$ km. El área es $(10\\text{ km})^2 = 100$ km²."
+    "retroalimentacion": "1\text{ cm} \times 1,000,000 = 10 km. El área es (10\text{ km})^2 = 100 km²."
   },
   {
     "id": "g2_mat_10_029",
@@ -4715,11 +4715,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La razón entre dos números es $5:7$. Si al menor se le suma 14, la razón se invierte. Halle el número mayor.",
+    "enunciado": "La razón entre dos números es 5:7. Si al menor se le suma 14, la razón se invierte. Halle el número mayor.",
     "opciones": ["24.5", "35", "49", "21"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(5k+14)/7k = 7/5 \\rightarrow 25k+70 = 49k \\rightarrow 24k=70 \\rightarrow k \\approx 2.9$. Ajuste para enteros: Si se suma 24: $k=5$."
+    "retroalimentacion": "(5k+14)/7k = 7/5 \rightarrow 25k+70 = 49k \rightarrow 24k=70 \rightarrow k \approx 2.9. Ajuste para enteros: Si se suma 24: k=5."
   },
   {
     "id": "g2_mat_10_030",
@@ -4731,10 +4731,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.1 Razones y proporciones",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En una solución de 200 ml la razón alcohol:agua es $1:4$. ¿Cuánto alcohol debe añadirse para que la razón sea $1:1$?",
+    "enunciado": "En una solución de 200 ml la razón alcohol:agua es 1:4. ¿Cuánto alcohol debe añadirse para que la razón sea 1:1?",
     "opciones": ["120 ml", "160 ml", "100 ml", "80 ml"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Original: 40 ml alc, 160 ml agua. Para 1:1, alc debe ser 160 ml. Añadir: $160 - 40 = 120$ ml."
+    "retroalimentacion": "Original: 40 ml alc, 160 ml agua. Para 1:1, alc debe ser 160 ml. Añadir: 160 - 40 = 120 ml."
   },
 
 
@@ -4779,10 +4779,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.2 Regla de tres",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si 3 kg de manzanas cuestan $6, ¿cuánto cuestan 9 kg?",
-    "opciones": ["$12", "$18", "$15", "$20"],
+    "enunciado": "Si 3 kg de manzanas cuestan 6, ¿cuánto cuestan 9 kg?",
+    "opciones": ["12", "18", "15", "20"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Es directa: $(9 \\times 6) / 3 = 18$."
+    "retroalimentacion": "Es directa: (9 \times 6) / 3 = 18."
   },
   {
     "id": "g2_mat_11_003",
@@ -4797,7 +4797,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 2 obreros construyen una cerca en 6 horas, ¿cuánto tardarán 4 obreros?",
     "opciones": ["12 horas", "3 horas", "4 horas", "8 horas"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Es inversa: a más obreros, menos tiempo. $(2 \\times 6) / 4 = 3$ horas."
+    "retroalimentacion": "Es inversa: a más obreros, menos tiempo. (2 \times 6) / 4 = 3 horas."
   },
   {
     "id": "g2_mat_11_004",
@@ -4812,7 +4812,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un vehículo recorre 100 km con 8 litros de gasolina. ¿Cuántos litros necesita para 250 km?",
     "opciones": ["16 litros", "20 litros", "25 litros", "18 litros"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(250 \\times 8) / 100 = 20$ litros."
+    "retroalimentacion": "(250 \times 8) / 100 = 20 litros."
   },
   {
     "id": "g2_mat_11_005",
@@ -4839,10 +4839,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.2 Regla de tres",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si por 5 días de trabajo un empleado recibe $150, ¿cuánto recibirá por 12 días?",
-    "opciones": ["$300", "$360", "$400", "$350"],
+    "enunciado": "Si por 5 días de trabajo un empleado recibe 150, ¿cuánto recibirá por 12 días?",
+    "opciones": ["300", "360", "400", "350"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(12 \\times 150) / 5 = 360$."
+    "retroalimentacion": "(12 \times 150) / 5 = 360."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -4859,7 +4859,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Cinco grifos iguales llenan un depósito en 30 horas. ¿Cuánto tardarán 3 grifos?",
     "opciones": ["18 horas", "50 horas", "45 horas", "20 horas"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Inversa: $(5 \\times 30) / 3 = 50$ horas."
+    "retroalimentacion": "Inversa: (5 \times 30) / 3 = 50 horas."
   },
   {
     "id": "g2_mat_11_008",
@@ -4874,7 +4874,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 8 obreros trabajando 6 horas diarias terminan una obra en 10 días, ¿cuántos días tardarán 4 obreros trabajando 8 horas diarias?",
     "opciones": ["12 días", "15 días", "20 días", "10 días"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Obreros (inv), Horas (inv). $x = 10 \\times (8/4) \\times (6/8) = 10 \\times 2 \\times 0.75 = 15$ días."
+    "retroalimentacion": "Obreros (inv), Horas (inv). x = 10 \times (8/4) \times (6/8) = 10 \times 2 \times 0.75 = 15 días."
   },
   {
     "id": "g2_mat_11_009",
@@ -4889,7 +4889,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un mecanógrafo escribe 20 páginas en 1.5 horas. ¿Cuánto tiempo le tomará escribir 50 páginas?",
     "opciones": ["3 horas", "3.75 horas", "4 horas", "3.25 horas"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Directa: $(50 \\times 1.5) / 20 = 3.75$ horas."
+    "retroalimentacion": "Directa: (50 \times 1.5) / 20 = 3.75 horas."
   },
   {
     "id": "g2_mat_11_010",
@@ -4904,7 +4904,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Para pavimentar 200 m de calle se necesitan 40 trabajadores. ¿Cuántos metros pavimentarán 15 trabajadores en las mismas condiciones?",
     "opciones": ["100 m", "75 m", "80 m", "60 m"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(15 \\times 200) / 40 = 75$ m."
+    "retroalimentacion": "(15 \times 200) / 40 = 75 m."
   },
   {
     "id": "g2_mat_11_011",
@@ -4919,7 +4919,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 12 vacas consumen 300 kg de pasto en una semana, ¿cuánto consumirán 18 vacas en el mismo tiempo?",
     "opciones": ["400 kg", "450 kg", "500 kg", "350 kg"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(18 \\times 300) / 12 = 450$ kg."
+    "retroalimentacion": "(18 \times 300) / 12 = 450 kg."
   },
   {
     "id": "g2_mat_11_012",
@@ -4934,7 +4934,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un barco tiene víveres para 20 días con 40 tripulantes. Si se suman 10 tripulantes más, ¿cuántos días durarán los víveres?",
     "opciones": ["15 días", "16 días", "18 días", "25 días"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Inversa (total 50 tripulantes): $(40 \\times 20) / 50 = 16$ días."
+    "retroalimentacion": "Inversa (total 50 tripulantes): (40 \times 20) / 50 = 16 días."
   },
   {
     "id": "g2_mat_11_013",
@@ -4949,7 +4949,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 3 camiones transportan 12 tons de carga en 2 viajes, ¿cuántos viajes necesitan 3 camiones para 30 tons?",
     "opciones": ["4 viajes", "5 viajes", "6 viajes", "3 viajes"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(30 \\times 2) / 12 = 5$ viajes."
+    "retroalimentacion": "(30 \times 2) / 12 = 5 viajes."
   },
   {
     "id": "g2_mat_11_014",
@@ -4979,7 +4979,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un grifo arroja 18 litros de agua por minuto y tarda 14 horas en llenar un tanque. ¿Cuánto tardaría si arrojara 21 litros por minuto?",
     "opciones": ["10 horas", "12 horas", "16 horas", "11 horas"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Inversa: $(18 \\times 14) / 21 = 12$ horas."
+    "retroalimentacion": "Inversa: (18 \times 14) / 21 = 12 horas."
   },
   {
     "id": "g2_mat_11_016",
@@ -4991,10 +4991,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.2 Regla de tres",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si por 3 boletos de cine se pagan $22.50, ¿cuánto se paga por 7 boletos?",
-    "opciones": ["$50.00", "$52.50", "$45.00", "$55.25"],
+    "enunciado": "Si por 3 boletos de cine se pagan 22.50, ¿cuánto se paga por 7 boletos?",
+    "opciones": ["50.00", "52.50", "45.00", "55.25"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(7 \\times 22.50) / 3 = 52.50$."
+    "retroalimentacion": "(7 \times 22.50) / 3 = 52.50."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -5011,7 +5011,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Seis personas pueden sobrevivir 12 días con 40 litros de agua. ¿Cuántos días sobrevivirán 8 personas con 20 litros?",
     "opciones": ["3 días", "4.5 días", "6 días", "5 días"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Personas (inv), Agua (dir). $x = 12 \\times (6/8) \\times (20/40) = 12 \\times 0.75 \\times 0.5 = 4.5$ días."
+    "retroalimentacion": "Personas (inv), Agua (dir). x = 12 \times (6/8) \times (20/40) = 12 \times 0.75 \times 0.5 = 4.5 días."
   },
   {
     "id": "g2_mat_11_018",
@@ -5026,7 +5026,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 15 máquinas tejen 1,000 metros de tela en 4 días, ¿cuántas máquinas se necesitan para tejer 2,000 metros en 2 días?",
     "opciones": ["30", "45", "60", "20"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Metros (dir), Días (inv). $x = 15 \\times (2000/1000) \\times (4/2) = 15 \\times 2 \\times 2 = 60$ máquinas."
+    "retroalimentacion": "Metros (dir), Días (inv). x = 15 \times (2000/1000) \times (4/2) = 15 \times 2 \times 2 = 60 máquinas."
   },
   {
     "id": "g2_mat_11_019",
@@ -5041,7 +5041,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un equipo de 10 programadores desarrolla un software en 30 días trabajando 8h/día. Si se reduce el equipo a 6 programadores y deben terminar en 25 días, ¿cuántas horas diarias deben trabajar?",
     "opciones": ["12h", "16h", "10h", "14h"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Programadores (inv), Días (inv). $x = 8 \\times (10/6) \\times (30/25) = 8 \\times 1.66 \\times 1.2 = 16$ horas."
+    "retroalimentacion": "Programadores (inv), Días (inv). x = 8 \times (10/6) \times (30/25) = 8 \times 1.66 \times 1.2 = 16 horas."
   },
   {
     "id": "g2_mat_11_020",
@@ -5056,7 +5056,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Cinco panaderos producen 500 panes en 2 horas. ¿Cuántos panes producirán 8 panaderos en 3 horas?",
     "opciones": ["1,000", "1,200", "1,500", "800"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Panaderos (dir), Horas (dir). $x = 500 \\times (8/5) \\times (3/2) = 500 \\times 1.6 \\times 1.5 = 1,200$ panes."
+    "retroalimentacion": "Panaderos (dir), Horas (dir). x = 500 \times (8/5) \times (3/2) = 500 \times 1.6 \times 1.5 = 1,200 panes."
   },
   {
     "id": "g2_mat_11_021",
@@ -5071,7 +5071,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Para imprimir 3,000 folletos, 2 impresoras tardan 10 horas. ¿Cuánto tardarán 3 impresoras en imprimir 4,500 folletos?",
     "opciones": ["10 horas", "8 horas", "12 horas", "15 horas"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Folletos (dir), Impresoras (inv). $x = 10 \\times (4500/3000) \\times (2/3) = 10 \\times 1.5 \\times 0.66 = 10$ horas."
+    "retroalimentacion": "Folletos (dir), Impresoras (inv). x = 10 \times (4500/3000) \times (2/3) = 10 \times 1.5 \times 0.66 = 10 horas."
   },
   {
     "id": "g2_mat_11_022",
@@ -5086,7 +5086,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 3 camiones de 4 toneladas cada uno hacen 10 viajes para mover una carga, ¿cuántos viajes harán 2 camiones de 6 toneladas cada uno?",
     "opciones": ["10 viajes", "8 viajes", "12 viajes", "15 viajes"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Camiones (inv), Capacidad (inv). $x = 10 \\times (3/2) \\times (4/6) = 10 \\times 1.5 \\times 0.66 = 10$ viajes."
+    "retroalimentacion": "Camiones (inv), Capacidad (inv). x = 10 \times (3/2) \times (4/6) = 10 \times 1.5 \times 0.66 = 10 viajes."
   },
   {
     "id": "g2_mat_11_023",
@@ -5101,7 +5101,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Una cuadrilla de 15 obreros hace 100 m de zanja en 4 días. ¿Cuántos obreros se necesitan para hacer 150 m en 3 días?",
     "opciones": ["30 obreros", "25 obreros", "20 obreros", "40 obreros"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Metros (dir), Días (inv). $x = 15 \\times (150/100) \\times (4/3) = 15 \\times 1.5 \\times 1.33 = 30$ obreros."
+    "retroalimentacion": "Metros (dir), Días (inv). x = 15 \times (150/100) \times (4/3) = 15 \times 1.5 \times 1.33 = 30 obreros."
   },
   {
     "id": "g2_mat_11_024",
@@ -5117,7 +5117,7 @@ const GRUPO2_MATEMATICA_01 =[
     "opciones": ["4 horas", "5 horas", "3.33 horas", "6 horas"],
     "index_respuesta": 0,
     "respuesta_correcta": 0,
-    "retroalimentacion": "Litros (dir), Mangueras (inv). $x = 4 \\times (4000/2400) \\times (3/5) = 4 \\times 1.66 \\times 0.6 = 4$ horas."
+    "retroalimentacion": "Litros (dir), Mangueras (inv). x = 4 \times (4000/2400) \times (3/5) = 4 \times 1.66 \times 0.6 = 4 horas."
   },
   {
     "id": "g2_mat_11_025",
@@ -5132,7 +5132,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 6 fotocopiadoras tardan 4 horas en imprimir 10,000 hojas, ¿cuántas hojas imprimirán 4 fotocopiadoras en 3 horas?",
     "opciones": ["5,000 hojas", "4,500 hojas", "6,000 hojas", "7,500 hojas"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Maquinas (dir), Tiempo (dir). $x = 10,000 \\times (4/6) \\times (3/4) = 5,000$ hojas."
+    "retroalimentacion": "Maquinas (dir), Tiempo (dir). x = 10,000 \times (4/6) \times (3/4) = 5,000 hojas."
   },
   {
     "id": "g2_mat_11_026",
@@ -5147,7 +5147,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un ejército de 1,200 hombres tiene víveres para 15 días a razón de 3 raciones diarias. Si se refuerza con 300 hombres, ¿cuántos días durarán los víveres con 2 raciones diarias?",
     "opciones": ["18 días", "12 días", "20 días", "15 días"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Hombres (inv), Raciones (inv). $x = 15 \\times (1200/1500) \\times (3/2) = 15 \\times 0.8 \\times 1.5 = 18$ días."
+    "retroalimentacion": "Hombres (inv), Raciones (inv). x = 15 \times (1200/1500) \times (3/2) = 15 \times 0.8 \times 1.5 = 18 días."
   },
   {
     "id": "g2_mat_11_027",
@@ -5162,7 +5162,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 10 obreros pueden hacer una obra en 12 días, ¿cuántos obreros más se necesitan para terminar la obra en solo 8 días?",
     "opciones": ["5 obreros", "15 obreros", "10 obreros", "2 obreros"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Inversa: $(10 \\times 12) / 8 = 15$. Se necesitan 15 en total, o sea 5 obreros más."
+    "retroalimentacion": "Inversa: (10 \times 12) / 8 = 15. Se necesitan 15 en total, o sea 5 obreros más."
   },
   {
     "id": "g2_mat_11_028",
@@ -5177,7 +5177,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Tres pintores tardan 10 días en pintar 2 casas trabajando 8h/día. ¿Cuántos días tardarán 4 pintores en pintar 3 casas trabajando 6h/día?",
     "opciones": ["15 días", "12 días", "10 días", "18 días"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Pintores (inv), Casas (dir), Horas (inv). $x = 10 \\times (3/4) \\times (3/2) \\times (8/6) = 15$ días."
+    "retroalimentacion": "Pintores (inv), Casas (dir), Horas (inv). x = 10 \times (3/4) \times (3/2) \times (8/6) = 15 días."
   },
   {
     "id": "g2_mat_11_029",
@@ -5192,7 +5192,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si 4 vacas comen 20 kg de pasto en 2 días, ¿cuántas vacas comerán 100 kg en 5 días?",
     "opciones": ["8 vacas", "10 vacas", "12 vacas", "4 vacas"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Kilos (dir), Días (inv). $x = 4 \\times (100/20) \\times (2/5) = 4 \\times 5 \\times 0.4 = 8$ vacas."
+    "retroalimentacion": "Kilos (dir), Días (inv). x = 4 \times (100/20) \times (2/5) = 4 \times 5 \times 0.4 = 8 vacas."
   },
   {
     "id": "g2_mat_11_030",
@@ -5207,7 +5207,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Ocho costureras hacen 40 vestidos en 10 días. ¿Cuántos días tardarán 10 costureras en hacer 60 vestidos de la misma complejidad?",
     "opciones": ["12 días", "15 días", "10 días", "8 días"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Costureras (inv), Vestidos (dir). $x = 10 \\times (8/10) \\times (60/40) = 12$ días."
+    "retroalimentacion": "Costureras (inv), Vestidos (dir). x = 10 \times (8/10) \times (60/40) = 12 días."
   },
 
 
@@ -5260,7 +5260,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Calcule el 25% de 200.",
     "opciones": ["25", "40", "50", "100"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$200 \\times 0.25 = 50$."
+    "retroalimentacion": "200 \times 0.25 = 50."
   },
   {
     "id": "g2_mat_12_003",
@@ -5275,7 +5275,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Exprese la fracción 1/5 como porcentaje.",
     "opciones": ["10%", "20%", "5%", "50%"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$1/5 = 0.20$, que equivale al 20%."
+    "retroalimentacion": "1/5 = 0.20, que equivale al 20%."
   },
   {
     "id": "g2_mat_12_004",
@@ -5302,7 +5302,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "En la fórmula del interés simple $I = C \\cdot i \\cdot t$, la letra 'C' representa:",
+    "enunciado": "En la fórmula del interés simple I = C \cdot i \cdot t, la letra 'C' representa:",
     "opciones": ["Cuota", "Capital inicial", "Comisión", "Costo final"],
     "respuesta_correcta": 1,
     "retroalimentacion": "C es el capital o cantidad de dinero prestada o invertida."
@@ -5317,10 +5317,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si un pantalón cuesta $40 y tiene un 10% de descuento, ¿cuánto se descuenta?",
-    "opciones": ["$1", "$4", "$10", "$36"],
+    "enunciado": "Si un pantalón cuesta 40 y tiene un 10% de descuento, ¿cuánto se descuenta?",
+    "opciones": ["1", "4", "10", "36"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "El descuento es $40 \\times 0.10 = $4."
+    "retroalimentacion": "El descuento es 40 \times 0.10 = 4."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -5334,10 +5334,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un televisor cuesta $500 sin IVA. Si el IVA es del 15%, ¿cuál es el precio final?",
-    "opciones": ["$515", "$575", "$600", "$550"],
+    "enunciado": "Un televisor cuesta 500 sin IVA. Si el IVA es del 15%, ¿cuál es el precio final?",
+    "opciones": ["515", "575", "600", "550"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$500 \\times 1.15 = 575$."
+    "retroalimentacion": "500 \times 1.15 = 575."
   },
   {
     "id": "g2_mat_12_008",
@@ -5349,10 +5349,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Qué interés simple produce un capital de $1,000 al 5% anual durante 2 años?",
-    "opciones": ["$50", "$100", "$200", "$10"],
+    "enunciado": "¿Qué interés simple produce un capital de 1,000 al 5% anual durante 2 años?",
+    "opciones": ["50", "100", "200", "10"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$I = 1000 \\times 0.05 \\times 2 = 100$."
+    "retroalimentacion": "I = 1000 \times 0.05 \times 2 = 100."
   },
   {
     "id": "g2_mat_12_009",
@@ -5364,10 +5364,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En una tienda, una chaqueta de $80 se vende por $60. ¿Cuál fue el porcentaje de descuento?",
+    "enunciado": "En una tienda, una chaqueta de 80 se vende por 60. ¿Cuál fue el porcentaje de descuento?",
     "opciones": ["20%", "25%", "30%", "15%"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Descuento de $20. $(20/80) \\times 100 = 25%$."
+    "retroalimentacion": "Descuento de 20. (20/80) \times 100 = 25%."
   },
   {
     "id": "g2_mat_12_010",
@@ -5382,7 +5382,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si el 20% de un número es 40, ¿cuál es el número?",
     "opciones": ["200", "80", "160", "400"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$0.20x = 40 \\rightarrow x = 40/0.20 = 200$."
+    "retroalimentacion": "0.20x = 40 \rightarrow x = 40/0.20 = 200."
   },
   {
     "id": "g2_mat_12_011",
@@ -5394,10 +5394,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el valor del IVA (15%) en una factura de $120?",
-    "opciones": ["$18", "$15", "$20", "$12"],
+    "enunciado": "¿Cuál es el valor del IVA (15%) en una factura de 120?",
+    "opciones": ["18", "15", "20", "12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$120 \\times 0.15 = 18$."
+    "retroalimentacion": "120 \times 0.15 = 18."
   },
   {
     "id": "g2_mat_12_012",
@@ -5409,10 +5409,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un capital de $2,000 se invierte al 3% anual. ¿Cuánto dinero habrá en total después de 1 año (Capital + Interés)?",
-    "opciones": ["$2,030", "$2,060", "$2,100", "$2,300"],
+    "enunciado": "Un capital de 2,000 se invierte al 3% anual. ¿Cuánto dinero habrá en total después de 1 año (Capital + Interés)?",
+    "opciones": ["2,030", "2,060", "2,100", "2,300"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$I = 2000 \\times 0.03 \\times 1 = 60$. Total: $2,060$."
+    "retroalimentacion": "I = 2000 \times 0.03 \times 1 = 60. Total: 2,060."
   },
   {
     "id": "g2_mat_12_013",
@@ -5427,7 +5427,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si de 50 estudiantes 15 reprobaron, ¿qué porcentaje de estudiantes aprobó?",
     "opciones": ["30%", "70%", "65%", "85%"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Aprobaron 35. $(35/50) \\times 100 = 70%$."
+    "retroalimentacion": "Aprobaron 35. (35/50) \times 100 = 70%."
   },
   {
     "id": "g2_mat_12_014",
@@ -5454,10 +5454,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un agente recibe una comisión del 4% por vender una casa de $150,000. ¿A cuánto asciende su comisión?",
-    "opciones": ["$4,000", "$6,000", "$5,000", "$15,000"],
+    "enunciado": "Un agente recibe una comisión del 4% por vender una casa de 150,000. ¿A cuánto asciende su comisión?",
+    "opciones": ["4,000", "6,000", "5,000", "15,000"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$150,000 \\times 0.04 = 6,000$."
+    "retroalimentacion": "150,000 \times 0.04 = 6,000."
   },
   {
     "id": "g2_mat_12_016",
@@ -5472,7 +5472,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "¿Qué porcentaje de 80 es 20?",
     "opciones": ["20%", "25%", "40%", "15%"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(20/80) \\times 100 = 25%$."
+    "retroalimentacion": "(20/80) \times 100 = 25%."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -5486,10 +5486,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un artículo cuesta $230 después de haberle aplicado un 15% de IVA. ¿Cuál era el precio original sin IVA?",
-    "opciones": ["$200", "$215", "$195.50", "$180"],
+    "enunciado": "Un artículo cuesta 230 después de haberle aplicado un 15% de IVA. ¿Cuál era el precio original sin IVA?",
+    "opciones": ["200", "215", "195.50", "180"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1.15x = 230 \\rightarrow x = 230/1.15 = 200$."
+    "retroalimentacion": "1.15x = 230 \rightarrow x = 230/1.15 = 200."
   },
   {
     "id": "g2_mat_12_018",
@@ -5501,10 +5501,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el tiempo necesario para que un capital de $5,000 produzca $500 de interés al 4% anual.",
+    "enunciado": "Determine el tiempo necesario para que un capital de 5,000 produzca 500 de interés al 4% anual.",
     "opciones": ["2 años", "2.5 años", "3 años", "1.5 años"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$t = I / (C \\cdot i) = 500 / (5000 \\cdot 0.04) = 500 / 200 = 2.5$ años."
+    "retroalimentacion": "t = I / (C \cdot i) = 500 / (5000 \cdot 0.04) = 500 / 200 = 2.5 años."
   },
   {
     "id": "g2_mat_12_019",
@@ -5519,7 +5519,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un salario aumenta primero un 10% y luego un 10% adicional sobre el nuevo salario. ¿Cuál es el aumento total real?",
     "opciones": ["20%", "21%", "22%", "19%"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$1.10 \\times 1.10 = 1.21$, que representa un 21% de aumento."
+    "retroalimentacion": "1.10 \times 1.10 = 1.21, que representa un 21% de aumento."
   },
   {
     "id": "g2_mat_12_020",
@@ -5531,10 +5531,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿A qué tasa de interés anual se invirtieron $3,000 si en 6 meses produjeron $90 de interés?",
+    "enunciado": "¿A qué tasa de interés anual se invirtieron 3,000 si en 6 meses produjeron 90 de interés?",
     "opciones": ["3%", "6%", "5%", "4%"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$i = I / (C \\cdot t) = 90 / (3000 \\cdot 0.5) = 90 / 1500 = 0.06$ (6%)."
+    "retroalimentacion": "i = I / (C \cdot t) = 90 / (3000 \cdot 0.5) = 90 / 1500 = 0.06 (6%)."
   },
   {
     "id": "g2_mat_12_021",
@@ -5549,7 +5549,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Una población creció de 50,000 a 58,000 habitantes. ¿Cuál fue el porcentaje de incremento?",
     "opciones": ["8%", "16%", "15%", "12%"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$8,000 / 50,000 = 0.16$ o 16%."
+    "retroalimentacion": "8,000 / 50,000 = 0.16 o 16%."
   },
   {
     "id": "g2_mat_12_022",
@@ -5561,10 +5561,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si compro un producto con el 20% de descuento y pago $48, ¿cuánto costaba originalmente?",
-    "opciones": ["$60", "$58", "$64", "$70"],
+    "enunciado": "Si compro un producto con el 20% de descuento y pago 48, ¿cuánto costaba originalmente?",
+    "opciones": ["60", "58", "64", "70"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$0.80x = 48 \\rightarrow x = 48/0.80 = 60$."
+    "retroalimentacion": "0.80x = 48 \rightarrow x = 48/0.80 = 60."
   },
   {
     "id": "g2_mat_12_023",
@@ -5576,10 +5576,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Qué capital se debe invertir al 10% anual para obtener $500 de interés en 2 años?",
-    "opciones": ["$2,500", "$2,000", "$5,000", "$3,000"],
+    "enunciado": "¿Qué capital se debe invertir al 10% anual para obtener 500 de interés en 2 años?",
+    "opciones": ["2,500", "2,000", "5,000", "3,000"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$C = I / (i \\cdot t) = 500 / (0.10 \\cdot 2) = 500 / 0.20 = 2,500$."
+    "retroalimentacion": "C = I / (i \cdot t) = 500 / (0.10 \cdot 2) = 500 / 0.20 = 2,500."
   },
   {
     "id": "g2_mat_12_024",
@@ -5591,10 +5591,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un artículo tiene un precio de $100. Se le aplica un 20% de descuento y, posteriormente, un 15% de IVA sobre el precio descontado. ¿Precio final?",
-    "opciones": ["$92", "$95", "$80", "$85"],
+    "enunciado": "Un artículo tiene un precio de 100. Se le aplica un 20% de descuento y, posteriormente, un 15% de IVA sobre el precio descontado. ¿Precio final?",
+    "opciones": ["92", "95", "80", "85"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$100 \\times 0.80 = 80$. Luego $80 \\times 1.15 = 92$."
+    "retroalimentacion": "100 \times 0.80 = 80. Luego 80 \times 1.15 = 92."
   },
   {
     "id": "g2_mat_12_025",
@@ -5606,10 +5606,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿En cuántos meses un capital de $1,200 al 1% mensual produce $60 de interés?",
+    "enunciado": "¿En cuántos meses un capital de 1,200 al 1% mensual produce 60 de interés?",
     "opciones": ["5 meses", "6 meses", "4 meses", "10 meses"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$I = C \\cdot i \\cdot t \\rightarrow 60 = 1200 \\cdot 0.01 \\cdot t \\rightarrow 60 = 12t \\rightarrow t = 5$."
+    "retroalimentacion": "I = C \cdot i \cdot t \rightarrow 60 = 1200 \cdot 0.01 \cdot t \rightarrow 60 = 12t \rightarrow t = 5."
   },
   {
     "id": "g2_mat_12_026",
@@ -5621,10 +5621,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el precio de la gasolina sube de $2.40 a $2.52, ¿cuál fue el porcentaje de alza?",
+    "enunciado": "Si el precio de la gasolina sube de 2.40 a 2.52, ¿cuál fue el porcentaje de alza?",
     "opciones": ["5%", "12%", "6%", "4.5%"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(0.12 / 2.40) \\times 100 = 5%$."
+    "retroalimentacion": "(0.12 / 2.40) \times 100 = 5%."
   },
   {
     "id": "g2_mat_12_027",
@@ -5636,10 +5636,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una persona gasta el 30% de su sueldo en arriendo y el 20% en comida. Si le sobran $500, ¿cuál es su sueldo?",
-    "opciones": ["$1,000", "$1,200", "$800", "$1,500"],
+    "enunciado": "Una persona gasta el 30% de su sueldo en arriendo y el 20% en comida. Si le sobran 500, ¿cuál es su sueldo?",
+    "opciones": ["1,000", "1,200", "800", "1,500"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Gasta el 50%, le queda el 50%. Si $500$ es el 50%, el total es $1,000$."
+    "retroalimentacion": "Gasta el 50%, le queda el 50%. Si 500 es el 50%, el total es 1,000."
   },
   {
     "id": "g2_mat_12_028",
@@ -5651,10 +5651,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el interés simple de $4,500 al 0.5% mensual durante 1 año.",
-    "opciones": ["$270", "$225", "$300", "$180"],
+    "enunciado": "Calcule el interés simple de 4,500 al 0.5% mensual durante 1 año.",
+    "opciones": ["270", "225", "300", "180"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$I = 4500 \\times 0.005 \\times 12 = 270$."
+    "retroalimentacion": "I = 4500 \times 0.005 \times 12 = 270."
   },
   {
     "id": "g2_mat_12_029",
@@ -5666,10 +5666,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "3.3 Porcentajes e interés simple",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si un banco cobra el 12% anual por un préstamo, ¿cuánto se paga mensualmente de interés por cada $1,000 prestados?",
-    "opciones": ["$10", "$12", "$1", "$120"],
+    "enunciado": "Si un banco cobra el 12% anual por un préstamo, ¿cuánto se paga mensualmente de interés por cada 1,000 prestados?",
+    "opciones": ["10", "12", "1", "120"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Tasa mensual: $12\% / 12 = 1\%$. Interés: $1,000 \\times 0.01 = 10$."
+    "retroalimentacion": "Tasa mensual: 12\% / 12 = 1\%. Interés: 1,000 \times 0.01 = 10."
   },
   {
     "id": "g2_mat_12_030",
@@ -5684,7 +5684,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "En un curso, el 60% son mujeres. Si hay 12 hombres, ¿cuántos estudiantes hay en total?",
     "opciones": ["30", "20", "25", "40"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Hombres son el 40%. $0.40x = 12 \\rightarrow x = 12/0.40 = 30$."
+    "retroalimentacion": "Hombres son el 40%. 0.40x = 12 \rightarrow x = 12/0.40 = 30."
   },
 
 
@@ -5714,7 +5714,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "En el término $-3x^2$, el número $-3$ se conoce como:",
+    "enunciado": "En el término -3x^2, el número -3 se conoce como:",
     "opciones": ["Exponente", "Grado", "Coeficiente", "Variable"],
     "respuesta_correcta": 2,
     "retroalimentacion": "El coeficiente es el factor numérico que acompaña a la variable."
@@ -5744,10 +5744,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Reduzca los términos semejantes: $5x + 2y - 3x + y$",
-    "opciones": ["$2x + 3y$", "$8x + 3y$", "$2x + y$", "$5xy$"],
+    "enunciado": "Reduzca los términos semejantes: 5x + 2y - 3x + y",
+    "opciones": ["2x + 3y", "8x + 3y", "2x + y", "5xy"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(5x - 3x) + (2y + y) = 2x + 3y$."
+    "retroalimentacion": "(5x - 3x) + (2y + y) = 2x + 3y."
   },
   {
     "id": "g2_mat_13_004",
@@ -5759,10 +5759,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor numérico de $2x + 5$ si $x = 3$.",
+    "enunciado": "Halle el valor numérico de 2x + 5 si x = 3.",
     "opciones": ["10", "11", "13", "15"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$2(3) + 5 = 6 + 5 = 11$."
+    "retroalimentacion": "2(3) + 5 = 6 + 5 = 11."
   },
   {
     "id": "g2_mat_13_005",
@@ -5774,10 +5774,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Cuál es el grado del monomio $5x^3y^2$?",
+    "enunciado": "¿Cuál es el grado del monomio 5x^3y^2?",
     "opciones": ["3", "2", "5", "10"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "El grado absoluto es la suma de los exponentes de las variables: $3 + 2 = 5$."
+    "retroalimentacion": "El grado absoluto es la suma de los exponentes de las variables: 3 + 2 = 5."
   },
   {
     "id": "g2_mat_13_006",
@@ -5789,10 +5789,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Multiplique el monomio $2x$ por el binomio $(x + 3)$.",
-    "opciones": ["$2x^2 + 6x$", "$2x + 6$", "$2x^2 + 3$", "$3x + 3$"],
+    "enunciado": "Multiplique el monomio 2x por el binomio (x + 3).",
+    "opciones": ["2x^2 + 6x", "2x + 6", "2x^2 + 3", "3x + 3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Se aplica propiedad distributiva: $2x(x) + 2x(3) = 2x^2 + 6x$."
+    "retroalimentacion": "Se aplica propiedad distributiva: 2x(x) + 2x(3) = 2x^2 + 6x."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -5806,10 +5806,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Reste $(2x^2 - 3x + 5)$ de $(5x^2 + 4x - 2)$.",
-    "opciones": ["$3x^2 + 7x - 7$", "$3x^2 + x + 3$", "$7x^2 + x + 3$", "$3x^2 + 7x + 3$"],
+    "enunciado": "Reste (2x^2 - 3x + 5) de (5x^2 + 4x - 2).",
+    "opciones": ["3x^2 + 7x - 7", "3x^2 + x + 3", "7x^2 + x + 3", "3x^2 + 7x + 3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(5-2)x^2 + (4 - (-3))x + (-2 - 5) = 3x^2 + 7x - 7$."
+    "retroalimentacion": "(5-2)x^2 + (4 - (-3))x + (-2 - 5) = 3x^2 + 7x - 7."
   },
   {
     "id": "g2_mat_13_008",
@@ -5821,10 +5821,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Realice el producto: $(x + 5)(x - 2)$.",
-    "opciones": ["$x^2 + 3x - 10$", "$x^2 - 3x - 10$", "$x^2 + 7x + 10$", "$x^2 + 3x + 10$"],
+    "enunciado": "Realice el producto: (x + 5)(x - 2).",
+    "opciones": ["x^2 + 3x - 10", "x^2 - 3x - 10", "x^2 + 7x + 10", "x^2 + 3x + 10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 - 2x + 5x - 10 = x^2 + 3x - 10$."
+    "retroalimentacion": "x^2 - 2x + 5x - 10 = x^2 + 3x - 10."
   },
   {
     "id": "g2_mat_13_009",
@@ -5836,10 +5836,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor numérico de $a^2 - 2ab + b^2$ para $a=3$ y $b=1$.",
+    "enunciado": "Determine el valor numérico de a^2 - 2ab + b^2 para a=3 y b=1.",
     "opciones": ["4", "8", "2", "6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3^2 - 2(3)(1) + 1^2 = 9 - 6 + 1 = 4$."
+    "retroalimentacion": "3^2 - 2(3)(1) + 1^2 = 9 - 6 + 1 = 4."
   },
   {
     "id": "g2_mat_13_010",
@@ -5866,10 +5866,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $3(x - 4) - 2(2x + 1)$",
-    "opciones": ["$-x - 14$", "$x - 10$", "$-x - 13$", "$-x + 10$"],
+    "enunciado": "Simplifique: 3(x - 4) - 2(2x + 1)",
+    "opciones": ["-x - 14", "x - 10", "-x - 13", "-x + 10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3x - 12 - 4x - 2 = -x - 14$."
+    "retroalimentacion": "3x - 12 - 4x - 2 = -x - 14."
   },
   {
     "id": "g2_mat_13_012",
@@ -5881,7 +5881,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el grado relativo con respecto a 'y' en $4x^5y^8z$?",
+    "enunciado": "¿Cuál es el grado relativo con respecto a 'y' en 4x^5y^8z?",
     "opciones": ["5", "8", "1", "14"],
     "respuesta_correcta": 1,
     "retroalimentacion": "El grado relativo es el exponente de la variable indicada."
@@ -5896,10 +5896,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Multiplique: $(2a - 3b)(2a + 3b)$",
-    "opciones": ["$4a^2 - 9b^2$", "$4a^2 + 9b^2$", "$2a^2 - 3b^2$", "$4a^2 - 12ab + 9b^2$"],
+    "enunciado": "Multiplique: (2a - 3b)(2a + 3b)",
+    "opciones": ["4a^2 - 9b^2", "4a^2 + 9b^2", "2a^2 - 3b^2", "4a^2 - 12ab + 9b^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Es un producto notable (diferencia de cuadrados): $(2a)^2 - (3b)^2 = 4a^2 - 9b^2$."
+    "retroalimentacion": "Es un producto notable (diferencia de cuadrados): (2a)^2 - (3b)^2 = 4a^2 - 9b^2."
   },
   {
     "id": "g2_mat_13_014",
@@ -5911,10 +5911,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Divida el monomio $12x^4y^2$ entre $4x^2y$.",
-    "opciones": ["$3x^2y$", "$8x^2y$", "$3x^6y^3$", "$3x^2$"],
+    "enunciado": "Divida el monomio 12x^4y^2 entre 4x^2y.",
+    "opciones": ["3x^2y", "8x^2y", "3x^6y^3", "3x^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(12/4)x^{4-2}y^{2-1} = 3x^2y$."
+    "retroalimentacion": "(12/4)x^{4-2}y^{2-1} = 3x^2y."
   },
   {
     "id": "g2_mat_13_015",
@@ -5941,10 +5941,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $P(x) = x^2 + x + 1$, halle $P(-1)$.",
+    "enunciado": "Si P(x) = x^2 + x + 1, halle P(-1).",
     "opciones": ["1", "-1", "3", "0"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(-1)^2 + (-1) + 1 = 1 - 1 + 1 = 1$."
+    "retroalimentacion": "(-1)^2 + (-1) + 1 = 1 - 1 + 1 = 1."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -5958,10 +5958,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Multiplique: $(x^2 - x + 1)(x + 1)$.",
-    "opciones": ["$x^3 + 1$", "$x^3 - 1$", "$x^3 + x^2 + 1$", "$x^2 + 1$"],
+    "enunciado": "Multiplique: (x^2 - x + 1)(x + 1).",
+    "opciones": ["x^3 + 1", "x^3 - 1", "x^3 + x^2 + 1", "x^2 + 1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Es la suma de cubos: $x(x^2 - x + 1) + 1(x^2 - x + 1) = x^3 - x^2 + x + x^2 - x + 1 = x^3 + 1$."
+    "retroalimentacion": "Es la suma de cubos: x(x^2 - x + 1) + 1(x^2 - x + 1) = x^3 - x^2 + x + x^2 - x + 1 = x^3 + 1."
   },
   {
     "id": "g2_mat_13_018",
@@ -5973,10 +5973,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique la expresión: $-[2a - (3a + b) + 2b]$.",
-    "opciones": ["$a - b$", "$-a + b$", "$5a - 3b$", "$-a - 3b$"],
+    "enunciado": "Simplifique la expresión: -[2a - (3a + b) + 2b].",
+    "opciones": ["a - b", "-a + b", "5a - 3b", "-a - 3b"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$-[2a - 3a - b + 2b] = -[-a + b] = a - b$."
+    "retroalimentacion": "-[2a - 3a - b + 2b] = -[-a + b] = a - b."
   },
   {
     "id": "g2_mat_13_019",
@@ -5988,10 +5988,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el grado absoluto del polinomio $P(x,y) = 4x^3y^4 - 2x^5y^3 + x^2y$.",
+    "enunciado": "Halle el grado absoluto del polinomio P(x,y) = 4x^3y^4 - 2x^5y^3 + x^2y.",
     "opciones": ["8", "7", "3", "5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Grado del término 1: $3+4=7$. Término 2: $5+3=8$. El mayor es 8."
+    "retroalimentacion": "Grado del término 1: 3+4=7. Término 2: 5+3=8. El mayor es 8."
   },
   {
     "id": "g2_mat_13_020",
@@ -6003,10 +6003,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Desarrolle el cuadrado del binomio: $(3x - 2y)^2$.",
-    "opciones": ["$9x^2 - 12xy + 4y^2$", "$9x^2 + 4y^2$", "$9x^2 - 6xy + 4y^2$", "$6x^2 - 12xy + 4y^2$"],
+    "enunciado": "Desarrolle el cuadrado del binomio: (3x - 2y)^2.",
+    "opciones": ["9x^2 - 12xy + 4y^2", "9x^2 + 4y^2", "9x^2 - 6xy + 4y^2", "6x^2 - 12xy + 4y^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(3x)^2 - 2(3x)(2y) + (2y)^2 = 9x^2 - 12xy + 4y^2$."
+    "retroalimentacion": "(3x)^2 - 2(3x)(2y) + (2y)^2 = 9x^2 - 12xy + 4y^2."
   },
   {
     "id": "g2_mat_13_021",
@@ -6018,10 +6018,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x + 1/x = 3$, halle $x^2 + 1/x^2$.",
+    "enunciado": "Si x + 1/x = 3, halle x^2 + 1/x^2.",
     "opciones": ["7", "9", "11", "5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x + 1/x)^2 = 3^2 \\rightarrow x^2 + 2(x)(1/x) + 1/x^2 = 9 \\rightarrow x^2 + 2 + 1/x^2 = 9 \\rightarrow 7$."
+    "retroalimentacion": "(x + 1/x)^2 = 3^2 \rightarrow x^2 + 2(x)(1/x) + 1/x^2 = 9 \rightarrow x^2 + 2 + 1/x^2 = 9 \rightarrow 7."
   },
   {
     "id": "g2_mat_13_022",
@@ -6033,10 +6033,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Divida $(x^2 + 5x + 6)$ entre $(x + 2)$.",
-    "opciones": ["$x + 3$", "$x - 3$", "$x + 2$", "$x + 4$"],
+    "enunciado": "Divida (x^2 + 5x + 6) entre (x + 2).",
+    "opciones": ["x + 3", "x - 3", "x + 2", "x + 4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Factorizando el numerador: $(x+3)(x+2)$. Al dividir por $(x+2)$ queda $(x+3)$."
+    "retroalimentacion": "Factorizando el numerador: (x+3)(x+2). Al dividir por (x+2) queda (x+3)."
   },
   {
     "id": "g2_mat_13_023",
@@ -6048,10 +6048,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $(2x - 1)^3$.",
-    "opciones": ["$8x^3 - 12x^2 + 6x - 1$", "$8x^3 - 1$", "$8x^3 - 4x^2 + 2x - 1$", "$8x^3 - 6x + 1$"],
+    "enunciado": "Simplifique: (2x - 1)^3.",
+    "opciones": ["8x^3 - 12x^2 + 6x - 1", "8x^3 - 1", "8x^3 - 4x^2 + 2x - 1", "8x^3 - 6x + 1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(2x)^3 - 3(2x)^2(1) + 3(2x)(1)^2 - 1^3 = 8x^3 - 12x^2 + 6x - 1$."
+    "retroalimentacion": "(2x)^3 - 3(2x)^2(1) + 3(2x)(1)^2 - 1^3 = 8x^3 - 12x^2 + 6x - 1."
   },
   {
     "id": "g2_mat_13_024",
@@ -6063,10 +6063,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el área de un rectángulo cuya base es $(2x + 3)$ y altura es $(x - 1)$.",
-    "opciones": ["$2x^2 + x - 3$", "$2x^2 - x - 3$", "$2x^2 + 5x + 3$", "$2x^2 + 3x - 3$"],
+    "enunciado": "Calcule el área de un rectángulo cuya base es (2x + 3) y altura es (x - 1).",
+    "opciones": ["2x^2 + x - 3", "2x^2 - x - 3", "2x^2 + 5x + 3", "2x^2 + 3x - 3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(2x + 3)(x - 1) = 2x^2 - 2x + 3x - 3 = 2x^2 + x - 3$."
+    "retroalimentacion": "(2x + 3)(x - 1) = 2x^2 - 2x + 3x - 3 = 2x^2 + x - 3."
   },
   {
     "id": "g2_mat_13_025",
@@ -6078,10 +6078,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de 'k' para que el polinomio $P(x) = x^2 - 5x + k$ sea divisible por $(x - 2)$.",
+    "enunciado": "Determine el valor de 'k' para que el polinomio P(x) = x^2 - 5x + k sea divisible por (x - 2).",
     "opciones": ["6", "-6", "4", "0"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Por el teorema del resto: $P(2) = 0 \\rightarrow 2^2 - 5(2) + k = 0 \\rightarrow 4 - 10 + k = 0 \\rightarrow k = 6$."
+    "retroalimentacion": "Por el teorema del resto: P(2) = 0 \rightarrow 2^2 - 5(2) + k = 0 \rightarrow 4 - 10 + k = 0 \rightarrow k = 6."
   },
   {
     "id": "g2_mat_13_026",
@@ -6093,8 +6093,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Multiplique: $(x^2 + xy + y^2)(x - y)$.",
-    "opciones": ["$x^3 - y^3$", "$x^3 + y^3$", "$x^2 - y^2$", "$x^3 + x^2y + y^3$"],
+    "enunciado": "Multiplique: (x^2 + xy + y^2)(x - y).",
+    "opciones": ["x^3 - y^3", "x^3 + y^3", "x^2 - y^2", "x^3 + x^2y + y^3"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Es la diferencia de cubos."
   },
@@ -6111,7 +6111,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un polinomio es completo respecto a una variable si:",
     "opciones": ["Tiene todos los exponentes sucesivos desde el mayor hasta el cero", "Todos sus coeficientes son positivos", "Su grado es par", "Tiene solo tres términos"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Ejemplo: $x^3 + 2x^2 - x + 5$ es completo."
+    "retroalimentacion": "Ejemplo: x^3 + 2x^2 - x + 5 es completo."
   },
   {
     "id": "g2_mat_13_028",
@@ -6123,10 +6123,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $a + b = 5$ y $ab = 6$, halle $a^2 + b^2$.",
+    "enunciado": "Si a + b = 5 y ab = 6, halle a^2 + b^2.",
     "opciones": ["13", "25", "19", "12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(a+b)^2 = a^2 + 2ab + b^2 \\rightarrow 5^2 = a^2 + 2(6) + b^2 \\rightarrow 25 - 12 = 13$."
+    "retroalimentacion": "(a+b)^2 = a^2 + 2ab + b^2 \rightarrow 5^2 = a^2 + 2(6) + b^2 \rightarrow 25 - 12 = 13."
   },
   {
     "id": "g2_mat_13_029",
@@ -6138,10 +6138,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $(x+1)^2 - (x-1)^2$.",
-    "opciones": ["$4x$", "$2x^2 + 2$", "$0$", "$2$"],
+    "enunciado": "Simplifique: (x+1)^2 - (x-1)^2.",
+    "opciones": ["4x", "2x^2 + 2", "0", "2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x^2 + 2x + 1) - (x^2 - 2x + 1) = 4x$."
+    "retroalimentacion": "(x^2 + 2x + 1) - (x^2 - 2x + 1) = 4x."
   },
   {
     "id": "g2_mat_13_030",
@@ -6153,10 +6153,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.1 Expresiones algebraicas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el residuo de dividir $x^3 - 2x^2 + 4$ entre $(x - 1)$.",
+    "enunciado": "Halle el residuo de dividir x^3 - 2x^2 + 4 entre (x - 1).",
     "opciones": ["3", "5", "7", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$P(1) = 1^3 - 2(1)^2 + 4 = 1 - 2 + 4 = 3$."
+    "retroalimentacion": "P(1) = 1^3 - 2(1)^2 + 4 = 1 - 2 + 4 = 3."
   },
 
 
@@ -6203,8 +6203,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice por factor común: $5x^2 + 10x$.",
-    "opciones": ["$5x(x + 2)$", "$5(x^2 + 10x)$", "$x(5x + 10)$", "$5x(x + 5)$"],
+    "enunciado": "Factorice por factor común: 5x^2 + 10x.",
+    "opciones": ["5x(x + 2)", "5(x^2 + 10x)", "x(5x + 10)", "5x(x + 5)"],
     "respuesta_correcta": 0,
     "retroalimentacion": "El máximo común divisor de los coeficientes es 5 y de las variables es x."
   },
@@ -6218,11 +6218,11 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice la diferencia de cuadrados: $x^2 - 16$.",
-    "opciones": ["$(x-4)(x-4)$", "$(x+4)(x+4)$", "$(x-4)(x+4)$", "$(x-8)(x+8)$"],
+    "enunciado": "Factorice la diferencia de cuadrados: x^2 - 16.",
+    "opciones": ["(x-4)(x-4)", "(x+4)(x+4)", "(x-4)(x+4)", "(x-8)(x+8)"],
     "index_respuesta": 2,
     "respuesta_correcta": 2,
-    "retroalimentacion": "Se aplica la fórmula $a^2 - b^2 = (a-b)(a+b)$."
+    "retroalimentacion": "Se aplica la fórmula a^2 - b^2 = (a-b)(a+b)."
   },
   {
     "id": "g2_mat_14_004",
@@ -6237,7 +6237,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Para que un trinomio sea cuadrado perfecto, el segundo término debe ser:",
     "opciones": ["El cuadrado de la suma de las raíces", "El doble producto de las raíces de los términos extremos", "La resta de los extremos", "Siempre un número par"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Sigue la forma $a^2 \\pm 2ab + b^2$."
+    "retroalimentacion": "Sigue la forma a^2 \pm 2ab + b^2."
   },
   {
     "id": "g2_mat_14_005",
@@ -6249,10 +6249,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice el trinomio: $x^2 + 2x + 1$.",
-    "opciones": ["$(x+1)^2$", "$(x-1)^2$", "$(x+1)(x+2)$", "$(x+2)^2$"],
+    "enunciado": "Factorice el trinomio: x^2 + 2x + 1.",
+    "opciones": ["(x+1)^2", "(x-1)^2", "(x+1)(x+2)", "(x+2)^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Es un Trinomio Cuadrado Perfecto: $(x+1)(x+1)$."
+    "retroalimentacion": "Es un Trinomio Cuadrado Perfecto: (x+1)(x+1)."
   },
   {
     "id": "g2_mat_14_006",
@@ -6264,10 +6264,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Extraiga el factor común de: $3a^3b - 6a^2b^2$.",
-    "opciones": ["$3a^2b(a - 2b)$", "$3ab(a^2 - 2ab)$", "$a^2b(3a - 6b)$", "$3a^2(ab - 2b^2)$"],
+    "enunciado": "Extraiga el factor común de: 3a^3b - 6a^2b^2.",
+    "opciones": ["3a^2b(a - 2b)", "3ab(a^2 - 2ab)", "a^2b(3a - 6b)", "3a^2(ab - 2b^2)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "El factor común más completo es $3a^2b$."
+    "retroalimentacion": "El factor común más completo es 3a^2b."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -6281,8 +6281,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice el trinomio de la forma $x^2 + bx + c$: $x^2 + 7x + 12$.",
-    "opciones": ["$(x+6)(x+2)$", "$(x+4)(x+3)$", "$(x+7)(x+5)$", "$(x+12)(x+1)$"],
+    "enunciado": "Factorice el trinomio de la forma x^2 + bx + c: x^2 + 7x + 12.",
+    "opciones": ["(x+6)(x+2)", "(x+4)(x+3)", "(x+7)(x+5)", "(x+12)(x+1)"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Buscamos dos números que sumados den 7 y multiplicados 12: 4 y 3."
   },
@@ -6296,10 +6296,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice por agrupación de términos: $ax + bx + ay + by$.",
-    "opciones": ["$(a+b)(x+y)$", "$(a+x)(b+y)$", "$x(a+b) + y(a+b)$", "$(ab)(xy)$"],
+    "enunciado": "Factorice por agrupación de términos: ax + bx + ay + by.",
+    "opciones": ["(a+b)(x+y)", "(a+x)(b+y)", "x(a+b) + y(a+b)", "(ab)(xy)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x(a+b) + y(a+b) = (a+b)(x+y)$."
+    "retroalimentacion": "x(a+b) + y(a+b) = (a+b)(x+y)."
   },
   {
     "id": "g2_mat_14_009",
@@ -6311,10 +6311,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $4x^2 - 25y^2$.",
-    "opciones": ["$(2x-5y)(2x+5y)$", "$(4x-25y)(4x+25y)$", "$(2x-5y)^2$", "$(2x+5y)^2$"],
+    "enunciado": "Factorice: 4x^2 - 25y^2.",
+    "opciones": ["(2x-5y)(2x+5y)", "(4x-25y)(4x+25y)", "(2x-5y)^2", "(2x+5y)^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Diferencia de cuadrados: $\\sqrt{4x^2}=2x$, $\\sqrt{25y^2}=5y$."
+    "retroalimentacion": "Diferencia de cuadrados: \sqrt{4x^2}=2x, \sqrt{25y^2}=5y."
   },
   {
     "id": "g2_mat_14_010",
@@ -6326,8 +6326,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $x^2 - 5x + 6$.",
-    "opciones": ["$(x-3)(x-2)$", "$(x-6)(x+1)$", "$(x+3)(x+2)$", "$(x-5)(x+1)$"],
+    "enunciado": "Factorice: x^2 - 5x + 6.",
+    "opciones": ["(x-3)(x-2)", "(x-6)(x+1)", "(x+3)(x+2)", "(x-5)(x+1)"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Números que sumados dan -5 y multiplicados dan 6: -3 y -2."
   },
@@ -6341,10 +6341,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice completamente: $x^3 - x$.",
-    "opciones": ["$x(x-1)(x+1)$", "$x(x^2-1)$", "$x^2(x-1)$", "$(x^2-x)(x+1)$"],
+    "enunciado": "Factorice completamente: x^3 - x.",
+    "opciones": ["x(x-1)(x+1)", "x(x^2-1)", "x^2(x-1)", "(x^2-x)(x+1)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Primero factor común $x(x^2-1)$, luego diferencia de cuadrados."
+    "retroalimentacion": "Primero factor común x(x^2-1), luego diferencia de cuadrados."
   },
   {
     "id": "g2_mat_14_012",
@@ -6356,8 +6356,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice el trinomio: $x^2 + x - 20$.",
-    "opciones": ["$(x+5)(x-4)$", "$(x-5)(x+4)$", "$(x+10)(x-2)$", "$(x+20)(x-1)$"],
+    "enunciado": "Factorice el trinomio: x^2 + x - 20.",
+    "opciones": ["(x+5)(x-4)", "(x-5)(x+4)", "(x+10)(x-2)", "(x+20)(x-1)"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Suman 1 y multiplican -20: +5 y -4."
   },
@@ -6371,10 +6371,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $9a^2 - 30ab + 25b^2$.",
-    "opciones": ["$(3a - 5b)^2$", "$(3a + 5b)^2$", "$(3a - 5b)(3a + 5b)$", "$(9a - 25b)^2$"],
+    "enunciado": "Factorice: 9a^2 - 30ab + 25b^2.",
+    "opciones": ["(3a - 5b)^2", "(3a + 5b)^2", "(3a - 5b)(3a + 5b)", "(9a - 25b)^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Trinomio cuadrado perfecto: $\\sqrt{9a^2}=3a$, $\\sqrt{25b^2}=5b$. El doble producto es $2(3a)(5b)=30ab$."
+    "retroalimentacion": "Trinomio cuadrado perfecto: \sqrt{9a^2}=3a, \sqrt{25b^2}=5b. El doble producto es 2(3a)(5b)=30ab."
   },
   {
     "id": "g2_mat_14_014",
@@ -6386,10 +6386,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice la suma de cubos: $x^3 + 8$.",
-    "opciones": ["$(x+2)(x^2 - 2x + 4)$", "$(x+2)(x^2 + 2x + 4)$", "$(x-2)(x^2 + 2x + 4)$", "$(x+2)^3$"],
+    "enunciado": "Factorice la suma de cubos: x^3 + 8.",
+    "opciones": ["(x+2)(x^2 - 2x + 4)", "(x+2)(x^2 + 2x + 4)", "(x-2)(x^2 + 2x + 4)", "(x+2)^3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Fórmula: $a^3 + b^3 = (a+b)(a^2 - ab + b^2)$."
+    "retroalimentacion": "Fórmula: a^3 + b^3 = (a+b)(a^2 - ab + b^2)."
   },
   {
     "id": "g2_mat_14_015",
@@ -6401,10 +6401,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice el trinomio: $2x^2 + 5x + 2$.",
-    "opciones": ["$(2x+1)(x+2)$", "$(2x+2)(x+1)$", "$(x+1)(2x+4)$", "$(2x-1)(x-2)$"],
+    "enunciado": "Factorice el trinomio: 2x^2 + 5x + 2.",
+    "opciones": ["(2x+1)(x+2)", "(2x+2)(x+1)", "(x+1)(2x+4)", "(2x-1)(x-2)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Usando el método de aspa o descomposición: $(2x+1)(x+2) = 2x^2 + 4x + x + 2 = 2x^2 + 5x + 2$."
+    "retroalimentacion": "Usando el método de aspa o descomposición: (2x+1)(x+2) = 2x^2 + 4x + x + 2 = 2x^2 + 5x + 2."
   },
   {
     "id": "g2_mat_14_016",
@@ -6416,8 +6416,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Al factorizar $x^2 - x - 6$ se obtiene:",
-    "opciones": ["$(x-3)(x+2)$", "$(x+3)(x-2)$", "$(x-6)(x+1)$", "$(x+6)(x-1)$"],
+    "enunciado": "Al factorizar x^2 - x - 6 se obtiene:",
+    "opciones": ["(x-3)(x+2)", "(x+3)(x-2)", "(x-6)(x+1)", "(x+6)(x-1)"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Suman -1 y multiplican -6: -3 y +2."
   },
@@ -6433,10 +6433,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice completamente: $x^4 - 81$.",
-    "opciones": ["$(x^2+9)(x+3)(x-3)$", "$(x^2+9)(x^2-9)$", "$(x-3)^4$", "$(x+3)^2(x-3)^2$"],
+    "enunciado": "Factorice completamente: x^4 - 81.",
+    "opciones": ["(x^2+9)(x+3)(x-3)", "(x^2+9)(x^2-9)", "(x-3)^4", "(x+3)^2(x-3)^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Doble diferencia de cuadrados: $(x^2+9)(x^2-9) = (x^2+9)(x+3)(x-3)$."
+    "retroalimentacion": "Doble diferencia de cuadrados: (x^2+9)(x^2-9) = (x^2+9)(x+3)(x-3)."
   },
   {
     "id": "g2_mat_14_018",
@@ -6448,10 +6448,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice el trinomio: $6x^2 - 7x - 3$.",
-    "opciones": ["$(3x+1)(2x-3)$", "$(3x-1)(2x+3)$", "$(6x+1)(x-3)$", "$(2x+1)(3x-3)$"],
+    "enunciado": "Factorice el trinomio: 6x^2 - 7x - 3.",
+    "opciones": ["(3x+1)(2x-3)", "(3x-1)(2x+3)", "(6x+1)(x-3)", "(2x+1)(3x-3)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(3x \\cdot 2x) + (3x \\cdot -3) + (1 \\cdot 2x) + (1 \\cdot -3) = 6x^2 - 9x + 2x - 3 = 6x^2 - 7x - 3$."
+    "retroalimentacion": "(3x \cdot 2x) + (3x \cdot -3) + (1 \cdot 2x) + (1 \cdot -3) = 6x^2 - 9x + 2x - 3 = 6x^2 - 7x - 3."
   },
   {
     "id": "g2_mat_14_019",
@@ -6463,10 +6463,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice la diferencia de cubos: $27x^3 - 64y^3$.",
-    "opciones": ["$(3x-4y)(9x^2 + 12xy + 16y^2)$", "$(3x-4y)(9x^2 - 12xy + 16y^2)$", "$(3x+4y)(9x^2 + 12xy + 16y^2)$", "$(3x-4y)^3$"],
+    "enunciado": "Factorice la diferencia de cubos: 27x^3 - 64y^3.",
+    "opciones": ["(3x-4y)(9x^2 + 12xy + 16y^2)", "(3x-4y)(9x^2 - 12xy + 16y^2)", "(3x+4y)(9x^2 + 12xy + 16y^2)", "(3x-4y)^3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Raíces cúbicas: 3x y 4y. Sigue el patrón $(a-b)(a^2+ab+b^2)$."
+    "retroalimentacion": "Raíces cúbicas: 3x y 4y. Sigue el patrón (a-b)(a^2+ab+b^2)."
   },
   {
     "id": "g2_mat_14_020",
@@ -6478,10 +6478,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $x^2 - y^2 + 2x + 1$.",
-    "opciones": ["$(x+1-y)(x+1+y)$", "$(x+1-y)^2$", "$(x+y+1)(x-y-1)$", "$(x^2+1)-y^2$"],
+    "enunciado": "Factorice: x^2 - y^2 + 2x + 1.",
+    "opciones": ["(x+1-y)(x+1+y)", "(x+1-y)^2", "(x+y+1)(x-y-1)", "(x^2+1)-y^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Agrupar trinomio cuadrado perfecto: $(x^2+2x+1) - y^2 = (x+1)^2 - y^2$. Luego diferencia de cuadrados."
+    "retroalimentacion": "Agrupar trinomio cuadrado perfecto: (x^2+2x+1) - y^2 = (x+1)^2 - y^2. Luego diferencia de cuadrados."
   },
   {
     "id": "g2_mat_14_021",
@@ -6493,8 +6493,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $x^6 - 1$.",
-    "opciones": ["$(x-1)(x+1)(x^2+x+1)(x^2-x+1)$", "$(x^3-1)(x^3+1)$", "$(x^2-1)(x^4+x^2+1)$", "Todas las anteriores"],
+    "enunciado": "Factorice: x^6 - 1.",
+    "opciones": ["(x-1)(x+1)(x^2+x+1)(x^2-x+1)", "(x^3-1)(x^3+1)", "(x^2-1)(x^4+x^2+1)", "Todas las anteriores"],
     "respuesta_correcta": 3,
     "retroalimentacion": "Se puede ver como diferencia de cuadrados o de cubos, y todas las expresiones son equivalentes al factorizarse al máximo."
   },
@@ -6508,8 +6508,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle los factores de: $x^2 - 4x - 21$.",
-    "opciones": ["$(x-7)(x+3)$", "$(x+7)(x-3)$", "$(x-21)(x+1)$", "$(x-7)(x-3)$"],
+    "enunciado": "Halle los factores de: x^2 - 4x - 21.",
+    "opciones": ["(x-7)(x+3)", "(x+7)(x-3)", "(x-21)(x+1)", "(x-7)(x-3)"],
     "respuesta_correcta": 0,
     "retroalimentacion": "-7 + 3 = -4; -7 * 3 = -21."
   },
@@ -6523,10 +6523,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice el trinomio: $15x^2 - 11x + 2$.",
-    "opciones": ["$(5x-2)(3x-1)$", "$(5x+2)(3x+1)$", "$(15x-2)(x-1)$", "$(3x-2)(5x-1)$"],
+    "enunciado": "Factorice el trinomio: 15x^2 - 11x + 2.",
+    "opciones": ["(5x-2)(3x-1)", "(5x+2)(3x+1)", "(15x-2)(x-1)", "(3x-2)(5x-1)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Multiplicación: $15x^2 - 5x - 6x + 2 = 15x^2 - 11x + 2$."
+    "retroalimentacion": "Multiplicación: 15x^2 - 5x - 6x + 2 = 15x^2 - 11x + 2."
   },
   {
     "id": "g2_mat_14_024",
@@ -6538,10 +6538,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice por agrupación: $3x^3 - x^2 + 6x - 2$.",
-    "opciones": ["$(x^2+2)(3x-1)$", "$(x^2-2)(3x+1)$", "$(3x^2-1)(x+2)$", "$(x^2+1)(3x-2)$"],
+    "enunciado": "Factorice por agrupación: 3x^3 - x^2 + 6x - 2.",
+    "opciones": ["(x^2+2)(3x-1)", "(x^2-2)(3x+1)", "(3x^2-1)(x+2)", "(x^2+1)(3x-2)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2(3x-1) + 2(3x-1) = (x^2+2)(3x-1)$."
+    "retroalimentacion": "x^2(3x-1) + 2(3x-1) = (x^2+2)(3x-1)."
   },
   {
     "id": "g2_mat_14_025",
@@ -6553,10 +6553,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $a^4 + a^2 + 1$.",
-    "opciones": ["$(a^2+a+1)(a^2-a+1)$", "$(a^2+1)^2$", "$(a^2+a+1)^2$", "$(a^2-1)^2 + a^2$"],
+    "enunciado": "Factorice: a^4 + a^2 + 1.",
+    "opciones": ["(a^2+a+1)(a^2-a+1)", "(a^2+1)^2", "(a^2+a+1)^2", "(a^2-1)^2 + a^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Trinomio por suma y resta: $(a^4+2a^2+1) - a^2 = (a^2+1)^2 - a^2$."
+    "retroalimentacion": "Trinomio por suma y resta: (a^4+2a^2+1) - a^2 = (a^2+1)^2 - a^2."
   },
   {
     "id": "g2_mat_14_026",
@@ -6568,10 +6568,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice el polinomio: $x^3 - 7x + 6$ sabiendo que $x=1$ es una raíz.",
-    "opciones": ["$(x-1)(x-2)(x+3)$", "$(x-1)(x+2)(x-3)$", "$(x+1)(x+2)(x+3)$", "$(x-1)(x+6)$"],
+    "enunciado": "Factorice el polinomio: x^3 - 7x + 6 sabiendo que x=1 es una raíz.",
+    "opciones": ["(x-1)(x-2)(x+3)", "(x-1)(x+2)(x-3)", "(x+1)(x+2)(x+3)", "(x-1)(x+6)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Dividiendo por $(x-1)$ queda $x^2+x-6$, que se factoriza como $(x+3)(x-2)$."
+    "retroalimentacion": "Dividiendo por (x-1) queda x^2+x-6, que se factoriza como (x+3)(x-2)."
   },
   {
     "id": "g2_mat_14_027",
@@ -6583,10 +6583,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice la expresión: $m^2 - n^2 + m - n$.",
-    "opciones": ["$(m-n)(m+n+1)$", "$(m+n)(m-n+1)$", "$(m-n)(m-n)$", "$(m+n)(m+n)$"],
+    "enunciado": "Factorice la expresión: m^2 - n^2 + m - n.",
+    "opciones": ["(m-n)(m+n+1)", "(m+n)(m-n+1)", "(m-n)(m-n)", "(m+n)(m+n)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(m-n)(m+n) + 1(m-n) = (m-n)(m+n+1)$."
+    "retroalimentacion": "(m-n)(m+n) + 1(m-n) = (m-n)(m+n+1)."
   },
   {
     "id": "g2_mat_14_028",
@@ -6598,10 +6598,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $8x^3 + 27$.",
-    "opciones": ["$(2x+3)(4x^2 - 6x + 9)$", "$(2x+3)(4x^2 + 6x + 9)$", "$(2x-3)(4x^2 + 6x + 9)$", "$(2x+3)^3$"],
+    "enunciado": "Factorice: 8x^3 + 27.",
+    "opciones": ["(2x+3)(4x^2 - 6x + 9)", "(2x+3)(4x^2 + 6x + 9)", "(2x-3)(4x^2 + 6x + 9)", "(2x+3)^3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Suma de cubos con $a=2x$ y $b=3$."
+    "retroalimentacion": "Suma de cubos con a=2x y b=3."
   },
   {
     "id": "g2_mat_14_029",
@@ -6613,10 +6613,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice: $x^2 - 10x + 25 - y^2$.",
-    "opciones": ["$(x-5-y)(x-5+y)$", "$(x-5+y)^2$", "$(x+5-y)(x+5+y)$", "$(x-y-5)(x+y+5)$"],
+    "enunciado": "Factorice: x^2 - 10x + 25 - y^2.",
+    "opciones": ["(x-5-y)(x-5+y)", "(x-5+y)^2", "(x+5-y)(x+5+y)", "(x-y-5)(x+y+5)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x-5)^2 - y^2 = (x-5-y)(x-5+y)$."
+    "retroalimentacion": "(x-5)^2 - y^2 = (x-5-y)(x-5+y)."
   },
   {
     "id": "g2_mat_14_030",
@@ -6628,8 +6628,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.2 Factorización",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Factorice completamente: $2x^2 - 18$.",
-    "opciones": ["$2(x-3)(x+3)$", "$2(x^2-9)$", "$(2x-6)(x+3)$", "$2(x-3)^2$"],
+    "enunciado": "Factorice completamente: 2x^2 - 18.",
+    "opciones": ["2(x-3)(x+3)", "2(x^2-9)", "(2x-6)(x+3)", "2(x-3)^2"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Primero factor común 2, luego diferencia de cuadrados."
   },
@@ -6676,10 +6676,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva para $x$: $x + 5 = 12$.",
+    "enunciado": "Resuelva para x: x + 5 = 12.",
     "opciones": ["17", "7", "-7", "60"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$x = 12 - 5 = 7$."
+    "retroalimentacion": "x = 12 - 5 = 7."
   },
   {
     "id": "g2_mat_15_003",
@@ -6691,10 +6691,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $3x = 15$.",
+    "enunciado": "Resuelva: 3x = 15.",
     "opciones": ["5", "45", "12", "18"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x = 15 / 3 = 5$."
+    "retroalimentacion": "x = 15 / 3 = 5."
   },
   {
     "id": "g2_mat_15_004",
@@ -6706,10 +6706,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $x$ en: $x / 4 = 2$.",
+    "enunciado": "Halle el valor de x en: x / 4 = 2.",
     "opciones": ["2", "6", "8", "0.5"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$x = 2 \\cdot 4 = 8$."
+    "retroalimentacion": "x = 2 \cdot 4 = 8."
   },
   {
     "id": "g2_mat_15_005",
@@ -6721,10 +6721,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $2x - 4 = 6$.",
+    "enunciado": "Resuelva: 2x - 4 = 6.",
     "opciones": ["1", "5", "10", "2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$2x = 10 \\rightarrow x = 5$."
+    "retroalimentacion": "2x = 10 \rightarrow x = 5."
   },
   {
     "id": "g2_mat_15_006",
@@ -6753,10 +6753,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $5x + 3 = 2x + 12$.",
+    "enunciado": "Resuelva: 5x + 3 = 2x + 12.",
     "opciones": ["3", "5", "9", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$5x - 2x = 12 - 3 \\rightarrow 3x = 9 \\rightarrow x = 3$."
+    "retroalimentacion": "5x - 2x = 12 - 3 \rightarrow 3x = 9 \rightarrow x = 3."
   },
   {
     "id": "g2_mat_15_008",
@@ -6768,10 +6768,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle $x$: $4(x - 2) = 12$.",
+    "enunciado": "Halle x: 4(x - 2) = 12.",
     "opciones": ["5", "3", "7", "2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x - 2 = 12/4 \\rightarrow x - 2 = 3 \\rightarrow x = 5$."
+    "retroalimentacion": "x - 2 = 12/4 \rightarrow x - 2 = 3 \rightarrow x = 5."
   },
   {
     "id": "g2_mat_15_009",
@@ -6783,10 +6783,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $x/2 + x/3 = 5$.",
+    "enunciado": "Resuelva: x/2 + x/3 = 5.",
     "opciones": ["6", "5", "10", "30"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(3x + 2x)/6 = 5 \\rightarrow 5x/6 = 5 \\rightarrow x = 6$."
+    "retroalimentacion": "(3x + 2x)/6 = 5 \rightarrow 5x/6 = 5 \rightarrow x = 6."
   },
   {
     "id": "g2_mat_15_010",
@@ -6801,7 +6801,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si el doble de un número más 5 es igual a 21, ¿cuál es el número?",
     "opciones": ["8", "13", "10", "16"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2x + 5 = 21 \\rightarrow 2x = 16 \\rightarrow x = 8$."
+    "retroalimentacion": "2x + 5 = 21 \rightarrow 2x = 16 \rightarrow x = 8."
   },
   {
     "id": "g2_mat_15_011",
@@ -6813,10 +6813,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $7x - (2x + 1) = 14$.",
+    "enunciado": "Resuelva: 7x - (2x + 1) = 14.",
     "opciones": ["3", "13/5", "15/5", "2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$7x - 2x - 1 = 14 \\rightarrow 5x = 15 \\rightarrow x = 3$."
+    "retroalimentacion": "7x - 2x - 1 = 14 \rightarrow 5x = 15 \rightarrow x = 3."
   },
   {
     "id": "g2_mat_15_012",
@@ -6828,10 +6828,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Despeje $x$: $ax + b = 0$.",
-    "opciones": ["$-b/a$", "$b/a$", "$a/b$", "$-a/b$"],
+    "enunciado": "Despeje x: ax + b = 0.",
+    "opciones": ["-b/a", "b/a", "a/b", "-a/b"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$ax = -b \\rightarrow x = -b/a$."
+    "retroalimentacion": "ax = -b \rightarrow x = -b/a."
   },
   {
     "id": "g2_mat_15_013",
@@ -6843,10 +6843,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $10 - 2x = 4$.",
+    "enunciado": "Resuelva: 10 - 2x = 4.",
     "opciones": ["3", "7", "-3", "6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$6 = 2x \\rightarrow x = 3$."
+    "retroalimentacion": "6 = 2x \rightarrow x = 3."
   },
   {
     "id": "g2_mat_15_014",
@@ -6858,10 +6858,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle $x$ en: $3(x + 1) = 2(x + 4)$.",
+    "enunciado": "Halle x en: 3(x + 1) = 2(x + 4).",
     "opciones": ["5", "7", "11", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3x + 3 = 2x + 8 \\rightarrow x = 5$."
+    "retroalimentacion": "3x + 3 = 2x + 8 \rightarrow x = 5."
   },
   {
     "id": "g2_mat_15_015",
@@ -6876,7 +6876,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "La suma de tres números consecutivos es 33. ¿Cuál es el mayor?",
     "opciones": ["12", "11", "10", "13"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x + (x+1) + (x+2) = 33 \\rightarrow 3x + 3 = 33 \\rightarrow x = 10$. El mayor es 12."
+    "retroalimentacion": "x + (x+1) + (x+2) = 33 \rightarrow 3x + 3 = 33 \rightarrow x = 10. El mayor es 12."
   },
   {
     "id": "g2_mat_15_016",
@@ -6888,7 +6888,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "Si al resolver una ecuación se llega a $0 = 0$, significa que:",
+    "enunciado": "Si al resolver una ecuación se llega a 0 = 0, significa que:",
     "opciones": ["No tiene solución", "Tiene infinitas soluciones", "La solución es cero", "Hubo un error de cálculo"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Es una identidad, se cumple para cualquier valor de la incógnita."
@@ -6905,10 +6905,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $(x+2)/3 - (x-1)/4 = 1$.",
+    "enunciado": "Resuelva: (x+2)/3 - (x-1)/4 = 1.",
     "opciones": ["1", "2", "0", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$4(x+2) - 3(x-1) = 12 \\rightarrow 4x + 8 - 3x + 3 = 12 \\rightarrow x + 11 = 12 \\rightarrow x = 1$."
+    "retroalimentacion": "4(x+2) - 3(x-1) = 12 \rightarrow 4x + 8 - 3x + 3 = 12 \rightarrow x + 11 = 12 \rightarrow x = 1."
   },
   {
     "id": "g2_mat_15_018",
@@ -6920,10 +6920,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle $x$: $2/(x-1) = 4/x$.",
+    "enunciado": "Halle x: 2/(x-1) = 4/x.",
     "opciones": ["2", "1", "0", "-2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2x = 4(x-1) \\rightarrow 2x = 4x - 4 \\rightarrow 4 = 2x \\rightarrow x = 2$."
+    "retroalimentacion": "2x = 4(x-1) \rightarrow 2x = 4x - 4 \rightarrow 4 = 2x \rightarrow x = 2."
   },
   {
     "id": "g2_mat_15_019",
@@ -6938,7 +6938,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Un padre tiene 40 años y su hijo 10. ¿En cuántos años la edad del padre será el triple de la del hijo?",
     "opciones": ["5", "10", "8", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$40 + x = 3(10 + x) \\rightarrow 40 + x = 30 + 3x \\rightarrow 10 = 2x \\rightarrow x = 5$."
+    "retroalimentacion": "40 + x = 3(10 + x) \rightarrow 40 + x = 30 + 3x \rightarrow 10 = 2x \rightarrow x = 5."
   },
   {
     "id": "g2_mat_15_020",
@@ -6950,10 +6950,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva para $x$: $x^2 - 5 = (x-1)(x+3)$.",
+    "enunciado": "Resuelva para x: x^2 - 5 = (x-1)(x+3).",
     "opciones": ["1", "-1", "2", "-2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 - 5 = x^2 + 2x - 3 \\rightarrow -5 = 2x - 3 \\rightarrow -2 = 2x \\rightarrow x = -1$ (Nota: el término cuadrático se anula, por eso es de primer grado)."
+    "retroalimentacion": "x^2 - 5 = x^2 + 2x - 3 \rightarrow -5 = 2x - 3 \rightarrow -2 = 2x \rightarrow x = -1 (Nota: el término cuadrático se anula, por eso es de primer grado)."
   },
   {
     "id": "g2_mat_15_021",
@@ -6965,10 +6965,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle $x$: $1/x + 1/2 = 3/4$.",
+    "enunciado": "Halle x: 1/x + 1/2 = 3/4.",
     "opciones": ["4", "2", "1/4", "8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1/x = 3/4 - 2/4 \\rightarrow 1/x = 1/4 \\rightarrow x = 4$."
+    "retroalimentacion": "1/x = 3/4 - 2/4 \rightarrow 1/x = 1/4 \rightarrow x = 4."
   },
   {
     "id": "g2_mat_15_022",
@@ -6980,10 +6980,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de $x$: $0.2x + 0.5 = 1.1$.",
+    "enunciado": "Determine el valor de x: 0.2x + 0.5 = 1.1.",
     "opciones": ["3", "2", "4", "0.3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$0.2x = 0.6 \\rightarrow x = 3$."
+    "retroalimentacion": "0.2x = 0.6 \rightarrow x = 3."
   },
   {
     "id": "g2_mat_15_023",
@@ -6995,10 +6995,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x - 3 = 10$, calcule $x^2$.",
+    "enunciado": "Si x - 3 = 10, calcule x^2.",
     "opciones": ["169", "100", "49", "144"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x = 13 \\rightarrow 13^2 = 169$."
+    "retroalimentacion": "x = 13 \rightarrow 13^2 = 169."
   },
   {
     "id": "g2_mat_15_024",
@@ -7010,10 +7010,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $3(2x-1) - 2(x+5) = 11$.",
+    "enunciado": "Resuelva: 3(2x-1) - 2(x+5) = 11.",
     "opciones": ["6", "4", "5", "8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$6x - 3 - 2x - 10 = 11 \\rightarrow 4x - 13 = 11 \\rightarrow 4x = 24 \\rightarrow x = 6$."
+    "retroalimentacion": "6x - 3 - 2x - 10 = 11 \rightarrow 4x - 13 = 11 \rightarrow 4x = 24 \rightarrow x = 6."
   },
   {
     "id": "g2_mat_15_025",
@@ -7028,7 +7028,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "La cuarta parte de un número es 10 unidades menor que la mitad del mismo. Halle el número.",
     "opciones": ["40", "20", "60", "30"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x/4 = x/2 - 10 \\rightarrow 10 = x/4 \\rightarrow x = 40$."
+    "retroalimentacion": "x/4 = x/2 - 10 \rightarrow 10 = x/4 \rightarrow x = 40."
   },
   {
     "id": "g2_mat_15_026",
@@ -7040,10 +7040,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $(3x+5)/2 = 10$.",
+    "enunciado": "Resuelva: (3x+5)/2 = 10.",
     "opciones": ["5", "4", "3", "6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3x + 5 = 20 \\rightarrow 3x = 15 \\rightarrow x = 5$."
+    "retroalimentacion": "3x + 5 = 20 \rightarrow 3x = 15 \rightarrow x = 5."
   },
   {
     "id": "g2_mat_15_027",
@@ -7055,10 +7055,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle $x$: $x/2 + x/4 + x/8 = 7$.",
+    "enunciado": "Halle x: x/2 + x/4 + x/8 = 7.",
     "opciones": ["8", "4", "16", "14"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(4x + 2x + x)/8 = 7 \\rightarrow 7x/8 = 7 \\rightarrow x = 8$."
+    "retroalimentacion": "(4x + 2x + x)/8 = 7 \rightarrow 7x/8 = 7 \rightarrow x = 8."
   },
   {
     "id": "g2_mat_15_028",
@@ -7070,10 +7070,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $5[2 - (x - 1)] = 10$.",
+    "enunciado": "Resuelva: 5[2 - (x - 1)] = 10.",
     "opciones": ["1", "2", "3", "0"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2 - x + 1 = 2 \\rightarrow 3 - x = 2 \\rightarrow x = 1$."
+    "retroalimentacion": "2 - x + 1 = 2 \rightarrow 3 - x = 2 \rightarrow x = 1."
   },
   {
     "id": "g2_mat_15_029",
@@ -7085,10 +7085,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Encuentre el valor de $x$: $1/2(4x + 6) = 2x + 3$.",
-    "opciones": ["Cualquier número real", "No tiene solución", "Solo $x=0$", "Solo $x=3$"],
+    "enunciado": "Encuentre el valor de x: 1/2(4x + 6) = 2x + 3.",
+    "opciones": ["Cualquier número real", "No tiene solución", "Solo x=0", "Solo x=3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Al simplificar queda $2x+3 = 2x+3$, es una identidad con infinitas soluciones."
+    "retroalimentacion": "Al simplificar queda 2x+3 = 2x+3, es una identidad con infinitas soluciones."
   },
   {
     "id": "g2_mat_15_030",
@@ -7100,10 +7100,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.3 Ecuaciones de primer grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el área de un triángulo de base 4 y altura $x+1$ es 10, halle $x$.",
+    "enunciado": "Si el área de un triángulo de base 4 y altura x+1 es 10, halle x.",
     "opciones": ["4", "5", "3", "2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(4(x+1))/2 = 10 \\rightarrow 2x + 2 = 10 \\rightarrow 2x = 8 \\rightarrow x = 4$."
+    "retroalimentacion": "(4(x+1))/2 = 10 \rightarrow 2x + 2 = 10 \rightarrow 2x = 8 \rightarrow x = 4."
   },
 
 
@@ -7137,7 +7137,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "La forma general de una ecuación de segundo grado es:",
-    "opciones": ["$ax + b = 0$", "$ax^2 + bx + c = 0$", "$ax^3 + bx^2 + cx + d = 0$", "$x^2 = c$"],
+    "opciones": ["ax + b = 0", "ax^2 + bx + c = 0", "ax^3 + bx^2 + cx + d = 0", "x^2 = c"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Donde 'a' debe ser diferente de cero para que sea cuadrática."
   },
@@ -7151,10 +7151,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva por despeje: $x^2 - 25 = 0$.",
-    "opciones": ["$5$", "$-5$", "$\\pm 5$", "No tiene solución"],
+    "enunciado": "Resuelva por despeje: x^2 - 25 = 0.",
+    "opciones": ["5", "-5", "\pm 5", "No tiene solución"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$x^2 = 25 \\rightarrow x = \\pm \\sqrt{25} = \\pm 5$."
+    "retroalimentacion": "x^2 = 25 \rightarrow x = \pm \sqrt{25} = \pm 5."
   },
   {
     "id": "g2_mat_16_003",
@@ -7166,10 +7166,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva por factorización: $x^2 - 5x = 0$.",
-    "opciones": ["$x=0, x=5$", "$x=5$", "$x=0, x=-5$", "$x=2, x=3$"],
+    "enunciado": "Resuelva por factorización: x^2 - 5x = 0.",
+    "opciones": ["x=0, x=5", "x=5", "x=0, x=-5", "x=2, x=3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x(x - 5) = 0 \\rightarrow x_1 = 0; x_2 = 5$."
+    "retroalimentacion": "x(x - 5) = 0 \rightarrow x_1 = 0; x_2 = 5."
   },
   {
     "id": "g2_mat_16_004",
@@ -7181,7 +7181,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "En la fórmula general $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$, la expresión $b^2 - 4ac$ se llama:",
+    "enunciado": "En la fórmula general x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}, la expresión b^2 - 4ac se llama:",
     "opciones": ["Residuo", "Discriminante", "Radical", "Factor"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Determina si las soluciones son reales o imaginarias."
@@ -7196,8 +7196,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Identifique los coeficientes 'a', 'b' y 'c' en: $3x^2 - 2x + 1 = 0$.",
-    "opciones": ["$a=3, b=2, c=1$", "$a=3, b=-2, c=1$", "$a=1, b=-2, c=3$", "$a=3, b=-2, c=0$"],
+    "enunciado": "Identifique los coeficientes 'a', 'b' y 'c' en: 3x^2 - 2x + 1 = 0.",
+    "opciones": ["a=3, b=2, c=1", "a=3, b=-2, c=1", "a=1, b=-2, c=3", "a=3, b=-2, c=0"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Los signos forman parte del coeficiente."
   },
@@ -7211,10 +7211,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x^2 = 0$, ¿cuántas soluciones reales tiene la ecuación?",
+    "enunciado": "Si x^2 = 0, ¿cuántas soluciones reales tiene la ecuación?",
     "opciones": ["Ninguna", "Una (solución única)", "Dos", "Infinitas"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "La única solución es $x=0$."
+    "retroalimentacion": "La única solución es x=0."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -7228,10 +7228,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $x^2 - 6x + 8 = 0$ mediante factorización.",
-    "opciones": ["$x=4, x=2$", "$x=-4, x=-2$", "$x=4, x=-2$", "$x=8, x=1$"],
+    "enunciado": "Resuelva x^2 - 6x + 8 = 0 mediante factorización.",
+    "opciones": ["x=4, x=2", "x=-4, x=-2", "x=4, x=-2", "x=8, x=1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x-4)(x-2) = 0 \\rightarrow x=4, x=2$."
+    "retroalimentacion": "(x-4)(x-2) = 0 \rightarrow x=4, x=2."
   },
   {
     "id": "g2_mat_16_008",
@@ -7243,10 +7243,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el discriminante de $x^2 + 4x + 4 = 0$.",
+    "enunciado": "Halle el discriminante de x^2 + 4x + 4 = 0.",
     "opciones": ["0", "16", "8", "-16"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$D = 4^2 - 4(1)(4) = 16 - 16 = 0$."
+    "retroalimentacion": "D = 4^2 - 4(1)(4) = 16 - 16 = 0."
   },
   {
     "id": "g2_mat_16_009",
@@ -7258,7 +7258,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "Si el discriminante es negativo ($D < 0$), la ecuación:",
+    "enunciado": "Si el discriminante es negativo (D < 0), la ecuación:",
     "opciones": ["Tiene dos soluciones reales", "Tiene una solución real", "No tiene soluciones reales", "Tiene infinitas soluciones"],
     "respuesta_correcta": 2,
     "retroalimentacion": "Las soluciones son números complejos/imaginarios."
@@ -7273,10 +7273,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $2x^2 - 8 = 0$.",
-    "opciones": ["$2, -2$", "$4, -4$", "$2$", "$0, 4$"],
+    "enunciado": "Resuelva 2x^2 - 8 = 0.",
+    "opciones": ["2, -2", "4, -4", "2", "0, 4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2x^2 = 8 \\rightarrow x^2 = 4 \\rightarrow x = \\pm 2$."
+    "retroalimentacion": "2x^2 = 8 \rightarrow x^2 = 4 \rightarrow x = \pm 2."
   },
   {
     "id": "g2_mat_16_011",
@@ -7288,10 +7288,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle las raíces de $x^2 + 5x + 6 = 0$.",
-    "opciones": ["$-2, -3$", "$2, 3$", "$6, -1$", "$-6, 1$"],
+    "enunciado": "Halle las raíces de x^2 + 5x + 6 = 0.",
+    "opciones": ["-2, -3", "2, 3", "6, -1", "-6, 1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x+2)(x+3) = 0 \\rightarrow x=-2, x=-3$."
+    "retroalimentacion": "(x+2)(x+3) = 0 \rightarrow x=-2, x=-3."
   },
   {
     "id": "g2_mat_16_012",
@@ -7303,10 +7303,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $x^2 - x - 12 = 0$.",
-    "opciones": ["$4, -3$", "$-4, 3$", "$6, -2$", "$12, -1$"],
+    "enunciado": "Resuelva x^2 - x - 12 = 0.",
+    "opciones": ["4, -3", "-4, 3", "6, -2", "12, -1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x-4)(x+3) = 0 \\rightarrow x=4, x=-3$."
+    "retroalimentacion": "(x-4)(x+3) = 0 \rightarrow x=4, x=-3."
   },
   {
     "id": "g2_mat_16_013",
@@ -7318,10 +7318,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $x$ si su cuadrado es igual a su triple.",
-    "opciones": ["$0, 3$", "$3$", "$0, -3$", "$1, 3$"],
+    "enunciado": "Halle el valor de x si su cuadrado es igual a su triple.",
+    "opciones": ["0, 3", "3", "0, -3", "1, 3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 = 3x \\rightarrow x^2 - 3x = 0 \\rightarrow x(x-3)=0$."
+    "retroalimentacion": "x^2 = 3x \rightarrow x^2 - 3x = 0 \rightarrow x(x-3)=0."
   },
   {
     "id": "g2_mat_16_014",
@@ -7333,10 +7333,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $x^2 + x - 2 = 0$.",
-    "opciones": ["$1, -2$", "$-1, 2$", "$2, -1$", "No tiene solución real"],
+    "enunciado": "Resuelva x^2 + x - 2 = 0.",
+    "opciones": ["1, -2", "-1, 2", "2, -1", "No tiene solución real"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x+2)(x-1) = 0 \\rightarrow x=-2, x=1$."
+    "retroalimentacion": "(x+2)(x-1) = 0 \rightarrow x=-2, x=1."
   },
   {
     "id": "g2_mat_16_015",
@@ -7348,10 +7348,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el discriminante de $2x^2 - 5x + 2 = 0$.",
+    "enunciado": "Halle el discriminante de 2x^2 - 5x + 2 = 0.",
     "opciones": ["9", "41", "1", "16"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(-5)^2 - 4(2)(2) = 25 - 16 = 9$."
+    "retroalimentacion": "(-5)^2 - 4(2)(2) = 25 - 16 = 9."
   },
   {
     "id": "g2_mat_16_016",
@@ -7363,10 +7363,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Encuentre las raíces de $x^2 = 7x$.",
-    "opciones": ["$0, 7$", "$7$", "$\\pm 7$", "No tiene"],
+    "enunciado": "Encuentre las raíces de x^2 = 7x.",
+    "opciones": ["0, 7", "7", "\pm 7", "No tiene"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 - 7x = 0 \\rightarrow x(x-7)=0$."
+    "retroalimentacion": "x^2 - 7x = 0 \rightarrow x(x-7)=0."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -7380,10 +7380,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $2x^2 + 3x - 2 = 0$ usando la fórmula general.",
-    "opciones": ["$1/2, -2$", "$-1/2, 2$", "$2, -1$", "$1, -2$"],
+    "enunciado": "Resuelva 2x^2 + 3x - 2 = 0 usando la fórmula general.",
+    "opciones": ["1/2, -2", "-1/2, 2", "2, -1", "1, -2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x = \\frac{-3 \\pm \\sqrt{9 - 4(2)(-2)}}{4} = \\frac{-3 \\pm \\sqrt{25}}{4} = \\frac{-3 \\pm 5}{4}$."
+    "retroalimentacion": "x = \frac{-3 \pm \sqrt{9 - 4(2)(-2)}}{4} = \frac{-3 \pm \sqrt{25}}{4} = \frac{-3 \pm 5}{4}."
   },
   {
     "id": "g2_mat_16_018",
@@ -7395,10 +7395,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de 'k' para que $x^2 + 6x + k = 0$ tenga solución única.",
+    "enunciado": "Determine el valor de 'k' para que x^2 + 6x + k = 0 tenga solución única.",
     "opciones": ["9", "3", "6", "36"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Solución única si $D=0 \\rightarrow 6^2 - 4(1)(k) = 0 \\rightarrow 36 = 4k \\rightarrow k = 9$."
+    "retroalimentacion": "Solución única si D=0 \rightarrow 6^2 - 4(1)(k) = 0 \rightarrow 36 = 4k \rightarrow k = 9."
   },
   {
     "id": "g2_mat_16_019",
@@ -7410,10 +7410,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle las dimensiones de un rectángulo cuyo área es $48 cm^2$ y su base mide $2 cm$ más que su altura.",
-    "opciones": ["$8 cm$ y $6 cm$", "$12 cm$ y $4 cm$", "$16 cm$ y $3 cm$", "$10 cm$ y $8 cm$"],
+    "enunciado": "Halle las dimensiones de un rectángulo cuyo área es 48 cm^2 y su base mide 2 cm más que su altura.",
+    "opciones": ["8 cm y 6 cm", "12 cm y 4 cm", "16 cm y 3 cm", "10 cm y 8 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x(x+2) = 48 \\rightarrow x^2 + 2x - 48 = 0 \\rightarrow (x+8)(x-6)=0$. La altura es 6."
+    "retroalimentacion": "x(x+2) = 48 \rightarrow x^2 + 2x - 48 = 0 \rightarrow (x+8)(x-6)=0. La altura es 6."
   },
   {
     "id": "g2_mat_16_020",
@@ -7425,10 +7425,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $x^4 - 5x^2 + 4 = 0$.",
-    "opciones": ["$\\pm 1, \\pm 2$", "$1, 4$", "$\\pm 2$", "$1, 2$"],
+    "enunciado": "Resuelva x^4 - 5x^2 + 4 = 0.",
+    "opciones": ["\pm 1, \pm 2", "1, 4", "\pm 2", "1, 2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Ecuación bicuadrática: Sea $u=x^2 \\rightarrow u^2 - 5u + 4 = 0 \\rightarrow u=1, u=4$."
+    "retroalimentacion": "Ecuación bicuadrática: Sea u=x^2 \rightarrow u^2 - 5u + 4 = 0 \rightarrow u=1, u=4."
   },
   {
     "id": "g2_mat_16_021",
@@ -7440,10 +7440,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $(x+3)^2 = 16$.",
-    "opciones": ["$1, -7$", "$1, 7$", "$4, -4$", "$7$"],
+    "enunciado": "Resuelva (x+3)^2 = 16.",
+    "opciones": ["1, -7", "1, 7", "4, -4", "7"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x+3 = \\pm 4 \\rightarrow x=1, x=-7$."
+    "retroalimentacion": "x+3 = \pm 4 \rightarrow x=1, x=-7."
   },
   {
     "id": "g2_mat_16_022",
@@ -7455,10 +7455,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine la suma de las raíces de la ecuación $3x^2 - 12x + 5 = 0$.",
+    "enunciado": "Determine la suma de las raíces de la ecuación 3x^2 - 12x + 5 = 0.",
     "opciones": ["4", "12", "-4", "5/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Por propiedades de raíces: $x_1 + x_2 = -b/a = -(-12)/3 = 4$."
+    "retroalimentacion": "Por propiedades de raíces: x_1 + x_2 = -b/a = -(-12)/3 = 4."
   },
   {
     "id": "g2_mat_16_023",
@@ -7470,10 +7470,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $\\sqrt{x+2} = x$.",
-    "opciones": ["$2$", "$-1, 2$", "$2, 4$", "No tiene solución"],
+    "enunciado": "Resuelva \sqrt{x+2} = x.",
+    "opciones": ["2", "-1, 2", "2, 4", "No tiene solución"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x+2 = x^2 \\rightarrow x^2 - x - 2 = 0 \\rightarrow (x-2)(x+1)=0$. $x=2$ cumple; $x=-1$ es raíz extraña."
+    "retroalimentacion": "x+2 = x^2 \rightarrow x^2 - x - 2 = 0 \rightarrow (x-2)(x+1)=0. x=2 cumple; x=-1 es raíz extraña."
   },
   {
     "id": "g2_mat_16_024",
@@ -7485,10 +7485,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La hipotenusa de un triángulo rectángulo mide $10 cm$. Si un cateto es $2 cm$ mayor que el otro, halle el cateto menor.",
-    "opciones": ["$6 cm$", "$8 cm$", "$4 cm$", "$5 cm$"],
+    "enunciado": "La hipotenusa de un triángulo rectángulo mide 10 cm. Si un cateto es 2 cm mayor que el otro, halle el cateto menor.",
+    "opciones": ["6 cm", "8 cm", "4 cm", "5 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 + (x+2)^2 = 100 \\rightarrow 2x^2 + 4x - 96 = 0 \\rightarrow x^2 + 2x - 48 = 0$. $x=6$."
+    "retroalimentacion": "x^2 + (x+2)^2 = 100 \rightarrow 2x^2 + 4x - 96 = 0 \rightarrow x^2 + 2x - 48 = 0. x=6."
   },
   {
     "id": "g2_mat_16_025",
@@ -7500,10 +7500,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $3x^2 - 10x + 3 = 0$.",
-    "opciones": ["$3, 1/3$", "$-3, -1/3$", "$3, 1$", "$1, 1/3$"],
+    "enunciado": "Resuelva 3x^2 - 10x + 3 = 0.",
+    "opciones": ["3, 1/3", "-3, -1/3", "3, 1", "1, 1/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(3x-1)(x-3) = 0$."
+    "retroalimentacion": "(3x-1)(x-3) = 0."
   },
   {
     "id": "g2_mat_16_026",
@@ -7515,10 +7515,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "Si una ecuación cuadrática tiene raíces $x_1=2$ y $x_2=3$, la ecuación es:",
-    "opciones": ["$x^2 - 5x + 6 = 0$", "$x^2 + 5x + 6 = 0$", "$x^2 - 6x + 5 = 0$", "$x^2 - x + 6 = 0$"],
+    "enunciado": "Si una ecuación cuadrática tiene raíces x_1=2 y x_2=3, la ecuación es:",
+    "opciones": ["x^2 - 5x + 6 = 0", "x^2 + 5x + 6 = 0", "x^2 - 6x + 5 = 0", "x^2 - x + 6 = 0"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x-2)(x-3) = x^2 - 5x + 6$."
+    "retroalimentacion": "(x-2)(x-3) = x^2 - 5x + 6."
   },
   {
     "id": "g2_mat_16_027",
@@ -7530,10 +7530,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Encuentre $x$: $x + 1/x = 2$.",
-    "opciones": ["$1$", "$2$", "$-1$", "0"],
+    "enunciado": "Encuentre x: x + 1/x = 2.",
+    "opciones": ["1", "2", "-1", "0"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 + 1 = 2x \\rightarrow x^2 - 2x + 1 = 0 \\rightarrow (x-1)^2 = 0$."
+    "retroalimentacion": "x^2 + 1 = 2x \rightarrow x^2 - 2x + 1 = 0 \rightarrow (x-1)^2 = 0."
   },
   {
     "id": "g2_mat_16_028",
@@ -7545,10 +7545,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $x^2 - 2x - 1 = 0$ (raíces irracionales).",
-    "opciones": ["$1 \\pm \\sqrt{2}$", "$2 \\pm \\sqrt{2}$", "$1 \\pm 2\\sqrt{2}$", "$-1 \\pm \\sqrt{2}$"],
+    "enunciado": "Resuelva x^2 - 2x - 1 = 0 (raíces irracionales).",
+    "opciones": ["1 \pm \sqrt{2}", "2 \pm \sqrt{2}", "1 \pm 2\sqrt{2}", "-1 \pm \sqrt{2}"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\frac{2 \\pm \\sqrt{4 - 4(1)(-1)}}{2} = \\frac{2 \\pm \\sqrt{8}}{2} = \\frac{2 \\pm 2\\sqrt{2}}{2} = 1 \\pm \\sqrt{2}$."
+    "retroalimentacion": "\frac{2 \pm \sqrt{4 - 4(1)(-1)}}{2} = \frac{2 \pm \sqrt{8}}{2} = \frac{2 \pm 2\sqrt{2}}{2} = 1 \pm \sqrt{2}."
   },
   {
     "id": "g2_mat_16_029",
@@ -7560,10 +7560,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Qué valor debe tener 'm' para que una raíz de $x^2 - mx + 8 = 0$ sea $2$?",
+    "enunciado": "¿Qué valor debe tener 'm' para que una raíz de x^2 - mx + 8 = 0 sea 2?",
     "opciones": ["6", "4", "2", "8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2^2 - m(2) + 8 = 0 \\rightarrow 12 = 2m \\rightarrow m = 6$."
+    "retroalimentacion": "2^2 - m(2) + 8 = 0 \rightarrow 12 = 2m \rightarrow m = 6."
   },
   {
     "id": "g2_mat_16_030",
@@ -7575,10 +7575,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "4.4 Ecuaciones de segundo grado",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $x^2 + 9 = 0$.",
-    "opciones": ["No tiene solución real", "$\\pm 3$", "$3$", "$-3$"],
+    "enunciado": "Resuelva x^2 + 9 = 0.",
+    "opciones": ["No tiene solución real", "\pm 3", "3", "-3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 = -9$. La raíz de un número negativo no es real."
+    "retroalimentacion": "x^2 = -9. La raíz de un número negativo no es real."
   },
 
 
@@ -7609,10 +7609,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "¿Cómo se clasifica un ángulo que mide exactamente $90°$?",
+    "enunciado": "¿Cómo se clasifica un ángulo que mide exactamente 90°?",
     "opciones": ["Agudo", "Obtuso", "Recto", "Llano"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "Un ángulo de $90°$ forma una perpendicular y se denomina recto."
+    "retroalimentacion": "Un ángulo de 90° forma una perpendicular y se denomina recto."
   },
   {
     "id": "g2_mat_17_002",
@@ -7625,9 +7625,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "Dos ángulos son complementarios si la suma de sus medidas es:",
-    "opciones": ["$180°$", "$90°$", "$360°$", "$45°$"],
+    "opciones": ["180°", "90°", "360°", "45°"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Los ángulos complementarios suman un ángulo recto ($90°$)."
+    "retroalimentacion": "Los ángulos complementarios suman un ángulo recto (90°)."
   },
   {
     "id": "g2_mat_17_003",
@@ -7639,10 +7639,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si un ángulo mide $35°$, ¿cuál es su ángulo suplementario?",
-    "opciones": ["$55°$", "$145°$", "$65°$", "$155°$"],
+    "enunciado": "Si un ángulo mide 35°, ¿cuál es su ángulo suplementario?",
+    "opciones": ["55°", "145°", "65°", "155°"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Suplementarios suman $180°$. $180 - 35 = 145°$."
+    "retroalimentacion": "Suplementarios suman 180°. 180 - 35 = 145°."
   },
   {
     "id": "g2_mat_17_004",
@@ -7654,7 +7654,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
-    "enunciado": "Un ángulo que mide más de $90°$ pero menos de $180°$ se llama:",
+    "enunciado": "Un ángulo que mide más de 90° pero menos de 180° se llama:",
     "opciones": ["Agudo", "Obtuso", "Reflejo", "Perigonal"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Se clasifica como obtuso por exceder el ángulo recto sin llegar al llano."
@@ -7669,10 +7669,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Convierta $180°$ a radianes.",
-    "opciones": ["$\\pi/2$ rad", "$\\pi$ rad", "$2\\pi$ rad", "$3\\pi/2$ rad"],
+    "enunciado": "Convierta 180° a radianes.",
+    "opciones": ["\pi/2 rad", "\pi rad", "2\pi rad", "3\pi/2 rad"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "La equivalencia básica en el sistema circular es $180° = \\pi$ radianes."
+    "retroalimentacion": "La equivalencia básica en el sistema circular es 180° = \pi radianes."
   },
   {
     "id": "g2_mat_17_006",
@@ -7701,10 +7701,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $x$ si dos ángulos opuestos por el vértice miden $2x + 10$ y $x + 40$.",
-    "opciones": ["$30$", "$50$", "$70$", "$20$"],
+    "enunciado": "Halle el valor de x si dos ángulos opuestos por el vértice miden 2x + 10 y x + 40.",
+    "opciones": ["30", "50", "70", "20"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Igualamos: $2x + 10 = x + 40 \\rightarrow x = 30$."
+    "retroalimentacion": "Igualamos: 2x + 10 = x + 40 \rightarrow x = 30."
   },
   {
     "id": "g2_mat_17_008",
@@ -7716,10 +7716,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Convierta $45°$ a radianes.",
-    "opciones": ["$\\pi/4$ rad", "$\\pi/2$ rad", "$\\pi/3$ rad", "$\\pi/6$ rad"],
+    "enunciado": "Convierta 45° a radianes.",
+    "opciones": ["\pi/4 rad", "\pi/2 rad", "\pi/3 rad", "\pi/6 rad"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$45° \\cdot (\\pi / 180°) = \\pi / 4$."
+    "retroalimentacion": "45° \cdot (\pi / 180°) = \pi / 4."
   },
   {
     "id": "g2_mat_17_009",
@@ -7732,9 +7732,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Dos ángulos son suplementarios. Si uno es el doble del otro, ¿cuánto mide el menor?",
-    "opciones": ["$60°$", "$30°$", "$90°$", "$120°$"],
+    "opciones": ["60°", "30°", "90°", "120°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x + 2x = 180 \\rightarrow 3x = 180 \\rightarrow x = 60$."
+    "retroalimentacion": "x + 2x = 180 \rightarrow 3x = 180 \rightarrow x = 60."
   },
   {
     "id": "g2_mat_17_010",
@@ -7761,10 +7761,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Exprese $3\\pi/2$ radianes en grados sexagesimales.",
-    "opciones": ["$270°$", "$180°$", "$300°$", "$240°$"],
+    "enunciado": "Exprese 3\pi/2 radianes en grados sexagesimales.",
+    "opciones": ["270°", "180°", "300°", "240°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(3\\pi/2) \\cdot (180/\\pi) = 3 \\cdot 90 = 270°$."
+    "retroalimentacion": "(3\pi/2) \cdot (180/\pi) = 3 \cdot 90 = 270°."
   },
   {
     "id": "g2_mat_17_012",
@@ -7777,9 +7777,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle el ángulo que es igual a su propio complemento.",
-    "opciones": ["$45°$", "$90°$", "$0°$", "$180°$"],
+    "opciones": ["45°", "90°", "0°", "180°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x = 90 - x \\rightarrow 2x = 90 \\rightarrow x = 45°$."
+    "retroalimentacion": "x = 90 - x \rightarrow 2x = 90 \rightarrow x = 45°."
   },
   {
     "id": "g2_mat_17_013",
@@ -7791,10 +7791,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si un ángulo mide $75° 30'$, ¿cuál es su medida en sistema decimal?",
-    "opciones": ["$75.5°$", "$75.3°$", "$75.6°$", "$76.0°$"],
+    "enunciado": "Si un ángulo mide 75° 30', ¿cuál es su medida en sistema decimal?",
+    "opciones": ["75.5°", "75.3°", "75.6°", "76.0°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$30' = 30/60 = 0.5°$. Total $75.5°$."
+    "retroalimentacion": "30' = 30/60 = 0.5°. Total 75.5°."
   },
   {
     "id": "g2_mat_17_014",
@@ -7806,10 +7806,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un sistema de dos rectas paralelas cortadas por una transversal, si un ángulo agudo mide $50°$, ¿cuánto mide el ángulo obtuso adyacente?",
-    "opciones": ["$130°$", "$50°$", "$40°$", "$90°$"],
+    "enunciado": "En un sistema de dos rectas paralelas cortadas por una transversal, si un ángulo agudo mide 50°, ¿cuánto mide el ángulo obtuso adyacente?",
+    "opciones": ["130°", "50°", "40°", "90°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Son suplementarios. $180 - 50 = 130°$."
+    "retroalimentacion": "Son suplementarios. 180 - 50 = 130°."
   },
   {
     "id": "g2_mat_17_015",
@@ -7821,10 +7821,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuántos grados hay en $1/6$ de una vuelta completa?",
-    "opciones": ["$60°$", "$30°$", "$45°$", "$90°$"],
+    "enunciado": "¿Cuántos grados hay en 1/6 de una vuelta completa?",
+    "opciones": ["60°", "30°", "45°", "90°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$360 / 6 = 60°$."
+    "retroalimentacion": "360 / 6 = 60°."
   },
   {
     "id": "g2_mat_17_016",
@@ -7836,7 +7836,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "media",
     "tipo_pregunta": "teorica",
-    "enunciado": "Un ángulo de $270°$ se encuentra en el:",
+    "enunciado": "Un ángulo de 270° se encuentra en el:",
     "opciones": ["Límite entre el III y IV cuadrante", "Segundo cuadrante", "Primer cuadrante", "Tercer cuadrante"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Es un ángulo cuadrantal que coincide con el semieje negativo de las 'y'."
@@ -7853,10 +7853,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de $x$ si los ángulos $3x - 15$ y $2x + 25$ son complementarios.",
-    "opciones": ["$16$", "$20$", "$80$", "$10$"],
+    "enunciado": "Calcule el valor de x si los ángulos 3x - 15 y 2x + 25 son complementarios.",
+    "opciones": ["16", "20", "80", "10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(3x - 15) + (2x + 25) = 90 \\rightarrow 5x + 10 = 90 \\rightarrow 5x = 80 \\rightarrow x = 16$."
+    "retroalimentacion": "(3x - 15) + (2x + 25) = 90 \rightarrow 5x + 10 = 90 \rightarrow 5x = 80 \rightarrow x = 16."
   },
   {
     "id": "g2_mat_17_018",
@@ -7869,9 +7869,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si la diferencia entre el suplemento y el complemento de un ángulo es el triple del ángulo, ¿cuánto mide el ángulo?",
-    "opciones": ["$30°$", "$60°$", "$45°$", "$20°$"],
+    "opciones": ["30°", "60°", "45°", "20°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(180 - x) - (90 - x) = 3x \\rightarrow 90 = 3x \\rightarrow x = 30°$."
+    "retroalimentacion": "(180 - x) - (90 - x) = 3x \rightarrow 90 = 3x \rightarrow x = 30°."
   },
   {
     "id": "g2_mat_17_019",
@@ -7884,9 +7884,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Un reloj marca las 3:00. ¿Cuál es el ángulo menor formado por las manecillas en radianes?",
-    "opciones": ["$\\pi/2$", "$\\pi/3$", "$\\pi/4$", "$2\\pi/3$"],
+    "opciones": ["\pi/2", "\pi/3", "\pi/4", "2\pi/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "A las 3:00 hay un ángulo de $90°$, que equivale a $\\pi/2$ rad."
+    "retroalimentacion": "A las 3:00 hay un ángulo de 90°, que equivale a \pi/2 rad."
   },
   {
     "id": "g2_mat_17_020",
@@ -7898,10 +7898,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine $x$ si las rectas $L1$ y $L2$ son paralelas y los ángulos internos del mismo lado son $4x+20$ y $2x+40$.",
-    "opciones": ["$20$", "$30$", "$40$", "$10$"],
+    "enunciado": "Determine x si las rectas L1 y L2 son paralelas y los ángulos internos del mismo lado son 4x+20 y 2x+40.",
+    "opciones": ["20", "30", "40", "10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Son suplementarios: $6x + 60 = 180 \\rightarrow 6x = 120 \\rightarrow x = 20$."
+    "retroalimentacion": "Son suplementarios: 6x + 60 = 180 \rightarrow 6x = 120 \rightarrow x = 20."
   },
   {
     "id": "g2_mat_17_021",
@@ -7913,10 +7913,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Convierta $1.5$ radianes a grados (use $\\pi \\approx 3.14$).",
-    "opciones": ["$85.9°$", "$90°$", "$75.2°$", "$105.1°$"],
+    "enunciado": "Convierta 1.5 radianes a grados (use \pi \approx 3.14).",
+    "opciones": ["85.9°", "90°", "75.2°", "105.1°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1.5 \\cdot (180 / 3.14) \\approx 85.98°$."
+    "retroalimentacion": "1.5 \cdot (180 / 3.14) \approx 85.98°."
   },
   {
     "id": "g2_mat_17_022",
@@ -7928,10 +7928,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La suma de dos ángulos es $100°$ y su diferencia es $\\pi/9$ rad. Halle el mayor.",
-    "opciones": ["$60°$", "$40°$", "$70°$", "$80°$"],
+    "enunciado": "La suma de dos ángulos es 100° y su diferencia es \pi/9 rad. Halle el mayor.",
+    "opciones": ["60°", "40°", "70°", "80°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\pi/9 = 20°$. Sistema: $x+y=100, x-y=20$. Sumando: $2x=120 \\rightarrow x=60°$."
+    "retroalimentacion": "\pi/9 = 20°. Sistema: x+y=100, x-y=20. Sumando: 2x=120 \rightarrow x=60°."
   },
   {
     "id": "g2_mat_17_023",
@@ -7944,9 +7944,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si el suplemento de un ángulo es el cuádruple de su complemento, ¿cuál es el ángulo?",
-    "opciones": ["$60°$", "$30°$", "$45°$", "$75°$"],
+    "opciones": ["60°", "30°", "45°", "75°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$180 - x = 4(90 - x) \\rightarrow 180 - x = 360 - 4x \\rightarrow 3x = 180 \\rightarrow x = 60°$."
+    "retroalimentacion": "180 - x = 4(90 - x) \rightarrow 180 - x = 360 - 4x \rightarrow 3x = 180 \rightarrow x = 60°."
   },
   {
     "id": "g2_mat_17_024",
@@ -7959,9 +7959,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle la medida del ángulo cuya séptima parte de su suplemento es igual a la quinta parte de su complemento.",
-    "opciones": ["$65°$", "$25°$", "$45°$", "$15°$"],
+    "opciones": ["65°", "25°", "45°", "15°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(180-x)/7 = (90-x)/5 \\rightarrow 5(180-x) = 7(90-x) \\rightarrow 900 - 5x = 630 - 7x \\rightarrow 2x = -270$... corrigiendo planteamiento: $x=225°$ no es agudo. Revisar: $270 = 2x \\rightarrow x=135°$ no cabe en complemento. El planteamiento correcto da $x=65$ para que sea positivo."
+    "retroalimentacion": "(180-x)/7 = (90-x)/5 \rightarrow 5(180-x) = 7(90-x) \rightarrow 900 - 5x = 630 - 7x \rightarrow 2x = -270... corrigiendo planteamiento: x=225° no es agudo. Revisar: 270 = 2x \rightarrow x=135° no cabe en complemento. El planteamiento correcto da x=65 para que sea positivo."
   },
   {
     "id": "g2_mat_17_025",
@@ -7973,10 +7973,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un ángulo mide $x$ grados y su suplemento es $(x^2)/10$. Si $x$ es agudo, halle $x$.",
-    "opciones": ["$30$", "$60$", "$45$", "$15$"],
+    "enunciado": "Un ángulo mide x grados y su suplemento es (x^2)/10. Si x es agudo, halle x.",
+    "opciones": ["30", "60", "45", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x + x^2/10 = 180 \\rightarrow x^2 + 10x - 1800 = 0 \\rightarrow (x+60)(x-30)=0$."
+    "retroalimentacion": "x + x^2/10 = 180 \rightarrow x^2 + 10x - 1800 = 0 \rightarrow (x+60)(x-30)=0."
   },
   {
     "id": "g2_mat_17_026",
@@ -7989,9 +7989,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
     "enunciado": "Los ángulos coterminales son aquellos que:",
-    "opciones": ["Tienen el mismo lado inicial y final", "Suman $360°$", "Están en el mismo cuadrante", "Son suplementarios"],
+    "opciones": ["Tienen el mismo lado inicial y final", "Suman 360°", "Están en el mismo cuadrante", "Son suplementarios"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Difieren en un número entero de vueltas ($360°n$)."
+    "retroalimentacion": "Difieren en un número entero de vueltas (360°n)."
   },
   {
     "id": "g2_mat_17_027",
@@ -8003,10 +8003,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle un ángulo coterminal positivo menor a $360°$ para $750°$.",
-    "opciones": ["$30°$", "$60°$", "$90°$", "$40°$"],
+    "enunciado": "Halle un ángulo coterminal positivo menor a 360° para 750°.",
+    "opciones": ["30°", "60°", "90°", "40°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$750 - 2(360) = 750 - 720 = 30°$."
+    "retroalimentacion": "750 - 2(360) = 750 - 720 = 30°."
   },
   {
     "id": "g2_mat_17_028",
@@ -8019,9 +8019,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si el minutero de un reloj avanza 20 minutos, ¿qué ángulo en radianes recorrió?",
-    "opciones": ["$2\\pi/3$", "$\\pi/3$", "$\\pi/2$", "$4\\pi/3$"],
+    "opciones": ["2\pi/3", "\pi/3", "\pi/2", "4\pi/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "20 min es $1/3$ de vuelta. $2\\pi / 3$ rad."
+    "retroalimentacion": "20 min es 1/3 de vuelta. 2\pi / 3 rad."
   },
   {
     "id": "g2_mat_17_029",
@@ -8033,10 +8033,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de $x$ en un triángulo donde sus ángulos internos son $x, 2x$ y $3x$.",
-    "opciones": ["$30$", "$20$", "$60$", "$15$"],
+    "enunciado": "Determine el valor de x en un triángulo donde sus ángulos internos son x, 2x y 3x.",
+    "opciones": ["30", "20", "60", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x + 2x + 3x = 180 \\rightarrow 6x = 180 \\rightarrow x = 30$."
+    "retroalimentacion": "x + 2x + 3x = 180 \rightarrow 6x = 180 \rightarrow x = 30."
   },
   {
     "id": "g2_mat_17_030",
@@ -8048,10 +8048,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.1 Ángulos y Clasificación",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el ángulo tal que la suma de su complemento y su suplemento sea $140°$.",
-    "opciones": ["$65°$", "$70°$", "$55°$", "$45°$"],
+    "enunciado": "Halle el ángulo tal que la suma de su complemento y su suplemento sea 140°.",
+    "opciones": ["65°", "70°", "55°", "45°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(90-x) + (180-x) = 140 \\rightarrow 270 - 2x = 140 \\rightarrow 130 = 2x \\rightarrow x = 65°$."
+    "retroalimentacion": "(90-x) + (180-x) = 140 \rightarrow 270 - 2x = 140 \rightarrow 130 = 2x \rightarrow x = 65°."
   },
 
 
@@ -8085,7 +8085,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "¿Cuál es la suma de los ángulos internos de cualquier triángulo plano?",
-    "opciones": ["$90°$", "$180°$", "$360°$", "$270°$"],
+    "opciones": ["90°", "180°", "360°", "270°"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Es una propiedad fundamental de la geometría euclidiana."
   },
@@ -8114,10 +8114,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo rectángulo, los catetos miden $3$ y $4$. ¿Cuánto mide la hipotenusa?",
-    "opciones": ["$5$", "$7$", "$25$", "$\\sqrt{7}$"],
+    "enunciado": "En un triángulo rectángulo, los catetos miden 3 y 4. ¿Cuánto mide la hipotenusa?",
+    "opciones": ["5", "7", "25", "\sqrt{7}"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = 5$."
+    "retroalimentacion": "\sqrt{3^2 + 4^2} = \sqrt{9 + 16} = 5."
   },
   {
     "id": "g2_mat_18_004",
@@ -8130,7 +8130,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "¿Qué dice el Teorema de Pitágoras?",
-    "opciones": ["$a + b = c$", "$a^2 + b^2 = c^2$", "$a^2 - b^2 = c^2$", "$2a + 2b = c^2$"],
+    "opciones": ["a + b = c", "a^2 + b^2 = c^2", "a^2 - b^2 = c^2", "2a + 2b = c^2"],
     "respuesta_correcta": 1,
     "retroalimentacion": "Se aplica exclusivamente a triángulos rectángulos."
   },
@@ -8144,10 +8144,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si dos ángulos de un triángulo miden $40°$ y $60°$, ¿cuánto mide el tercero?",
-    "opciones": ["$100°$", "$80°$", "$90°$", "$70°$"],
+    "enunciado": "Si dos ángulos de un triángulo miden 40° y 60°, ¿cuánto mide el tercero?",
+    "opciones": ["100°", "80°", "90°", "70°"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$180 - (40 + 60) = 80°$."
+    "retroalimentacion": "180 - (40 + 60) = 80°."
   },
   {
     "id": "g2_mat_18_006",
@@ -8160,9 +8160,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "Un triángulo equilátero tiene sus tres ángulos internos iguales a:",
-    "opciones": ["$45°$", "$90°$", "$60°$", "$180°$"],
+    "opciones": ["45°", "90°", "60°", "180°"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$180 / 3 = 60°$."
+    "retroalimentacion": "180 / 3 = 60°."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -8176,10 +8176,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la altura de un triángulo equilátero de lado $2 cm$.",
-    "opciones": ["$\\sqrt{3} cm$", "$1 cm$", "$2 cm$", "$\\sqrt{2} cm$"],
+    "enunciado": "Halle la altura de un triángulo equilátero de lado 2 cm.",
+    "opciones": ["\sqrt{3} cm", "1 cm", "2 cm", "\sqrt{2} cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "La altura forma un triángulo rectángulo: $h^2 + 1^2 = 2^2 \\rightarrow h = \\sqrt{3}$."
+    "retroalimentacion": "La altura forma un triángulo rectángulo: h^2 + 1^2 = 2^2 \rightarrow h = \sqrt{3}."
   },
   {
     "id": "g2_mat_18_008",
@@ -8191,10 +8191,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si los lados de un triángulo son $5, 12$ y $13$, ¿qué tipo de triángulo es?",
+    "enunciado": "Si los lados de un triángulo son 5, 12 y 13, ¿qué tipo de triángulo es?",
     "opciones": ["Rectángulo", "Acutángulo", "Obtusángulo", "Isósceles"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$5^2 + 12^2 = 25 + 144 = 169 = 13^2$. Cumple Pitágoras."
+    "retroalimentacion": "5^2 + 12^2 = 25 + 144 = 169 = 13^2. Cumple Pitágoras."
   },
   {
     "id": "g2_mat_18_009",
@@ -8206,10 +8206,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el área de un triángulo cuya base mide $10 cm$ y su altura $6 cm$.",
-    "opciones": ["$60 cm^2$", "$30 cm^2$", "$16 cm^2$", "$32 cm^2$"],
+    "enunciado": "Determine el área de un triángulo cuya base mide 10 cm y su altura 6 cm.",
+    "opciones": ["60 cm^2", "30 cm^2", "16 cm^2", "32 cm^2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$(Base \\cdot Altura) / 2 = (10 \\cdot 6) / 2 = 30$."
+    "retroalimentacion": "(Base \cdot Altura) / 2 = (10 \cdot 6) / 2 = 30."
   },
   {
     "id": "g2_mat_18_010",
@@ -8236,10 +8236,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo rectángulo, la hipotenusa mide $10$ y un cateto $6$. Halle el otro cateto.",
-    "opciones": ["$8$", "$4$", "$\\sqrt{136}$", "$16$"],
+    "enunciado": "En un triángulo rectángulo, la hipotenusa mide 10 y un cateto 6. Halle el otro cateto.",
+    "opciones": ["8", "4", "\sqrt{136}", "16"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$."
+    "retroalimentacion": "\sqrt{10^2 - 6^2} = \sqrt{100 - 36} = \sqrt{64} = 8."
   },
   {
     "id": "g2_mat_18_012",
@@ -8251,10 +8251,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un triángulo $A$ tiene lados $3, 4, 5$. Un triángulo $B$ es semejante y su lado más largo mide $15$. ¿Cuánto mide su lado más corto?",
-    "opciones": ["$9$", "$6$", "$12$", "$5$"],
+    "enunciado": "Un triángulo A tiene lados 3, 4, 5. Un triángulo B es semejante y su lado más largo mide 15. ¿Cuánto mide su lado más corto?",
+    "opciones": ["9", "6", "12", "5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Razón de semejanza: $15 / 5 = 3$. Lado corto: $3 \\cdot 3 = 9$."
+    "retroalimentacion": "Razón de semejanza: 15 / 5 = 3. Lado corto: 3 \cdot 3 = 9."
   },
   {
     "id": "g2_mat_18_013",
@@ -8266,10 +8266,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si un triángulo isósceles tiene un ángulo de $100°$, ¿cuánto miden los otros dos?",
-    "opciones": ["$40°$ cada uno", "$80°$ cada uno", "$50°$ y $30°$", "$40°$ y $30°$"],
+    "enunciado": "Si un triángulo isósceles tiene un ángulo de 100°, ¿cuánto miden los otros dos?",
+    "opciones": ["40° cada uno", "80° cada uno", "50° y 30°", "40° y 30°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(180 - 100) / 2 = 40°$."
+    "retroalimentacion": "(180 - 100) / 2 = 40°."
   },
   {
     "id": "g2_mat_18_014",
@@ -8296,10 +8296,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el perímetro de un triángulo equilátero de altura $\\sqrt{3} cm$?",
-    "opciones": ["$6 cm$", "$3 cm$", "$9 cm$", "$12 cm$"],
+    "enunciado": "¿Cuál es el perímetro de un triángulo equilátero de altura \sqrt{3} cm?",
+    "opciones": ["6 cm", "3 cm", "9 cm", "12 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Si $h = \\sqrt{3}$, el lado mide $2$. Perímetro $2 \\cdot 3 = 6$."
+    "retroalimentacion": "Si h = \sqrt{3}, el lado mide 2. Perímetro 2 \cdot 3 = 6."
   },
   {
     "id": "g2_mat_18_016",
@@ -8311,10 +8311,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un poste de $6 m$ proyecta una sombra de $8 m$. ¿Cuál es la distancia de la punta del poste al extremo de la sombra?",
-    "opciones": ["$10 m$", "$14 m$", "$2 m$", "$12 m$"],
+    "enunciado": "Un poste de 6 m proyecta una sombra de 8 m. ¿Cuál es la distancia de la punta del poste al extremo de la sombra?",
+    "opciones": ["10 m", "14 m", "2 m", "12 m"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Es un triángulo rectángulo de catetos $6$ y $8$. Hipotenusa $10$."
+    "retroalimentacion": "Es un triángulo rectángulo de catetos 6 y 8. Hipotenusa 10."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -8328,10 +8328,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo rectángulo, la hipotenusa mide $x+2$ y los catetos miden $x$ y $x-2$. Halle $x$.",
-    "opciones": ["$8$", "$6$", "$10$", "$4$"],
+    "enunciado": "En un triángulo rectángulo, la hipotenusa mide x+2 y los catetos miden x y x-2. Halle x.",
+    "opciones": ["8", "6", "10", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2 + (x-2)^2 = (x+2)^2 \\rightarrow x^2 + x^2 - 4x + 4 = x^2 + 4x + 4 \\rightarrow x^2 - 8x = 0 \\rightarrow x = 8$."
+    "retroalimentacion": "x^2 + (x-2)^2 = (x+2)^2 \rightarrow x^2 + x^2 - 4x + 4 = x^2 + 4x + 4 \rightarrow x^2 - 8x = 0 \rightarrow x = 8."
   },
   {
     "id": "g2_mat_18_018",
@@ -8343,10 +8343,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un triángulo equilátero de lado $L$.",
-    "opciones": ["$\\frac{L^2\\sqrt{3}}{4}$", "$\\frac{L^2\\sqrt{3}}{2}$", "$\\frac{L^2}{2}$", "$L^2$"],
+    "enunciado": "Halle el área de un triángulo equilátero de lado L.",
+    "opciones": ["\frac{L^2\sqrt{3}}{4}", "\frac{L^2\sqrt{3}}{2}", "\frac{L^2}{2}", "L^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Base = L$, $Altura = \\frac{L\\sqrt{3}}{2}$. Área $= (Base \\cdot Altura) / 2$."
+    "retroalimentacion": "Base = L, Altura = \frac{L\sqrt{3}}{2}. Área = (Base \cdot Altura) / 2."
   },
   {
     "id": "g2_mat_18_019",
@@ -8358,10 +8358,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un triángulo tiene lados $4, 5, 6$. ¿Es rectángulo?",
-    "opciones": ["No, porque $16 + 25 \\neq 36$", "Sí, cumple Pitágoras", "No, es equilátero", "No se puede determinar"],
+    "enunciado": "Un triángulo tiene lados 4, 5, 6. ¿Es rectángulo?",
+    "opciones": ["No, porque 16 + 25 \neq 36", "Sí, cumple Pitágoras", "No, es equilátero", "No se puede determinar"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$4^2 + 5^2 = 41 \\neq 6^2 = 36$. Es un triángulo obtusángulo."
+    "retroalimentacion": "4^2 + 5^2 = 41 \neq 6^2 = 36. Es un triángulo obtusángulo."
   },
   {
     "id": "g2_mat_18_020",
@@ -8373,10 +8373,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo rectángulo, la proyección de un cateto sobre la hipotenusa mide $4$ y la hipotenusa mide $16$. Halle dicho cateto.",
-    "opciones": ["$8$", "$4$", "$64$", "$12$"],
+    "enunciado": "En un triángulo rectángulo, la proyección de un cateto sobre la hipotenusa mide 4 y la hipotenusa mide 16. Halle dicho cateto.",
+    "opciones": ["8", "4", "64", "12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Por teorema del cateto: $b^2 = m \\cdot c \\rightarrow b^2 = 4 \\cdot 16 = 64 \\rightarrow b = 8$."
+    "retroalimentacion": "Por teorema del cateto: b^2 = m \cdot c \rightarrow b^2 = 4 \cdot 16 = 64 \rightarrow b = 8."
   },
   {
     "id": "g2_mat_18_021",
@@ -8388,10 +8388,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Las áreas de dos triángulos semejantes están en razón $4:9$. Si el perímetro del menor es $20$, ¿cuál es el perímetro del mayor?",
-    "opciones": ["$30$", "$45$", "$25$", "$60$"],
+    "enunciado": "Las áreas de dos triángulos semejantes están en razón 4:9. Si el perímetro del menor es 20, ¿cuál es el perímetro del mayor?",
+    "opciones": ["30", "45", "25", "60"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "La razón de perímetros es la raíz de la razón de áreas: $\\sqrt{4/9} = 2/3$. $20 \\cdot (3/2) = 30$."
+    "retroalimentacion": "La razón de perímetros es la raíz de la razón de áreas: \sqrt{4/9} = 2/3. 20 \cdot (3/2) = 30."
   },
   {
     "id": "g2_mat_18_022",
@@ -8403,10 +8403,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la diagonal de un cuadrado de lado $a$.",
-    "opciones": ["$a\\sqrt{2}$", "$a\\sqrt{3}$", "$2a$", "$a^2$"],
+    "enunciado": "Halle la diagonal de un cuadrado de lado a.",
+    "opciones": ["a\sqrt{2}", "a\sqrt{3}", "2a", "a^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Diagonal $= \\sqrt{a^2 + a^2} = \\sqrt{2a^2} = a\\sqrt{2}$."
+    "retroalimentacion": "Diagonal = \sqrt{a^2 + a^2} = \sqrt{2a^2} = a\sqrt{2}."
   },
   {
     "id": "g2_mat_18_023",
@@ -8418,10 +8418,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo, un ángulo mide el doble que el otro y el tercero mide $30°$. Halle el mayor.",
-    "opciones": ["$100°$", "$120°$", "$150°$", "$90°$"],
+    "enunciado": "En un triángulo, un ángulo mide el doble que el otro y el tercero mide 30°. Halle el mayor.",
+    "opciones": ["100°", "120°", "150°", "90°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x + 2x + 30 = 180 \\rightarrow 3x = 150 \\rightarrow x = 50$. El mayor es $2x = 100°$."
+    "retroalimentacion": "x + 2x + 30 = 180 \rightarrow 3x = 150 \rightarrow x = 50. El mayor es 2x = 100°."
   },
   {
     "id": "g2_mat_18_024",
@@ -8433,10 +8433,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un triángulo tiene base $B$ y altura $H$. Si la base aumenta al doble y la altura disminuye a la mitad, el área:",
+    "enunciado": "Un triángulo tiene base B y altura H. Si la base aumenta al doble y la altura disminuye a la mitad, el área:",
     "opciones": ["Se mantiene igual", "Aumenta al doble", "Disminuye a la mitad", "Se cuadruplica"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(2B \\cdot H/2) / 2 = (B \\cdot H) / 2$."
+    "retroalimentacion": "(2B \cdot H/2) / 2 = (B \cdot H) / 2."
   },
   {
     "id": "g2_mat_18_025",
@@ -8448,10 +8448,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la hipotenusa de un triángulo rectángulo isósceles de área $18 cm^2$.",
-    "opciones": ["$\\sqrt{72} cm$", "$6 cm$", "$12 cm$", "$36 cm$"],
+    "enunciado": "Halle la hipotenusa de un triángulo rectángulo isósceles de área 18 cm^2.",
+    "opciones": ["\sqrt{72} cm", "6 cm", "12 cm", "36 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x^2/2 = 18 \\rightarrow x^2 = 36 \\rightarrow x=6$. Hipotenusa $= \\sqrt{6^2 + 6^2} = \\sqrt{72}$."
+    "retroalimentacion": "x^2/2 = 18 \rightarrow x^2 = 36 \rightarrow x=6. Hipotenusa = \sqrt{6^2 + 6^2} = \sqrt{72}."
   },
   {
     "id": "g2_mat_18_026",
@@ -8478,10 +8478,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un triángulo cuyos lados son $3, 4, 5$.",
-    "opciones": ["$6$", "$12$", "$10$", "$7.5$"],
+    "enunciado": "Halle el área de un triángulo cuyos lados son 3, 4, 5.",
+    "opciones": ["6", "12", "10", "7.5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Es rectángulo, catetos 3 y 4. Área $= (3 \\cdot 4) / 2 = 6$."
+    "retroalimentacion": "Es rectángulo, catetos 3 y 4. Área = (3 \cdot 4) / 2 = 6."
   },
   {
     "id": "g2_mat_18_028",
@@ -8493,10 +8493,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo, un ángulo exterior mide $120°$ y uno de los interiores no adyacentes mide $40°$. Halle el otro interior no adyacente.",
-    "opciones": ["$80°$", "$60°$", "$40°$", "$100°$"],
+    "enunciado": "En un triángulo, un ángulo exterior mide 120° y uno de los interiores no adyacentes mide 40°. Halle el otro interior no adyacente.",
+    "opciones": ["80°", "60°", "40°", "100°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Ángulo exterior = Suma de interiores no adyacentes. $120 = 40 + x \\rightarrow x = 80°$."
+    "retroalimentacion": "Ángulo exterior = Suma de interiores no adyacentes. 120 = 40 + x \rightarrow x = 80°."
   },
   {
     "id": "g2_mat_18_029",
@@ -8508,10 +8508,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine la hipotenusa de un triángulo rectángulo si sus catetos son $\\sqrt{2}$ y $\\sqrt{7}$.",
-    "opciones": ["$3$", "$\\sqrt{5}$", "$\\sqrt{9}$", "$\\sqrt{14}$"],
+    "enunciado": "Determine la hipotenusa de un triángulo rectángulo si sus catetos son \sqrt{2} y \sqrt{7}.",
+    "opciones": ["3", "\sqrt{5}", "\sqrt{9}", "\sqrt{14}"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\sqrt{(\\sqrt{2})^2 + (\\sqrt{7})^2} = \\sqrt{2 + 7} = \\sqrt{9} = 3$."
+    "retroalimentacion": "\sqrt{(\sqrt{2})^2 + (\sqrt{7})^2} = \sqrt{2 + 7} = \sqrt{9} = 3."
   },
   {
     "id": "g2_mat_18_030",
@@ -8523,10 +8523,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.2 Triángulos y Teorema de Pitágoras",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la altura relativa a la hipotenusa en un triángulo rectángulo de catetos $6$ y $8$.",
-    "opciones": ["$4.8$", "$5$", "$4$", "$3.6$"],
+    "enunciado": "Halle la altura relativa a la hipotenusa en un triángulo rectángulo de catetos 6 y 8.",
+    "opciones": ["4.8", "5", "4", "3.6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$h = (Cateto1 \\cdot Cateto2) / Hipotenusa = (6 \\cdot 8) / 10 = 4.8$."
+    "retroalimentacion": "h = (Cateto1 \cdot Cateto2) / Hipotenusa = (6 \cdot 8) / 10 = 4.8."
   },
 
 
@@ -8570,10 +8570,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el perímetro de un cuadrado cuyo lado mide $7 cm$.",
-    "opciones": ["$49 cm$", "$14 cm$", "$28 cm$", "$21 cm$"],
+    "enunciado": "Halle el perímetro de un cuadrado cuyo lado mide 7 cm.",
+    "opciones": ["49 cm", "14 cm", "28 cm", "21 cm"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "$Perímetro = 4 \\cdot L = 4 \\cdot 7 = 28 cm$."
+    "retroalimentacion": "Perímetro = 4 \cdot L = 4 \cdot 7 = 28 cm."
   },
   {
     "id": "g2_mat_19_003",
@@ -8600,10 +8600,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el radio de un círculo es $5 cm$, ¿cuál es su diámetro?",
-    "opciones": ["$10 cm$", "$2.5 cm$", "$25 cm$", "$15 cm$"],
+    "enunciado": "Si el radio de un círculo es 5 cm, ¿cuál es su diámetro?",
+    "opciones": ["10 cm", "2.5 cm", "25 cm", "15 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$D = 2r = 2 \\cdot 5 = 10 cm$."
+    "retroalimentacion": "D = 2r = 2 \cdot 5 = 10 cm."
   },
   {
     "id": "g2_mat_19_005",
@@ -8630,10 +8630,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un rectángulo de base $8 cm$ y altura $5 cm$.",
-    "opciones": ["$13 cm^2$", "$40 cm^2$", "$26 cm^2$", "$20 cm^2$"],
+    "enunciado": "Halle el área de un rectángulo de base 8 cm y altura 5 cm.",
+    "opciones": ["13 cm^2", "40 cm^2", "26 cm^2", "20 cm^2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$Área = base \\cdot altura = 8 \\cdot 5 = 40$."
+    "retroalimentacion": "Área = base \cdot altura = 8 \cdot 5 = 40."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -8647,10 +8647,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule la longitud de una circunferencia de radio $10 cm$ (use $\\pi \\approx 3.14$).",
-    "opciones": ["$62.8 cm$", "$31.4 cm$", "$314 cm$", "$20 cm$"],
+    "enunciado": "Calcule la longitud de una circunferencia de radio 10 cm (use \pi \approx 3.14).",
+    "opciones": ["62.8 cm", "31.4 cm", "314 cm", "20 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$C = 2\\pi r = 2 \\cdot 3.14 \\cdot 10 = 62.8$."
+    "retroalimentacion": "C = 2\pi r = 2 \cdot 3.14 \cdot 10 = 62.8."
   },
   {
     "id": "g2_mat_19_008",
@@ -8662,10 +8662,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un círculo cuyo diámetro es $4 cm$.",
-    "opciones": ["$4\\pi cm^2$", "$16\\pi cm^2$", "$8\\pi cm^2$", "$2\\pi cm^2$"],
+    "enunciado": "Halle el área de un círculo cuyo diámetro es 4 cm.",
+    "opciones": ["4\pi cm^2", "16\pi cm^2", "8\pi cm^2", "2\pi cm^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Si $D=4, r=2$. $Área = \\pi r^2 = \\pi(2)^2 = 4\\pi$."
+    "retroalimentacion": "Si D=4, r=2. Área = \pi r^2 = \pi(2)^2 = 4\pi."
   },
   {
     "id": "g2_mat_19_009",
@@ -8678,9 +8678,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "teorica",
     "enunciado": "¿Cuál es la suma de los ángulos internos de un cuadrilátero?",
-    "opciones": ["$180°$", "$360°$", "$540°$", "$90°$"],
+    "opciones": ["180°", "360°", "540°", "90°"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Se puede dividir en dos triángulos ($180 \\cdot 2 = 360$)."
+    "retroalimentacion": "Se puede dividir en dos triángulos (180 \cdot 2 = 360)."
   },
   {
     "id": "g2_mat_19_010",
@@ -8692,10 +8692,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un rombo cuyas diagonales miden $10 cm$ y $12 cm$.",
-    "opciones": ["$120 cm^2$", "$60 cm^2$", "$22 cm^2$", "$44 cm^2$"],
+    "enunciado": "Halle el área de un rombo cuyas diagonales miden 10 cm y 12 cm.",
+    "opciones": ["120 cm^2", "60 cm^2", "22 cm^2", "44 cm^2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$Área = (D \\cdot d) / 2 = (12 \\cdot 10) / 2 = 60$."
+    "retroalimentacion": "Área = (D \cdot d) / 2 = (12 \cdot 10) / 2 = 60."
   },
   {
     "id": "g2_mat_19_011",
@@ -8707,10 +8707,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el área de un trapecio con bases de $10 cm$ y $6 cm$, y altura de $4 cm$.",
-    "opciones": ["$32 cm^2$", "$16 cm^2$", "$64 cm^2$", "$40 cm^2$"],
+    "enunciado": "Determine el área de un trapecio con bases de 10 cm y 6 cm, y altura de 4 cm.",
+    "opciones": ["32 cm^2", "16 cm^2", "64 cm^2", "40 cm^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Área = \\frac{B + b}{2} \\cdot h = \\frac{10 + 6}{2} \\cdot 4 = 8 \\cdot 4 = 32$."
+    "retroalimentacion": "Área = \frac{B + b}{2} \cdot h = \frac{10 + 6}{2} \cdot 4 = 8 \cdot 4 = 32."
   },
   {
     "id": "g2_mat_19_012",
@@ -8723,9 +8723,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuánto mide cada ángulo interno de un hexágono regular?",
-    "opciones": ["$120°$", "$108°$", "$90°$", "$60°$"],
+    "opciones": ["120°", "108°", "90°", "60°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Suma $= 180(6-2) = 720$. Cada ángulo $= 720 / 6 = 120°$."
+    "retroalimentacion": "Suma = 180(6-2) = 720. Cada ángulo = 720 / 6 = 120°."
   },
   {
     "id": "g2_mat_19_013",
@@ -8737,10 +8737,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un cuadrado cuyo perímetro es $24 cm$.",
-    "opciones": ["$36 cm^2$", "$24 cm^2$", "$144 cm^2$", "$12 cm^2$"],
+    "enunciado": "Halle el área de un cuadrado cuyo perímetro es 24 cm.",
+    "opciones": ["36 cm^2", "24 cm^2", "144 cm^2", "12 cm^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Lado $= 24 / 4 = 6$. Área $= 6^2 = 36$."
+    "retroalimentacion": "Lado = 24 / 4 = 6. Área = 6^2 = 36."
   },
   {
     "id": "g2_mat_19_014",
@@ -8767,10 +8767,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el área de un círculo es $25\\pi$, ¿cuánto mide su radio?",
-    "opciones": ["$5$", "$10$", "$25$", "$\\sqrt{5}$"],
+    "enunciado": "Si el área de un círculo es 25\pi, ¿cuánto mide su radio?",
+    "opciones": ["5", "10", "25", "\sqrt{5}"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\pi r^2 = 25\\pi \\rightarrow r^2 = 25 \\rightarrow r = 5$."
+    "retroalimentacion": "\pi r^2 = 25\pi \rightarrow r^2 = 25 \rightarrow r = 5."
   },
   {
     "id": "g2_mat_19_016",
@@ -8782,10 +8782,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el perímetro de un hexágono regular de lado $5 cm$.",
-    "opciones": ["$30 cm$", "$25 cm$", "$35 cm$", "$20 cm$"],
+    "enunciado": "Calcule el perímetro de un hexágono regular de lado 5 cm.",
+    "opciones": ["30 cm", "25 cm", "35 cm", "20 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$6 \\cdot 5 = 30 cm$."
+    "retroalimentacion": "6 \cdot 5 = 30 cm."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -8799,10 +8799,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un hexágono regular de lado $4 cm$ (Apotema $\\approx 3.46 cm$).",
-    "opciones": ["$41.52 cm^2$", "$24.1 cm^2$", "$13.84 cm^2$", "$83.04 cm^2$"],
+    "enunciado": "Halle el área de un hexágono regular de lado 4 cm (Apotema \approx 3.46 cm).",
+    "opciones": ["41.52 cm^2", "24.1 cm^2", "13.84 cm^2", "83.04 cm^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Perímetro = 24$. Área $= (P \\cdot ap) / 2 = (24 \\cdot 3.46) / 2 = 41.52$."
+    "retroalimentacion": "Perímetro = 24. Área = (P \cdot ap) / 2 = (24 \cdot 3.46) / 2 = 41.52."
   },
   {
     "id": "g2_mat_19_018",
@@ -8814,10 +8814,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un sector circular tiene un ángulo de $60°$ y un radio de $6 cm$. Halle su área.",
-    "opciones": ["$6\\pi cm^2$", "$12\\pi cm^2$", "$3\\pi cm^2$", "$36\\pi cm^2$"],
+    "enunciado": "Un sector circular tiene un ángulo de 60° y un radio de 6 cm. Halle su área.",
+    "opciones": ["6\pi cm^2", "12\pi cm^2", "3\pi cm^2", "36\pi cm^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Área = (\\pi r^2 \\cdot \\alpha) / 360 = (36\\pi \\cdot 60) / 360 = 6\\pi$."
+    "retroalimentacion": "Área = (\pi r^2 \cdot \alpha) / 360 = (36\pi \cdot 60) / 360 = 6\pi."
   },
   {
     "id": "g2_mat_19_019",
@@ -8832,7 +8832,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Halle el número de diagonales de un octágono.",
     "opciones": ["20", "14", "24", "16"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$D = n(n-3)/2 = 8(5)/2 = 20$."
+    "retroalimentacion": "D = n(n-3)/2 = 8(5)/2 = 20."
   },
   {
     "id": "g2_mat_19_020",
@@ -8859,10 +8859,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un círculo de radio $13$, una cuerda mide $24$. ¿A qué distancia está la cuerda del centro?",
-    "opciones": ["$5$", "$12$", "$7$", "$10$"],
+    "enunciado": "En un círculo de radio 13, una cuerda mide 24. ¿A qué distancia está la cuerda del centro?",
+    "opciones": ["5", "12", "7", "10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Se forma un triángulo rectángulo: $d^2 + 12^2 = 13^2 \\rightarrow d = 5$."
+    "retroalimentacion": "Se forma un triángulo rectángulo: d^2 + 12^2 = 13^2 \rightarrow d = 5."
   },
   {
     "id": "g2_mat_19_022",
@@ -8875,7 +8875,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
     "enunciado": "Un polígono es convexo si:",
-    "opciones": ["Todos sus ángulos internos miden menos de $180°$", "Tiene algún ángulo mayor a $180°$", "Sus lados son todos iguales", "Está dentro de un círculo"],
+    "opciones": ["Todos sus ángulos internos miden menos de 180°", "Tiene algún ángulo mayor a 180°", "Sus lados son todos iguales", "Está dentro de un círculo"],
     "respuesta_correcta": 0,
     "retroalimentacion": "En un polígono convexo, cualquier segmento entre dos puntos internos queda dentro de la figura."
   },
@@ -8889,10 +8889,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el área de una corona circular cuyos radios miden $5 cm$ y $3 cm$.",
-    "opciones": ["$16\\pi cm^2$", "$8\\pi cm^2$", "$34\\pi cm^2$", "$4\\pi cm^2$"],
+    "enunciado": "Determine el área de una corona circular cuyos radios miden 5 cm y 3 cm.",
+    "opciones": ["16\pi cm^2", "8\pi cm^2", "34\pi cm^2", "4\pi cm^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\pi(R^2 - r^2) = \\pi(25 - 9) = 16\\pi$."
+    "retroalimentacion": "\pi(R^2 - r^2) = \pi(25 - 9) = 16\pi."
   },
   {
     "id": "g2_mat_19_024",
@@ -8904,10 +8904,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuántos lados tiene un polígono cuya suma de ángulos internos es $1080°$?",
+    "enunciado": "¿Cuántos lados tiene un polígono cuya suma de ángulos internos es 1080°?",
     "opciones": ["8", "6", "10", "12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$180(n-2) = 1080 \\rightarrow n-2 = 6 \\rightarrow n = 8$."
+    "retroalimentacion": "180(n-2) = 1080 \rightarrow n-2 = 6 \rightarrow n = 8."
   },
   {
     "id": "g2_mat_19_025",
@@ -8919,10 +8919,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la longitud de un arco que subtiende un ángulo de $2$ radianes en un círculo de radio $4 cm$.",
-    "opciones": ["$8 cm$", "$4 cm$", "$2 cm$", "$16 cm$"],
+    "enunciado": "Halle la longitud de un arco que subtiende un ángulo de 2 radianes en un círculo de radio 4 cm.",
+    "opciones": ["8 cm", "4 cm", "2 cm", "16 cm"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$s = r \\cdot \\theta = 4 \\cdot 2 = 8$."
+    "retroalimentacion": "s = r \cdot \theta = 4 \cdot 2 = 8."
   },
   {
     "id": "g2_mat_19_026",
@@ -8934,10 +8934,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el área de un cuadrado inscrito en un círculo de radio $5 cm$.",
-    "opciones": ["$50 cm^2$", "$25 cm^2$", "$100 cm^2$", "$20 cm^2$"],
+    "enunciado": "Calcule el área de un cuadrado inscrito en un círculo de radio 5 cm.",
+    "opciones": ["50 cm^2", "25 cm^2", "100 cm^2", "20 cm^2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Diagonal $= 10$. Área $= d^2 / 2 = 100 / 2 = 50$."
+    "retroalimentacion": "Diagonal = 10. Área = d^2 / 2 = 100 / 2 = 50."
   },
   {
     "id": "g2_mat_19_027",
@@ -8950,9 +8950,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle el radio de un círculo cuya área y longitud son numéricamente iguales.",
-    "opciones": ["2", "1", "$\\pi$", "4"],
+    "opciones": ["2", "1", "\pi", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\pi r^2 = 2\\pi r \\rightarrow r = 2$."
+    "retroalimentacion": "\pi r^2 = 2\pi r \rightarrow r = 2."
   },
   {
     "id": "g2_mat_19_028",
@@ -8964,10 +8964,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un trapecio isósceles, las bases miden $14$ y $6$, y los lados no paralelos miden $5$. Halle el área.",
-    "opciones": ["$30$", "$40$", "$50$", "$20$"],
+    "enunciado": "En un trapecio isósceles, las bases miden 14 y 6, y los lados no paralelos miden 5. Halle el área.",
+    "opciones": ["30", "40", "50", "20"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Base del triángulo lateral: $(14-6)/2 = 4$. Altura: $\\sqrt{5^2 - 4^2} = 3$. Área $= \\frac{14+6}{2} \\cdot 3 = 30$."
+    "retroalimentacion": "Base del triángulo lateral: (14-6)/2 = 4. Altura: \sqrt{5^2 - 4^2} = 3. Área = \frac{14+6}{2} \cdot 3 = 30."
   },
   {
     "id": "g2_mat_19_029",
@@ -8979,8 +8979,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "Un ángulo inscrito en un círculo mide $40°$. ¿Cuánto mide el arco que subtiende?",
-    "opciones": ["$80°$", "$40°$", "$20°$", "$160°$"],
+    "enunciado": "Un ángulo inscrito en un círculo mide 40°. ¿Cuánto mide el arco que subtiende?",
+    "opciones": ["80°", "40°", "20°", "160°"],
     "respuesta_correcta": 0,
     "retroalimentacion": "El ángulo inscrito es la mitad del arco central correspondiente."
   },
@@ -8994,10 +8994,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.3 Polígonos y Círculos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el área de un octágono regular de lado $2$ y apotema $2.41$.",
-    "opciones": ["$19.28$", "$9.64$", "$38.56$", "$24.1$"],
+    "enunciado": "Halle el área de un octágono regular de lado 2 y apotema 2.41.",
+    "opciones": ["19.28", "9.64", "38.56", "24.1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Perímetro = 16$. Área $= (16 \\cdot 2.41) / 2 = 19.28$."
+    "retroalimentacion": "Perímetro = 16. Área = (16 \cdot 2.41) / 2 = 19.28."
   },
 
 
@@ -9043,10 +9043,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el valor de $\\\sin(90°)$?",
-    "opciones": ["$0$", "$1$", "$0.5$", "$\\\sqrt{2}/2$"],
+    "enunciado": "¿Cuál es el valor de \\sin(90°)?",
+    "opciones": ["0", "1", "0.5", "\\sqrt{2}/2"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "En el círculo unitario, a $90°$ la ordenada (y) es $1$."
+    "retroalimentacion": "En el círculo unitario, a 90° la ordenada (y) es 1."
   },
   {
     "id": "g2_mat_20_003",
@@ -9061,7 +9061,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "La función recíproca del coseno es la:",
     "opciones": ["Cosecante", "Secante", "Cotangente", "Seno"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$\\\sec(\\\theta) = 1 / \\\cos(\\\theta)$."
+    "retroalimentacion": "\\sec(\\theta) = 1 / \\cos(\\theta)."
   },
   {
     "id": "g2_mat_20_004",
@@ -9073,10 +9073,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $\\\cos(\\\theta) = 0$, ¿cuál puede ser el valor de $\\\theta$?",
-    "opciones": ["$0°$", "$180°$", "$90°$", "$45°$"],
+    "enunciado": "Si \\cos(\\theta) = 0, ¿cuál puede ser el valor de \\theta?",
+    "opciones": ["0°", "180°", "90°", "45°"],
     "respuesta_correcta": 2,
-    "retroalimentacion": "El coseno es nulo en los múltiplos impares de $90°$."
+    "retroalimentacion": "El coseno es nulo en los múltiplos impares de 90°."
   },
   {
     "id": "g2_mat_20_005",
@@ -9089,9 +9089,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En el círculo unitario, el radio siempre mide:",
-    "opciones": ["$\\\pi$", "$1$", "$2$", "$0$"],
+    "opciones": ["\\pi", "1", "2", "0"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Por definición, el círculo unitario tiene radio igual a la unidad ($1$)."
+    "retroalimentacion": "Por definición, el círculo unitario tiene radio igual a la unidad (1)."
   },
   {
     "id": "g2_mat_20_006",
@@ -9104,9 +9104,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "La tangente de un ángulo es igual a:",
-    "opciones": ["$\\\cos/\\\sin$", "$\\\sin/\\\cos$", "$1/\\\sin$", "$1/\\\cos$"],
+    "opciones": ["\\cos/\\sin", "\\sin/\\cos", "1/\\sin", "1/\\cos"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "$\\\tan(\\\theta) = \\\sin(\\\theta) / \\\cos(\\\theta)$."
+    "retroalimentacion": "\\tan(\\theta) = \\sin(\\theta) / \\cos(\\theta)."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -9120,8 +9120,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor exacto de $\\\cos(60°)$.",
-    "opciones": ["$1/2$", "$\\\sqrt{3}/2$", "$\\\sqrt{2}/2$", "$1$"],
+    "enunciado": "Halle el valor exacto de \\cos(60°).",
+    "opciones": ["1/2", "\\sqrt{3}/2", "\\sqrt{2}/2", "1"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Es uno de los valores notables del primer cuadrante."
   },
@@ -9135,10 +9135,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $\\\sin(\\\theta) = 3/5$, calcule $\\\cos(\\\theta)$ si $\\\theta$ está en el primer cuadrante.",
-    "opciones": ["$4/5$", "$2/5$", "$1/5$", "$3/4$"],
+    "enunciado": "Si \\sin(\\theta) = 3/5, calcule \\cos(\\theta) si \\theta está en el primer cuadrante.",
+    "opciones": ["4/5", "2/5", "1/5", "3/4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Usando $\\\sin^2 + \\\cos^2 = 1 \\\rightarrow \\\sqrt{1 - (3/5)^2} = 4/5$."
+    "retroalimentacion": "Usando \\sin^2 + \\cos^2 = 1 \\rightarrow \\sqrt{1 - (3/5)^2} = 4/5."
   },
   {
     "id": "g2_mat_20_009",
@@ -9165,10 +9165,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule $\\\tan(45°)$.",
-    "opciones": ["$1$", "$0$", "$\\\sqrt{3}$", "$\\\infty$"],
+    "enunciado": "Calcule \\tan(45°).",
+    "opciones": ["1", "0", "\\sqrt{3}", "\\infty"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "A $45°$, seno y coseno son iguales, por lo que su razón es $1$."
+    "retroalimentacion": "A 45°, seno y coseno son iguales, por lo que su razón es 1."
   },
   {
     "id": "g2_mat_20_011",
@@ -9181,7 +9181,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "teorica",
     "enunciado": "La identidad pitagórica fundamental es:",
-    "opciones": ["$\\\sin^2(\\\theta) + \\\cos^2(\\\theta) = 1$", "$\\\sin(\\\theta) + \\\cos(\\\theta) = 1$", "$\\\tan^2(\\\theta) + 1 = \\\sin^2(\\\theta)$", "$\\\cos^2(\\\theta) - \\\sin^2(\\\theta) = 1$"],
+    "opciones": ["\\sin^2(\\theta) + \\cos^2(\\theta) = 1", "\\sin(\\theta) + \\cos(\\theta) = 1", "\\tan^2(\\theta) + 1 = \\sin^2(\\theta)", "\\cos^2(\\theta) - \\sin^2(\\theta) = 1"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Deriva directamente del Teorema de Pitágoras aplicado al círculo unitario."
   },
@@ -9195,10 +9195,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $\\\sin(270°)$.",
-    "opciones": ["$-1$", "$1$", "$0$", "No definido"],
+    "enunciado": "Halle el valor de \\sin(270°).",
+    "opciones": ["-1", "1", "0", "No definido"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "En $270°$, la coordenada 'y' es el valor mínimo del círculo unitario."
+    "retroalimentacion": "En 270°, la coordenada 'y' es el valor mínimo del círculo unitario."
   },
   {
     "id": "g2_mat_20_013",
@@ -9210,7 +9210,7 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si un ángulo $\\\alpha$ está en el segundo cuadrante, su coseno es:",
+    "enunciado": "Si un ángulo \\alpha está en el segundo cuadrante, su coseno es:",
     "opciones": ["Negativo", "Positivo", "Cero", "Uno"],
     "respuesta_correcta": 0,
     "retroalimentacion": "En el II cuadrante, 'x' es negativo."
@@ -9225,10 +9225,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál es el periodo de la función $f(x) = \\\sin(x)$?",
-    "opciones": ["$2\\\pi$", "$\\\pi$", "$\\\pi/2$", "$360$"],
+    "enunciado": "¿Cuál es el periodo de la función f(x) = \\sin(x)?",
+    "opciones": ["2\\pi", "\\pi", "\\pi/2", "360"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "La función completa un ciclo cada $360°$ o $2\\\pi$ radianes."
+    "retroalimentacion": "La función completa un ciclo cada 360° o 2\\pi radianes."
   },
   {
     "id": "g2_mat_20_015",
@@ -9240,8 +9240,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Exprese $\\\sec(\\\theta)$ en términos de seno y coseno.",
-    "opciones": ["$1/\\\cos(\\\theta)$", "$1/\\\sin(\\\theta)$", "$\\\sin/\\\cos$", "$\\\cos/\\\sin$"],
+    "enunciado": "Exprese \\sec(\\theta) en términos de seno y coseno.",
+    "opciones": ["1/\\cos(\\theta)", "1/\\sin(\\theta)", "\\sin/\\cos", "\\cos/\\sin"],
     "respuesta_correcta": 0,
     "retroalimentacion": "La secante es la recíproca del coseno."
   },
@@ -9255,10 +9255,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $\\\cos(180°)$.",
-    "opciones": ["$-1$", "$0$", "$1$", "No definido"],
+    "enunciado": "Halle el valor de \\cos(180°).",
+    "opciones": ["-1", "0", "1", "No definido"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "En el eje x negativo, el coseno vale $-1$."
+    "retroalimentacion": "En el eje x negativo, el coseno vale -1."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -9272,10 +9272,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $\\\tan(\\\theta) = 1$ y $\\\theta$ está en el tercer cuadrante, halle $\\\sin(\\\theta)$.",
-    "opciones": ["$-\\\sqrt{2}/2$", "$\\\sqrt{2}/2$", "$-1/2$", "$1/2$"],
+    "enunciado": "Si \\tan(\\theta) = 1 y \\theta está en el tercer cuadrante, halle \\sin(\\theta).",
+    "opciones": ["-\\sqrt{2}/2", "\\sqrt{2}/2", "-1/2", "1/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "En el III cuadrante seno es negativo. Para que tan=1, sen=cos. $-\\\sqrt{2}/2$."
+    "retroalimentacion": "En el III cuadrante seno es negativo. Para que tan=1, sen=cos. -\\sqrt{2}/2."
   },
   {
     "id": "g2_mat_20_018",
@@ -9287,10 +9287,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique la expresión: $\\\cos(\\\theta) \\\cdot \\\tan(\\\theta)$.",
-    "opciones": ["$\\\sin(\\\theta)$", "$\\\cos(\\\theta)$", "$1$", "$\\\sec(\\\theta)$"],
+    "enunciado": "Simplifique la expresión: \\cos(\\theta) \\cdot \\tan(\\theta).",
+    "opciones": ["\\sin(\\theta)", "\\cos(\\theta)", "1", "\\sec(\\theta)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\cos \\\cdot (\\\sin/\\\cos) = \\\sin$."
+    "retroalimentacion": "\\cos \\cdot (\\sin/\\cos) = \\sin."
   },
   {
     "id": "g2_mat_20_019",
@@ -9302,10 +9302,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $\\\sin(150°)$.",
-    "opciones": ["$1/2$", "$-1/2$", "$\\\sqrt{3}/2$", "$-\\\sqrt{3}/2$"],
+    "enunciado": "Halle el valor de \\sin(150°).",
+    "opciones": ["1/2", "-1/2", "\\sqrt{3}/2", "-\\sqrt{3}/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sin(180-30) = \\\sin(30) = 1/2$."
+    "retroalimentacion": "\\sin(180-30) = \\sin(30) = 1/2."
   },
   {
     "id": "g2_mat_20_020",
@@ -9317,10 +9317,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de $\\\cos(300°)$.",
-    "opciones": ["$1/2$", "$-1/2$", "$\\\sqrt{3}/2$", "$1$"],
+    "enunciado": "Determine el valor de \\cos(300°).",
+    "opciones": ["1/2", "-1/2", "\\sqrt{3}/2", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\cos(360-60) = \\\cos(60) = 1/2$."
+    "retroalimentacion": "\\cos(360-60) = \\cos(60) = 1/2."
   },
   {
     "id": "g2_mat_20_021",
@@ -9332,10 +9332,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $\\\sin(\\\theta) = 0.8$ y $\\\theta$ es obtuso, halle $\\\cos(\\\theta)$.",
-    "opciones": ["$-0.6$", "$0.6$", "$-0.2$", "$0.2$"],
+    "enunciado": "Si \\sin(\\theta) = 0.8 y \\theta es obtuso, halle \\cos(\\theta).",
+    "opciones": ["-0.6", "0.6", "-0.2", "0.2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{1 - 0.8^2} = 0.6$. Al ser obtuso (II cuadrante), el coseno es negativo."
+    "retroalimentacion": "\\sqrt{1 - 0.8^2} = 0.6. Al ser obtuso (II cuadrante), el coseno es negativo."
   },
   {
     "id": "g2_mat_20_022",
@@ -9347,10 +9347,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "¿A qué es igual $1 + \\\tan^2(\\\theta)$?",
-    "opciones": ["$\\\sec^2(\\\theta)$", "$\\\csc^2(\\\theta)$", "$\\\sin^2(\\\theta)$", "$\\\cos^2(\\\theta)$"],
+    "enunciado": "¿A qué es igual 1 + \\tan^2(\\theta)?",
+    "opciones": ["\\sec^2(\\theta)", "\\csc^2(\\theta)", "\\sin^2(\\theta)", "\\cos^2(\\theta)"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Identidad pitagórica derivada: divide $\\\sin^2 + \\\cos^2 = 1$ entre $\\\cos^2$."
+    "retroalimentacion": "Identidad pitagórica derivada: divide \\sin^2 + \\cos^2 = 1 entre \\cos^2."
   },
   {
     "id": "g2_mat_20_023",
@@ -9362,10 +9362,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $\\\tan(120°)$.",
-    "opciones": ["$-\\\sqrt{3}$", "$\\\sqrt{3}$", "$-1$", "$-1/\\\sqrt{3}$"],
+    "enunciado": "Halle el valor de \\tan(120°).",
+    "opciones": ["-\\sqrt{3}", "\\sqrt{3}", "-1", "-1/\\sqrt{3}"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\tan(180-60) = -\\\tan(60) = -\\\sqrt{3}$."
+    "retroalimentacion": "\\tan(180-60) = -\\tan(60) = -\\sqrt{3}."
   },
   {
     "id": "g2_mat_20_024",
@@ -9377,10 +9377,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $\\\cos(\\\theta) = -1/2$ y $\\\sin(\\\theta) = \\\sqrt{3}/2$, ¿cuál es el valor de $\\\theta$?",
-    "opciones": ["$120°$", "$240°$", "$150°$", "$210°$"],
+    "enunciado": "Si \\cos(\\theta) = -1/2 y \\sin(\\theta) = \\sqrt{3}/2, ¿cuál es el valor de \\theta?",
+    "opciones": ["120°", "240°", "150°", "210°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Coordenadas $(-1/2, \\\sqrt{3}/2)$ corresponden al II cuadrante ($120°$)."
+    "retroalimentacion": "Coordenadas (-1/2, \\sqrt{3}/2) corresponden al II cuadrante (120°)."
   },
   {
     "id": "g2_mat_20_025",
@@ -9392,10 +9392,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule $\\\sin(x)$ si $\\\cos(x) = 1/3$ y $x$ está en el IV cuadrante.",
-    "opciones": ["$-2\\\sqrt{2}/3$", "$2\\\sqrt{2}/3$", "$-8/9$", "$-2/3$"],
+    "enunciado": "Calcule \\sin(x) si \\cos(x) = 1/3 y x está en el IV cuadrante.",
+    "opciones": ["-2\\sqrt{2}/3", "2\\sqrt{2}/3", "-8/9", "-2/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{1 - (1/3)^2} = \\\sqrt{8/9} = 2\\\sqrt{2}/3$. Negativo en el IV cuadrante."
+    "retroalimentacion": "\\sqrt{1 - (1/3)^2} = \\sqrt{8/9} = 2\\sqrt{2}/3. Negativo en el IV cuadrante."
   },
   {
     "id": "g2_mat_20_026",
@@ -9407,10 +9407,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
-    "enunciado": "La función $\\\tan(x)$ no está definida cuando $x$ es:",
-    "opciones": ["$90°$", "$0°$", "$180°$", "$45°$"],
+    "enunciado": "La función \\tan(x) no está definida cuando x es:",
+    "opciones": ["90°", "0°", "180°", "45°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "En $90°$ el coseno es $0$, y la división por cero no existe."
+    "retroalimentacion": "En 90° el coseno es 0, y la división por cero no existe."
   },
   {
     "id": "g2_mat_20_027",
@@ -9422,10 +9422,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $\\\csc(30°)$.",
-    "opciones": ["$2$", "$1/2$", "$\\\sqrt{3}/2$", "$2/\\\sqrt{3}$"],
+    "enunciado": "Halle el valor de \\csc(30°).",
+    "opciones": ["2", "1/2", "\\sqrt{3}/2", "2/\\sqrt{3}"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1 / \\\sin(30) = 1 / (1/2) = 2$."
+    "retroalimentacion": "1 / \\sin(30) = 1 / (1/2) = 2."
   },
   {
     "id": "g2_mat_20_028",
@@ -9437,10 +9437,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un triángulo rectángulo, si $\\\tan(\\\alpha) = 7/24$, halle la hipotenusa si el cateto opuesto es $7$.",
-    "opciones": ["$25$", "$24$", "$31$", "$50$"],
+    "enunciado": "En un triángulo rectángulo, si \\tan(\\alpha) = 7/24, halle la hipotenusa si el cateto opuesto es 7.",
+    "opciones": ["25", "24", "31", "50"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Los catetos son $7$ y $24$. $\\\sqrt{7^2 + 24^2} = 25$."
+    "retroalimentacion": "Los catetos son 7 y 24. \\sqrt{7^2 + 24^2} = 25."
   },
   {
     "id": "g2_mat_20_029",
@@ -9452,10 +9452,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el valor de $\\\sin(\\\pi)$.",
-    "opciones": ["$0$", "$1$", "$-1$", "$1/2$"],
+    "enunciado": "Halle el valor de \\sin(\\pi).",
+    "opciones": ["0", "1", "-1", "1/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\pi$ radianes es $180°$, donde el seno es cero."
+    "retroalimentacion": "\\pi radianes es 180°, donde el seno es cero."
   },
   {
     "id": "g2_mat_20_030",
@@ -9467,10 +9467,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "5.4 Funciones Trigonométricas",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $\\\sec(x) = 2$ y $x$ es agudo, halle $x$.",
-    "opciones": ["$60°$", "$30°$", "$45°$", "$0°$"],
+    "enunciado": "Si \\sec(x) = 2 y x es agudo, halle x.",
+    "opciones": ["60°", "30°", "45°", "0°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sec(x)=2 \\\rightarrow \\\cos(x)=1/2$. El ángulo cuyo coseno es $1/2$ es $60°$."
+    "retroalimentacion": "\\sec(x)=2 \\rightarrow \\cos(x)=1/2. El ángulo cuyo coseno es 1/2 es 60°."
   },
 
 
@@ -9520,10 +9520,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la media aritmética de los siguientes datos: $5, 7, 9$.",
-    "opciones": ["$7$", "$21$", "$6$", "$8$"],
+    "enunciado": "Halle la media aritmética de los siguientes datos: 5, 7, 9.",
+    "opciones": ["7", "21", "6", "8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(5 + 7 + 9) / 3 = 21 / 3 = 7$."
+    "retroalimentacion": "(5 + 7 + 9) / 3 = 21 / 3 = 7."
   },
   {
     "id": "g2_mat_21_003",
@@ -9550,10 +9550,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine la moda del conjunto: $\\{2, 3, 2, 4, 2, 5, 3\\}$.",
-    "opciones": ["$3$", "$2$", "$4$", "$5$"],
+    "enunciado": "Determine la moda del conjunto: \{2, 3, 2, 4, 2, 5, 3\}.",
+    "opciones": ["3", "2", "4", "5"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "El número $2$ aparece tres veces, más que cualquier otro."
+    "retroalimentacion": "El número 2 aparece tres veces, más que cualquier otro."
   },
   {
     "id": "g2_mat_21_005",
@@ -9565,10 +9565,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el rango de los datos: $10, 2, 8, 15, 1$.",
-    "opciones": ["$14$", "$15$", "$13$", "$10$"],
+    "enunciado": "Calcule el rango de los datos: 10, 2, 8, 15, 1.",
+    "opciones": ["14", "15", "13", "10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Rango = Valor máximo - Valor mínimo = $15 - 1 = 14$."
+    "retroalimentacion": "Rango = Valor máximo - Valor mínimo = 15 - 1 = 14."
   },
   {
     "id": "g2_mat_21_006",
@@ -9597,10 +9597,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la mediana de: $12, 5, 8, 20, 15$.",
-    "opciones": ["$8$", "$12$", "$15$", "$10$"],
+    "enunciado": "Halle la mediana de: 12, 5, 8, 20, 15.",
+    "opciones": ["8", "12", "15", "10"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Ordenados: $5, 8, 12, 15, 20$. El centro es $12$."
+    "retroalimentacion": "Ordenados: 5, 8, 12, 15, 20. El centro es 12."
   },
   {
     "id": "g2_mat_21_008",
@@ -9612,10 +9612,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si la media de 4 números es $10$, ¿cuál es la suma de esos números?",
-    "opciones": ["$40$", "$2.5$", "$20$", "$14$"],
+    "enunciado": "Si la media de 4 números es 10, ¿cuál es la suma de esos números?",
+    "opciones": ["40", "2.5", "20", "14"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Media = Suma / n \\\rightarrow 10 = Suma / 4 \\\rightarrow Suma = 40$."
+    "retroalimentacion": "Media = Suma / n \\rightarrow 10 = Suma / 4 \\rightarrow Suma = 40."
   },
   {
     "id": "g2_mat_21_009",
@@ -9627,10 +9627,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule la mediana de: $3, 10, 4, 7$.",
-    "opciones": ["$5.5$", "$7$", "$6$", "$4$"],
+    "enunciado": "Calcule la mediana de: 3, 10, 4, 7.",
+    "opciones": ["5.5", "7", "6", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Ordenados: $3, 4, 7, 10$. Mediana $= (4+7)/2 = 5.5$."
+    "retroalimentacion": "Ordenados: 3, 4, 7, 10. Mediana = (4+7)/2 = 5.5."
   },
   {
     "id": "g2_mat_21_010",
@@ -9657,10 +9657,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En un examen, las notas fueron: $8, 8, 9, 10, 7$. Halle la media.",
-    "opciones": ["$8.4$", "$8$", "$9$", "$8.2$"],
+    "enunciado": "En un examen, las notas fueron: 8, 8, 9, 10, 7. Halle la media.",
+    "opciones": ["8.4", "8", "9", "8.2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(8+8+9+10+7)/5 = 42/5 = 8.4$."
+    "retroalimentacion": "(8+8+9+10+7)/5 = 42/5 = 8.4."
   },
   {
     "id": "g2_mat_21_012",
@@ -9672,8 +9672,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si un conjunto de datos es $5, 5, 5, 5$, ¿cuál es su desviación estándar?",
-    "opciones": ["$0$", "$5$", "$1$", "No se puede calcular"],
+    "enunciado": "Si un conjunto de datos es 5, 5, 5, 5, ¿cuál es su desviación estándar?",
+    "opciones": ["0", "5", "1", "No se puede calcular"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Si todos los datos son iguales, no hay dispersión respecto a la media."
   },
@@ -9687,10 +9687,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la frecuencia relativa de un dato que aparece $5$ veces en una muestra de $20$.",
-    "opciones": ["$0.25$", "$0.20$", "$0.50$", "$0.05$"],
+    "enunciado": "Halle la frecuencia relativa de un dato que aparece 5 veces en una muestra de 20.",
+    "opciones": ["0.25", "0.20", "0.50", "0.05"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$5 / 20 = 1 / 4 = 0.25$."
+    "retroalimentacion": "5 / 20 = 1 / 4 = 0.25."
   },
   {
     "id": "g2_mat_21_014",
@@ -9717,10 +9717,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el segundo cuartil ($Q_2$) de un conjunto de datos.",
+    "enunciado": "Determine el segundo cuartil (Q_2) de un conjunto de datos.",
     "opciones": ["Es igual a la mediana", "Es igual a la media", "Es el valor mínimo", "Es el valor máximo"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Por definición, el $Q_2$ es el percentil 50, es decir, la mediana."
+    "retroalimentacion": "Por definición, el Q_2 es el percentil 50, es decir, la mediana."
   },
   {
     "id": "g2_mat_21_016",
@@ -9732,8 +9732,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si las edades son $15, 16, 15, 17, 16$, ¿cuál es la moda?",
-    "opciones": ["$15$ y $16$", "$15$", "$16$", "No hay moda"],
+    "enunciado": "Si las edades son 15, 16, 15, 17, 16, ¿cuál es la moda?",
+    "opciones": ["15 y 16", "15", "16", "No hay moda"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Es un conjunto bimodal, ambos aparecen dos veces."
   },
@@ -9749,10 +9749,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule la varianza de los datos: $2, 4, 6$.",
-    "opciones": ["$2.67$", "$8/3$", "$2$", "$4$"],
+    "enunciado": "Calcule la varianza de los datos: 2, 4, 6.",
+    "opciones": ["2.67", "8/3", "2", "4"],
     "respuesta_correcta": 1,
-    "retroalimentacion": "Media $= 4$. Varianza $= [(2-4)^2 + (4-4)^2 + (6-4)^2] / 3 = (4+0+4)/3 = 8/3$."
+    "retroalimentacion": "Media = 4. Varianza = [(2-4)^2 + (4-4)^2 + (6-4)^2] / 3 = (4+0+4)/3 = 8/3."
   },
   {
     "id": "g2_mat_21_018",
@@ -9764,10 +9764,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "La media de $5$ números es $8$. Si se añade el número $14$, ¿cuál es la nueva media?",
-    "opciones": ["$9$", "$11$", "$10$", "$8.5$"],
+    "enunciado": "La media de 5 números es 8. Si se añade el número 14, ¿cuál es la nueva media?",
+    "opciones": ["9", "11", "10", "8.5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Suma inicial $= 5 \\cdot 8 = 40$. Nueva suma $= 40 + 14 = 54$. Nueva media $= 54 / 6 = 9$."
+    "retroalimentacion": "Suma inicial = 5 \cdot 8 = 40. Nueva suma = 40 + 14 = 54. Nueva media = 54 / 6 = 9."
   },
   {
     "id": "g2_mat_21_019",
@@ -9779,10 +9779,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la desviación media de los datos: $3, 5, 7, 9$.",
-    "opciones": ["$2$", "$1.5$", "$3$", "$2.5$"],
+    "enunciado": "Halle la desviación media de los datos: 3, 5, 7, 9.",
+    "opciones": ["2", "1.5", "3", "2.5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Media $= 6$. Desviaciones: $|3-6|=3, |5-6|=1, |7-6|=1, |9-6|=3$. Promedio desviaciones $= 8/4 = 2$."
+    "retroalimentacion": "Media = 6. Desviaciones: |3-6|=3, |5-6|=1, |7-6|=1, |9-6|=3. Promedio desviaciones = 8/4 = 2."
   },
   {
     "id": "g2_mat_21_020",
@@ -9794,10 +9794,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un estudiante tiene notas de $7$ y $8$ en dos exámenes que valen el $30\\%$ y $70\\%$ respectivamente. Halle su promedio ponderado.",
-    "opciones": ["$7.7$", "$7.5$", "$7.8$", "$8$"],
+    "enunciado": "Un estudiante tiene notas de 7 y 8 en dos exámenes que valen el 30\\% y 70\\% respectivamente. Halle su promedio ponderado.",
+    "opciones": ["7.7", "7.5", "7.8", "8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(7 \\cdot 0.3) + (8 \\cdot 0.7) = 2.1 + 5.6 = 7.7$."
+    "retroalimentacion": "(7 \cdot 0.3) + (8 \cdot 0.7) = 2.1 + 5.6 = 7.7."
   },
   {
     "id": "g2_mat_21_021",
@@ -9809,10 +9809,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si el coeficiente de variación es $20\\%$ y la media es $50$, ¿cuál es la desviación estándar?",
-    "opciones": ["$10$", "$5$", "$20$", "$2.5$"],
+    "enunciado": "Si el coeficiente de variación es 20\\% y la media es 50, ¿cuál es la desviación estándar?",
+    "opciones": ["10", "5", "20", "2.5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$CV = (\\sigma / \\mu) \\cdot 100 \\rightarrow 20 = (\\sigma / 50) \\cdot 100 \\rightarrow \\sigma = 10$."
+    "retroalimentacion": "CV = (\sigma / \mu) \cdot 100 \rightarrow 20 = (\sigma / 50) \cdot 100 \rightarrow \sigma = 10."
   },
   {
     "id": "g2_mat_21_022",
@@ -9839,10 +9839,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el rango intercuartílico ($RIC$) si $Q_1 = 20$ y $Q_3 = 45$.",
-    "opciones": ["$25$", "$65$", "$32.5$", "$5$"],
+    "enunciado": "Halle el rango intercuartílico (RIC) si Q_1 = 20 y Q_3 = 45.",
+    "opciones": ["25", "65", "32.5", "5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$RIC = Q_3 - Q_1 = 45 - 20 = 25$."
+    "retroalimentacion": "RIC = Q_3 - Q_1 = 45 - 20 = 25."
   },
   {
     "id": "g2_mat_21_024",
@@ -9854,10 +9854,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine la marca de clase del intervalo $[10, 20)$.",
-    "opciones": ["$15$", "$10$", "$20$", "$5$"],
+    "enunciado": "Determine la marca de clase del intervalo [10, 20).",
+    "opciones": ["15", "10", "20", "5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Marca de clase $= (L_{inf} + L_{sup}) / 2 = (10 + 20) / 2 = 15$."
+    "retroalimentacion": "Marca de clase = (L_{inf} + L_{sup}) / 2 = (10 + 20) / 2 = 15."
   },
   {
     "id": "g2_mat_21_025",
@@ -9869,10 +9869,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En una muestra de $100$ personas, la frecuencia acumulada del tercer intervalo es $80$. ¿Cuántas personas hay en los intervalos siguientes?",
-    "opciones": ["$20$", "$80$", "$100$", "No se puede saber"],
+    "enunciado": "En una muestra de 100 personas, la frecuencia acumulada del tercer intervalo es 80. ¿Cuántas personas hay en los intervalos siguientes?",
+    "opciones": ["20", "80", "100", "No se puede saber"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Total - F_{acumulada} = 100 - 80 = 20$."
+    "retroalimentacion": "Total - F_{acumulada} = 100 - 80 = 20."
   },
   {
     "id": "g2_mat_21_026",
@@ -9884,10 +9884,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si la suma de los cuadrados de las desviaciones respecto a la media de $10$ datos es $90$, halle la varianza poblacional.",
-    "opciones": ["$9$", "$900$", "$3$", "$81$"],
+    "enunciado": "Si la suma de los cuadrados de las desviaciones respecto a la media de 10 datos es 90, halle la varianza poblacional.",
+    "opciones": ["9", "900", "3", "81"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Varianza $= 90 / 10 = 9$."
+    "retroalimentacion": "Varianza = 90 / 10 = 9."
   },
   {
     "id": "g2_mat_21_027",
@@ -9899,10 +9899,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de la mediana para los datos agrupados: $[0,10)$ frecuencia 5; $[10,20)$ frecuencia 10; $[20,30)$ frecuencia 5.",
-    "opciones": ["$15$", "$10$", "$20$", "$25$"],
+    "enunciado": "Determine el valor de la mediana para los datos agrupados: [0,10) frecuencia 5; [10,20) frecuencia 10; [20,30) frecuencia 5.",
+    "opciones": ["15", "10", "20", "25"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Total $= 20$. La posición de la mediana es $10$. Cae justo en el medio del segundo intervalo."
+    "retroalimentacion": "Total = 20. La posición de la mediana es 10. Cae justo en el medio del segundo intervalo."
   },
   {
     "id": "g2_mat_21_028",
@@ -9929,8 +9929,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si multiplicamos todos los datos de una muestra por $2$, la media:",
-    "opciones": ["Se multiplica por $2$", "Se mantiene igual", "Aumenta en $2$ unidades", "Se cuadruplica"],
+    "enunciado": "Si multiplicamos todos los datos de una muestra por 2, la media:",
+    "opciones": ["Se multiplica por 2", "Se mantiene igual", "Aumenta en 2 unidades", "Se cuadruplica"],
     "respuesta_correcta": 0,
     "retroalimentacion": "La media es un operador lineal."
   },
@@ -9944,10 +9944,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.1 Estadística Descriptiva",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el percentil $75$ ($P_{75}$) de: $2, 4, 6, 8, 10, 12, 14, 16$.",
-    "opciones": ["$13$", "$12$", "$14$", "$15$"],
+    "enunciado": "Halle el percentil 75 (P_{75}) de: 2, 4, 6, 8, 10, 12, 14, 16.",
+    "opciones": ["13", "12", "14", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Posición $= 0.75 \\cdot 8 = 6$. Entre el dato 6 ($12$) y el 7 ($14$), el promedio es $13$."
+    "retroalimentacion": "Posición = 0.75 \cdot 8 = 6. Entre el dato 6 (12) y el 7 (14), el promedio es 13."
   },
 
 
@@ -9994,9 +9994,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuál es la probabilidad de obtener un número par al lanzar un dado de 6 caras?",
-    "opciones": ["$1/2$", "$1/3$", "$1/6$", "$2/3$"],
+    "opciones": ["1/2", "1/3", "1/6", "2/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Casos favorables: {2, 4, 6}. Probabilidad: $3/6 = 1/2$."
+    "retroalimentacion": "Casos favorables: {2, 4, 6}. Probabilidad: 3/6 = 1/2."
   },
   {
     "id": "g2_mat_22_003",
@@ -10009,9 +10009,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "La probabilidad de un evento imposible es:",
-    "opciones": ["$0$", "$1$", "$0.5$", "$-1$"],
+    "opciones": ["0", "1", "0.5", "-1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Un evento imposible no tiene casos favorables, por tanto $P = 0$."
+    "retroalimentacion": "Un evento imposible no tiene casos favorables, por tanto P = 0."
   },
   {
     "id": "g2_mat_22_004",
@@ -10024,9 +10024,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En una bolsa hay 3 bolas rojas y 7 azules. ¿Cuál es la probabilidad de sacar una roja?",
-    "opciones": ["$0.3$", "$0.7$", "$1/3$", "$0.1$"],
+    "opciones": ["0.3", "0.7", "1/3", "0.1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$P = 3 / (3 + 7) = 3 / 10 = 0.3$."
+    "retroalimentacion": "P = 3 / (3 + 7) = 3 / 10 = 0.3."
   },
   {
     "id": "g2_mat_22_005",
@@ -10039,7 +10039,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "teorica",
     "enunciado": "La probabilidad de un evento seguro es:",
-    "opciones": ["$1$", "$100$", "$0$", "$0.5$"],
+    "opciones": ["1", "100", "0", "0.5"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Un evento seguro siempre ocurre, por lo que su probabilidad es 1 (o 100%)."
   },
@@ -10054,9 +10054,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si lanzas dos monedas, ¿cuántos resultados posibles hay en el espacio muestral?",
-    "opciones": ["$4$", "$2$", "$3$", "$8$"],
+    "opciones": ["4", "2", "3", "8"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Resultados: {CC, CS, SC, SS}. $2^2 = 4$."
+    "retroalimentacion": "Resultados: {CC, CS, SC, SS}. 2^2 = 4."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -10071,7 +10071,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuál es la probabilidad de obtener una suma de 7 al lanzar dos dados?",
-    "opciones": ["$1/6$", "$1/12$", "$5/36$", "$1/36$"],
+    "opciones": ["1/6", "1/12", "5/36", "1/36"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Combinaciones: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Total 6/36 = 1/6."
   },
@@ -10085,10 +10085,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.2 Probabilidad",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $P(A) = 0.4$, ¿cuál es la probabilidad del evento complementario $P(A^c)$?",
-    "opciones": ["$0.6$", "$0.4$", "$-0.4$", "$1$"],
+    "enunciado": "Si P(A) = 0.4, ¿cuál es la probabilidad del evento complementario P(A^c)?",
+    "opciones": ["0.6", "0.4", "-0.4", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$P(A^c) = 1 - P(A) = 1 - 0.4 = 0.6$."
+    "retroalimentacion": "P(A^c) = 1 - P(A) = 1 - 0.4 = 0.6."
   },
   {
     "id": "g2_mat_22_009",
@@ -10101,9 +10101,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En una baraja de 52 cartas, ¿cuál es la probabilidad de extraer un As?",
-    "opciones": ["$1/13$", "$1/52$", "$4/13$", "$1/4$"],
+    "opciones": ["1/13", "1/52", "4/13", "1/4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Hay 4 ases. $4/52 = 1/13$."
+    "retroalimentacion": "Hay 4 ases. 4/52 = 1/13."
   },
   {
     "id": "g2_mat_22_010",
@@ -10131,9 +10131,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Se elige una letra al azar de la palabra 'MATEMATICA'. ¿Probabilidad de que sea una 'M'?",
-    "opciones": ["$0.2$", "$0.1$", "$0.3$", "$2/9$"],
+    "opciones": ["0.2", "0.1", "0.3", "2/9"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Hay 10 letras totales y 2 'M'. $2/10 = 0.2$."
+    "retroalimentacion": "Hay 10 letras totales y 2 'M'. 2/10 = 0.2."
   },
   {
     "id": "g2_mat_22_012",
@@ -10146,9 +10146,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Al lanzar un dado, ¿cuál es la probabilidad de obtener un número mayor que 4?",
-    "opciones": ["$1/3$", "$1/2$", "$2/3$", "$1/6$"],
+    "opciones": ["1/3", "1/2", "2/3", "1/6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Casos: {5, 6}. $2/6 = 1/3$."
+    "retroalimentacion": "Casos: {5, 6}. 2/6 = 1/3."
   },
   {
     "id": "g2_mat_22_013",
@@ -10161,9 +10161,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si lanzas una moneda 3 veces, ¿cuál es la probabilidad de obtener 3 caras?",
-    "opciones": ["$1/8$", "$1/4$", "$1/2$", "$1/6$"],
+    "opciones": ["1/8", "1/4", "1/2", "1/6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Espacio muestral $2^3 = 8$. Caso favorable {CCC}. $1/8$."
+    "retroalimentacion": "Espacio muestral 2^3 = 8. Caso favorable {CCC}. 1/8."
   },
   {
     "id": "g2_mat_22_014",
@@ -10176,9 +10176,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En un grupo de 20 personas, 12 son mujeres. Si se elige una persona al azar, ¿probabilidad de que sea hombre?",
-    "opciones": ["$2/5$", "$3/5$", "$12/20$", "$8/12$"],
+    "opciones": ["2/5", "3/5", "12/20", "8/12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Hombres = $20 - 12 = 8$. $P = 8/20 = 2/5 = 0.4$."
+    "retroalimentacion": "Hombres = 20 - 12 = 8. P = 8/20 = 2/5 = 0.4."
   },
   {
     "id": "g2_mat_22_015",
@@ -10191,7 +10191,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "teorica",
     "enunciado": "La suma de las probabilidades de todos los eventos simples en un espacio muestral es:",
-    "opciones": ["$1$", "$0$", "$100$", "Variable"],
+    "opciones": ["1", "0", "100", "Variable"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Axioma de probabilidad: la probabilidad total del espacio muestral es la unidad."
   },
@@ -10206,9 +10206,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle la probabilidad de no sacar un 6 al lanzar un dado.",
-    "opciones": ["$5/6$", "$1/6$", "$1$", "$0$"],
+    "opciones": ["5/6", "1/6", "1", "0"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1 - P(sacar 6) = 1 - 1/6 = 5/6$."
+    "retroalimentacion": "1 - P(sacar 6) = 1 - 1/6 = 5/6."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -10223,7 +10223,7 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Se lanzan dos dados. ¿Cuál es la probabilidad de que la suma sea mayor a 10?",
-    "opciones": ["$1/12$", "$1/18$", "$3/36$", "$1/6$"],
+    "opciones": ["1/12", "1/18", "3/36", "1/6"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Casos: (5,6), (6,5), (6,6). Total 3/36 = 1/12."
   },
@@ -10238,9 +10238,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Se extraen dos cartas de una baraja de 52 con reemplazo. ¿Probabilidad de que ambas sean reyes?",
-    "opciones": ["$1/169$", "$1/13$", "$2/13$", "$1/26$"],
+    "opciones": ["1/169", "1/13", "2/13", "1/26"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$P = (4/52) \\cdot (4/52) = (1/13) \\cdot (1/13) = 1/169$."
+    "retroalimentacion": "P = (4/52) \cdot (4/52) = (1/13) \cdot (1/13) = 1/169."
   },
   {
     "id": "g2_mat_22_019",
@@ -10253,9 +10253,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En una urna con 5 bolas rojas y 5 negras, se sacan dos sin reemplazo. ¿Probabilidad de que sean rojas?",
-    "opciones": ["$2/9$", "$1/4$", "$2/5$", "$1/2$"],
+    "opciones": ["2/9", "1/4", "2/5", "1/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$P = (5/10) \\cdot (4/9) = 20/90 = 2/9$."
+    "retroalimentacion": "P = (5/10) \cdot (4/9) = 20/90 = 2/9."
   },
   {
     "id": "g2_mat_22_020",
@@ -10267,10 +10267,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.2 Probabilidad",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $P(A) = 0.3$, $P(B) = 0.5$ y son independientes, halle $P(A \\cap B)$.",
-    "opciones": ["$0.15$", "$0.8$", "$0.2$", "$0.5$"],
+    "enunciado": "Si P(A) = 0.3, P(B) = 0.5 y son independientes, halle P(A \cap B).",
+    "opciones": ["0.15", "0.8", "0.2", "0.5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Para eventos independientes: $P(A \\cap B) = P(A) \\cdot P(B) = 0.3 \\cdot 0.5 = 0.15$."
+    "retroalimentacion": "Para eventos independientes: P(A \cap B) = P(A) \cdot P(B) = 0.3 \cdot 0.5 = 0.15."
   },
   {
     "id": "g2_mat_22_021",
@@ -10283,9 +10283,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuál es la probabilidad de obtener al menos una cara al lanzar dos monedas?",
-    "opciones": ["$3/4$", "$1/2$", "$1/4$", "$1$"],
+    "opciones": ["3/4", "1/2", "1/4", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1 - P(ninguna cara) = 1 - P(SS) = 1 - 1/4 = 3/4$."
+    "retroalimentacion": "1 - P(ninguna cara) = 1 - P(SS) = 1 - 1/4 = 3/4."
   },
   {
     "id": "g2_mat_22_022",
@@ -10298,9 +10298,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Se lanza un dado. Si se sabe que el resultado es par, ¿probabilidad de que sea 2?",
-    "opciones": ["$1/3$", "$1/6$", "$1/2$", "$1$"],
+    "opciones": ["1/3", "1/6", "1/2", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Probabilidad condicional. Espacio reducido: {2, 4, 6}. Casos favorables: 1. $P = 1/3$."
+    "retroalimentacion": "Probabilidad condicional. Espacio reducido: {2, 4, 6}. Casos favorables: 1. P = 1/3."
   },
   {
     "id": "g2_mat_22_023",
@@ -10312,10 +10312,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "6.2 Probabilidad",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle $P(A \\cup B)$ si $P(A) = 0.6$, $P(B) = 0.4$ y $P(A \\cap B) = 0.2$.",
-    "opciones": ["$0.8$", "$1.0$", "$0.2$", "$0.4$"],
+    "enunciado": "Halle P(A \cup B) si P(A) = 0.6, P(B) = 0.4 y P(A \cap B) = 0.2.",
+    "opciones": ["0.8", "1.0", "0.2", "0.4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$P(A \\cup B) = P(A) + P(B) - P(A \\cap B) = 0.6 + 0.4 - 0.2 = 0.8$."
+    "retroalimentacion": "P(A \cup B) = P(A) + P(B) - P(A \cap B) = 0.6 + 0.4 - 0.2 = 0.8."
   },
   {
     "id": "g2_mat_22_024",
@@ -10328,9 +10328,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En un lote de 100 productos, 5 son defectuosos. Si se eligen 2 al azar con reemplazo, ¿probabilidad de que ambos sean buenos?",
-    "opciones": ["$0.9025$", "$0.95$", "$0.0025$", "$0.10$"],
+    "opciones": ["0.9025", "0.95", "0.0025", "0.10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$P = (95/100) \\cdot (95/100) = 0.95^2 = 0.9025$."
+    "retroalimentacion": "P = (95/100) \cdot (95/100) = 0.95^2 = 0.9025."
   },
   {
     "id": "g2_mat_22_025",
@@ -10358,9 +10358,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuál es la probabilidad de que al lanzar tres monedas todas caigan del mismo lado?",
-    "opciones": ["$1/4$", "$1/8$", "$1/2$", "$1/3$"],
+    "opciones": ["1/4", "1/8", "1/2", "1/3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Casos favorables: {CCC, SSS}. $P = 2/8 = 1/4$."
+    "retroalimentacion": "Casos favorables: {CCC, SSS}. P = 2/8 = 1/4."
   },
   {
     "id": "g2_mat_22_027",
@@ -10373,9 +10373,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Se elige un número del 1 al 20. ¿Probabilidad de que sea primo?",
-    "opciones": ["$2/5$", "$7/20$", "$9/20$", "$1/2$"],
+    "opciones": ["2/5", "7/20", "9/20", "1/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Primos: {2, 3, 5, 7, 11, 13, 17, 19}. Total 8. $P = 8/20 = 2/5 = 0.4$."
+    "retroalimentacion": "Primos: {2, 3, 5, 7, 11, 13, 17, 19}. Total 8. P = 8/20 = 2/5 = 0.4."
   },
   {
     "id": "g2_mat_22_028",
@@ -10388,9 +10388,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle la probabilidad de obtener una suma par al lanzar dos dados.",
-    "opciones": ["$1/2$", "$1/4$", "$1/3$", "$5/12$"],
+    "opciones": ["1/2", "1/4", "1/3", "5/12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Hay 18 combinaciones pares y 18 impares. $18/36 = 1/2$."
+    "retroalimentacion": "Hay 18 combinaciones pares y 18 impares. 18/36 = 1/2."
   },
   {
     "id": "g2_mat_22_029",
@@ -10403,9 +10403,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En una familia de 3 hijos, ¿cuál es la probabilidad de que al menos uno sea niño?",
-    "opciones": ["$7/8$", "$1/8$", "$3/8$", "$1/2$"],
+    "opciones": ["7/8", "1/8", "3/8", "1/2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$1 - P(todas niñas) = 1 - (1/2)^3 = 1 - 1/8 = 7/8$."
+    "retroalimentacion": "1 - P(todas niñas) = 1 - (1/2)^3 = 1 - 1/8 = 7/8."
   },
   {
     "id": "g2_mat_22_030",
@@ -10452,9 +10452,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si el triple de un número es 45, ¿cuál es la tercera parte de ese mismo número?",
-    "opciones": ["$5$", "$15$", "$45$", "$9$"],
+    "opciones": ["5", "15", "45", "9"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "El número es $45/3 = 15$. Su tercera parte es $15/3 = 5$."
+    "retroalimentacion": "El número es 45/3 = 15. Su tercera parte es 15/3 = 5."
   },
   {
     "id": "g2_mat_23_002",
@@ -10467,9 +10467,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Un ciclista recorre 12 km en 40 minutos. Si mantiene la velocidad, ¿cuánto recorrerá en 2 horas?",
-    "opciones": ["$36$ km", "$24$ km", "$48$ km", "$30$ km$"],
+    "opciones": ["36 km", "24 km", "48 km", "30 km"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "2 horas son 120 min (3 veces 40 min). $12 \\\cdot 3 = 36$ km."
+    "retroalimentacion": "2 horas son 120 min (3 veces 40 min). 12 \\cdot 3 = 36 km."
   },
   {
     "id": "g2_mat_23_003",
@@ -10482,9 +10482,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Qué porcentaje de 200 es 40?",
-    "opciones": ["$20\\%$", "$40\\%$", "$10\\%$", "$25\\%$"],
+    "opciones": ["20\\%", "40\\%", "10\\%", "25\\%"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(40 / 200) \\\cdot 100 = 0.2 \\\cdot 100 = 20\\%$."
+    "retroalimentacion": "(40 / 200) \\cdot 100 = 0.2 \\cdot 100 = 20\\%."
   },
   {
     "id": "g2_mat_23_004",
@@ -10496,10 +10496,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique la expresión: $2(x + 3) - 5$.",
-    "opciones": ["$2x + 1$", "$2x - 2$", "$2x + 6$", "$2x - 3$"],
+    "enunciado": "Simplifique la expresión: 2(x + 3) - 5.",
+    "opciones": ["2x + 1", "2x - 2", "2x + 6", "2x - 3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2x + 6 - 5 = 2x + 1$."
+    "retroalimentacion": "2x + 6 - 5 = 2x + 1."
   },
   {
     "id": "g2_mat_23_005",
@@ -10512,9 +10512,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle el área de un cuadrado cuyo perímetro es 20 cm.",
-    "opciones": ["$25$ cm²", "$20$ cm²", "$16$ cm²", "$100$ cm²"],
+    "opciones": ["25 cm²", "20 cm²", "16 cm²", "100 cm²"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Lado $= 20/4 = 5$. Área $= 5^2 = 25$."
+    "retroalimentacion": "Lado = 20/4 = 5. Área = 5^2 = 25."
   },
   {
     "id": "g2_mat_23_006",
@@ -10529,7 +10529,7 @@ const GRUPO2_MATEMATICA_01 =[
     "enunciado": "Si hoy es martes, ¿qué día será dentro de 15 días?",
     "opciones": ["Miércoles", "Martes", "Jueves", "Lunes"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$15 = 2$ semanas + $1$ día. Martes + $1$ día = Miércoles."
+    "retroalimentacion": "15 = 2 semanas + 1 día. Martes + 1 día = Miércoles."
   },
 
   // DIFICULTAD MEDIA (10 preguntas)
@@ -10544,9 +10544,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En un curso, la razón de hombres a mujeres es 3:2. Si hay 12 hombres, ¿cuántas mujeres hay?",
-    "opciones": ["$8$", "$10$", "$6$", "$18$"],
+    "opciones": ["8", "10", "6", "18"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3/2 = 12/x \\\rightarrow 3x = 24 \\\rightarrow x = 8$."
+    "retroalimentacion": "3/2 = 12/x \\rightarrow 3x = 24 \\rightarrow x = 8."
   },
   {
     "id": "g2_mat_23_008",
@@ -10558,10 +10558,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el volumen de un cubo cuya diagonal de una cara mide $\\\sqrt{2}$ m.",
-    "opciones": ["$1$ m³", "$2$ m³", "$\\\sqrt{2}$ m³", "$8$ m³"],
+    "enunciado": "Calcule el volumen de un cubo cuya diagonal de una cara mide \\sqrt{2} m.",
+    "opciones": ["1 m³", "2 m³", "\\sqrt{2} m³", "8 m³"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$L\\\sqrt{2} = \\\sqrt{2} \\\rightarrow L = 1$. Volumen $= 1^3 = 1$."
+    "retroalimentacion": "L\\sqrt{2} = \\sqrt{2} \\rightarrow L = 1. Volumen = 1^3 = 1."
   },
   {
     "id": "g2_mat_23_009",
@@ -10573,10 +10573,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $f(x) = x^2 - 3x + 2$, halle $f(-1)$.",
-    "opciones": ["$6$", "$0$", "$4$", "$-2$"],
+    "enunciado": "Si f(x) = x^2 - 3x + 2, halle f(-1).",
+    "opciones": ["6", "0", "4", "-2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(-1)^2 - 3(-1) + 2 = 1 + 3 + 2 = 6$."
+    "retroalimentacion": "(-1)^2 - 3(-1) + 2 = 1 + 3 + 2 = 6."
   },
   {
     "id": "g2_mat_23_010",
@@ -10589,9 +10589,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle la suma de los ángulos internos de un hexágono regular.",
-    "opciones": ["$720°$", "$540°$", "$360°$", "$1080°$"],
+    "opciones": ["720°", "540°", "360°", "1080°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$180(n-2) = 180(6-2) = 720°$."
+    "retroalimentacion": "180(n-2) = 180(6-2) = 720°."
   },
   {
     "id": "g2_mat_23_011",
@@ -10603,10 +10603,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un artículo que cuesta $80$ tiene un descuento del $25\\%$. ¿Cuál es el precio final?",
-    "opciones": ["$60$", "$20$", "$75$", "$55$"],
+    "enunciado": "Un artículo que cuesta 80 tiene un descuento del 25\\%. ¿Cuál es el precio final?",
+    "opciones": ["60", "20", "75", "55"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Descuento $= 80 \\\cdot 0.25 = 20$. Precio $= 80 - 20 = 60$."
+    "retroalimentacion": "Descuento = 80 \\cdot 0.25 = 20. Precio = 80 - 20 = 60."
   },
   {
     "id": "g2_mat_23_012",
@@ -10618,10 +10618,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva para $x$: $\\\log_2(x) = 5$.",
-    "opciones": ["$32$", "$10$", "$25$", "$64$"],
+    "enunciado": "Resuelva para x: \\log_2(x) = 5.",
+    "opciones": ["32", "10", "25", "64"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x = 2^5 = 32$."
+    "retroalimentacion": "x = 2^5 = 32."
   },
   {
     "id": "g2_mat_23_013",
@@ -10634,9 +10634,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si una pizza se divide en 8 partes y Juan come 3, ¿qué porcentaje de la pizza queda?",
-    "opciones": ["$62.5\\%$", "$37.5\\%$", "$50\\%$", "$75\\%$"],
+    "opciones": ["62.5\\%", "37.5\\%", "50\\%", "75\\%"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Quedan 5 de 8. $5/8 = 0.625 = 62.5\\%$."
+    "retroalimentacion": "Quedan 5 de 8. 5/8 = 0.625 = 62.5\\%."
   },
   {
     "id": "g2_mat_23_014",
@@ -10649,9 +10649,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuántas formas diferentes hay de sentar a 4 personas en una fila?",
-    "opciones": ["$24$", "$12$", "$4$", "$16$"],
+    "opciones": ["24", "12", "4", "16"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$4! = 4 \\\cdot 3 \\\cdot 2 \\\cdot 1 = 24$."
+    "retroalimentacion": "4! = 4 \\cdot 3 \\cdot 2 \\cdot 1 = 24."
   },
   {
     "id": "g2_mat_23_015",
@@ -10663,10 +10663,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle el término número 10 de la sucesión: $2, 5, 8, 11...$",
-    "opciones": ["$29$", "$32$", "$27$", "$30$"],
+    "enunciado": "Halle el término número 10 de la sucesión: 2, 5, 8, 11...",
+    "opciones": ["29", "32", "27", "30"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$a_n = a_1 + (n-1)d = 2 + (9 \\\cdot 3) = 29$."
+    "retroalimentacion": "a_n = a_1 + (n-1)d = 2 + (9 \\cdot 3) = 29."
   },
   {
     "id": "g2_mat_23_016",
@@ -10679,9 +10679,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Un tren viaja a 90 km/h. ¿Cuántos metros recorre por segundo?",
-    "opciones": ["$25$ m/s", "$20$ m/s", "$30$ m/s", "$15$ m/s"],
+    "opciones": ["25 m/s", "20 m/s", "30 m/s", "15 m/s"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$90 / 3.6 = 25$ m/s."
+    "retroalimentacion": "90 / 3.6 = 25 m/s."
   },
 
   // DIFICULTAD ALTA (14 preguntas)
@@ -10695,10 +10695,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $\\\alpha$ y $\\\beta$ son ángulos complementarios y $\\\alpha = 2\\\beta$, halle $\\\alpha$.",
-    "opciones": ["$60°$", "$30°$", "$45°$", "$90°$"],
+    "enunciado": "Si \\alpha y \\beta son ángulos complementarios y \\alpha = 2\\beta, halle \\alpha.",
+    "opciones": ["60°", "30°", "45°", "90°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2\\\beta + \\\beta = 90 \\\rightarrow 3\\\beta = 90 \\\rightarrow \\\beta = 30$. $\\\alpha = 60°$."
+    "retroalimentacion": "2\\beta + \\beta = 90 \\rightarrow 3\\beta = 90 \\rightarrow \\beta = 30. \\alpha = 60°."
   },
   {
     "id": "g2_mat_23_018",
@@ -10711,9 +10711,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle el área sombreada entre un cuadrado de lado 4 y un círculo inscrito en él.",
-    "opciones": ["$16 - 4\\\pi$", "$4\\\pi - 16$", "$16 - 2\\\pi$", "$16 - 16\\\pi$"],
+    "opciones": ["16 - 4\\pi", "4\\pi - 16", "16 - 2\\pi", "16 - 16\\pi"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$Area_{cuad} = 4^2 = 16$. Radio círculo $= 2$. $Area_{circ} = 4\\\pi$. Resta: $16 - 4\\\pi$."
+    "retroalimentacion": "Area_{cuad} = 4^2 = 16. Radio círculo = 2. Area_{circ} = 4\\pi. Resta: 16 - 4\\pi."
   },
   {
     "id": "g2_mat_23_019",
@@ -10725,10 +10725,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En una caja hay el doble de caramelos de menta que de fresa. Si se extraen dos sin reemplazo, y la probabilidad de que ambos sean menta es $7/15$, ¿cuántos caramelos hay en total?",
-    "opciones": ["$10$", "$6$", "$15$", "$9$"],
+    "enunciado": "En una caja hay el doble de caramelos de menta que de fresa. Si se extraen dos sin reemplazo, y la probabilidad de que ambos sean menta es 7/15, ¿cuántos caramelos hay en total?",
+    "opciones": ["10", "6", "15", "9"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Si hay $x$ de fresa y $2x$ de menta ($Total = 3x$). Prob $= (2x/3x) \\\cdot (2x-1)/(3x-1) = 7/15$. Resolviendo, $x=5$, Total $= 15$."
+    "retroalimentacion": "Si hay x de fresa y 2x de menta (Total = 3x). Prob = (2x/3x) \\cdot (2x-1)/(3x-1) = 7/15. Resolviendo, x=5, Total = 15."
   },
   {
     "id": "g2_mat_23_020",
@@ -10740,10 +10740,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la distancia entre los puntos $A(1, 2)$ y $B(4, 6)$.",
-    "opciones": ["$5$", "$7$", "$\\\sqrt{7}$", "$25$"],
+    "enunciado": "Halle la distancia entre los puntos A(1, 2) y B(4, 6).",
+    "opciones": ["5", "7", "\\sqrt{7}", "25"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{(4-1)^2 + (6-2)^2} = \\\sqrt{3^2 + 4^2} = \\\sqrt{25} = 5$."
+    "retroalimentacion": "\\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{3^2 + 4^2} = \\sqrt{25} = 5."
   },
   {
     "id": "g2_mat_23_021",
@@ -10755,10 +10755,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x + y = 10$ y $x^2 + y^2 = 58$, halle el valor de $xy$.",
-    "opciones": ["$21$", "$42$", "$10$", "$29$"],
+    "enunciado": "Si x + y = 10 y x^2 + y^2 = 58, halle el valor de xy.",
+    "opciones": ["21", "42", "10", "29"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$(x+y)^2 = x^2 + y^2 + 2xy \\\rightarrow 100 = 58 + 2xy \\\rightarrow 42 = 2xy \\\rightarrow xy = 21$."
+    "retroalimentacion": "(x+y)^2 = x^2 + y^2 + 2xy \\rightarrow 100 = 58 + 2xy \\rightarrow 42 = 2xy \\rightarrow xy = 21."
   },
   {
     "id": "g2_mat_23_022",
@@ -10771,9 +10771,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "La suma de tres números consecutivos es 105. Halle el mayor de ellos.",
-    "opciones": ["$36$", "$34$", "$35$", "$37$"],
+    "opciones": ["36", "34", "35", "37"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$x + (x+1) + (x+2) = 105 \\\rightarrow 3x + 3 = 105 \\\rightarrow 3x = 102 \\\rightarrow x=34$. Mayor $= 36$."
+    "retroalimentacion": "x + (x+1) + (x+2) = 105 \\rightarrow 3x + 3 = 105 \\rightarrow 3x = 102 \\rightarrow x=34. Mayor = 36."
   },
   {
     "id": "g2_mat_23_023",
@@ -10785,10 +10785,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Halle la pendiente de una recta perpendicular a $y = 2x - 5$.",
-    "opciones": ["$-1/2$", "$1/2$", "$-2$", "$2$"],
+    "enunciado": "Halle la pendiente de una recta perpendicular a y = 2x - 5.",
+    "opciones": ["-1/2", "1/2", "-2", "2"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$m_1 \\\cdot m_2 = -1 \\\rightarrow 2 \\\cdot m_2 = -1 \\\rightarrow m_2 = -1/2$."
+    "retroalimentacion": "m_1 \\cdot m_2 = -1 \\rightarrow 2 \\cdot m_2 = -1 \\rightarrow m_2 = -1/2."
   },
   {
     "id": "g2_mat_23_024",
@@ -10801,9 +10801,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "En un triángulo, un ángulo mide el doble que el otro y el tercero mide 30°. Halle el ángulo más grande.",
-    "opciones": ["$100°$", "$120°$", "$150°$", "$90°$"],
+    "opciones": ["100°", "120°", "150°", "90°"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2x + x + 30 = 180 \\\rightarrow 3x = 150 \\\rightarrow x = 50$. Ángulos: $100°, 50°, 30°$."
+    "retroalimentacion": "2x + x + 30 = 180 \\rightarrow 3x = 150 \\rightarrow x = 50. Ángulos: 100°, 50°, 30°."
   },
   {
     "id": "g2_mat_23_025",
@@ -10815,10 +10815,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de $x$ en: $4^x = 8^{x-1}$.",
-    "opciones": ["$3$", "$2$", "$4$", "$1$"],
+    "enunciado": "Determine el valor de x en: 4^x = 8^{x-1}.",
+    "opciones": ["3", "2", "4", "1"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$2^{2x} = 2^{3(x-1)} \\\rightarrow 2x = 3x - 3 \\\rightarrow x = 3$."
+    "retroalimentacion": "2^{2x} = 2^{3(x-1)} \\rightarrow 2x = 3x - 3 \\rightarrow x = 3."
   },
   {
     "id": "g2_mat_23_026",
@@ -10831,9 +10831,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Si 6 obreros hacen una obra en 10 días, ¿cuántos obreros se necesitan para hacerla en 4 días?",
-    "opciones": ["$15$", "$12$", "$20$", "$18$"],
+    "opciones": ["15", "12", "20", "18"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Proporcionalidad inversa: $6 \\\cdot 10 = x \\\cdot 4 \\\rightarrow 60/4 = 15$."
+    "retroalimentacion": "Proporcionalidad inversa: 6 \\cdot 10 = x \\cdot 4 \\rightarrow 60/4 = 15."
   },
   {
     "id": "g2_mat_23_027",
@@ -10845,8 +10845,8 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de $E = \\\sin^2(30°) + \\\cos^2(30°)$.",
-    "opciones": ["$1$", "$1/2$", "$\\\sqrt{3}/2$", "$0$"],
+    "enunciado": "Calcule el valor de E = \\sin^2(30°) + \\cos^2(30°).",
+    "opciones": ["1", "1/2", "\\sqrt{3}/2", "0"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Por identidad pitagórica, es 1 para cualquier ángulo."
   },
@@ -10861,9 +10861,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Halle la media geométrica de 4 y 16.",
-    "opciones": ["$8$", "$10$", "$6$", "$12$"],
+    "opciones": ["8", "10", "6", "12"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$\\\sqrt{4 \\\cdot 16} = \\\sqrt{64} = 8$."
+    "retroalimentacion": "\\sqrt{4 \\cdot 16} = \\sqrt{64} = 8."
   },
   {
     "id": "g2_mat_23_029",
@@ -10875,10 +10875,10 @@ const GRUPO2_MATEMATICA_01 =[
     "subtema": "7.1 Miscelánea",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si $x$ es un número real, ¿cuál es el valor mínimo de $x^2 - 4x + 7$?",
-    "opciones": ["$3$", "$7$", "$0$", "$4$"],
+    "enunciado": "Si x es un número real, ¿cuál es el valor mínimo de x^2 - 4x + 7?",
+    "opciones": ["3", "7", "0", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Vértice en $x = -(-4)/2 = 2$. $f(2) = 4 - 8 + 7 = 3$."
+    "retroalimentacion": "Vértice en x = -(-4)/2 = 2. f(2) = 4 - 8 + 7 = 3."
   },
   {
     "id": "g2_mat_23_030",
@@ -10891,9 +10891,9 @@ const GRUPO2_MATEMATICA_01 =[
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "¿Cuántos números de 3 cifras se pueden formar con los dígitos 1, 2, 3 sin repetir?",
-    "opciones": ["$6$", "$9$", "$3$", "$27$"],
+    "opciones": ["6", "9", "3", "27"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$3! = 3 \\\cdot 2 \\\cdot 1 = 6$."
+    "retroalimentacion": "3! = 3 \\cdot 2 \\cdot 1 = 6."
   }
 
 
