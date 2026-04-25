@@ -1,4 +1,4 @@
-[
+const GRUPO2_MATEMATICA_01 =[
   // DIFICULTAD BAJA (6 preguntas)
   {
     "id": "g2_mat_01_001",
