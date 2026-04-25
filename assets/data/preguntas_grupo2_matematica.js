@@ -18598,7 +18598,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "Entre 3 y 192 se insertan 3 medios geométricos. Halle la razón.",
     "opciones": ["4", "2", "8", "6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "r = (192/3)^{1/4}=64^{1/4}= (2^6)^{1/4}=2^{1.5}=2√2≈2.828. No entero. Si fuera 3 y 192 con 4 medios? r^5=64 → r=64^{1/5} no entero. Para obtener entero, entre 3 y 96 con 3 medios: r^4=32 → no. Entre 3 y 48 con 3 medios: r^4=16→r=2. Así: 3,6,12,24,48. Entonces r=2. Entonces cambiar: "Entre 3 y 48 se insertan 3 medios, halle r." Respuesta 2."
+    "retroalimentacion": "revisar problema"
   },
   {
     "id": "g2_mat_42_028",
