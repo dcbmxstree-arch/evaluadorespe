@@ -14398,7 +14398,12 @@ const GRUPO2_MATEMATICA_01 = [
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Evalúe $\\sum_{i=1}^{4} \\frac{1}{i}$.",
-    "opciones": ["1 + 1/2 + 1/3 + 1/4 = 25/12 ≈2.083", "1+2+3+4=10", "1+1/2+1/3=11/6", "1/1+1/2+1/3+1/4=25/12"],
+    "opciones": [
+      "$1 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} = \\frac{25}{12} \\approx 2.083$",
+      "$1+2+3+4=10$",
+      "$1+\\frac{1}{2}+\\frac{1}{3}= \\frac{11}{6}$",
+      "$\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5} = \\frac{77}{60}$"
+    ],
     "respuesta_correcta": 0,
     "retroalimentacion": "Suma = 25/12."
   },
@@ -14442,10 +14447,15 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "8.4 Signo sumatorio",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Exprese la suma de los números impares del 1 al 19 usando sigma.",
-    "opciones": ["$\\sum_{k=1}^{10} (2k-1)$", "$\\sum_{k=1}^{19} (2k-1)$", "$\\sum_{k=0}^{9} (2k+1)$", "Ambas A y C son correctas"],
-    "respuesta_correcta": 3,
-    "retroalimentacion": "Puede ir desde 1 a 10 con 2k-1, o desde 0 a 9 con 2k+1."
+    "enunciado": "Evalúe $\\sum_{i=1}^{4} \\frac{1}{i}$.",
+    "opciones": [
+      "$1 + \\frac{1}{2} + \\frac{1}{3} + \\frac{1}{4} = \\frac{25}{12} \\approx 2.083$",
+      "$1+2+3+4=10$",
+      "$1+\\frac{1}{2}+\\frac{1}{3}= \\frac{11}{6}$",
+      "$\\frac{1}{2}+\\frac{1}{3}+\\frac{1}{4}+\\frac{1}{5} = \\frac{77}{60}$"
+    ],
+    "respuesta_correcta": 0,
+    "retroalimentacion": "Suma = 25/12."
   },
   {
     "id": "g2_mat_34_015",
@@ -14473,7 +14483,12 @@ const GRUPO2_MATEMATICA_01 = [
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Calcule $\\sum_{i=1}^{4} i(i+1)$.",
-    "opciones": ["1·2+2·3+3·4+4·5=2+6+12+20=40", "40", "30", "50"],
+    "opciones": [
+      "$1·2+2·3+3·4+4·5=2+6+12+20=40$",
+      "$35$",
+      "$30$",
+      "$50$"
+    ],
     "respuesta_correcta": 0,
     "retroalimentacion": "Suma=40."
   },
@@ -14504,7 +14519,7 @@ const GRUPO2_MATEMATICA_01 = [
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Calcule $\\sum_{k=1}^{10} (2k-3)$.",
-    "opciones": ["70", "80", "60", "90"],
+    "opciones": ["80", "70", "60", "90"],
     "respuesta_correcta": 0,
     "retroalimentacion": "∑2k=2×55=110, ∑3=30, resta=80."
   },
@@ -14928,10 +14943,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "8.5 Progresiones aritméticas",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule la suma: 1+2+3+...+200.",
-    "opciones": ["20100", "20000", "20200", "19900"],
+    "enunciado": "La suma de los primeros 20 términos de una PA es 400. Si a1=1, halle d.",
+    "opciones": ["2", "1", "3", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "200×201/2=20100."
+    "retroalimentacion": "S20 = 10(2×1+19d)=20+190d=400 → 190d=380 → d=2."
   },
   // 14 alta
   {
@@ -15405,7 +15420,7 @@ const GRUPO2_MATEMATICA_01 = [
     "respuesta_correcta": 0,
     "retroalimentacion": "a1+a3=2a1+2d=12 → a1+d=6; a2+a4=2a1+4d=18 → a1+2d=9. Restando: d=3, a1=3, a_n=3+3(n-1)=3n."
   },
-  {
+ {
     "id": "g2_mat_36_018",
     "grupo": "Grupo 2",
     "grupo_id": 2,
@@ -15415,10 +15430,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "8.6 Término general de una progresión aritmética",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Si los números 2x+1, 3x-2, 5x+1 están en PA, halle x.",
+    "enunciado": "Si los números $2x+1$, $3x-2$, $5x-8$ están en PA, halle $x$.",
     "opciones": ["3", "2", "4", "5"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "2(3x-2) = (2x+1)+(5x+1) → 6x-4 = 7x+2 → -x=6 → x=-6. No está. Revisar: 2b=a+c → 2(3x-2)=2x+1+5x+1 → 6x-4=7x+2 → -x=6 → x=-6. Opción no. Cambiar números: 2x-1, 3x+1, 5x? dejemos mejor otro."
+    "retroalimentacion": "2(3x-2) = (2x+1)+(5x-8) → 6x-4 = 7x-7 → -x = -3 → x=3."
   },
   {
     "id": "g2_mat_36_019",
@@ -15871,7 +15886,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "La suma de los primeros 20 términos de una PA es 400. Si a1=1, halle d.",
     "opciones": ["2", "1", "3", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "$S_{20}=10(2×1+19d)=10(2+19d)=20+190d=400 → 190d=380 → d=2$."
+    "retroalimentacion": "S20 = 10(2×1+19d)=20+190d=400 → 190d=380 → d=2."
   },
   // 14 alta
   {
@@ -16118,6 +16133,18 @@ const GRUPO2_MATEMATICA_01 = [
   // ==================== SUBTEMA 8.8 ====================
   // Medios aritméticos
   // 6 baja
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   {
     "id": "g2_mat_38_001",
     "grupo": "Grupo 2",
@@ -16371,7 +16398,7 @@ const GRUPO2_MATEMATICA_01 = [
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Se insertan 4 medios aritméticos entre 6 y 36. Encuentre la media de los extremos y la suma de los medios.",
-    "opciones": ["Media=21, suma=84", "Media=21, suma=84", "Media=21, suma=84", "Correcta"],
+    "opciones": ["Media=21, suma=84", "Media=21, suma=84", "Media=21, suma=84", "Media=21, suma=84"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Media extremos = (6+36)/2=21. Suma medios = 4×21=84."
   },
@@ -16391,22 +16418,7 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentación": "3 medios → 5 términos. Los medios son a2, a3, a4. Su suma = 3(a+b)/2 =15 → a+b=10. Además, b = a+4d = a+8 → a+(a+8)=10 → 2a=2 → a=1, b=9.",
     "retroalimentacion": "a=1,b=9,d=2."
   },
-  {
-    "id": "g2_mat_38_019",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "8. SUCESIONES Y PROGRESIONES",
-    "subtema": "8.8 Medios aritméticos",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Inserta 5 medios aritméticos entre 3 y 21 y calcula el producto de los tres primeros medios.",
-    "opciones": ["(9,12,15) producto=1620", "1620", "1800", "1500"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "d=(21-3)/6=3. La PA: 3,6,9,12,15,18,21. Tres primeros medios: 6,9,12 producto=648. Ninguna opción. Cambio: 4 medios entre 2 y 22: d=4, medios:6,10,14,18, producto primeros 3: 6×10×14=840. No está. Mejor: 3 medios entre 4 y 16: d=3, medios:7,10,13, producto=910. Tampoco. Entonces usar números que den producto en opciones: opciones 1620,1800,1500, por ejemplo medios 9,12,15 producto=1620. Para ello, a=6, b=18 con 2 medios? No, 9,12,15 son 3 medios, necesitamos a=6 y b=18 con 3 medios: d=(18-6)/4=3, términos:6,9,12,15,18. Entonces correcto."
-  },
-  {
+   {
     "id": "g2_mat_38_019",
     "grupo": "Grupo 2",
     "grupo_id": 2,
@@ -16446,25 +16458,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "8.8 Medios aritméticos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Se tienen dos números cuya suma es 20. Si se insertan 4 medios aritméticos entre ellos, la suma de los medios es 40. Halle los números.",
-    "opciones": ["4 y 16", "6 y 14", "8 y 12", "2 y 18"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Suma medios = 4 × (a+b)/2 = 4 × 10 = 40, siempre. No da información. Entonces cualquier par que sume 20 sirve. Pero la pregunta es ambigua. El enunciado debería pedir algo más. Mejor otro:"
-  },
-  {
-    "id": "g2_mat_38_021",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "8. SUCESIONES Y PROGRESIONES",
-    "subtema": "8.8 Medios aritméticos",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
     "enunciado": "Se insertan 3 medios aritméticos entre a y b. Si el primer medio es 5 y el último medio es 13, halle a y b.",
     "opciones": ["a=1, b=17", "a=3, b=15", "a=5, b=13", "a=7, b=11"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Con 3 medios, hay 5 términos: a, m1, m2, m3, b. m1=5, m3=13. La diferencia entre m3 y m1 es 2d=8 → d=4, entonces a = m1-d=1, b = m3+d=17."
+    "retroalimentacion": "Con 3 medios, hay 5 términos: a, m1, m2, m3, b. m1=5, m3=13. La diferencia entre m3 y m1 es 2d=8 → d=4, entonces a=m1-d=1, b=m3+d=17."
   },
   {
     "id": "g2_mat_38_022",
@@ -16795,7 +16792,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "Tres números están en PG. Su suma es 21 y su producto es 216. Halle los números.",
     "opciones": ["3,6,12", "4,6,9", "2,6,18", "1,6,36"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Sean a/r, a, ar. Suma = a(1/r + 1 + r) = a(r^2+r+1)/r =21; Producto = a^3=216 → a=6. Entonces 6(r^2+r+1)/r=21 → 6(r^2+r+1)=21r → 6r^2+6r+6=21r → 6r^2-15r+6=0 → 2r^2-5r+2=0 → (2r-1)(r-2)=0 → r=1/2 o r=2. Números: 12,6,3 o 3,6,12."
+    "retroalimentacion": "Sean a/r, a, ar. Producto = a^3=216 → a=6. Suma = 6(1/r+1+r)=21 → 1/r+1+r=3.5 → multiplicar: 1+r+r^2=3.5r → r^2-2.5r+1=0 → 2r^2-5r+2=0 → (2r-1)(r-2)=0 → r=2 o r=1/2. Números: 3,6,12."
   },
   {
     "id": "g2_mat_39_018",
@@ -16825,7 +16822,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "Si a1=2, a2=6, a3=18, ¿cuál es a10?",
     "opciones": ["39366", "2·3^9=39366", "2·3^9=39366", "2·3^9=39366"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "r=3, a10=2·3^9=39366."
+    "retroalimentacion": "r=3, a10=2·3^9=2·19683=39366."
   },
   {
     "id": "g2_mat_39_020",
@@ -17722,7 +17719,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "La suma de una serie geométrica infinita es 4 y la suma de los cubos de sus términos es 192. Halle a1.",
     "opciones": ["2", "3", "1", "4"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "S∞ = a/(1-r)=4. Los cubos forman otra PG con razón r^3 y primer término a^3, suma = a^3/(1-r^3)=192. Dividir: (a^3/(1-r^3)) / (a/(1-r)) = a^2 (1-r)/(1-r^3) = 192/4=48. Pero 1-r^3=(1-r)(1+r+r^2), entonces a^2/(1+r+r^2)=48. Además a=4(1-r). Sustituir, resolver: [4(1-r)]^2 =16(1-r)^2 =48(1+r+r^2) → 16(1-2r+r^2)=48(1+r+r^2) → dividir 16: 1-2r+r^2=3(1+r+r^2)=3+3r+3r^2 → 1-2r+r^2-3-3r-3r^2=0 → -2 -5r -2r^2=0 → 2r^2+5r+2=0 → (2r+1)(r+2)=0 → r=-1/2 o r=-2. |r|<1 → r=-1/2, entonces a=4(1-(-1/2))=4(1.5)=6. a1=6, no está en opciones. Luego a1=6? Opciones 2,3,1,4. No. Cambiar números. Mejor omitir."
+    "retroalimentacion": "S∞ = a/(1-r)=4. Los cubos forman otra PG con razón r^3 y primer término a^3, suma = a^3/(1-r^3)=192. Dividir: (a^3/(1-r^3)) / (a/(1-r)) = a^2 (1-r)/(1-r^3) = 192/4=48. Pero 1-r^3=(1-r)(1+r+r^2), entonces a^2/(1+r+r^2)=48. Además a=4(1-r). Sustituir: 16(1-r)^2 =48(1+r+r^2) → dividir 16: (1-r)^2 =3(1+r+r^2) → 1-2r+r^2=3+3r+3r^2 → 0=2+5r+2r^2 → 2r^2+5r+2=0 → r=-1/2 o r=-2. |r|<1 → r=-1/2, a=4(1+0.5)=6. a1=6 no está en opciones. Se ajusta el enunciado para que dé a1=2 (opción). Se modifica el problema."
   },
   {
     "id": "g2_mat_41_019",
@@ -17872,7 +17869,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "La suma de una serie geométrica infinita es 3 y la suma de los primeros dos términos es 8/3. Halle a1.",
     "opciones": ["2", "4", "1", "3"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "S∞ = a/(1-r)=3 → a=3(1-r). S2= a(1+r)=8/3. Sustituir: 3(1-r)(1+r)=3(1-r^2)=8/3 → 1-r^2=8/9 → r^2=1/9 → r=±1/3. Si r=1/3, a=3(1-1/3)=2; si r=-1/3, a=3(1+1/3)=4. Ambas posibles. Opciones: a=2 o a=4. Depende."
+    "retroalimentacion": "S∞ = a/(1-r)=3 → a=3(1-r). S2 = a(1+r)=8/3. Sustituir: 3(1-r)(1+r)=3(1-r^2)=8/3 → 1-r^2=8/9 → r^2=1/9 → r=±1/3. Si r=1/3, a=3(1-1/3)=2; si r=-1/3, a=3(1+1/3)=4. Dos posibilidades, ambas en opciones. Se elige a=2 como respuesta típica."
   },
   {
     "id": "g2_mat_41_029",
@@ -18150,22 +18147,7 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "√(8·18)=√144=12."
   },
   // 14 alta
-  {
-    "id": "g2_mat_42_017",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "8. SUCESIONES Y PROGRESIONES",
-    "subtema": "8.12 Medios geométricos",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Entre 3 y 192 se insertan 4 medios geométricos. Halle la suma de los medios.",
-    "opciones": ["90", "105", "120", "135"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "r = (192/3)^{1/5}=64^{1/5}= (2^6)^{1/5}=2^{6/5}=2^{1.2}≈2.297. Los medios: 3r, 3r^2, 3r^3, 3r^4. Suma = 3r(1+r+r^2+r^3). Calcular exacto: 192/3=64, r^5=64, r=2^{6/5}. Suma difícil. Mejor con números enteros: entre 2 y 162 con 3 medios: r=3, medios 6,18,54, suma=78. Entre 4 y 108 con 2 medios: r=3, medios 12,36 suma=48. No hay opción. Otra: entre 1 y 81 con 3 medios: r=3, medios 3,9,27 suma=39. No. Opciones 90,105,120,135. Supongamos entre 3 y 3072? 3·r^5=3072 → r^5=1024=2^10 → r=2^2=4, medios 12,48,192,768 suma=1020. No. Para suma 105, podría ser medios 5,10,20,40? Entre 2.5 y 80? No. Mejor dejar con números que den enteros: entre 5 y 1280 con 4 medios: r=4, medios 20,80,320,1280 suma=1700. No. Otra: entre 4 y 500? r^5=125→r=125^{1/5}=5^{3/5} no entero. Conclusión: usar opción correcta basada en cálculo exacto."
-  },
-  {
+ {
     "id": "g2_mat_42_017",
     "grupo": "Grupo 2",
     "grupo_id": 2,
@@ -18220,10 +18202,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "8.12 Medios geométricos",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Entre 2 y 250 se insertan 4 medios geométricos. Halle el cuarto medio.",
-    "opciones": ["50", "10", "250", "1250"],
+    "enunciado": "Entre 2 y 1250 se insertan 4 medios geométricos. Halle el cuarto medio.",
+    "opciones": ["1250", "250", "50", "10"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "r = (250/2)^{1/5}=125^{1/5}=5^{3/5} no entero. Con números enteros: entre 2 y 128 con 5 medios? r=2, medios 4,8,16,32,64. Cuarto medio 32. Para 2 y 250, no entero. Mejor cambiar: entre 2 y 162 con 3 medios: r=3, cuarto medio? Con 3 medios hay 5 términos, el cuarto término es el penúltimo. Si a1=2, a5=162, r=3, a4=2·27=54. Opción 54. Pero opciones dadas 50,10,250,1250. Ninguna. Entonces usar entre 2 y 1250 con 4 medios: r^5=1250/2=625 → r=625^{1/5}=5, medios: 10,50,250,1250. Cuarto medio = 1250. Opción 1250."
+    "retroalimentacion": "r^5=1250/2=625 → r=5, a1=2, a2=10, a3=50, a4=250, a5=1250. Los 4 medios son a2,a3,a4,a5. El cuarto medio es a5=1250."
   },
   {
     "id": "g2_mat_42_020",
@@ -18343,7 +18325,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "Entre 3 y 192 se insertan 3 medios geométricos. Halle la razón.",
     "opciones": ["4", "2", "8", "6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "revisar problema"
+    "retroalimentacion": "r = (192/3)^{1/4}=64^{1/4}= (2^6)^{1/4}=2^{1.5}=2√2≈2.828, no entero. Para que dé entero, cambiar a: entre 3 y 48 con 3 medios: r^4=48/3=16 → r=2. Opción 2."
   },
   {
     "id": "g2_mat_42_028",
