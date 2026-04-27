@@ -10029,6 +10029,22 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "En PG, b es media geométrica de a y c, es decir b=√(ac)."
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   // ==================== SUBTEMA 6.3 ====================
   // Magnitudes directamente proporcionales
   // 6 baja
@@ -10484,6 +10500,18 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "A = k B C, k = 12/(3×2)=2, entonces A=2×5×4=40."
   },
 
+
+
+
+
+
+
+
+
+
+
+  
+
   // ==================== SUBTEMA 6.4 ====================
   // Magnitudes inversamente proporcionales
   // 6 baja
@@ -10740,8 +10768,8 @@ const GRUPO2_MATEMATICA_01 = [
     "tipo_pregunta": "ejercicio",
     "enunciado": "Un grupo de estudiantes alquila un autobús que cuesta $1200. Si hay 5 estudiantes más, cada uno paga $8 menos. ¿Cuántos estudiantes son inicialmente?",
     "opciones": ["20", "25", "30", "15"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Ecuación: 1200/n - 1200/(n+5)=8. Resolver: (1200(n+5)-1200n)/(n(n+5))=8 → 6000=8n(n+5) → n(n+5)=750 → n^2+5n-750=0 → (n+30)(n-25)=0 → n=25."
+    "respuesta_correcta": 1,
+    "retroalimentacion": "Ecuación: 1200/n - 1200/(n+5) = 8. Resolviendo: 6000 = 8n(n+5) → n² + 5n - 750 = 0 → (n+30)(n-25)=0 → n = 25."
   },
   // 14 alta
   {
@@ -10829,11 +10857,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "6.4 Magnitudes inversamente proporcionales",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una máquina produce 200 piezas en 5 horas trabajando a razón de 8 horas diarias. ¿Cuántas piezas producirá en 6 horas diarias durante 4 días?",
-    "opciones": ["192", "200", "160", "240"],
+    "enunciado": "Si 8 obreros tardan 12 días en hacer una obra, ¿cuántos días tardarán 6 obreros?",
+    "opciones": ["16", "9", "18", "24"],
     "respuesta_correcta": 0,
-    "retroalimentación": "Producción por hora = 200/5=40 piezas/h. 6 horas/día × 4 días = 24 horas, total piezas = 40×24=960? No coincide opciones. Otro: 5 horas a 8 h/día? Mejor: ",
-    "retroalimentacion": "Primero: 5 horas produce 200, eso es 40 piezas/hora. En 4 días a 6 h/día = 24 horas, 24×40=960 piezas, opciones no. Entonces cambiamos:"
+    "retroalimentacion": "Proporcionalidad inversa: 8×12 = 6×d → d = 96/6 = 16 días."
   },
   {
     "id": "g2_mat_26_023",
@@ -11738,8 +11765,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "En un taller, 5 máquinas producen 2000 piezas en 8 días. ¿Cuántas máquinas se necesitan para producir 5000 piezas en 10 días?",
     "opciones": ["10", "8", "12", "15"],
     "respuesta_correcta": 0,
-    "retroalimentación": "Esto es compuesta, pero aquí es simple? Se puede resolver con regla de tres compuesta. Opción: máquinas ∝ piezas/días. M = (5 × 5000 × 8) / (2000 × 10) = (5×5×8)/10? 5×5000×8=200000; 2000×10=20000; cociente=10. Respuesta 10.",
-    "retroalimentacion": "Proporcionalidad compuesta: M1×P2×D1 = M2×P1×D2 → 5×5000×8 = M2×2000×10 → M2=10."
+    "retroalimentacion": "Proporcionalidad compuesta: M1×P2×D1 = M2×P1×D2. Sustituyendo: 5×5000×8 = M2×2000×10 → 200000 = 20000 M2 → M2 = 10."
   },
   {
     "id": "g2_mat_28_022",
@@ -11923,7 +11949,7 @@ const GRUPO2_MATEMATICA_01 = [
     "enunciado": "2 obreros construyen 4 m de pared en 3 días. ¿Cuántos metros construirán 5 obreros en 6 días?",
     "opciones": ["20 m", "15 m", "10 m", "12 m"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Proporción: m = (5×6×4)/(2×3)=60/6=10? Revisar: más obreros y más días aumentan los metros. 4 m con 2 obreros y 3 días. Obreros ∝ directa, días ∝ directa. Metros = k × obreros × días. k = 4/(2×3)=2/3. Entonces con 5 y 6: (2/3)×30=20. Respuesta 20."
+    "retroalimentacion": "Metros = k × obreros × días. k = 4/(2×3) = 2/3. Luego metros = (2/3)×5×6 = 20 m."
   },
   {
     "id": "g2_mat_29_004",
@@ -12237,10 +12263,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "7.2 Regla de tres compuesta (directa, inversa, mixta)",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un taller dispone de 6 máquinas que trabajan 8 horas diarias y producen 480 piezas en 5 días. ¿Cuántas máquinas se necesitan para producir 720 piezas en 4 días trabajando 10 horas diarias?",
-    "opciones": ["6", "8", "5", "7"],
+    "enunciado": "6 máquinas trabajando 8 h/día producen 480 piezas en 5 días. ¿Cuántas máquinas se necesitan para producir 720 piezas en 4 días con 10 h/día?",
+    "opciones": ["9", "8", "7", "6"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Máquinas = (6×8×5×720)/(480×4×10) = (6×8×5×720)/(480×40) = (172800)/(19200)=9. Respuesta 9 no está en opciones. Ajustar: 6×8×5=240, 480×4×10=19200, luego 240×720=172800, /19200=9. Opciones: 6,8,5,7. No hay 9. Cambiar números: con los datos dados, da 9. Pero si se busca entero redondeado, 9. Sin embargo, no está. Entonces modificamos producto de factores."
+    "retroalimentacion": "Máquinas = (6×8×5×720) / (480×4×10) = 172800 / 19200 = 9."
   },
   {
     "id": "g2_mat_29_024",
@@ -12437,7 +12463,7 @@ const GRUPO2_MATEMATICA_01 = [
     "dificultad": "baja",
     "tipo_pregunta": "ejercicio",
     "enunciado": "Un televisor cuesta $300 y se aplica un descuento del 15%. ¿Cuánto se paga?",
-    "opciones": ["$255", "$285", "$255", "$265"],
+    "opciones": ["$255", "$285", "$250", "$265"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Descuento = 300×0.15=45, precio = 255."
   },
@@ -12543,7 +12569,7 @@ const GRUPO2_MATEMATICA_01 = [
     "dificultad": "media",
     "tipo_pregunta": "teorica",
     "enunciado": "El IVA en un país es del 21%. ¿Cuál es el factor multiplicador para calcular el precio con IVA?",
-    "opciones": ["1.21", "0.21", "1.21", "0.79"],
+    "opciones": ["1.21", "0.21", "1.25", "0.79"],
     "respuesta_correcta": 0,
     "retroalimentacion": "Precio final = precio base × 1.21."
   },
@@ -12603,25 +12629,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "7.3 Tanto por ciento",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "En una clase de 40 alumnos, el 60% son mujeres. Si el 25% de las mujeres y el 10% de los hombres usan gafas, ¿cuántos usan gafas en total?",
-    "opciones": ["8", "6", "10", "12"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "revisar problema"
-  },
-  {
-    "id": "g2_mat_30_017",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "7. REGLA DE TRES Y PORCENTAJES",
-    "subtema": "7.3 Tanto por ciento",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
     "enunciado": "En una clase de 50 alumnos, el 60% son mujeres. El 30% de las mujeres y el 20% de los hombres usan gafas. ¿Cuántos usan gafas?",
     "opciones": ["13", "12", "14", "15"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Mujeres = 30, hombres=20; con gafas: 0.3×30=9, 0.2×20=4, total=13."
+    "retroalimentacion": "Mujeres = 30, hombres = 20; con gafas: 0.3×30=9, 0.2×20=4, total = 13."
   },
   {
     "id": "g2_mat_30_018",
@@ -13903,10 +13914,10 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "8.3 Suma de los términos de una sucesión",
     "dificultad": "media",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Una serie geométrica tiene primer término 5 y razón 1/2. Calcule la suma de los primeros 3 términos.",
-    "opciones": ["9.375", "5.625", "7.5", "10"],
+    "enunciado": "Calcule la suma de los primeros 3 términos de $a_n = 2\\cdot3^{n-1}$.",
+    "opciones": ["26", "18", "24", "30"],
     "respuesta_correcta": 0,
-    "retroalimentacion": "5 + 2.5 + 1.25 = 8.75? No, 5+2.5=7.5, +1.25=8.75. Opciones no. Ajustar: razón = 1/2: términos 5, 2.5, 1.25 suma 8.75. Opción no. Entonces cambiar razón = 1/2 pero redondear. Mejor: primer término 2, razón 3: 2+6+18=26."
+    "retroalimentacion": "2+6+18=26."
   },
   {
     "id": "g2_mat_33_011",
@@ -14213,6 +14224,18 @@ const GRUPO2_MATEMATICA_01 = [
   // ==================== SUBTEMA 8.4 ====================
   // Signo sumatorio
   // 6 baja
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   {
     "id": "g2_mat_34_001",
     "grupo": "Grupo 2",
