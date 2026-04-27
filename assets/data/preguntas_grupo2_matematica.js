@@ -6295,21 +6295,6 @@ const GRUPO2_MATEMATICA_01 = [
     "subtema": "4.2 Problemas de aplicación con decimales",
     "dificultad": "alta",
     "tipo_pregunta": "ejercicio",
-    "enunciado": "Un comerciante compró un lote de 250 artículos a $3.50 cada uno. Vende el 60% a $5.00 y el resto a $4.20. ¿Cuál es la ganancia total?",
-    "opciones": ["305", "300", "310", "295"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Costo = 250×3.50=875. 60% = 150 artículos a 5 = 750; 40% = 100 a 4.2 = 420; ingreso = 1170; ganancia = 1170 - 875 = 295. (Opciones, 295 está en índice 3). Corrijo: opción 3."
-  },
-  {
-    "id": "g2_mat_16_030",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "4. DECIMALES Y SISTEMA MÉTRICO",
-    "subtema": "4.2 Problemas de aplicación con decimales",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
     "enunciado": "Un comerciante compró 250 artículos a $3.50 cada uno. Vende el 60% a $5.00 y el resto a $4.20. Ganancia total:",
     "opciones": ["305", "300", "295", "310"],
     "respuesta_correcta": 2,
@@ -7931,20 +7916,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "$2^{5-3}=2^2$, $3^{4-2}=3^2$, producto = 4×9=36."
   },
   {
-    "id": "g2_mat_20_016",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "media",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule $\\left(\\frac{3}{4}\\right)^2$.",
-    "opciones": ["$\\frac{9}{16}$", "$\\frac{6}{8}$", "$\\frac{9}{8}$", "$\\frac{3}{16}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "$\\frac{3^2}{4^2} = \\frac{9}{16}$."
-  },
+  "id": "g2_mat_20_016",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.1 Definición y propiedades de exponentes",
+  "dificultad": "media",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Calcule $\\left(\\frac{3}{4}\\right)^2$.",
+  "opciones": ["$\\frac{9}{16}$", "$\\frac{6}{8}$", "$\\frac{9}{8}$", "$\\frac{3}{8}$"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "$\\frac{3^2}{4^2} = \\frac{9}{16}$."
+},
   // 14 alta
   {
     "id": "g2_mat_20_017",
@@ -7962,65 +7947,35 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "Primero simplificar dentro: $2^3 \\times \\frac{1}{3^2} \\times 5 = \\frac{40}{9}$. Luego elevar a -2: $\\left(\\frac{40}{9}\\right)^{-2} = \\left(\\frac{9}{40}\\right)^2 = \\frac{81}{1600} = \\frac{3^4}{2^6 \\times 5^2}$. Opción: $\\frac{3^4}{2^6 \\times 5^2}$."
   },
   {
-    "id": "g2_mat_20_018",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva para $x$: $2^{x+2} = 8^{x-1}$.",
-    "opciones": ["$x=2$", "$x=3$", "$x=4$", "$x=1$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Escribir 8 como $2^3$: $2^{x+2}=2^{3(x-1)}$, entonces $x+2=3x-3$, $5=2x$, $x=2.5? No. Revisar: x+2=3x-3 → 5=2x → x=2.5. Opciones no tienen 2.5. Corregir: 8^{x-1} = 2^{3x-3}, igual exponentes: x+2=3x-3 → 2x=5 → x=2.5. Ninguna opción. Cambio números: 2^{x+2}=4^{x-1} → 2^{x+2}=2^{2x-2} → x+2=2x-2 → x=4. Así:"
-  },
+  "id": "g2_mat_20_018",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.1 Definición y propiedades de exponentes",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Resuelva: $2^{x+2} = 4^{x-1}$.",
+  "opciones": ["4", "3", "2", "1"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "$4^{x-1} = 2^{2(x-1)}$; igualando exponentes: $x+2 = 2x-2 \\Rightarrow x = 4$."
+},
   {
-    "id": "g2_mat_20_018",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $2^{x+2} = 4^{x-1}$.",
-    "opciones": ["4", "3", "2", "1"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "4^{x-1} = 2^{2(x-1)}; igual exponentes: x+2=2x-2 → x=4."
-  },
-  {
-    "id": "g2_mat_20_019",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique $\\frac{2^{3n+1} \\cdot 4^{n-2}}{8^{n+1}}$.",
-    "opciones": ["$2^{-4}$", "$2^{-3}$", "$2^{-2}$", "$2^{-1}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "4^{n-2}=2^{2n-4}, 8^{n+1}=2^{3n+3}. Numerador: 2^{3n+1+2n-4}=2^{5n-3}; division: 2^{(5n-3)-(3n+3)}=2^{2n-6}. No constante. Parece que falta algo. Mejor usar exponentes específicos: 2^{3n+1}·(2^2)^{n-2}=2^{3n+1+2n-4}=2^{5n-3}; denominador: 2^{3(n+1)}=2^{3n+3}; resta: 2^{2n-6}. Para que sea constante, se necesita un valor de n? No. Cambiar: 8^{n+1}=2^{3n+3}, pero 4^{n-2}=2^{2n-4}, entonces 2^{5n-3-3n-3}=2^{2n-6}. Si n=3 da 2^0=1. No es constante. Ajustar: usar 2^{3n+1}·(2^2)^{n-2} / (2^3)^{n+1} = 2^{3n+1+2n-4-3n-3}=2^{2n-6}. No simplifica a constante. Mejor cambiar a: $2^{3n+1} \\cdot 4^{n-2} / 8^{n-1}$ para que dé constante: 2^{3n+1+2n-4-3n+3}=2^{2n+0}=2^{2n}. No. Lo dejamos con números:"
-  },
-  {
-    "id": "g2_mat_20_019",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique $\\frac{2^{5} \\cdot 4^{2}}{8^{3}}$.",
-    "opciones": ["$\\frac{1}{2}$", "$\\frac{1}{4}$", "$\\frac{1}{8}$", "$1$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "4^2=2^4, 8^3=2^9, entonces 2^{5+4-9}=2^{0}=1."
-  },
+  "id": "g2_mat_20_019",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.1 Definición y propiedades de exponentes",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Simplifique $\\frac{2^{5} \\cdot 4^{2}}{8^{3}}$.",
+  "opciones": ["$\\frac{1}{2}$", "$\\frac{1}{4}$", "$\\frac{1}{8}$", "$1$"],
+  "respuesta_correcta": 3,
+  "retroalimentacion": "$4^2 = 2^4$, $8^3 = 2^9$, entonces $2^{5+4-9} = 2^0 = 1$."
+},
   {
     "id": "g2_mat_20_020",
     "grupo": "Grupo 2",
@@ -8052,50 +8007,35 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "$\\left(\\frac{3}{2}\\right)^{-2} = \\left(\\frac{2}{3}\\right)^2$, $\\left(\\frac{2}{3}\\right)^{-3}=\\left(\\frac{3}{2}\\right)^3$, producto = $\\left(\\frac{2}{3}\\right)^2 \\cdot \\left(\\frac{3}{2}\\right)^3 = \\frac{4}{9} \\cdot \\frac{27}{8} = \\frac{108}{72} = \\frac{3}{2}$."
   },
   {
-    "id": "g2_mat_20_022",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $\\frac{3^{x-1}}{9^{x+2}} = 27$.",
-    "opciones": ["$x=-5$", "$x=-4$", "$x=-3$", "$x=-2$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "9^{x+2}=3^{2(x+2)}=3^{2x+4}, 27=3^3. Entonces 3^{x-1-2x-4}=3^{-x-5}=3^3 → -x-5=3 → -x=8 → x=-8. No está. Ajustar: 27=3^3, entonces -x-5=3 → x=-8. Opciones no. Cambiar: $3^{x-1}/9^{x+2}=1/27$ daría -x-5=-3→ x=-2. Usar:"
-  },
+  "id": "g2_mat_20_022",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.1 Definición y propiedades de exponentes",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Resuelva $\\frac{3^{x-1}}{9^{x+2}} = \\frac{1}{27}$.",
+  "opciones": ["$x=-2$", "$x=-3$", "$x=-4$", "$x=-5$"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "Lado izquierdo: $3^{x-1-2(x+2)} = 3^{-x-5}$; $1/27 = 3^{-3}$; entonces $-x-5 = -3 \\Rightarrow -x = 2 \\Rightarrow x = -2$."
+},
   {
-    "id": "g2_mat_20_022",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva $\\frac{3^{x-1}}{9^{x+2}} = \\frac{1}{27}$.",
-    "opciones": ["$x=-2$", "$x=-3$", "$x=-4$", "$x=-5$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Lado izquierdo: $3^{x-1-2x-4}=3^{-x-5}$, igual a $3^{-3}$, entonces $-x-5=-3$ → $-x=2$ → $x=-2$."
-  },
-  {
-    "id": "g2_mat_20_023",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique $\\left(\\frac{2a^{-3}b^2}{c^{-1}}\\right)^{-2}$.",
-    "opciones": ["$\\frac{a^6 c^2}{4 b^4}$", "$\\frac{a^6 c^2}{4b^4}$", "$\\frac{4b^4}{a^6 c^2}$", "$\\frac{a^6}{4b^4c^2}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Dentro: $2a^{-3}b^2 c$, elevado a -2: $(2^{-2})(a^{6})(b^{-4})(c^{-2}) = \\frac{a^6}{4 b^4 c^2}$."
-  },
+  "id": "g2_mat_20_023",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.1 Definición y propiedades de exponentes",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Simplifique $\\left(\\frac{2a^{-3}b^2}{c^{-1}}\\right)^{-2}$.",
+  "opciones": ["$\\frac{a^6 c^2}{4 b^4}$", "$\\frac{a^6}{4b^4 c^2}$", "$\\frac{4b^4}{a^6 c^2}$", "$\\frac{4b^4 c^2}{a^6}$"],
+  "respuesta_correcta": 1,
+  "retroalimentacion": "Dentro: $2a^{-3}b^2 c$, elevado a -2: $(2^{-2})(a^{6})(b^{-4})(c^{-2}) = \\frac{a^6}{4 b^4 c^2}$."
+},
   {
     "id": "g2_mat_20_024",
     "grupo": "Grupo 2",
@@ -8126,21 +8066,21 @@ const GRUPO2_MATEMATICA_01 = [
     "respuesta_correcta": 0,
     "retroalimentacion": "9^3 = (3^2)^3=3^6, entonces 2x=6 → x=3."
   },
-  {
-    "id": "g2_mat_20_026",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.1 Definición y propiedades de exponentes",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique $\\frac{(x^2 y^{-3})^{-2}}{x^{-4} y^5}$.",
-    "opciones": ["$\\frac{x^{0}}{y^{11}}$", "$\\frac{1}{y^{11}}$", "$\\frac{x^8}{y}$", "$\\frac{x^0}{y^{11}}$"],
-    "respuesta_correcta": 1,
-    "retroalimentacion": "Numerador: $(x^2)^{-2}=x^{-4}$, $(y^{-3})^{-2}=y^6$, así $x^{-4}y^6$. Denominador: $x^{-4}y^5$. Cociente: $x^{-4-(-4)}=x^0$, $y^{6-5}=y^1$, resultado $y$."
-  },
+ {
+  "id": "g2_mat_20_026",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.1 Definición y propiedades de exponentes",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Simplifique $\\frac{(x^2 y^{-3})^{-2}}{x^{-4} y^5}$.",
+  "opciones": ["$y$", "$\\frac{1}{y}$", "$\\frac{x^8}{y}$", "$x^8 y$"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "Numerador: $(x^2)^{-2}=x^{-4}$, $(y^{-3})^{-2}=y^6$, así $x^{-4}y^6$. Denominador: $x^{-4}y^5$. Cociente: $x^{-4-(-4)}=x^0$, $y^{6-5}=y^1$, resultado $y$."
+},
   {
     "id": "g2_mat_20_027",
     "grupo": "Grupo 2",
@@ -8372,20 +8312,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "$\\sqrt[3]{x^6} = x^{6/3}=x^2$."
   },
   {
-    "id": "g2_mat_21_012",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.2 Definición y propiedades de radicales",
-    "dificultad": "media",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Racionalice $\\frac{2}{\\sqrt{5}-1}$.",
-    "opciones": ["$\\frac{\\sqrt{5}+1}{2}$", "$\\frac{2(\\sqrt{5}+1)}{4}$", "$\\frac{\\sqrt{5}-1}{2}$", "$\\frac{\\sqrt{5}+1}{2}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Multiplicar por conjugado: $\\frac{2(\\sqrt{5}+1)}{(5-1)} = \\frac{2(\\sqrt{5}+1)}{4} = \\frac{\\sqrt{5}+1}{2}$."
-  },
+  "id": "g2_mat_21_012",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.2 Definición y propiedades de radicales",
+  "dificultad": "media",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Racionalice $\\frac{2}{\\sqrt{5}-1}$.",
+  "opciones": ["$\\frac{\\sqrt{5}+1}{2}$", "$\\frac{2(\\sqrt{5}+1)}{4}$", "$\\frac{\\sqrt{5}-1}{2}$", "$\\frac{\\sqrt{5}+1}{4}$"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "Multiplicar por conjugado: $\\frac{2(\\sqrt{5}+1)}{(5-1)} = \\frac{2(\\sqrt{5}+1)}{4} = \\frac{\\sqrt{5}+1}{2}$."
+},
   {
     "id": "g2_mat_21_013",
     "grupo": "Grupo 2",
@@ -8462,21 +8402,21 @@ const GRUPO2_MATEMATICA_01 = [
     "respuesta_correcta": 0,
     "retroalimentacion": "$\\sqrt{8}=2\\sqrt{2}$, $\\sqrt{18}=3\\sqrt{2}$, suma: $\\sqrt{2}+2\\sqrt{2}-3\\sqrt{2}=0$."
   },
-  {
-    "id": "g2_mat_21_018",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.2 Definición y propiedades de radicales",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Racionalice $\\frac{1}{\\sqrt{3}+\\sqrt{2}}$.",
-    "opciones": ["$\\sqrt{3}-\\sqrt{2}$", "$\\sqrt{3}+\\sqrt{2}$", "$\\frac{\\sqrt{3}-\\sqrt{2}}{5}$", "$\\frac{\\sqrt{3}-\\sqrt{2}}{1}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Multiplicar por conjugado: $\\frac{\\sqrt{3}-\\sqrt{2}}{3-2} = \\sqrt{3}-\\sqrt{2}$."
-  },
+ {
+  "id": "g2_mat_21_018",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.2 Definición y propiedades de radicales",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Racionalice $\\frac{1}{\\sqrt{3}+\\sqrt{2}}$.",
+  "opciones": ["$\\sqrt{3}-\\sqrt{2}$", "$\\sqrt{3}+\\sqrt{2}$", "$\\frac{\\sqrt{3}-\\sqrt{2}}{5}$", "$\\frac{\\sqrt{2}-\\sqrt{3}}{1}$"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "Multiplicar por conjugado: $\\frac{\\sqrt{3}-\\sqrt{2}}{3-2} = \\sqrt{3}-\\sqrt{2}$."
+},
   {
     "id": "g2_mat_21_019",
     "grupo": "Grupo 2",
@@ -8523,20 +8463,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "$2^{1/2} / 2^{1/3} = 2^{1/2 - 1/3} = 2^{1/6}$."
   },
   {
-    "id": "g2_mat_21_022",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.2 Definición y propiedades de radicales",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Racionalice $\\frac{2}{\\sqrt{5}+\\sqrt{3}}$.",
-    "opciones": ["$\\sqrt{5}-\\sqrt{3}$", "$\\frac{\\sqrt{5}-\\sqrt{3}}{2}$", "$\\frac{\\sqrt{5}+\\sqrt{3}}{2}$", "$\\frac{\\sqrt{5}-\\sqrt{3}}{1}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Multiplicar por conjugado: $\\frac{2(\\sqrt{5}-\\sqrt{3})}{5-3} = \\frac{2(\\sqrt{5}-\\sqrt{3})}{2} = \\sqrt{5}-\\sqrt{3}$."
-  },
+  "id": "g2_mat_21_022",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.2 Definición y propiedades de radicales",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Racionalice $\\frac{2}{\\sqrt{5}+\\sqrt{3}}$.",
+  "opciones": ["$\\sqrt{5}-\\sqrt{3}$", "$\\frac{\\sqrt{5}-\\sqrt{3}}{2}$", "$\\frac{\\sqrt{5}+\\sqrt{3}}{2}$", "$\\frac{\\sqrt{3}-\\sqrt{5}}{1}$"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "Multiplicar por conjugado: $\\frac{2(\\sqrt{5}-\\sqrt{3})}{5-3} = \\frac{2(\\sqrt{5}-\\sqrt{3})}{2} = \\sqrt{5}-\\sqrt{3}$."
+},
   {
     "id": "g2_mat_21_023",
     "grupo": "Grupo 2",
@@ -8583,20 +8523,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "Escribir como potencias: $2^{1/2} \\cdot 2^{2/3} / 2^{1/6} = 2^{1/2+2/3-1/6}=2^{3/6+4/6-1/6}=2^{6/6}=2$."
   },
   {
-    "id": "g2_mat_21_026",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.2 Definición y propiedades de radicales",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Racionalice $\\frac{1}{\\sqrt{2}-1}$.",
-    "opciones": ["$\\sqrt{2}+1$", "$\\sqrt{2}-1$", "$\\frac{\\sqrt{2}+1}{2}$", "$\\frac{\\sqrt{2}-1}{2}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Multiplicar por conjugado: $\\frac{\\sqrt{2}+1}{2-1}=\\sqrt{2}+1$."
-  },
+  "id": "g2_mat_21_026",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.2 Definición y propiedades de radicales",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Racionalice $\\frac{1}{\\sqrt{2}-1}$.",
+  "opciones": ["$\\sqrt{2}+1$", "$\\sqrt{2}-1$", "$\\frac{\\sqrt{2}+1}{2}$", "$\\frac{\\sqrt{2}-1}{2}$"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "Multiplicar por conjugado: $\\frac{\\sqrt{2}+1}{2-1} = \\sqrt{2}+1$."
+},
   {
     "id": "g2_mat_21_027",
     "grupo": "Grupo 2",
@@ -8643,21 +8583,44 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "$x^{2/3} / x^{1/2} = x^{4/6-3/6}=x^{1/6}$."
   },
   {
-    "id": "g2_mat_21_030",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
-    "subtema": "5.2 Definición y propiedades de radicales",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule $\\sqrt{80} + \\sqrt{45} - \\sqrt{125}$.",
-    "opciones": ["$\\sqrt{5}$", "$2\\sqrt{5}$", "$3\\sqrt{5}$", "$0$"],
-    "respuesta_correcta": 2,
-    "retroalimentacion": "$\\sqrt{80}=4\\sqrt{5}$, $\\sqrt{45}=3\\sqrt{5}$, $\\sqrt{125}=5\\sqrt{5}$, suma: $4+3-5=2\\sqrt{5}$."
-  },
+  "id": "g2_mat_21_030",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "5. EXPONENTES, RADICALES Y NOTACIÓN CIENTÍFICA",
+  "subtema": "5.2 Definición y propiedades de radicales",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Calcule $\\sqrt{80} + \\sqrt{45} - \\sqrt{125}$.",
+  "opciones": ["$\\sqrt{5}$", "$2\\sqrt{5}$", "$3\\sqrt{5}$", "$0$"],
+  "respuesta_correcta": 1,
+  "retroalimentacion": "$\\sqrt{80}=4\\sqrt{5}$, $\\sqrt{45}=3\\sqrt{5}$, $\\sqrt{125}=5\\sqrt{5}$, suma: $4+3-5 = 2\\sqrt{5}$."
+},
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   // ==================== SUBTEMA 5.3 ====================
   // Notación científica
   // 6 baja
