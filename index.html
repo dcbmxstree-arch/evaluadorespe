@@ -7,58 +7,29 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    /* Estilos para el acordeón */
-    .acordeon-btn {
-      transition: all 0.3s ease;
-    }
-    .acordeon-contenido {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease-out;
-    }
-    .acordeon-contenido.open {
-      max-height: 500px;
-      transition: max-height 0.4s ease-in;
-    }
-    /* Botón flotante de WhatsApp */
+    .acordeon-btn { transition: all 0.3s ease; }
+    .acordeon-contenido { max-height: 0; overflow: hidden; transition: max-height 0.4s ease-out; }
+    .acordeon-contenido.open { max-height: 500px; transition: max-height 0.4s ease-in; }
     .btn-wsp {
-      position: fixed;
-      bottom: 25px;
-      right: 25px;
-      width: 60px;
-      height: 60px;
-      background-color: #25D366;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-      transition: transform 0.2s;
-      z-index: 1000;
+      position: fixed; bottom: 25px; right: 25px; width: 60px; height: 60px;
+      background-color: #25D366; border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s; z-index: 1000;
     }
-    .btn-wsp:hover {
-      transform: scale(1.1);
-      background-color: #20b859;
-    }
-    .btn-wsp i {
-      font-size: 32px;
-      color: white;
-    }
+    .btn-wsp:hover { transform: scale(1.1); background-color: #20b859; }
+    .btn-wsp i { font-size: 32px; color: white; }
   </style>
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col">
 
-  <!-- Botón flotante de WhatsApp -->
   <a href="https://wa.me/593995324419" target="_blank" rel="noopener noreferrer" class="btn-wsp">
     <i class="fab fa-whatsapp"></i>
   </a>
 
-  <!-- Header con logo temporal -->
   <header class="bg-[#003366] text-white py-4 shadow-md">
     <div class="container mx-auto px-4 flex items-center justify-between">
       <div class="flex items-center space-x-3">
         <i class="fas fa-atom text-3xl"></i>
-        <!-- <img src="assets/img/logo-physics.png" alt="Physics" class="h-10"> -->
         <div>
           <h1 class="text-2xl font-bold tracking-tight">Physics</h1>
           <p class="text-blue-200 text-sm">Preuniversitario</p>
@@ -72,7 +43,6 @@
     </div>
   </header>
 
-  <!-- Hero -->
   <section class="bg-gradient-to-br from-[#003366] to-blue-900 text-white py-16">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-4xl font-bold mb-4">Simuladores de Ingreso <span class="text-yellow-300">ESPE</span></h2>
@@ -80,22 +50,17 @@
     </div>
   </section>
 
-  <!-- Secciones desplegables (acordeón) -->
   <section class="container mx-auto px-4 py-12 max-w-4xl">
     <div class="bg-white rounded-xl shadow-lg p-6 space-y-4">
-      
-      <!-- Acordeón 1 -->
       <div class="border-b pb-3">
         <button class="acordeon-btn w-full text-left flex justify-between items-center text-lg font-semibold text-[#003366] hover:text-blue-700">
           <span><i class="fas fa-question-circle mr-2"></i> ¿Qué es Physics?</span>
           <i class="fas fa-chevron-down transition-transform duration-300"></i>
         </button>
         <div class="acordeon-contenido mt-2 text-gray-600">
-          <p>Physics es una plataforma de simulación de exámenes de ingreso a la Universidad de las Fuerzas Armadas ESPE. Basada en los temarios oficiales, permite practicar por semanas, acumulados y exámenes finales con evaluación automática. Nuestro objetivo es que identifiques tus fortalezas y debilidades antes del examen real.</p>
+          <p>Physics es una plataforma de simulación de exámenes de ingreso a la Universidad de las Fuerzas Armadas ESPE. Basada en los temarios oficiales, permite practicar por semanas, acumulados y exámenes finales con evaluación automática.</p>
         </div>
       </div>
-
-      <!-- Acordeón 2 -->
       <div class="border-b pb-3">
         <button class="acordeon-btn w-full text-left flex justify-between items-center text-lg font-semibold text-[#003366] hover:text-blue-700">
           <span><i class="fas fa-cogs mr-2"></i> ¿Cómo funciona?</span>
@@ -105,15 +70,12 @@
           <ol class="list-decimal list-inside space-y-1">
             <li>Selecciona tu grupo de carrera (1 al 4).</li>
             <li>Elige carrera, nota del colegio y modalidad (diagnóstico, semanal, acumulado o final).</li>
-            <li>Realiza el examen con límite de tiempo (según la modalidad).</li>
+            <li>Realiza el examen con límite de tiempo.</li>
             <li>Recibe tu puntaje (70% colegio + 30% examen) y compáralo con el mínimo histórico de la carrera.</li>
             <li>Descarga un informe en JSON para tus padres o tutores.</li>
           </ol>
-          <p class="mt-2">Además, puedes visualizar gráficas de desempeño por unidad y revisar la retroalimentación de cada pregunta.</p>
         </div>
       </div>
-
-      <!-- Acordeón 3 -->
       <div class="border-b pb-3">
         <button class="acordeon-btn w-full text-left flex justify-between items-center text-lg font-semibold text-[#003366] hover:text-blue-700">
           <span><i class="fas fa-star mr-2"></i> ¿Por qué confiar en Physics?</span>
@@ -125,15 +87,12 @@
             <li>Preguntas clasificadas por dificultad (baja, media, alta).</li>
             <li>Simulación realista con temporizador y cálculo de puntaje ponderado (70/30).</li>
             <li>Gráficas de desempeño por unidad y retroalimentación inmediata.</li>
-            <li>Desarrollado por profesionales en educación con enfoque en resultados.</li>
           </ul>
         </div>
       </div>
-
     </div>
   </section>
 
-  <!-- SECCIÓN DE RETOS (NUEVA) -->
   <section class="container mx-auto px-4 py-8">
     <div class="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl shadow-lg p-6 text-white text-center">
       <i class="fas fa-trophy text-5xl mb-3"></i>
@@ -145,12 +104,9 @@
     </div>
   </section>
 
-  <!-- Tarjetas de Grupos -->
   <section class="container mx-auto px-4 py-12">
     <h3 class="text-3xl font-bold text-center text-[#003366] mb-10">Selecciona tu Grupo de Carreras</h3>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      
-      <!-- Grupo 1 -->
       <a href="grupo1.html" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden">
         <div class="bg-blue-600 p-6 text-white text-center">
           <i class="fas fa-chart-line text-4xl mb-2"></i>
@@ -167,8 +123,6 @@
           <span class="mt-4 inline-block text-blue-600 font-semibold text-sm">Acceder <i class="fas fa-arrow-right ml-1"></i></span>
         </div>
       </a>
-
-      <!-- Grupo 2 (ACTIVADO) -->
       <a href="grupo2.html" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden">
         <div class="bg-green-600 p-6 text-white text-center">
           <i class="fas fa-heart text-4xl mb-2"></i>
@@ -184,9 +138,7 @@
           <span class="mt-4 inline-block text-green-600 font-semibold text-sm">Acceder <i class="fas fa-arrow-right ml-1"></i></span>
         </div>
       </a>
-
-      <!-- Grupo 3 (Próximamente) -->
-      <div class="bg-white rounded-xl shadow-lg opacity-75">
+      <a href="grupo3.html" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden">
         <div class="bg-red-600 p-6 text-white text-center">
           <i class="fas fa-flask text-4xl mb-2"></i>
           <h4 class="font-bold text-lg">Grupo 3</h4>
@@ -197,12 +149,11 @@
             <li>Medicina</li>
             <li>Biotecnología</li>
             <li>Agropecuaria</li>
+            <li>Tec. Aeronáutica</li>
           </ul>
-          <span class="mt-4 inline-block text-gray-400 font-semibold text-sm">Próximamente</span>
+          <span class="mt-4 inline-block text-red-600 font-semibold text-sm">Acceder <i class="fas fa-arrow-right ml-1"></i></span>
         </div>
-      </div>
-
-      <!-- Grupo 4 (ACTIVADO) -->
+      </a>
       <a href="grupo4.html" class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-transform hover:-translate-y-1 overflow-hidden">
         <div class="bg-purple-600 p-6 text-white text-center">
           <i class="fas fa-cogs text-4xl mb-2"></i>
@@ -221,7 +172,6 @@
     </div>
   </section>
 
-  <!-- Footer -->
   <footer class="bg-gray-800 text-gray-300 py-6 mt-auto">
     <div class="container mx-auto px-4 text-center text-sm">
       <p>© 2025 Physics Preuniversitario · Preparación para el ingreso a la Universidad de las Fuerzas Armadas ESPE</p>
@@ -229,18 +179,13 @@
     </div>
   </footer>
 
-  <!-- Script para acordeón -->
   <script>
     document.querySelectorAll('.acordeon-btn').forEach(btn => {
       btn.addEventListener('click', () => {
         const contenido = btn.nextElementSibling;
         const icono = btn.querySelector('.fa-chevron-down');
         contenido.classList.toggle('open');
-        if (contenido.classList.contains('open')) {
-          icono.style.transform = 'rotate(180deg)';
-        } else {
-          icono.style.transform = 'rotate(0deg)';
-        }
+        icono.style.transform = contenido.classList.contains('open') ? 'rotate(180deg)' : 'rotate(0deg)';
       });
     });
   </script>
