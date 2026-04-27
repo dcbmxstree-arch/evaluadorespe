@@ -861,7 +861,7 @@ const RETO_PREGUNTAS = [
 
 
 
-  [
+  
   {
     "id": "reto_071",
     "enunciado": "Un automóvil de 1200 kg viaja a 20 m/s y frena uniformemente hasta detenerse en 8 s. Calcule la fuerza de frenado media.",
