@@ -2330,35 +2330,20 @@ const GRUPO2_MATEMATICA_01 = [
   },
   // 14 alta
   {
-    "id": "g2_mat_05_017",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule el valor de $\\frac{3^2 \\times (4+2)}{\\sqrt{36}} + 2^3$",
-    "opciones": ["14", "16", "18", "20"],
-    "respuesta_correcta": 1,
-    "retroalimentacion": "3^2=9; 4+2=6; 9×6=54; √36=6; 54/6=9; 2^3=8; 9+8=17. No está. Ajusto: 3^2×(4+2)/√36 + 2^3 = 54/6+8=9+8=17. Sin opción. Cambiar: (3^2×(4+2))/√36 + 2^3 -1 = 9+8-1=16. Opción 1."
-  },
-  {
-    "id": "g2_mat_05_017",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine: $\\frac{3^2 \\times (4+2)}{\\sqrt{36}} + 2^3 - 1$",
-    "opciones": ["14", "16", "18", "20"],
-    "respuesta_correcta": 1,
-    "retroalimentacion": "3^2=9, 4+2=6 → 9×6=54; √36=6 → 54/6=9; 2^3=8; 9+8-1=16."
-  },
+  "id": "g2_mat_05_017",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Determine: $\\frac{3^2 \\times (4+2)}{\\sqrt{36}} + 2^3 - 1$",
+  "opciones": ["14", "16", "18", "20"],
+  "respuesta_correcta": 1,
+  "retroalimentacion": "3^2=9, 4+2=6 → 9×6=54; √36=6 → 54/6=9; 2^3=8; 9+8-1=16."
+},
   {
     "id": "g2_mat_05_018",
     "grupo": "Grupo 2",
@@ -2425,35 +2410,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "Paréntesis: 5-1=4; potencia: 4^2=16; 2×16=32; 32÷4=8; 3+8=11."
   },
   {
-    "id": "g2_mat_05_022",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ \\sqrt{64} \\times (2^3 - 3^2) + 5 $",
-    "opciones": ["5", "3", "0", "-5"],
-    "respuesta_correcta": 2,
-    "retroalimentacion": "√64=8; 2^3=8, 3^2=9, 8-9=-1; 8×(-1)=-8; -8+5=-3. No está. Ajustar: √64×(2^3-3^2)+5 = 8×(-1)+5=-3. Opción no. Cambiar: √64×(2^3-3^2)+5+3 = -3+3=0. Opción 2. Así:"
-  },
-  {
-    "id": "g2_mat_05_022",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine: $ \\sqrt{64} \\times (2^3 - 3^2) + 8 $",
-    "opciones": ["0", "8", "16", "-8"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "8×(-1)+8 = -8+8=0."
-  },
+  "id": "g2_mat_05_022",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Determine: $ \\sqrt{64} \\times (2^3 - 3^2) + 8 $",
+  "opciones": ["0", "8", "16", "-8"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "√64=8; 2^3=8, 3^2=9, 8-9=-1; 8×(-1)=-8; -8+8=0."
+},
   {
     "id": "g2_mat_05_023",
     "grupo": "Grupo 2",
@@ -2470,35 +2440,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "El signo menos delante del paréntesis cambia los signos: a - b + c."
   },
   {
-    "id": "g2_mat_05_024",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $ \\frac{3}{4} \\times \\left( \\frac{2}{3} + \\frac{1}{2} \\right) - \\frac{1}{2} $",
-    "opciones": ["0", "$\\frac{1}{4}$", "$\\frac{1}{2}$", "$\\frac{3}{4}$"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "2/3+1/2=4/6+3/6=7/6; (3/4)×(7/6)=21/24=7/8; 7/8 - 1/2=7/8-4/8=3/8. No está. Ajustar: (3/4)×(2/3+1/2)-1/8 = 7/8-1/8=6/8=3/4. Opción 3. Cambiar:"
-  },
-  {
-    "id": "g2_mat_05_024",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ \\frac{3}{4} \\times \\left( \\frac{2}{3} + \\frac{1}{2} \\right) - \\frac{1}{8} $",
-    "opciones": ["$\\frac{1}{2}$", "$\\frac{3}{4}$", "$\\frac{5}{8}$", "$\\frac{7}{8}$"],
-    "respuesta_correcta": 1,
-    "retroalimentacion": "2/3+1/2=7/6; (3/4)×(7/6)=21/24=7/8; 7/8-1/8=6/8=3/4."
-  },
+  "id": "g2_mat_05_024",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.5 Propiedades de los números y jerarquía de operaciones",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Calcule: $ \\frac{3}{4} \\times \\left( \\frac{2}{3} + \\frac{1}{2} \\right) - \\frac{1}{8} $",
+  "opciones": ["$\\frac{1}{2}$", "$\\frac{3}{4}$", "$\\frac{5}{8}$", "$\\frac{7}{8}$"],
+  "respuesta_correcta": 1,
+  "retroalimentacion": "2/3+1/2=7/6; (3/4)×(7/6)=21/24=7/8; 7/8-1/8=6/8=3/4."
+},
   {
     "id": "g2_mat_05_025",
     "grupo": "Grupo 2",
@@ -2592,20 +2547,20 @@ const GRUPO2_MATEMATICA_01 = [
 
   
   {
-    "id": "g2_mat_06_001",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.6 Propiedades y operaciones con naturales",
-    "dificultad": "baja",
-    "tipo_pregunta": "teorica",
-    "enunciado": "¿Cuál es el menor número natural?",
-    "opciones": ["0", "1", "No existe", "-1"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "En la mayoría de definiciones modernas, los naturales incluyen el 0 (ℕ₀). En otros contextos empiezan en 1. Aquí asumimos 0 como natural."
-  },
+  "id": "g2_mat_06_001",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.6 Propiedades y operaciones con naturales",
+  "dificultad": "baja",
+  "tipo_pregunta": "teorica",
+  "enunciado": "¿Cuál es el menor número natural?",
+  "opciones": ["0", "1", "No existe", "-1"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "Según la definición moderna (ℕ₀) el menor natural es 0. En algunos contextos se usa ℕ = {1,2,3,...}. Aquí se asume que el 0 es natural."
+},
   {
     "id": "g2_mat_06_002",
     "grupo": "Grupo 2",
@@ -4073,6 +4028,10 @@ const GRUPO2_MATEMATICA_01 = [
     "respuesta_correcta": 0,
     "retroalimentacion": "Total divisores: (2+1)(1+1)(1+1)=3×2×2=12. Simples: 2,3,5 → 3. Quitar 1: 12-3-1=8."
   },
+
+
+
+    
 
   // ==================== SUBTEMA 2.5 ====================
   // Máximo común divisor y mínimo común múltiplo
