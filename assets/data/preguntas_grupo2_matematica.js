@@ -3314,95 +3314,50 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "2x=5 → x=2.5, no entero. Las otras sí tienen solución entera."
   },
   {
-    "id": "g2_mat_07_020",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ \\frac{(-2)^3 \\times (-3)^2}{-6} + 4 $",
-    "opciones": ["0", "4", "8", "-8"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "(-2)^3=-8; (-3)^2=9; -8×9=-72; -72÷(-6)=12; 12+4=16. No está. Ajustar: dividir entre -18? Mejor: (-2)^3×(-3)^2 / (-18) +4 = -72/ -18=4+4=8. Cambio."
-  },
+  "id": "g2_mat_07_020",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.7 Propiedades y operaciones con enteros",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Calcule: $ \\frac{(-2)^3 \\times (-3)^2}{-18} + 4 $",
+  "opciones": ["0", "4", "8", "12"],
+  "respuesta_correcta": 2,
+  "retroalimentacion": "(-2)^3=-8; (-3)^2=9; -8×9=-72; -72÷(-18)=4; 4+4=8."
+},
   {
-    "id": "g2_mat_07_020",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ \\frac{(-2)^3 \\times (-3)^2}{-18} + 4 $",
-    "opciones": ["0", "4", "8", "12"],
-    "respuesta_correcta": 2,
-    "retroalimentacion": "(-2)^3=-8; (-3)^2=9; -8×9=-72; -72÷(-18)=4; 4+4=8."
-  },
+  "id": "g2_mat_07_021",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.7 Propiedades y operaciones con enteros",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Calcule: $ -[4 - (5 - 7)] + 1 $",
+  "opciones": ["-5", "5", "-1", "1"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "5-7=-2; 4-(-2)=6; -6+1=-5."
+},
   {
-    "id": "g2_mat_07_021",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Resuelva: $ -[4 - (5 - 7)] - 3 $",
-    "opciones": ["-5", "5", "-1", "1"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "5-7=-2; 4-(-2)=6; -[6]= -6; -6-3= -9. No está. Revisar: 4-(5-7)=4-(-2)=6, luego -6-3=-9. Opción no. Cambiar: -[4-(5-7)] -1 = -6-1=-7. Mejor: -[4-(5-7)]+1 = -6+1=-5. Así:"
-  },
-  {
-    "id": "g2_mat_07_021",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ -[4 - (5 - 7)] + 1 $",
-    "opciones": ["-5", "5", "-1", "1"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "5-7=-2; 4-(-2)=6; -6+1=-5."
-  },
-  {
-    "id": "g2_mat_07_022",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Simplifique: $ \\frac{(-4)^2 - (-2)^3}{-2} + 5 $",
-    "opciones": ["-1", "1", "3", "5"],
-    "respuesta_correcta": 1,
-    "retroalimentacion": "(-4)^2=16; (-2)^3=-8; 16 - (-8)=24; 24÷(-2)=-12; -12+5=-7. No. Ajustar: (-4)^2 - (-2)^3 = 16+8=24; dividido -2 = -12; -12+5=-7. Opción no. Cambiar denominador: dividir entre 2: 24/2=12; 12+5=17. No. Mejor: ( (-4)^2 - (-2)^3 )/8 +5 = 24/8+5=3+5=8. Sin opción. Usar: ( (-4)^2 - (-2)^3 )/4 +5 = 6+5=11. Propongo: ( (-4)^2 - (-2)^3 ) / 3 + 5 = 24/3+5=8+5=13. Pero no hay. Simplificaré con otro números: ( (-4)^2 - (-2)^2 ) / (-2) + 5 = (16 - 4)/-2 +5 = (12)/-2+5 = -6+5=-1. Opción 0. Así:"
-  },
-  {
-    "id": "g2_mat_07_022",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine: $ \\frac{(-4)^2 - (-2)^2}{-2} + 5 $",
-    "opciones": ["-1", "1", "3", "5"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "16 - 4 =12; 12÷(-2)=-6; -6+5=-1."
-  },
+  "id": "g2_mat_07_022",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.7 Propiedades y operaciones con enteros",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Determine: $ \\frac{(-4)^2 - (-2)^2}{-2} + 5 $",
+  "opciones": ["-1", "1", "3", "5"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "16 - 4 =12; 12÷(-2)=-6; -6+5=-1."
+},
   {
     "id": "g2_mat_07_023",
     "grupo": "Grupo 2",
@@ -3514,50 +3469,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "[-2+5]=3; (-3)×3=-9; 4^2=16; -9-16=-25."
   },
   {
-    "id": "g2_mat_07_030",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine el valor de $ \\frac{(-2)^4 - (-3)^2}{-2} + (-1)^5 $",
-    "opciones": ["-4", "4", "-6", "6"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "(-2)^4=16; (-3)^2=9; 16-9=7; 7÷(-2)=-3.5; (-1)^5=-1; -3.5-1=-4.5 no entero. Ajustar: (-2)^4 - (-3)^2 =16-9=7; dividido -1? Mejor: ( (-2)^4 - (-3)^2 ) / (-1) + (-1)^5 = 7/ -1 = -7; -7-1=-8. Opción no. Cambiar: ( (-2)^4 - (-3)^2 ) / (-7) + (-1)^5 = 7/-7 = -1; -1-1=-2. No. Usar: ( (-2)^4 - (-2)^2 ) / (-2) + (-1)^5 = (16-4)/-2 =12/-2=-6; -6-1=-7. Otra: ( (-2)^4 - (-2)^3 ) / (-2) + (-1)^5 = (16 - (-8))/-2 =24/-2=-12; -12-1=-13. Mejor simplificar: ( 16 - 9 ) / (-1) + (-1) = 7/-1 -1 = -7-1=-8. Pero no está. Propongo: ( (-2)^4 - (-3)^2 ) / (-1) - 1 = -7-1=-8. Sin opción. Cambio radical:"
-  },
-  {
-    "id": "g2_mat_07_030",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Calcule: $ \\frac{(-3)^3 - (-2)^4}{-5} + 2 $",
-    "opciones": ["1", "3", "5", "7"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "(-3)^3=-27; (-2)^4=16; -27-16=-43; -43÷(-5)=8.6; +2=10.6 no entero. Mal. Mejor usar números: (-2)^3 - (-1)^4 = -8-1=-9; dividido -3 =3; +2=5. Opción 2. Así:"
-  },
-  {
-    "id": "g2_mat_07_030",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
-    "subtema": "1.7 Propiedades y operaciones con enteros",
-    "dificultad": "alta",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "Determine: $ \\frac{(-2)^3 - (-1)^4}{-3} + 2 $",
-    "opciones": ["1", "3", "5", "7"],
-    "respuesta_correcta": 1,
-    "retroalimentacion": "(-2)^3=-8; (-1)^4=1; -8-1=-9; -9÷(-3)=3; 3+2=5."
-  },
+  "id": "g2_mat_07_030",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "1. OPERACIONES CON NÚMEROS ENTEROS",
+  "subtema": "1.7 Propiedades y operaciones con enteros",
+  "dificultad": "alta",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "Determine: $ \\frac{(-2)^3 - (-1)^4}{-3} + 2 $",
+  "opciones": ["1", "3", "5", "7"],
+  "respuesta_correcta": 2,
+  "retroalimentacion": "(-2)^3=-8; (-1)^4=1; -8-1=-9; -9÷(-3)=3; 3+2=5."
+},
 
 
 
@@ -3637,20 +3562,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "1 no es primo, por lo tanto no es divisor simple."
   },
   {
-    "id": "g2_mat_11_005",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "2. DIVISIBILIDAD Y NÚMEROS PRIMOS",
-    "subtema": "2.4 Divisores simples y compuestos",
-    "dificultad": "baja",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuál de los siguientes es un divisor compuesto de 18?",
-    "opciones": ["6", "2", "3", "9"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "6 es divisor de 18 y es compuesto (2×3). 9 también es compuesto, pero 6 aparece primero entre opciones. Ambas son válidas. Se elige 6."
-  },
+  "id": "g2_mat_11_005",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "2. DIVISIBILIDAD Y NÚMEROS PRIMOS",
+  "subtema": "2.4 Divisores simples y compuestos",
+  "dificultad": "baja",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "¿Cuál de los siguientes es un divisor compuesto de 18?",
+  "opciones": ["6", "2", "3", "1"],
+  "respuesta_correcta": 0,
+  "retroalimentacion": "6 es divisor de 18 y es compuesto (2×3). Las otras opciones son primos o 1."
+},
   {
     "id": "g2_mat_11_006",
     "grupo": "Grupo 2",
@@ -3788,20 +3713,20 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "Los divisores simples son exactamente los números primos que aparecen en la factorización."
   },
   {
-    "id": "g2_mat_11_015",
-    "grupo": "Grupo 2",
-    "grupo_id": 2,
-    "carrera_id": [7,8,9,10,11,12,13],
-    "asignatura": "Matemática Básica",
-    "unidad": "2. DIVISIBILIDAD Y NÚMEROS PRIMOS",
-    "subtema": "2.4 Divisores simples y compuestos",
-    "dificultad": "media",
-    "tipo_pregunta": "ejercicio",
-    "enunciado": "¿Cuántos divisores compuestos tiene 24?",
-    "opciones": ["4", "3", "5", "6"],
-    "respuesta_correcta": 0,
-    "retroalimentacion": "Divisores: 1,2,3,4,6,8,12,24. Compuestos: 4,6,8,12,24 → 5. (El 24 es compuesto)."
-  },
+  "id": "g2_mat_11_015",
+  "grupo": "Grupo 2",
+  "grupo_id": 2,
+  "carrera_id": [7,8,9,10,11,12,13],
+  "asignatura": "Matemática Básica",
+  "unidad": "2. DIVISIBILIDAD Y NÚMEROS PRIMOS",
+  "subtema": "2.4 Divisores simples y compuestos",
+  "dificultad": "media",
+  "tipo_pregunta": "ejercicio",
+  "enunciado": "¿Cuántos divisores compuestos tiene 24?",
+  "opciones": ["4", "3", "5", "6"],
+  "respuesta_correcta": 2,
+  "retroalimentacion": "Divisores: 1,2,3,4,6,8,12,24. Compuestos: 4,6,8,12,24 → 5."
+},
   {
     "id": "g2_mat_11_016",
     "grupo": "Grupo 2",
@@ -4981,6 +4906,19 @@ const GRUPO2_MATEMATICA_01 = [
     "retroalimentacion": "$\\frac{3}{4}\\times\\frac{6}{5}=\\frac{18}{20}=\\frac{9}{10}$; $\\frac{1}{2}\\times\\frac{2}{5}=\\frac{1}{5}$; $\\frac{9}{10}-\\frac{2}{10}=\\frac{7}{10}$."
   },
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
   // ==================== SUBTEMA 3.2 ====================
   // Simplificación de fracciones
   // 6 baja
@@ -5782,7 +5720,7 @@ const GRUPO2_MATEMATICA_01 = [
     "dificultad": "alta",
     "tipo_pregunta": "teorica",
     "enunciado": "El resultado de $0.2 \\times 0.3 \\times 0.4$ es:",
-    "opciones": ["0.024", "0.24", "0.0024", "0.024"],
+    "opciones": ["0.024", "0.24", "0.0024", "0.025"],
     "respuesta_correcta": 0,
     "retroalimentacion": "$2\\times3\\times4=24$, con tres decimales: $0.024$."
   },
