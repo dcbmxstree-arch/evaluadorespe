@@ -619,13 +619,7 @@ const GRUPO3_QUIMICA_01 = [
 
 
 
-// =============================================
-// QUÍMICA - GRUPO 3 (Ciencias de la Vida y Medicina)
-// Subtema: 1.2 Estados de la materia
-// 30 preguntas (6 baja, 10 media, 14 alta)
-// =============================================
 
-  // DIFICULTAD BAJA (6 preguntas)
   {
     "id": "g3_quim_02_001",
     "grupo": "Grupo 3",
@@ -1247,7 +1241,7 @@ const GRUPO3_QUIMICA_01 = [
 
 
 
-  // DIFICULTAD BAJA (6 preguntas)
+  
   {
     "id": "g3_quim_03_001",
     "grupo": "Grupo 3",
@@ -1867,14 +1861,8 @@ const GRUPO3_QUIMICA_01 = [
 
 
 
-// =============================================
-// QUÍMICA - GRUPO 3 (Ciencias de la Vida y Medicina)
-// Subtema: 1.4 Pesos atómicos y pesos moleculares
-// 30 preguntas (6 baja, 10 media, 14 alta)
-// =============================================
 
-[
-  // DIFICULTAD BAJA (6 preguntas)
+ 
   {
     "id": "g3_quim_04_001",
     "grupo": "Grupo 3",
