@@ -8068,7 +8068,7 @@
     ],
     "respuesta_correcta": 0,
     "retroalimentacion": "Masa teórica: 80 g NH₄NO₃ = 1 mol, produce 1 mol N₂O = 44 g. Con rendimiento 90%: 44×0.9 = 39.6 g."
-  },
+  }
 
 
 
