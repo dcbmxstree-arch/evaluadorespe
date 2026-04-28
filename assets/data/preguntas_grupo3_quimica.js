@@ -2483,7 +2483,7 @@ const GRUPO3_QUIMICA_01 = [
 
 
 
-  // DIFICULTAD BAJA (6 preguntas)
+ 
   {
     "id": "g3_quim_05_001",
     "grupo": "Grupo 3",
@@ -4324,7 +4324,7 @@ const GRUPO3_QUIMICA_01 = [
 
 
 
-  // DIFICULTAD BAJA (6 preguntas)
+
   {
     "id": "g3_quim_07_001",
     "grupo": "Grupo 3",
@@ -4950,7 +4950,7 @@ const GRUPO3_QUIMICA_01 = [
 
 
 
-  // DIFICULTAD BAJA (6 preguntas)
+  
   {
     "id": "g3_quim_08_001",
     "grupo": "Grupo 3",
@@ -5574,7 +5574,7 @@ const GRUPO3_QUIMICA_01 = [
 
 
 
-  // DIFICULTAD BAJA (6 preguntas)
+  
   {
     "id": "g3_quim_09_001",
     "grupo": "Grupo 3",
