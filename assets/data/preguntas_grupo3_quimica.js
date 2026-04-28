@@ -1,10 +1,6 @@
-// =============================================
-// QUÍMICA - GRUPO 3 (Ciencias de la Vida y Medicina)
-// Subtema: 1.1 Propiedades físicas y químicas de la materia
-// 30 preguntas (6 baja, 10 media, 14 alta)
-// =============================================
 
-[
+
+const GRUPO3_QUIMICA_01 = [
   // DIFICULTAD BAJA (6 preguntas)
   {
     "id": "g3_quim_01_001",
