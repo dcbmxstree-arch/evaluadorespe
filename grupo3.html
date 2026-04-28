@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Physics · Grupo 3 | Ciencias de la Vida y Medicina</title>
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Chart.js -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   
-  <!-- MathJax para fórmulas químicas y matemáticas (configuración corregida) -->
+  <!-- Configuración de MathJax (versión estable) -->
   <script>
     window.MathJax = {
       tex: {
@@ -19,18 +22,10 @@
       options: {
         ignoreHtmlClass: 'tex2jax_ignore',
         processHtmlClass: 'tex2jax_process'
-      },
-      startup: {
-        ready: () => {
-          console.log('MathJax listo');
-          MathJax.startup.defaultReady();
-          // Forzar renderizado inicial después de carga
-          if (typeof renderMath === 'function') renderMath();
-        }
       }
     };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" id="MathJax-script" async></script>
   
   <style>
     .quiz-option { transition: all 0.2s; }
@@ -51,11 +46,13 @@
   </header>
 
   <main class="flex-grow container mx-auto px-4 py-6">
+    <!-- Vista principal: cronograma + formulario -->
     <div id="view-home" class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       <div class="lg:col-span-2">
         <h2 class="text-2xl font-bold text-[#003366] mb-4">📅 Cronograma Académico (Álgebra + Química)</h2>
         <div id="cronograma-container" class="space-y-4"></div>
       </div>
+
       <div class="bg-white rounded-xl shadow-lg p-6 h-fit sticky top-20">
         <h2 class="text-xl font-bold text-[#003366] mb-4">🎯 Simulador de Ingreso</h2>
         <form id="form-simulador" class="space-y-4">
@@ -99,6 +96,8 @@
         </form>
       </div>
     </div>
+
+    <!-- Vistas dinámicas -->
     <div id="view-preview" class="hidden max-w-3xl mx-auto"></div>
     <div id="view-exam" class="hidden max-w-4xl mx-auto"></div>
     <div id="view-results" class="hidden max-w-5xl mx-auto"></div>
@@ -108,7 +107,7 @@
     <p>© 2025 Physics Preuniversitario · Preparación para la ESPE</p>
   </footer>
 
-  <!-- Scripts del sistema -->
+  <!-- Archivos de datos y lógica -->
   <script src="assets/data/cronograma_grupo3.js"></script>
   <script src="assets/data/preguntas_grupo3_algebra.js"></script>
   <script src="assets/data/preguntas_grupo3_quimica.js"></script>
@@ -116,36 +115,45 @@
   <script src="assets/js/examEngine.js"></script>
   <script src="assets/js/charts.js"></script>
   <script src="assets/js/grupo3.js"></script>
-  
-  <!-- Script para renderizar MathJax después de cada cambio en el DOM -->
+
+  <!-- Script que fuerza el renderizado de MathJax cuando se modifica el DOM -->
   <script>
-    function renderMath() {
+    // Función global para renderizar fórmulas
+    window.renderMath = function() {
       if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
         MathJax.typesetPromise().catch(err => console.warn('MathJax error:', err));
       } else if (window.MathJax && typeof MathJax.typeset === 'function') {
         MathJax.typeset();
       }
-    }
-    
-    // Observar cambios en el DOM para renderizar automáticamente
+    };
+
+    // Observador de cambios en el DOM para renderizar automáticamente
     const observer = new MutationObserver((mutations) => {
-      // Solo renderizar si hay nodos relevantes añadidos
-      const shouldRender = mutations.some(m => 
-        m.addedNodes.length > 0 && 
-        (m.target.classList?.contains('quiz-option') || 
-         m.target.id === 'view-exam' || 
-         m.target.id === 'view-preview' ||
-         m.target.id === 'view-results')
-      );
-      if (shouldRender) renderMath();
+      let shouldRender = false;
+      for (const mutation of mutations) {
+        if (mutation.addedNodes.length > 0) {
+          // Verificar si los nodos añadidos están en zonas de preguntas
+          const target = mutation.target;
+          if (target.id === 'view-exam' || target.id === 'view-preview' || target.id === 'view-results') {
+            shouldRender = true;
+            break;
+          }
+          // También si algún nodo añadido tiene clase quiz-option o está dentro de preguntas
+          for (const node of mutation.addedNodes) {
+            if (node.nodeType === 1 && (node.classList?.contains('quiz-option') || node.querySelector?.('.quiz-option'))) {
+              shouldRender = true;
+              break;
+            }
+          }
+        }
+      }
+      if (shouldRender) window.renderMath();
     });
+
     observer.observe(document.body, { childList: true, subtree: true });
-    
+
     // Renderizar también cuando el DOM se cargue completamente
-    document.addEventListener('DOMContentLoaded', renderMath);
-    
-    // Exponer renderMath globalmente para que grupo3.js pueda llamarlo
-    window.renderMath = renderMath;
+    document.addEventListener('DOMContentLoaded', window.renderMath);
   </script>
 </body>
 </html>
