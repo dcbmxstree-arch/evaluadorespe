@@ -7,7 +7,8 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <!-- MathJax para fórmulas -->
+  
+  <!-- MathJax para fórmulas químicas y matemáticas (configuración corregida) -->
   <script>
     window.MathJax = {
       tex: {
@@ -18,10 +19,19 @@
       options: {
         ignoreHtmlClass: 'tex2jax_ignore',
         processHtmlClass: 'tex2jax_process'
+      },
+      startup: {
+        ready: () => {
+          console.log('MathJax listo');
+          MathJax.startup.defaultReady();
+          // Forzar renderizado inicial después de carga
+          if (typeof renderMath === 'function') renderMath();
+        }
       }
     };
   </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  
   <style>
     .quiz-option { transition: all 0.2s; }
     .quiz-option:hover { background-color: #f3f4f6; }
@@ -98,6 +108,7 @@
     <p>© 2025 Physics Preuniversitario · Preparación para la ESPE</p>
   </footer>
 
+  <!-- Scripts del sistema -->
   <script src="assets/data/cronograma_grupo3.js"></script>
   <script src="assets/data/preguntas_grupo3_algebra.js"></script>
   <script src="assets/data/preguntas_grupo3_quimica.js"></script>
@@ -105,15 +116,36 @@
   <script src="assets/js/examEngine.js"></script>
   <script src="assets/js/charts.js"></script>
   <script src="assets/js/grupo3.js"></script>
-  <!-- Renderizar MathJax después de cada cambio en el DOM -->
+  
+  <!-- Script para renderizar MathJax después de cada cambio en el DOM -->
   <script>
     function renderMath() {
-  if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
-    MathJax.typesetPromise();
-  } else if (window.MathJax && typeof MathJax.typeset === 'function') {
-    MathJax.typeset(); // fallback para versiones antiguas
-  }
-}
+      if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+        MathJax.typesetPromise().catch(err => console.warn('MathJax error:', err));
+      } else if (window.MathJax && typeof MathJax.typeset === 'function') {
+        MathJax.typeset();
+      }
+    }
+    
+    // Observar cambios en el DOM para renderizar automáticamente
+    const observer = new MutationObserver((mutations) => {
+      // Solo renderizar si hay nodos relevantes añadidos
+      const shouldRender = mutations.some(m => 
+        m.addedNodes.length > 0 && 
+        (m.target.classList?.contains('quiz-option') || 
+         m.target.id === 'view-exam' || 
+         m.target.id === 'view-preview' ||
+         m.target.id === 'view-results')
+      );
+      if (shouldRender) renderMath();
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+    
+    // Renderizar también cuando el DOM se cargue completamente
+    document.addEventListener('DOMContentLoaded', renderMath);
+    
+    // Exponer renderMath globalmente para que grupo3.js pueda llamarlo
+    window.renderMath = renderMath;
   </script>
 </body>
 </html>
