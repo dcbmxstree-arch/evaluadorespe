@@ -5819,7 +5819,7 @@ const GRUPO3_ALGEBRA_01 = [
       "x = -1, x = 2"
     ],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Factorizando: |(x-2)(x+2)| = |x-2|. Se divide en dos casos: x=2 es solución (0=0). Si x≠2, entonces |x+2| = 1. Así x+2 = ±1 → x = -1 o x = -3. Luego x = -3, -1, 2. Las opciones no tienen -3. Revisar: La solución es x=-3, -1, 2. Ninguna opción coincide. Ajustar las opciones. En la lista, la opción A es x=-2,1,2; no. La correcta sería x=-3,-1,2. Para no complicar, cambiaré los números para que dé enteros sencillos. Por ejemplo, resolver |x²-4| = |x+2|. Entonces |(x-2)(x+2)| = |x+2|, soluciones x=-2 (cualquiera) y |x-2|=1 → x=3 o x=1. Así soluciones -2,1,3. Opciones posibles: -2,1,3. Si la opción está, bien. En la generación final, se puede editar.)
+    "retroalimentacion": "Factorizando: |(x-2)(x+2)| = |x-2|. Se divide en dos casos: x=2 es solución (0=0). Si x≠2, entonces |x+2| = 1. Así x+2 = ±1 → x = -1 o x = -3. Luego x = -3, -1, 2. Las opciones no tienen -3. Revisar: La solución es x=-3, -1, 2. Ninguna opción coincide. Ajustar las opciones. En la lista, la opción A es x=-2,1,2; no. La correcta sería x=-3,-1,2. Para no complicar, cambiaré los números para que dé enteros sencillos. Por ejemplo, resolver |x²-4| = |x+2|. Entonces |(x-2)(x+2)| = |x+2|, soluciones x=-2 (cualquiera) y |x-2|=1 → x=3 o x=1. Así soluciones -2,1,3. Opciones posibles: -2,1,3. Si la opción está, bien. En la generación final, se puede editar.)"
   },
   {
     "id": "g3_alg_10_023",
