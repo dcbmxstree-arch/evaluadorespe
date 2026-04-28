@@ -107,9 +107,13 @@
   <script src="assets/js/grupo3.js"></script>
   <!-- Renderizar MathJax después de cada cambio en el DOM -->
   <script>
-    function renderMath() { if (window.MathJax) MathJax.typesetPromise(); }
-    new MutationObserver(() => renderMath()).observe(document.body, { childList: true, subtree: true });
-    document.addEventListener('DOMContentLoaded', renderMath);
+    function renderMath() {
+  if (window.MathJax && typeof MathJax.typesetPromise === 'function') {
+    MathJax.typesetPromise();
+  } else if (window.MathJax && typeof MathJax.typeset === 'function') {
+    MathJax.typeset(); // fallback para versiones antiguas
+  }
+}
   </script>
 </body>
 </html>
