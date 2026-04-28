@@ -3739,7 +3739,7 @@
       "Clorito de sodio"
     ],
     "respuesta_correcta": 0,
-    "retroalimentacion": "NaCl es cloruro de sodio (sistema tradicional: nombre del no metal con terminación -uro + "de" + nombre del metal)."
+    "retroalimentacion": "NaCl es cloruro de sodio (sistema tradicional: nombre del no metal con terminación -uro + de + nombre del metal)."
   },
   {
     "id": "g3_quim_07_002",
