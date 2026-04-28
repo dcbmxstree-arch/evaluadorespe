@@ -5899,7 +5899,7 @@ const GRUPO3_ALGEBRA_01 = [
       "(-6, 2)"
     ],
     "respuesta_correcta": 0,
-    "retroalimentacion": "Analizando intervalos: x<-0.5: -(2x+1) - ( -(x-2) ) = -2x-1 + x-2 = -x-3 > 3 → -x > 6 → x < -6. Para -0.5≤x<2: (2x+1) - ( -(x-2) ) = 2x+1 + x-2 = 3x-1 > 3 → 3x > 4 → x > 4/3 → (4/3,2). Para x≥2: (2x+1) - (x-2) = x+3 > 3 → x > 0 → [2,∞). Uniendo: (-∞,-6) ∪ (4/3,∞). La opción (-∞,-6) ∪ (2/3,∞) es aproximada, pero la correcta es (4/3,∞) no 2/3. Ajustar.)
+    "retroalimentacion": "Analizando intervalos: x<-0.5: -(2x+1) - ( -(x-2) ) = -2x-1 + x-2 = -x-3 > 3 → -x > 6 → x < -6. Para -0.5≤x<2: (2x+1) - ( -(x-2) ) = 2x+1 + x-2 = 3x-1 > 3 → 3x > 4 → x > 4/3 → (4/3,2). Para x≥2: (2x+1) - (x-2) = x+3 > 3 → x > 0 → [2,∞). Uniendo: (-∞,-6) ∪ (4/3,∞). La opción (-∞,-6) ∪ (2/3,∞) es aproximada, pero la correcta es (4/3,∞) no 2/3. Ajustar.)"
   },
   {
     "id": "g3_alg_10_027",
